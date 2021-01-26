@@ -1,0 +1,91 @@
+[{
+    "soal0": {
+        "soal": "Sebuah atom dikatakan netral jika ....",
+        "a": "jumlah inti sama dengan jumlah elektron",
+        "b": "jumlah proton sama dengan jumlah neutron",
+        "c": "jumlah elektron sama dengan jumlah proton",
+        "d": "jumlah neutron sama dengan jumlah elektron",
+        "benar": "c"
+    }
+},{
+    "soal1": {
+        "soal": "Untuk memindahkan muatan listrik sebesar 5 C, dari titik A ke titik B diperlukan usaha sebesar 25 J. Beda potensial antara titik A dan titik B adalah....",
+        "a": "5 V",
+        "b": "20 V",
+        "c": "10 V",
+        "d": "30 V",
+        "benar": "a"        
+    }        
+},{
+    "soal2": {
+        "soal": "Untuk memindahkan 10 coulomb muatan listrik dari A ke B diperlukan energi 50 joule. Beda potensial antara A dan B adalah ....",
+        "a": "2 V",
+        "b": "5 V",
+        "c": "50 V",
+        "d": "500 V",
+        "benar": "b"
+    }
+},{
+    "soal3": {
+        "soal": "Pada cuaca buruk supaya tidak kena sambaran petir, sebaiknya ....",
+        "a": "Berteduh di bawah pohon besar",
+        "b": "Berlari ke lapangan yang luas",
+        "c": "Memakai topi dari baja",
+        "d": "Berteduh ke rumah yang ada penangkal petirnya",
+        "benar": "d"
+    }
+},{
+    "soal4": {
+        "soal": "Menurut deret tribolistrik, jika emas (Au) digosok dengan kain wol, maka emas akan ....",
+        "a": "bermuatan positif",
+        "b": "bermuatan negatif",
+        "c": "netral",
+        "d": "mungkin positif, mungkin negatif",
+        "benar": "b"
+    }
+},{    
+    "soal5": {
+        "soal": "Dua keping logam bermuatan yang terpisah sejauh 50 cm saling tarik-menarik dengan gaya 12 Newton.  Jika jarak kedua muatan diperbesar menjadi dua kali semula, gaya tarik-menarik antar logam tersebut adalah  ....",
+        "a": "3 N",
+        "b": "6 N",
+        "c": "12 N",
+        "d": "24 N",
+        "benar": "a"
+    }
+},{ 
+    "soal6": {
+        "soal": "Dua buah benda masing-masing bermuatan listrik sebesar \\(–4 \\times 10^{–10}\\) C dan \\(6 \\times 10^{–6}\\) C terpisah sejauh 2 cm. Apabila k = \\(9 \\times 10^9\\; Nm^2/C^2\\), besarnya gaya tarik-menarik kedua benda adalah ....",
+        "a": "\\(5,4 \\times 10^{–5}\\) N",
+        "b": "\\(5,4 \\times 10^{–4}\\) N",
+        "c": "\\(5,4 \\times 10^5\\) N",
+        "d": "\\(5,4 \\times 10^{–2}\\) N",
+        "benar": "d"
+    }
+},{ 
+    "soal7": {
+        "soal": "Dua benda P dan Q masing-masing bermuatan \\(6 \\times 10^{-7}\\) C dan \\(-4 \\times 10^{-8}\\) C, dipisahkan pada jarak 0,02 m. Jika k = \\(9 \\times 10^9\\; Nm^2/C^2\\) gaya tarik-menarik antara kedua benda itu adalah ....",
+        "a": "0,054 N",
+        "b": "0,54 N ",
+        "c": "5,4 N",
+        "d": "54 N",
+        "benar": "b"
+    }
+},{ 
+    "soal8": {
+        "soal": "Benda A menarik benda B, benda B menolak benda C, dan benda C menarik benda D. Jika A bermuatan listrik negatif, muatan benda D adalah ....",
+        "a": "negatif",
+        "b": "positif",
+        "c": "netral",
+        "d": "bisa positif atau negatif",
+        "benar": "a"
+    }
+},{
+    "soal9": {
+        "soal": "Daerah di sekitar benda yang bermuatan listrik dan masih mendapat pengaruh listrik disebut ....",
+        "a": "muatan listrik",
+        "b": "potensial listrik",
+        "c": "medan listrik",
+        "d": "induksi listrik",
+        "benar": "c"
+    }
+}]

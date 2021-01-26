@@ -1,0 +1,161 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+th, td {
+    padding: 3px;
+}
+
+.read{
+    margin: 5px;
+    font-weight: bold;
+    border: none;
+    padding: 5px;
+    background-color: white;
+    font-size: 18px;
+}
+
+.gariss {
+    padding: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 1px solid #46B29E;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+garis
+
+.in{
+    height: 20px;
+}
+
+.pas{
+    height: 30px;
+}
+
+.tab {
+    float: left;
+    border: 1px solid #46B29E;
+    background-color: #f1f1f1;
+    width: 17%;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+    font-weight: bold;
+}
+
+.tabco{
+    border: 1px solid #46B29E;
+    background-color: #f1f1f1;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.tabco button {
+    color: black;
+    padding: 22px 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    float: left;
+    margin-left: 25px;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+    
+}
+.tabco:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.tabco button:not(:last-child) {
+    border-right: none;
+    /* Prevent double borders */
+}
+
+.tabco button:hover {
+    background-color: #ddd;
+}
+
+.tabco button.active {
+    background-color: #ccc;
+    font-weight: bold;
+}
+
+/* Style the tab content */
+.tabcontent {
+    margin-left: 17.1%;
+    padding: 0px 12px 10px;
+    border: 1px solid #46B29E;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.tabconten {
+    padding: 0px 12px 10px;
+    border: 1px solid #46B29E;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.img{
+    align-items: center;
+    padding: 15px;
+    padding-left: 0;
+}
+
+.imgs {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 15px;
+    width: 60%;
+}
+
+@media screen and (max-width:1000px) {
+    .tabcontent {
+        float: none;
+        width:auto;
+        margin-left: 0;
+        border-radius: 5px;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    .tab {
+        float: none;
+        width: auto;
+    }
+
+    .tabco button {
+        margin-left: 0;
+        width: 100%;
+    }
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coulomb</title>
+    <link rel="shortcut icon" type="icon" href="../../img/ico.png">
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../css/isi.css">
+    <link rel="stylesheet" href="../../fontawesome/css/all.css">
+    <script src="../../js/jquery.js"></script>
+    <script src="https://kit.fontawesome.com/317815b2fb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="headermenu">
+        <img class="headerimg" src="../../img/coulomb.png">
+</div>
+
+<div class="sidebar">
+ <div class="menu">
+
+  <li class="sub">
+    <span class="tulis">Listrik Statis</span>
+  </li> 
+
+  <li class="sub" id="home">
+    <a href="../../index.html" class="btn"><i class="fa fa-home"></i>Home</a>
+  </li> 
+   
+  <li class="sub" id="muatanlistrik">
+    <a href="#muatanlistrik" class="btn"><i class="fas fa-list-alt"></i>Muatan Listrik</a>
+    <div class="pilih">
+     <a href="../Materi1/muatan_listrik.html#muatanlistrik">Materi</a>
+     <a href="#hukumcoulomb" class="disable">Latihan</a>
+    </div>
+  </li>
+    
+  <li class="sub" id="hukumcoulomb">
+    <a href="#hukumcoulomb" class="btn"><i class="fas fa-list-alt"></i>Hukum Coulomb</a>
+    <div class="pilih">
+     <a href="hukum_coulomb.html#hukumcoulomb" class="active">Materi</a>
+     <a href="latihan2.html#hukumcoulomb">Latihan</a>
+    </div>
+  </li>
+    
+  <li class="sub" id="medanlistrik">
+    <a href="#medanlistrik" class="btn"><i class="fas fa-list-alt"></i>Medan Listrik</a>
+    <div class="pilih">
+     <a href="#hukumcoulomb" class="disable">Materi</a>
+     <a href="#hukumcoulomb" class="disable">Latihan</a>
+    </div>
+  </li>
+
+  <li class="sub" id="bedapotensial">
+    <a href="#bedapotensial" class="btn"><i class="fas fa-list-alt"></i>Beda Potensial</a>
+    <div class="pilih">
+     <a href="#hukumcoulomb" class="disable">Materi</a>
+     <a href="#hukumcoulomb" class="disable">Latihan</a>
+    </div>
+  </li>
+
+  <li class="sub" id="penerapan">
+    <a href="#penerapan" class="btn"><i class="fas fa-list-alt"></i>Penerapan Listrik Statis</a>
+    <div class="pilih">
+     <a href="#hukumcoulomb" class="disable">Materi</a>
+     <a href="#hukumcoulomb" class="disable">Latihan</a>
+    </div>
+  </li>
+
+  <li class="sub" id="evaluasi">
+    <a href="#hukumcoulomb" class="btn"><i class="fas fa-file-signature"></i>Evaluasi</a>
+  </li>
+          
+ </div>
+</div>
+
+<div class="isi"><!--ISI NYA-->
+<h4 class="tampil"><i class="far fa-hand-point-right"></i>&nbsp; Petunjuk</h4> 
+    <div class="dalam1">
+        <ol>
+          <li class="nomor">Jawablah soal-soal berikut.</li>
+          <li class="nomor">Isi dan hitunglah jawaban dari setiap soal pada kotak yang telah disediakan.</li>
+          <li class="nomor">Klik tombol "Cek Jawaban" untuk memeriksa apakah jawaban benar atau salah. Jika jawaban benar maka kotak akan bewarna <font style="color:green;font-weight: bold">hijau</font>, jika jawaban salah maka kotak akan berwarna <font style="color:red;font-weight: bold">merah.</font></li>
+        </ol>
+    </div>
+<hr>
+<h4><i class="fas fa-pen"></i>&nbsp;Soal</h4>
+  <div class="garis"> 
+    <br><center>
+    <button class="no1"><i class="fas fa-pen"></i>&nbsp;Soal 1</button>
+    <button class="no2"><i class="fas fa-pen"></i>&nbsp;Soal 2</button>
+    <button class="no3"><i class="fas fa-pen"></i>&nbsp;Soal 3</button></center>
+      <div class="soal1">
+       <hr>
+        <p>1. &nbsp;Dua buah muatan masing-masing \(4 \times 10^{-6}\) C dan \(8 \times 10^{-6}\) C terpisah sejauh 60 cm. Tentukan besar gaya yang terjadi antara dua buah muatan tersebut?</p>
+          <br>
+            <p class="co1" style="display: none;"><b>Jawaban Benar</b><br>
+            Jadi, besar gaya yang terjadi adalah 0,8 N</p>
+        
+            <p class="cc1"><b>Jawab = </b><input type="text" id="c1a" size="2" placeholder="   ....."></p>
+            <br>
+        <input class="cek" type="submit" onclick="cek()" value="Cek Jawaban">
+        </div>
+
+    <div class="soal2">
+        <hr>
+        <p>2. &nbsp;Dua muatan sejenis besarnya \(2 \times 10^{-6}\) C dan \(6 \times 10^{-4}\) C. Jika jarak kedua muatan 6 cm, berapakah gaya coulomb yang dialami kedua muatan?<p>
+          <br>
+            <p class="co2" style="display: none;"><b>Jawaban Benar</b><br>
+            Jadi, gaya coulomb yang dialami kedua muatan adalah \(3 \times 10^3\) N</p>
+              <table class="cc2">
+              <tr>
+                  <td rowspan="2"><b>Jawab = </b>
+                    <input type="text" id="c1b" size="1" placeholder="  .....">&nbsp;\(\times\)
+                    <input type="text" id="c2b" size="2" placeholder="  .....">
+                  </td>
+                  <td>
+                    <input type="text" id="c3b" size="4" placeholder="Pangkat">
+                  </td>
+              </tr>
+              <tr>
+                  <td><p><font style="color:white">hijau</font></p></td>
+              </tr>
+            </table>
+            <br>
+        <input class="cek2" type="submit" onclick="cek2()" value="Cek Jawaban">
+      </div>
+    
+    <div class="soal3">
+       <hr>
+        <p>3. &nbsp;Dua buah benda bermuatan listrik masing-masing 10 C dan 20 C berada pada jarak 20 cm, berapa gaya tolak-menolak antara dua muatan tersebut?</p>
+          <p class="co3" style="display: none;"><b>Jawaban Benar</b><br>
+            Jadi, gaya coulomb yang dialami kedua muatan adalah \(4,5 \times 10^{13} \) N</p>
+
+          <table class="cc3">
+              <tr>
+                  <td rowspan="2"><b>Jawab = </b>
+                    <input type="text" id="c1c" size="1" placeholder="  .....">&nbsp;\(\times\)
+                    <input type="text" id="c2c" size="2" placeholder="  .....">
+                  </td>
+                  <td>
+                    <input type="text" id="c3c" size="4" placeholder="Pangkat">
+                  </td>
+              </tr>
+              <tr>
+                  <td><p><font style="color:white">hijau</font></p></td>
+              </tr>
+            </table>
+            <br>
+        <input class="cek3" type="submit" onclick="cek3()" value="Cek Jawaban">
+  
+        </div>
+
+  </div><!--garis-->
+
+</div>
+
+
+<!--tombol page-->
+<center>
+<div class="center">
+  <div class="page">
+  <a href="coulomb3.html#hukumcoulomb">Sebelumnya</a>
+  <a href="hukum_coulomb.html#hukumcoulomb">1</a>
+  <a href="coulomb2.html#hukumcoulomb">2</a>
+  <a href="coulomb3.html#hukumcoulomb">3</a>
+  <a href="#hukumcoulomb" class="active">4</a>
+  <a href="latihan2.html#hukumcoulomb">Selanjutnya</a>
+  </div>
+</div>
+</center>
+
+
+</body>
+
+<script src="../../js/mathjax.js"></script>
+<script src="../../js/konten.js"></script>
+<script src="../../js/materi2.js"></script>
+</html>

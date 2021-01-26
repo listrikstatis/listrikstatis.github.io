@@ -1,0 +1,435 @@
+body{
+	font-family:lato;
+ 	overflow: hidden;
+  background-color: #46B29E;
+}
+* {
+  margin: 0; 
+  padding: 0;
+  list-style:none;
+  text-decoration:none;
+}
+
+.headerawal{
+  float: left;
+  width: 100%;
+  background-color: #46B29E;
+  padding: 5px;
+  text-align: -webkit-center;
+  position: absolute;
+}
+.headermenu{
+  float: left;
+  width: 100%;
+  background-color: #46B29E;
+  text-align: -webkit-center;
+  padding: 5px;
+  margin-left: 7%;
+  position: absolute;
+}
+.headerimg{
+  width: 22%;
+  text-align: -webkit-center;
+}
+
+.headerlat{
+  width: 15%;
+  text-align: -webkit-center;
+  padding-bottom: 10px;
+}
+
+.headerimg2{
+  padding-top: 5px;
+  width: 35%;
+  text-align: -webkit-center;
+}
+
+.headerimg3{
+  padding-top: 10px;
+  width: 48%;
+  text-align: -webkit-center;
+}
+
+.tulis{
+  display: flex;
+  color: white;
+  background-color: #19222a;
+  width: 100%;
+  box-shadow: 1px 1px 3px 3px #19222a;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  padding: 10px;
+  text-align: -webkit-center;
+  padding-left: 15px;
+}
+
+.konten1{
+  float: left;
+  left: 13.5%;
+  top: 8%;
+  background-color: white;
+  width: 41.6%;
+  height: 534px;
+  padding: 15px;
+  overflow: auto;
+  border: 2px solid #7f8c8d;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.konten2{
+  float: left;
+  left: 57.5%;
+  top: 8%;
+  background-color: white;
+  width: 40%;
+  height: 534px;
+  padding: 15px;
+  overflow: auto;
+  border: 2px solid #7f8c8d;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.isi{
+  float: left;
+  left: 13.5%;
+  top: 8%;
+  position: absolute;
+  background-color: white;
+  height: 534px;
+  width: 84%;
+  padding: 15px;
+  overflow: auto;
+  border: 2px solid #7f8c8d;
+  border-radius: 5px;
+}
+
+.pborder{
+  border: 1px solid green;
+  width: 150px;
+  padding: 10px;
+  text-align: -webkit-center;
+  font-size: 24px;
+}
+/*-----------------------------------------------------------------------*/
+/*Halaman*/
+.center {
+  position: absolute;
+  top: 93.5%;
+  float: left;
+  left: 42%;
+  width: auto;
+}
+
+.centerr {
+  float: left;
+  position: absolute;
+  top: 93.5%;
+  width: auto;
+  left: 45%;
+}
+
+.page {
+  display: inline-block;
+}
+.page a {
+  color: white;
+  font-size: 18px;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 2px solid #334E5C;
+  margin: 0 1px;
+}
+.page a.active {
+  background-color: #334E5C;
+  color: white;
+  border: 2px solid #334E5C;
+}
+.page a:hover:not(.active) {
+  background-color: #2580a2;
+}
+
+/*______________________________________________________________________________________________*/
+/*menu samping*/
+.sidebar
+{
+  position: absolute;
+  width: 12%;
+}
+.menu
+{
+  width:185px;
+  border-radius:1px;
+  overflow:hidden;
+  float: left;
+  height: 670px;
+  background: #334E5C;
+}
+.sub
+{
+  border-top:0.5px solid powderblue;
+  overflow:hidden;
+}
+.btn
+{
+  display:block;
+  padding:10px 15px;
+  background: #334E5C;
+  color:white;
+  position:relative;
+}
+
+.btn:before
+{
+  content:"";
+  position:absolute;
+  width:14px;
+  height:15px;
+  left:20px;
+  bottom:-7px;
+  transform: rotate(45deg);
+}
+.btn i
+{
+  margin-right:10px;
+}
+.pilih
+{
+  background:#333;
+  overflow:hidden;
+  transition: max-height 0.3s;
+  max-height:0;
+}
+.pilih a
+{
+  display:block;
+  padding:16px 26px;
+  color: #ccc;
+  font-size:12px;
+  margin:4px 0;
+  position:relative;
+}
+.pilih a:before
+{
+  content:"";
+  position:absolute;
+  width:4px;
+  height:100%;
+  background: powderblue;
+  left:0;
+  top:0;
+  transition:0.3s;
+  opacity:0;
+}
+
+.pilih a.active{
+  color: white;
+}
+
+.pilih a:hover:before
+{
+  opacity:2;
+}
+.sub:target .pilih
+{
+  max-height:20em;
+}
+
+.dalam {
+  padding-top: -5px;
+  padding: 15px;
+  display: none;
+  overflow: hidden;
+  border-radius: 10px;
+  width: 55%;
+  border:1px solid #46B29E;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+.dalam1 {
+  padding-top: -5px;
+  padding: 15px;
+  display: none;
+  overflow: hidden;
+  border-radius: 10px;
+  width: auto;
+  border:1px solid #46B29E;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*______*******************************************************************************************************___*/
+/*______*******************************************************************************************************___*/
+@media screen and (max-width:1000px){
+  body{
+    overflow: auto;
+  }
+
+  .headermenu{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: static;
+}
+.headerimg{
+  width: 40%;
+  text-align: -webkit-center;
+}
+
+.headerimg2{
+  width: 65%;
+  text-align: -webkit-center;
+}
+
+.headerimg3{
+  padding-top: 10px;
+  width: 85%;
+  text-align: -webkit-center;
+}
+.isi{
+  top: 50%;
+  float: none;
+  position: static;
+  background-color: white;
+  width: auto;
+  left: 0px;
+  height: auto;
+  padding: 15px;
+  overflow: auto;
+  border: 2px solid #7f8c8d;
+  border-radius: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: auto;
+}
+
+.konten1{
+  float: none;
+  left: 0px;
+  top: 50%;
+  background-color: white;
+  width: auto;
+  height: auto;
+  padding: 15px;
+  overflow: auto;
+  border: 1px solid #7f8c8d;
+  border-radius: 0;
+  position: static;
+}
+
+.konten2{
+  float: none;
+  left: 0;
+  top: 50%;
+  background-color: white;
+  width: auto;
+  height: auto;
+  padding: 15px;
+  overflow: auto;
+  border: 1px solid #7f8c8d;
+  border-radius: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: static;
+}
+
+.pborder{
+  border: 1px solid green;
+  width: auto;
+  padding: 10px;
+}
+/*-----------------------------------------------------------------------*/
+/*Halaman*/
+.center {
+  position: static;
+  float: none;
+  left: 0;
+  width: auto;
+  margin: 0 auto;
+}
+
+.centerr {
+  position: static;
+  float: none;
+  left: 0;
+  width: auto;
+  margin: 0 auto;
+}
+
+.page a {
+  color: white;
+  font-size: 16px;
+  float: left;
+  padding: 5px 10px;
+  margin: 0 0.5px;
+}
+
+/*______________________________________________________________________________________________*/
+/*menu samping*/
+.sidebar
+{
+  position: static;
+  width: 100%;
+  float: none;
+  top: 10%;
+  height: 50%;
+}
+.menu
+{
+  width:100%;
+  border-radius:1px;
+  overflow:hidden;
+  float: none;
+  height: auto;
+  background: #334E5C;
+  text-align: -webkit-center;
+}
+/*_______________________________________________________________________________*/
+/*semua*/
+* {
+  margin: 0; 
+  padding: 0;
+  list-style:none;
+  text-decoration:none;
+}
+
+img{
+  text-align: -webkit-center;
+}
+
+.tulis{
+  display: none;
+}
+
+
+.img {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dalam {
+  padding-top: -5px;
+  padding: 15px;
+  display: none;
+  overflow: hidden;
+  border-radius: 10px;
+  width: auto;
+  border:1px solid #46B29E;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+
+}
