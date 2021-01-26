@@ -110,3 +110,62 @@ function cek3(){
   }
 
 }
+
+//Input soal 1
+$('input[id="c1a"]').keyup(function(e)
+                                {
+  if (/^[a-zA-Z]+$/.test(this.value))
+  {
+    this.value = this.value.replace(/^[a-zA-Z]+$/, '');
+  }
+});
+
+//Input soal 2
+$('input[id="c1b"]').keyup(function(e)
+                                {
+  if (/^[a-zA-Z]+$/.test(this.value))
+  {
+    this.value = this.value.replace(/^[a-zA-Z]+$/, '');
+  }
+});
+
+$('input[id="c2b"]').keyup(function(e)
+                                {
+  if (/^[a-zA-Z]+$/.test(this.value))
+  {
+    this.value = this.value.replace(/^[a-zA-Z]+$/, '');
+  }
+});
+
+$('input[id="c3b"]').keyup(function(e)
+                                {
+  if (/^[a-zA-Z]+$/.test(this.value))
+  {
+    this.value = this.value.replace(/^[a-zA-Z]+$/, '');
+  }
+});
+
+//Input soal 3
+$('input[id="c1c"]').keyup(function(e)
+                                {
+  if (/^[a-zA-Z]+$/.test(this.value))
+  {
+    this.value = this.value.replace(/^[a-zA-Z]+$/, '');
+  }
+});
+
+$('input[id="c2c"]').keyup(function(e)
+                                {
+  if (/^[a-zA-Z]+$/.test(this.value))
+  {
+    this.value = this.value.replace(/^[a-zA-Z]+$/, '');
+  }
+});
+
+$('input[id="c3c"]').keyup(function(e)
+                                {
+  if (/^[a-zA-Z]+$/.test(this.value))
+  {
+    this.value = this.value.replace(/^[a-zA-Z]+$/, '');
+  }
+});
