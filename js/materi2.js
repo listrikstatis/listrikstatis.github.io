@@ -5,6 +5,7 @@ $(document).ready(function(){
 
     function myHandler(e) {
       $('.kolom').show(600);
+      $('.first').hide(100);
     }    
   });
 

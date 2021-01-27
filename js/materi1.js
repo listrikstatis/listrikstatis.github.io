@@ -6,7 +6,9 @@ $(document).ready(function(){
 
     function myHandler(e) {
       $('.kolom').show(100);
-      $('.bawah').show(800);}
+      $('.bawah').show(1000);
+      $('.first2').hide(100);
+    }
     
   });
 

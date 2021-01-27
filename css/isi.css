@@ -3,6 +3,24 @@ p{
   padding-right: 5px;
   font-size: 20px;
   line-height: 1.5;
+  text-align: justify;
+}
+
+.first p{
+  font-size: 36px;
+  text-align: center;
+  padding: 40% 0;
+  font-weight: bold;
+}
+.first2 p{
+  font-size: 36px;
+  text-align: center;
+  padding: 40% 0;
+  font-weight: bold;
+}
+.first, .first2{
+  background-color: #46B29E;
+  height: 100%;
 }
 
 .contoh1, .contoh2, .contoh3{
@@ -47,6 +65,7 @@ b{
   margin-left: 15px;
   line-height: 1.5;
   font-size: 20px;
+  text-align: justify;
 }
 
 .rad{
@@ -185,6 +204,9 @@ hr{
   margin-bottom: 5px;
 }
 
+input{
+  line-height: 1.5em;
+}
 
 :hover::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: transparent;
@@ -264,6 +286,13 @@ color: transparent;
 
 p{
   text-align: justify;
+  line-height: 1;
+}
+.first p {
+  font-size: 26px;
+}
+.first2 p {
+  font-size: 26px;
 }
 
 .vid {
