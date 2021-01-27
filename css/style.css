@@ -116,7 +116,7 @@ body{
 /*Halaman*/
 .center {
   position: absolute;
-  top: 93.5%;
+  top: 94%;
   float: left;
   left: 42%;
   width: auto;
@@ -125,13 +125,14 @@ body{
 .centerr {
   float: left;
   position: absolute;
-  top: 93.5%;
+  top: 94%;
   width: auto;
   left: 45%;
 }
 
 .page {
   display: inline-block;
+  position: static;
 }
 .page a {
   color: white;
