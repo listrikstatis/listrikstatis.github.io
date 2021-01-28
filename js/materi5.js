@@ -9,8 +9,8 @@ $(document).ready(function(){
 
 //pertanyaan bagian sel saraf 
 function cekjwb(){
+  document.getElementById("aa").value = document.getElementById("aa").value.toLowerCase();
   var aaa= document.getElementById("aa").value;
-  aaa = str.toLowerCase();
   var ceka = document.getElementById("ceka");
 
   if (aaa == "dendrit") {
@@ -23,6 +23,7 @@ function cekjwb(){
 }
 
 function cekjwba(){
+  document.getElementById("ab").value = document.getElementById("ab").value.toLowerCase();
 	var abb= document.getElementById("ab").value; 
 	var cekb = document.getElementById("cekb");
 
@@ -36,6 +37,7 @@ function cekjwba(){
 }
 
 function cekjwbb(){
+  document.getElementById("ac").value = document.getElementById("ac").value.toLowerCase();
   	var acc= document.getElementById("ac").value;
   	var cekc = document.getElementById("cekc");
 
@@ -49,6 +51,7 @@ function cekjwbb(){
 }
 
 function cekjwbc(){
+  document.getElementById("ad").value = document.getElementById("ad").value.toLowerCase();
   var add= document.getElementById("ad").value;  
   var cekd = document.getElementById("cekd");
 
@@ -62,6 +65,7 @@ function cekjwbc(){
 }
 
 function cekjwbd(){
+  document.getElementById("ae").value = document.getElementById("ae").value.toLowerCase();
 	var aee= document.getElementById("ae").value;  
   	var ceke = document.getElementById("ceke");
   if (aee == "myelin") {
@@ -90,20 +94,3 @@ function openhewan(evt, _Name) {
 
 document.getElementById("defaultOpen").click();
 
-
-//Input 
-$('input[id="aa"]').keyup(function(e)
-                                {
-  if (/^[a-zA-Z]+$/.test(this.value))
-  {
-    this.value = this.value.replace(/^[a-zA-Z]+$/, '');
-  }
-});
-
-$('input[id="ab"]').keyup(function(e)
-                                {
-  if (/^-?\d*$/.test(this.value))
-  {
-    this.value = this.value.replace(/^-?\d*$/, '');
-  }
-});
