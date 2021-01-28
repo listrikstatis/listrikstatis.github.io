@@ -3,7 +3,7 @@ function ganti1() {
 }
 
 function ganti2(){
-	document.getElementById("img").src="img/Kompetensidasar.png";
+	document.getElementById("img").src="img/kd.png";
 }
 
 function ganti3(){

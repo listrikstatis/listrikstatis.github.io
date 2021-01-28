@@ -110,7 +110,8 @@ h4 {
   margin-top: -15px;
   cursor: pointer;
   border-radius: 5px;
-  font-size: 18px
+  font-size: 18px;
+  width: 20%;
 }
 
 .no1:hover{
@@ -142,6 +143,17 @@ hr{
   cursor: pointer;
   border-radius: 5px;
   font-family: verdana,sans-serif,helvetica;
+}
+.klik {
+  border: 1px solid #46B29E;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: verdana, sans-serif, helvetica;  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.klik:hover{
+  background-color: darkcyan;
 }
 
 .diket2, .dit2, .jwb2{
