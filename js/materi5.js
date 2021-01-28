@@ -2,16 +2,18 @@ $(document).ready(function(){
 			$('.kolom').hide();
 			
 	$('.klik').click(function(){
-			$('.kolom').show(500);
+      $('.kolom').show(500);
+      $('.first').hide();
 		});	
 	});
 
 //pertanyaan bagian sel saraf 
 function cekjwb(){
-  var aa= document.getElementById("aa").value;
+  var aaa= document.getElementById("aa").value;
+  aaa = str.toLowerCase();
   var ceka = document.getElementById("ceka");
 
-  if (aa == "Dendrit" || aa == "dendrit") {
+  if (aaa == "dendrit") {
     ceka.src = "../../img/benar.png";
     document.getElementById("aa").style="border: 2px solid green";
   } else {
@@ -21,10 +23,10 @@ function cekjwb(){
 }
 
 function cekjwba(){
-	var ab= document.getElementById("ab").value; 
+	var abb= document.getElementById("ab").value; 
 	var cekb = document.getElementById("cekb");
 
-   if (ab == "Akson" || ab == "akson" || ab == "neurit") {
+   if (abb == "akson" || abb == "neurit") {
     cekb.src = "../../img/benar.png";
     document.getElementById("ab").style="border: 2px solid green";
   } else {
@@ -34,10 +36,10 @@ function cekjwba(){
 }
 
 function cekjwbb(){
-  	var ac= document.getElementById("ac").value;
+  	var acc= document.getElementById("ac").value;
   	var cekc = document.getElementById("cekc");
 
-  if (ac == "Badan sel" || ac == "badan sel") {
+  if (acc == "badan sel") {
     cekc.src = "../../img/benar.png";
     document.getElementById("ac").style="border: 2px solid green";
   } else {
@@ -47,10 +49,10 @@ function cekjwbb(){
 }
 
 function cekjwbc(){
-  var ad= document.getElementById("ad").value;  
+  var add= document.getElementById("ad").value;  
   var cekd = document.getElementById("cekd");
 
-  if (ad == "Nodus ranvier" || ad == "nodus ranvier") {
+  if (add == "nodus ranvier") {
     cekd.src = "../../img/benar.png";
     document.getElementById("ad").style="border: 2px solid green";
   } else {
@@ -60,9 +62,9 @@ function cekjwbc(){
 }
 
 function cekjwbd(){
-	var ae= document.getElementById("ae").value;  
+	var aee= document.getElementById("ae").value;  
   	var ceke = document.getElementById("ceke");
-  if (ae == "Myelin" || ae == "myelin") {
+  if (aee == "myelin") {
     ceke.src = "../../img/benar.png";
     document.getElementById("ae").style="border: 2px solid green";
   } else {
@@ -88,3 +90,20 @@ function openhewan(evt, _Name) {
 
 document.getElementById("defaultOpen").click();
 
+
+//Input 
+$('input[id="aa"]').keyup(function(e)
+                                {
+  if (/^[a-zA-Z]+$/.test(this.value))
+  {
+    this.value = this.value.replace(/^[a-zA-Z]+$/, '');
+  }
+});
+
+$('input[id="ab"]').keyup(function(e)
+                                {
+  if (/^-?\d*$/.test(this.value))
+  {
+    this.value = this.value.replace(/^-?\d*$/, '');
+  }
+});
