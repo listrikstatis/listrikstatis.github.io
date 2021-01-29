@@ -114,7 +114,7 @@ dat.onreadystatechange = function () {
             no.setAttribute('class', 'no');
 
             let soal = document.createElement('p');
-            let text_soal = document.createTextNode('Soal ');
+            let text_soal = document.createTextNode('Nomor ');
 
             let span = document.createElement('span');
             let text_span = document.createTextNode(i + 1);
