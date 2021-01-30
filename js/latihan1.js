@@ -20,7 +20,7 @@ selanjutnya.addEventListener('click', function () {
 
     }
 
-    if (kelasnya.value == "") {
+    if (kelasnya.value == "0") {
         if (kelasnya.className.indexOf('tt_salah') == -1) {
             kelasnya.className += ' tt_salah';
         }

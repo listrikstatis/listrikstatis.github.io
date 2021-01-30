@@ -93,7 +93,7 @@ ul li .besarrr {
         overflow: hidden;
         border: 2px solid #7f8c8d;
         border-radius: 5px;
-        overflow: auto;
+        /* overflow: auto; */
     }
 
     .inti-konten {
