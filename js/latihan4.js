@@ -54,7 +54,7 @@ selanjutnya.addEventListener('click', function () {
         document.getElementById('data').className += ' hilang';
         document.getElementById('kiri').className = document.getElementById('kiri').className.replace('hilang', '');
         document.getElementById('kanan').className = document.getElementById('kanan').className.replace('hilang', '');
-        document.getElementById('up').className = document.getElementById('up').className.replace('hilang', '');
+        // document.getElementById('up').className = document.getElementById('up').className.replace('hilang', '');
 
     }
 
