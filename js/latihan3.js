@@ -25,7 +25,14 @@ selanjutnya.addEventListener('click', function () {
             kelasnya.className += ' tt_salah';
         }
     } else {
-        kelasnya.className = kelasnya.className.replace('tt_salah', '');        
+        kelasnya.className = kelasnya.className.replace('tt_salah', '');
+        if (kelasnya.value == "1") {
+            kelasfix = "IX A";
+        } else if (kelasnya.value == "2") {
+            kelasfix = "IX B";
+        } else if (kelasnya.value == "3") {
+            kelasfix = "IX C";
+        } 
         cek += 1;
     }
 
@@ -402,7 +409,7 @@ dat.onreadystatechange = function () {
                 sekolahinput.innerText = sekolah.value.toUpperCase();
 
                 let kelasinput = document.querySelector('.kelas');
-                kelasinput.innerText = kelasnya.value.toUpperCase();            
+                kelasinput.innerText = kelasfix;            
 
                 let hasillinput = document.querySelector('.hasill');
                 hasillinput.innerText = hasilakhir;

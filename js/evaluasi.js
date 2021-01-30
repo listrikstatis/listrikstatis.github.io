@@ -25,9 +25,17 @@ selanjutnya.addEventListener('click', function () {
             kelasnya.className += ' tt_salah';
         }
     } else {
-        kelasnya.className = kelasnya.className.replace('tt_salah', '');        
+        kelasnya.className = kelasnya.className.replace('tt_salah', '');
+        if (kelasnya.value == "1") {
+            kelasfix = "IX A";
+        } else if (kelasnya.value == "2") {
+            kelasfix = "IX B";
+        } else if (kelasnya.value == "3") {
+            kelasfix = "IX C";
+        } 
         cek += 1;
     }
+        
 
     if (sekolah.value == "") {
         if (sekolah.className.indexOf('tt_salah') == -1) {
@@ -391,7 +399,7 @@ dat.onreadystatechange = function () {
                 // simpan kedatabase----------
                 console.log(namanya.value);
                 console.log(sekolah.value);
-                console.log(kelas.value);
+                console.log(kelasfix);
                 console.log(hasilakhir);
                 
                 let harinya = hari();
@@ -403,7 +411,7 @@ dat.onreadystatechange = function () {
                 sekolahinput.innerText = sekolah.value.toUpperCase();
 
                 let kelasinput = document.querySelector('.kelas');
-                kelasinput.innerText = kelasnya.value.toUpperCase();  
+                kelasinput.innerText = kelasfix;  
                 
                 let hariinput = document.querySelector('.hari');
                 hariinput.innerText = harinya;

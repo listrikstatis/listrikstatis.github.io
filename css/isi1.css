@@ -572,14 +572,19 @@ a {
     }
 
     .aaa {
-        
+        width: 300px;
         margin-left: 32px !important;
     }
 
     #nama,
-    #sekolah,
-    #kelas {
+    #sekolah {
         width: 300px;
+        font-size: 1.6vw;
+        margin-left: 30px;
+        padding: 0px 10px;
+    }
+    #kelas {
+        width: 324px;
         font-size: 1.6vw;
         margin-left: 30px;
         padding: 0px 10px;
