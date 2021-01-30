@@ -401,6 +401,8 @@ dat.onreadystatechange = function () {
                 console.log(sekolah);
                 console.log(kelasfix);
                 console.log(hasilakhir);
+
+                let harinya = hari();
                 
                 let namainput = document.querySelector('.nama');
                 namainput.innerText = namanya.value.toUpperCase();
@@ -410,6 +412,9 @@ dat.onreadystatechange = function () {
 
                 let kelasinput = document.querySelector('.kelas');
                 kelasinput.innerText = kelasfix;            
+
+                let hariinput = document.querySelector('.hari');
+                hariinput.innerText = harinya;
 
                 let hasillinput = document.querySelector('.hasill');
                 hasillinput.innerText = hasilakhir;
@@ -467,4 +472,18 @@ dat.open('GET', '../../json/latihan4.json', true);
 dat.send();
 
 
-
+// hari
+function hari() {
+    tanggallengkap = new String();
+    namahari = ("Minggu Senin Selasa Rabu Kamis Jumat Sabtu");
+    namahari = namahari.split(" ");
+    namabulan = ("Januari Februari Maret April Mei Juni Juli Agustus September Oktober November Desember");
+    namabulan = namabulan.split(" ");
+    tgl = new Date();
+    hari = tgl.getDay();
+    tanggal = tgl.getDate();
+    bulan = tgl.getMonth();
+    tahun = tgl.getFullYear();
+    tanggallengkap = namahari[hari] + ", " + tanggal + " " + namabulan[bulan] + " " + tahun;
+    return (tanggallengkap);
+}
