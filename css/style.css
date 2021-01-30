@@ -31,6 +31,14 @@ body{
   width: 22%;
   text-align: -webkit-center;
 }
+.headerkuis{
+  width: 30%;
+  text-align: -webkit-center;
+}
+.headerkuis1 {
+  width: 45%;
+  text-align: -webkit-center;
+}
 
 .headerlat{
   width: 15%;
@@ -282,6 +290,7 @@ body{
   margin-right: auto;
   position: static;
 }
+
 .headerimg{
   width: 40%;
   text-align: -webkit-center;
@@ -297,6 +306,17 @@ body{
   width: 85%;
   text-align: -webkit-center;
 }
+
+.headerkuis {
+  width: 70%;
+  text-align: -webkit-center;
+}
+
+.headerkuis1 {
+  width: 85%;
+  text-align: -webkit-center;
+}
+
 .isi{
   top: 50%;
   float: none;

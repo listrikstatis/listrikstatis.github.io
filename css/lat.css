@@ -123,6 +123,10 @@ ul li .besarrr {
         
     }
 
+    .up {
+        padding-top: 0;
+    }
+
     hr{
         border-style: solid;
     }
