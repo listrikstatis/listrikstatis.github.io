@@ -394,6 +394,8 @@ dat.onreadystatechange = function () {
                 console.log(kelas.value);
                 console.log(hasilakhir);
                 
+                let harinya = hari();
+                
                 let namainput = document.querySelector('.nama');
                 namainput.innerText = namanya.value.toUpperCase();
 
@@ -401,7 +403,10 @@ dat.onreadystatechange = function () {
                 sekolahinput.innerText = sekolah.value.toUpperCase();
 
                 let kelasinput = document.querySelector('.kelas');
-                kelasinput.innerText = kelasnya.value.toUpperCase();            
+                kelasinput.innerText = kelasnya.value.toUpperCase();  
+                
+                let hariinput = document.querySelector('.hari');
+                hariinput.innerText = harinya;
 
                 let hasillinput = document.querySelector('.hasill');
                 hasillinput.innerText = hasilakhir;
@@ -454,30 +459,19 @@ dat.onreadystatechange = function () {
 dat.open('GET', '../../json/evaluasi.json', true);
 dat.send();
 
-const username = document.getElementById('nama');
-const sekolahh = document.getElementById('sekolah');
-const kelass = document.getElementById('kelas');
-const nilaii = document.getElementsByClassName('hasill');
 
-const mostRecentScore = localStorage.getItem('mostRecentScore');
-
-const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
-
-const MAX_HIGH_SCORES = 500;
-
-nilaii = mostRecentScore;
-
-saveScore = (e) => {
-    e.preventDefault();
-    const score = {
-        score: mostRecentScore,
-        name: username.value,
-        sekolah: sekolahh.value,
-        kelas: kelass.value,
-    };
-    highScores.push(score);
-    highScores.sort((a, b) => b.score - a.score);
-    highScores.splice(500);
-
-    localStorage.setItem('highScores', JSON.stringify(highScores));
+// hari
+function hari() {
+    tanggallengkap = new String();
+    namahari = ("Minggu Senin Selasa Rabu Kamis Jumat Sabtu");
+    namahari = namahari.split(" ");
+    namabulan = ("Januari Februari Maret April Mei Juni Juli Agustus September Oktober November Desember");
+    namabulan = namabulan.split(" ");
+    tgl = new Date();
+    hari = tgl.getDay();
+    tanggal = tgl.getDate();
+    bulan = tgl.getMonth();
+    tahun = tgl.getFullYear();
+    tanggallengkap = namahari[hari] + ", " + tanggal + " " + namabulan[bulan] + " " + tahun;
+    return (tanggallengkap);
 }

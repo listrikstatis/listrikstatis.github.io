@@ -33,7 +33,7 @@
     <a href="#muatanlistrik" class="btn"><i class="fas fa-bolt"></i>Muatan Listrik</a>
     <div class="pilih">
      <a href="../Materi1/muatan_listrik.html#muatanlistrik">Materi</a>
-     <a href="#evaluasi" class="disable">Latihan</a>
+     <a href="#evaluasi" class="disable">Kuis</a>
     </div>
   </li>
     
@@ -41,7 +41,7 @@
     <a href="#hukumcoulomb" class="btn"><i class="fas fa-bolt"></i>Hukum Coulomb</a>
     <div class="pilih">
      <a href="hukum_coulomb.html#hukumcoulomb" class="active">Materi</a>
-     <a href="#evaluasi" class="disable">Latihan</a>
+     <a href="#evaluasi" class="disable">Kuis</a>
     </div>
   </li>
     
@@ -49,7 +49,7 @@
     <a href="#medanlistrik" class="btn"><i class="fas fa-bolt"></i>Medan Listrik</a>
     <div class="pilih">
      <a href="../Materi3/medanlistrik.html#medanlistrik">Materi</a>
-     <a href="#evaluasi" class="disable">Latihan</a>
+     <a href="#evaluasi" class="disable">Kuis</a>
     </div>
   </li>
 
@@ -57,7 +57,7 @@
     <a href="#bedapotensial" class="btn"><i class="fas fa-bolt"></i>Beda Potensial</a>
     <div class="pilih">
      <a href="../Materi4/bedapotensial.html#bedapotensial">Materi</a>
-     <a href="#evaluasi" class="disable">Latihan</a>
+     <a href="#evaluasi" class="disable">Kuis</a>
     </div>
   </li>
 
@@ -65,7 +65,7 @@
     <a href="#penerapan" class="btn"><i class="fas fa-bolt"></i>Penerapan Listrik Statis</a>
     <div class="pilih">
      <a href="../Materi5/penerapan.html#penerapan">Materi</a>
-     <a href="#evaluasi" class="disable">Latihan</a>
+     <a href="#evaluasi" class="disable">Kuis</a>
     </div>
   </li>
 
@@ -105,14 +105,22 @@
                             <!--<p>DATA DIRI</p>-->
                             <br>
                             <label for="nama"> Nama :
-                                <input type="text" id="nama" class="maju" placeholder="Masukkan nama anda . . . ">
+                                <input type="text" id="nama" class="maju" placeholder="Nama Lengkap . . . ">
                             </label>
                             <label for="nama"> Sekolah :
                             	<input type="text" id="sekolah" name="sekolah" class="mundur" placeholder="Nama sekolah . . . ">                               
                             </label>
                             <label for="nama"> Kelas :
-                            	<input type="text" id="kelas" name="kelas" class="maju aaa" placeholder="Kelas . . . ">                                
+                                <select id="kelas" name="kelas" class="maju aaa" >
+                                    <option value="0" selected="selected"> Pilih Kelas </option>
+                                    <option value="1">IX A</option>
+                                    <option value="2">IX B</option>
+                                    <option value="3">IX C</option>
+                                </select>
                             </label>
+                            <!-- <label for="nama"> Kelas :
+                            	<input type="text" id="kelas" name="kelas" class="maju aaa" placeholder="Kelas . . . ">                                
+                            </label> -->
 
                             <div class="lanjut">MULAI</div>
                         </div>
@@ -220,6 +228,17 @@
                                 </tr>
                                 <tr>
                                     <td class="ket_hasil">
+                                        <p>HARI</p>
+                                    </td>
+                                    <td>
+                                        <p>:</p>
+                                    </td>
+                                    <td>
+                                        <p class="hari">7</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="ket_hasil">
                                         <p>SKOR</p>
                                     </td>
                                     <td>
@@ -234,13 +253,13 @@
                         <div id="ulang" class="ket_ulang hilang">
                             Nilai kamu kurang dari 70, kamu belum memahami materi listrik statis<br>
                             <button class="tmbl" button onclick="location.href='evaluasi.html'">Ulang Evaluasi</button> 
-                            <button class="tmbl" button onclick="location.href='daftarnilai.html'">Back</button>                           
+                            <!-- <button class="tmbl" button onclick="location.href='daftarnilai.html'">Back</button>                            -->
                         </div>
                         <br>
                         <div id="next" class="hilang1">
                             Selamat kamu sudah menyelesaikan materi listrik statis dengan baik<br>
                         <button class="tmbl" button onclick="location.href='../../index.html'">Home</button>
-                        <button class="tmbl" button onclick="location.href='daftarnilai.html'">Back</button>
+                        <!-- <button class="tmbl" button onclick="location.href='daftarnilai.html'">Back</button> -->
                         </div>
                 </div>
                     </center>
