@@ -1,3 +1,20 @@
+// Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCc61elh5Kv4-jT4ZobroX1CxshSqDKpdw",
+    authDomain: "datalistrikstatis.firebaseapp.com",
+    databaseURL: "https://datalistrikstatis-default-rtdb.firebaseio.com",
+    projectId: "datalistrikstatis",
+    storageBucket: "datalistrikstatis.appspot.com",
+    messagingSenderId: "420431191221",
+    appId: "1:420431191221:web:ba694a5470a68e38c2b2fc",
+    measurementId: "G-VQBLQ2BD4K"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+
+
 let selanjutnya = document.querySelector('.lanjut');
 let datadiri = document.querySelector('.data_diri');
 namanya = document.getElementById('nama');
@@ -62,6 +79,43 @@ selanjutnya.addEventListener('click', function () {
     MathJax.typeset();
 
 });
+
+// function readlah() {
+//     var task = firebase.database().ref("kontrolkuis/");
+//     let tmp = document.querySelector('body');
+
+//     task.on("child_added", function (data) {
+//         var taskvalue = data.val();
+
+//         if ((taskvalue.id == "420431191221") && (taskvalue.nilai == 0)) {
+//             tmp.innerHTML += '<div class = "full" > <p>HALAMAN TIDAK DAPAT DIAKSES</p> </div>'
+//             // console.log('0');
+//         } else {
+//             // console.log('1');
+//         }
+
+
+
+//     });
+
+//     MathJax.typeset();
+// }
+
+
+
+// window.onload = function () {
+//     namanya.value = "";
+//     kelasnya.value = value = "0";
+//     sekolah.value = "";
+
+
+//     document.getElementById('kiri').className += ' hilang';
+//     document.getElementById('kanan').className += ' hilang';
+
+//     readlah();
+
+//     MathJax.typeset();
+// }
 
 // -----------------------------------------------------------------------------------------
 // mengambil data dan menampilkanya
@@ -372,7 +426,7 @@ dat.onreadystatechange = function () {
                                     console.log(jwbs[i]);
                                     pil_user.push(pils_soal[j].value);
                                     if (pils_soal[j].value == jwbs[i]) {
-                                        hasilakhir = hasilakhir + 10;
+                                        hasilakhir = hasilakhir + 6.67;
                                         benarr = benarr + 1;
                                     } else {
                                         hasilakhir = hasilakhir;
@@ -401,8 +455,12 @@ dat.onreadystatechange = function () {
                 console.log(sekolah.value);
                 console.log(kelasfix);
                 console.log(hasilakhir);
+                // let waktunya = waktu(); 
+                
                 
                 let harinya = hari();
+
+                // createTask(sekolah.value.toUpperCase(), namanya.value.toUpperCase(), kelasfix, hasilakhir, harinya);
                 
                 let namainput = document.querySelector('.nama');
                 namainput.innerText = namanya.value.toUpperCase();
@@ -467,6 +525,18 @@ dat.onreadystatechange = function () {
 dat.open('GET', '../../json/evaluasi.json', true);
 dat.send();
 
+// var d = new Date();
+// var t = d.getTime();
+// var id = t;
+
+// ambil jamnya
+// window.setTimeout("waktu()", 1000);
+
+// function waktu() {
+//     var tanggal = new Date();
+//     setTimeout("waktu()", 1000);
+//     return (tanggal.getHours() + ":" + tanggal.getMinutes() + ":" + tanggal.getSeconds());
+// }
 
 // hari
 function hari() {
@@ -483,3 +553,19 @@ function hari() {
     tanggallengkap = namahari[hari] + ", " + tanggal + " " + namabulan[bulan] + " " + tahun;
     return (tanggallengkap);
 }
+
+// function createTask(sekolah, nama, kelas, nilai, hari) {
+//     id += 1;
+//     var task = {
+//         nomorid: id,
+//         sekolah: sekolah,
+//         nama: nama,
+//         kelas: kelas,
+//         nilai: nilai,
+//         hari: hari,
+//     }
+
+//     let db = firebase.database().ref("evaluasi/" + id);
+//     db.set(task);
+
+// }

@@ -9,33 +9,33 @@
     }
 },{
     "soal1": {
-        "soal": "Untuk memindahkan muatan listrik sebesar 5 C, dari titik A ke titik B diperlukan usaha sebesar 25 J. Beda potensial antara titik A dan titik B adalah....",
-        "a": "5 V",
-        "b": "20 V",
-        "c": "10 V",
-        "d": "30 V",
-        "benar": "a"        
+        "soal":"Suatu atom disebut bermuatan positif karena atom tersebut ....",
+        "a": "kelebihan elektron",
+        "b": "kekurangan elektron",
+        "c": "kekurangan proton",
+        "d": "kelebihan neutron",
+        "benar": "b"        
     }        
 },{
     "soal2": {
-        "soal": "Untuk memindahkan 10 coulomb muatan listrik dari A ke B diperlukan energi 50 joule. Beda potensial antara A dan B adalah ....",
-        "a": "2 V",
-        "b": "5 V",
-        "c": "50 V",
-        "d": "500 V",
-        "benar": "b"
+        "soal": "Dua buah muatan akan tarik-menarik jika ....",
+        "a": "muatan kedua benda tidak sama",
+        "b": "muatan kedua benda sama",
+        "c": "kedua benda tidak bermuatan",
+        "d": "salah satu benda bermuatan",
+        "benar": "a"
     }
 },{
     "soal3": {
-        "soal": "Pada cuaca buruk supaya tidak kena sambaran petir, sebaiknya ....",
-        "a": "Berteduh di bawah pohon besar",
-        "b": "Berlari ke lapangan yang luas",
-        "c": "Memakai topi dari baja",
-        "d": "Berteduh ke rumah yang ada penangkal petirnya",
-        "benar": "d"
+        "soal": "Penggaris yang digosok dengan kain wol akan menarik sobekan kertas karena ....",
+        "a": "kertas bermuatan negatif",
+        "b": "kertas bermuatan positif",
+        "c": "kertas berada di permukaan bumi",
+        "d": "benda yang digosok cenderung menetralkan muatannya",
+        "benar": "b"
     }
 },{
-    "soal4": {
+   "soal4": {
         "soal": "Menurut deret tribolistrik, jika emas (Au) digosok dengan kain wol, maka emas akan ....",
         "a": "bermuatan positif",
         "b": "bermuatan negatif",
@@ -87,5 +87,50 @@
         "c": "medan listrik",
         "d": "induksi listrik",
         "benar": "c"
+    }
+},{
+    "soal10": {
+        "soal": "Untuk memindahkan 24 coulomb muatan listrik diperlukan energi 120 joule. Berapakah beda potensial sumber tegangan itu ....",
+        "a": "0,2 V",
+        "b": "0,5 V",
+        "c": "2 V",
+        "d": "5 V",
+        "benar": "d"
+    }
+},{
+    "soal11": {
+        "soal": "Bagian utama penangkal petir dibuat dari batang logam berujung runcing. Hal ini dibuat dengan maksud agar ....",
+        "a": "mudah dialiri listrik",
+        "b": "mudah melepas elektron",
+        "c": "mudah menangkap elektron",
+        "d": "mudah terinduksi",
+        "benar": "c"
+    }
+},{
+    "soal12": {
+        "soal": "Untuk memindahkan muatan listrik sebesar 5 C, dari titik A ke titik B diperlukan usaha sebesar 25 J. Beda potensial antara titik A dan titik B adalah....",
+        "a": "5 V",
+        "b": "20 V",
+        "c": "10 V",
+        "d": "30 V",
+        "benar": "a"
+    }
+},{
+    "soal13": {
+        "soal": "Untuk memindahkan 10 coulomb muatan listrik dari A ke B diperlukan energi 50 joule. Beda potensial antara A dan B adalah ....",
+        "a": "2 V",
+        "b": "5 V",
+        "c": "50 V",
+        "d": "500 V",
+        "benar": "b"
+    }
+},{
+    "soal14": {
+        "soal": "Pada cuaca buruk supaya tidak kena sambaran petir, sebaiknya ....",
+        "a": "Berteduh di bawah pohon besar",
+        "b": "Berlari ke lapangan yang luas",
+        "c": "Memakai topi dari baja",
+        "d": "Berteduh ke rumah yang ada penangkal petirnya",
+        "benar": "d"
     }
 }]
