@@ -1,3 +1,17 @@
+var firebaseConfig = {
+    apiKey: "AIzaSyCc61elh5Kv4-jT4ZobroX1CxshSqDKpdw",
+    authDomain: "datalistrikstatis.firebaseapp.com",
+    databaseURL: "https://datalistrikstatis-default-rtdb.firebaseio.com",
+    projectId: "datalistrikstatis",
+    storageBucket: "datalistrikstatis.appspot.com",
+    messagingSenderId: "420431191221",
+    appId: "1:420431191221:web:ba694a5470a68e38c2b2fc",
+    measurementId: "G-VQBLQ2BD4K"
+};
+  // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    
+
 let selanjutnya = document.querySelector('.lanjut');
 let datadiri = document.querySelector('.data_diri');
 namanya = document.getElementById('nama');
