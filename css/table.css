@@ -94,6 +94,7 @@ th, td {
     background-color: #bbb;
     border-radius: 10%;
     padding: 8px;
+    margin-top: 8px;
     display: inline-block;
     transition: background-color 0.6s ease;
 }
@@ -145,7 +146,7 @@ th, td {
     margin-right: auto;
     display: block;
     padding: 15px;
-    width: 60%;
+    width: 50%;
 }
 
 @media screen and (max-width:1000px) {
@@ -153,9 +154,14 @@ th, td {
         width: 100%;
     }
 
+    .imgs{
+        width: 80%;
+    }
+
     .prev,
     .next {
         top: 25%;
+        color: rgb(20, 20, 20);
     }
 
     .next {
@@ -165,6 +171,12 @@ th, td {
 
     .numbertext {
         font-size: 18px;
+    }
+
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #46B29E;
     }
 
 }

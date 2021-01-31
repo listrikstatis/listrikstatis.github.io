@@ -5,7 +5,15 @@ $(document).ready(function(){
       $('.kolom').show(500);
       $('.first').hide();
 		});	
-	});
+  });
+  
+  $(document).ready(function(){
+  $(".o").hide();
+    $(".read").click(function(){
+      $(".read").hide(0);
+      $(".o").show(100);
+    });
+});
 
 //pertanyaan bagian sel saraf 
 function cekjwb(){
