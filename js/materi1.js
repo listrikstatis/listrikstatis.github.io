@@ -12,6 +12,7 @@ $(document).ready(function(){
     
   });
 
+//Halaman 2
 function salah(){
   document.getElementById('b1').style.display = 'none';
   document.getElementById('s1').style.display = 'block';
@@ -38,4 +39,60 @@ function salah3(){
 function benar3(){
   document.getElementById('b3').style.display = 'block';
   document.getElementById('s3').style.display = 'none';
+}
+
+//Halaman 3
+function cekjwbn(){
+  document.getElementById("no1").value = document.getElementById("no1").value.toLowerCase();
+  var aaa= document.getElementById("no1").value;
+
+  if (aaa == "negatif") {
+    document.getElementById("no1").style="border: 2px solid green";
+  } else {
+    document.getElementById("no1").style="border: 2px solid red";
+  }
+}
+
+function cekjwbn2(){
+  document.getElementById("no2").value = document.getElementById("no2").value.toLowerCase();
+  var aaa= document.getElementById("no2").value;
+
+  if (aaa == "negatif") {
+    document.getElementById("no2").style="border: 2px solid green";
+  } else {
+    document.getElementById("no2").style="border: 2px solid red";
+  }
+}
+
+function cekjwbn3(){
+  document.getElementById("no3").value = document.getElementById("no3").value.toLowerCase();
+  var aaa= document.getElementById("no3").value;
+
+  if (aaa == "positif") {
+    document.getElementById("no3").style="border: 2px solid green";
+  } else {
+    document.getElementById("no3").style="border: 2px solid red";
+  }
+}
+
+function cekjwbn4(){
+  document.getElementById("no4").value = document.getElementById("no4").value.toLowerCase();
+  var aaa= document.getElementById("no4").value;
+
+  if (aaa == "negatif") {
+    document.getElementById("no4").style="border: 2px solid green";
+  } else {
+    document.getElementById("no4").style="border: 2px solid red";
+  }
+}
+
+function cekjwbn5(){
+  document.getElementById("no5").value = document.getElementById("no5").value.toLowerCase();
+  var aaa= document.getElementById("no5").value;
+
+  if (aaa == "positif") {
+    document.getElementById("no5").style="border: 2px solid green";
+  } else {
+    document.getElementById("no5").style="border: 2px solid red";
+  }
 }
