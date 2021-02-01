@@ -424,7 +424,7 @@ dat.onreadystatechange = function () {
                                     console.log(jwbs[i]);
                                     pil_user.push(pils_soal[j].value);
                                     if (pils_soal[j].value == jwbs[i]) {
-                                        hasilakhir = hasilakhir + 6.67;
+                                        hasilakhir = hasilakhir + 5;
                                         benarr = benarr + 1;
                                     } else {
                                         hasilakhir = hasilakhir;

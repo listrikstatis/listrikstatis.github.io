@@ -663,6 +663,7 @@ a {
 
     .nav_selanjut {
         width: 26%;
+        /* float: right; */
     }
 
     .nav_selanjut p {
@@ -672,6 +673,7 @@ a {
     .bg_pilihan,
     .checkbox {
         font-size: 1.6vw;
+        width: auto;
     }
 
     .dataaa {

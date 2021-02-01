@@ -27,11 +27,11 @@
     }
 },{
     "soal3": {
-        "soal": "Penggaris yang digosok dengan kain wol akan menarik sobekan kertas karena ....",
-        "a": "kertas bermuatan negatif",
-        "b": "kertas bermuatan positif",
-        "c": "kertas berada di permukaan bumi",
-        "d": "benda yang digosok cenderung menetralkan muatannya",
+        "soal": "Suatu percobaan muatan listrik statis menggunakan alat dan bahan seperti pada gambar berikut:<br><img class='gmb' src='../../img/eva1.jpg'><br>Setelah digosok berulang kali dengan kain (gambar I), penggaris plastik dapat menarik serpihan kertas kecil seperti pada gambar II. Hal ini membuktikan bahwa penggaris tersebut bermuatan listrik ...",
+        "a": "positif, karena telah melepaskan sebagian dari elektronnya",
+        "b": "positif, karena jumlah proton pada penggaris bertambah",
+        "c": "negatif, karena telah menerima beberapa elektron dari kain",
+        "d": "negatif, karena elektron dari penggaris pindah ke kain",
         "benar": "b"
     }
 },{
@@ -81,11 +81,11 @@
     }
 },{
     "soal9": {
-        "soal": "Daerah di sekitar benda yang bermuatan listrik dan masih mendapat pengaruh listrik disebut ....",
-        "a": "muatan listrik",
-        "b": "potensial listrik",
-        "c": "medan listrik",
-        "d": "induksi listrik",
+        "soal": "Diketahui dua buah muatan listrik masing-masing bermuatan \\(+5 \\times 10^{-9}\\) C dipisahkan oleh jarak 0,5 cm. Gaya tolak menolak kedua muatan tersebut adalah ...",
+        "a": "\\(9 \\times 10^{–1}\\) N",
+        "b": "\\(9 \\times 10^{–2}\\) N",
+        "c": "\\(9 \\times 10^{–3}\\) N",
+        "d": "\\(9 \\times 10^{–4}\\) N",
         "benar": "c"
     }
 },{
@@ -126,6 +126,51 @@
     }
 },{
     "soal14": {
+        "soal": "Benda pada gambar berikut ini bermuatan ...<br><img src='../../img/eva3.png'>",
+        "a": "Negatif",
+        "b": "Positif",
+        "c": "Netral",
+        "d": "Proton",
+        "benar": "a"
+    }
+},{
+    "soal15": {
+        "soal": "Dua buah benda bermuatan yang berjarak 80 cm saling tolak-menolak dengan gaya F. Jika kedua benda tersebut digerakkan saling mendekat masing-masing 20 cm, maka gaya tolak-menolak antara kedua benda tersebut menjadi ....",
+        "a": "2 F",
+        "b": "4 F",
+        "c": "6 F",
+        "d": "8 F",
+        "benar": "b"
+    }
+},{
+    "soal16": {
+        "soal": "Elektroskop berfungsi untuk ....",
+        "a": "mengetahui ada tidaknya muatan pada sebuah benda",
+        "b": "mengukur besar muatan pada sebuah benda",
+        "c": "menghasilkan muatan dalam jumlah yang besar",
+        "d": "mengetahui besar gaya coulomb dua benda bermuatan",
+        "benar": "a"
+    }
+},{
+    "soal17": {
+        "soal": "Sebuah muatan 200 coulomb berada pada jarak 10 m terhadap 20 coulomb muatan yang lain. Berapa medan listrik pada muatan 200 coulomb tersebut ...",
+        "a": "\\(1,8 \\times 10^8\\) N/C",
+        "b": "\\(1,8 \\times 10^{-8}\\) N/C",
+        "c": "\\(1,8 \\times 10^9\\) N/C",
+        "d": "\\(1,8 \\times 10^{-9}\\) N/C",
+        "benar": "c"
+    }
+},{
+    "soal18": {
+        "soal": "Prinsip kerja penangkal petir adalah ...",
+        "a": "mencegah arus listrik dari awan",
+        "b": "menetralkan muatan listrik pada awan",
+        "c": "mengalihkan aliran arus listrik dari awan ke tempat lain",
+        "d": "menyalurkan arus listrik dari awan ke bumi",
+        "benar": "d"
+    }
+},{
+    "soal19": {
         "soal": "Pada cuaca buruk supaya tidak kena sambaran petir, sebaiknya ....",
         "a": "Berteduh di bawah pohon besar",
         "b": "Berlari ke lapangan yang luas",
