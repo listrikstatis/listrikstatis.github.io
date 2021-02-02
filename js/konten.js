@@ -20,15 +20,15 @@ $(document).ready(function(){
           $(".no1").click(function(){
                 $(".contoh2").hide(0);
                 $(".contoh3").hide(0);
-                $(".contoh1").show(200);
+                $(".contoh1").show(0);
           });
           $(".no2").click(function(){
-                $(".contoh2").show(200);
+                $(".contoh2").show(0);
                 $(".contoh1").hide(0);
                 $(".contoh3").hide(0);
           });
           $(".no3").click(function(){
-                $(".contoh3").show(200);
+                $(".contoh3").show(0);
                 $(".contoh2").hide(0);
                 $(".contoh1").hide(0);
           });
