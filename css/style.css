@@ -113,6 +113,20 @@ body{
   border-radius: 5px;
 }
 
+.isimateri {
+  float: left;
+  left: 13.5%;
+  top: 8%;
+  position: absolute;
+  background-color: white;
+  height: 585px;
+  width: auto;
+  padding: 15px;
+  overflow: auto;
+  border: 2px solid #7f8c8d;
+  border-radius: 5px;
+}
+
 .pborder{
   border: 1px solid green;
   width: 150px;
@@ -174,7 +188,7 @@ body{
   border-radius:1px;
   overflow:hidden;
   float: left;
-  height: 670px;
+  height: 672px;
   background: #334E5C;
 }
 .sub
@@ -318,6 +332,23 @@ body{
 }
 
 .isi{
+  top: 50%;
+  float: none;
+  position: static;
+  background-color: white;
+  width: auto;
+  left: 0px;
+  height: auto;
+  padding: 15px;
+  overflow: auto;
+  border: 2px solid #7f8c8d;
+  border-radius: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: auto;
+}
+
+.isimateri{
   top: 50%;
   float: none;
   position: static;
