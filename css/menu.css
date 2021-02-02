@@ -94,6 +94,14 @@ div.halaman{
   top: 100px;
   overflow: auto;
 }
+
+.borderawal {
+  padding: 15px;
+  border-radius: 50px 20px;
+  border: 2px solid #46B29E;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
 .bordernya {
   padding: 15px;
   border-radius: 15px 50px;
