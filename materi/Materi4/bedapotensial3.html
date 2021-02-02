@@ -79,8 +79,8 @@
     <div class="dalam1">
         <ol>
           <li class="nomor">Jawablah soal-soal berikut.</li>
-          <li class="nomor">Hitung dan isilah jawaban dari setiap soal pada kotak yang telah disediakan.</li>
-          <li class="nomor">Klik tombol "Cek Jawaban" untuk memeriksa apakah jawaban benar atau salah. Jika jawaban benar maka kotak akan bewarna <font style="color:green;font-weight: bold">hijau</font>, jika jawaban salah maka kotak akan berwarna <font style="color:red;font-weight: bold">merah.</font></li>
+          <li class="nomor">Isi dan hitunglah jawaban dari setiap soal pada kotak yang telah disediakan.</li>
+          <li class="nomor">Jika jawaban benar maka kotak akan bewarna <font style="color:green;font-weight: bold">hijau</font>, jika jawaban salah maka kotak akan berwarna <font style="color:red;font-weight: bold">merah.</font></li>
         </ol>
     </div>
 <hr>
@@ -94,59 +94,43 @@
       <div class="soal1">
        <hr>
         <p>1. &nbsp;Beda potensial antara dua titik pada kawat penghantar sebesar 9 V. Berapakah energi listrik yang digunakan untuk memindahkan muatan sebesar 30 C di antara dua titik tersebut?</p>
-        <p><b>Diketahui :</b><br>
-              V = 9 V<br>
-              Q = 30 C<br>       
-            <b>Ditanya :</b><br>
-              W = ...<br>
-            <b>Jawab :</b><br>
-            \(W = V \times Q\)</p>
-
-        <p class="p1" style="display: none;">\(\;\;\; = 9 \times 30\)<br>
-            \(\;\;\; = 270 \)</p>
-            <p class="j1" style="display: none;"><b>Jawaban Benar</b><br>Jadi, besar energinya adalah 270 J</p>
+          <br>
+            <p>W = V x Q</p>
+            <p class="p1" style="display: none;">\(\;\; = 9 \times 30\)</p>
+            <div class="ja1" style="display: none;">\(\;\;\;\; = 270 \)<br><br>
+              <p class="j1">Jadi, besar energinya adalah 270 J</p>
+            </div>
 
             <!--input-->
-            <p class="coba">W = <input type="text" id="1aa" size="2" placeholder="nilai V"> \(\times\)
-                  <input type="text" id="1ab" size="2" placeholder="nilai Q"><br> 
-            &nbsp;&nbsp;&nbsp;&nbsp; = <input type="text" id="1ac" size="2" placeholder="Hasil"></p>
-            <br>
-        <input class="cek" type="submit" onclick="cek()" value="Cek Jawaban">
+            <p class="coba">W = <input type="text" id="1aa" size="2" placeholder="nilai V" onchange="cek()"> \(\times\)
+                  <input type="text" id="1ab" size="2" placeholder="nilai Q" onchange="cek()"></p> 
+            <p class="jj" style="display: none;">&nbsp;&nbsp;&nbsp;&nbsp; = <input type="text" id="1ac" size="2" placeholder="Hasil" onchange="cekk()"></p>
+            
         </div>
 
     <div class="soal2">
         <hr>
         <p>2. &nbsp;Jumlah muatan yang dipindahkan pada sebuah rangkaian listrik adalah 15 C. Jika energi yang dibutuhkan untuk memindahkan muatan tersebut dari ujung-ujung rangkaian listrik adalah 45 J, berapakah beda potensial antara ujung-ujung rangkaian tersebut?<p>
-              <p><b>Diketahui :</b><br>
-              W = 45 J<br>
-              Q = 15 C<br>
-            <b>Ditanya : </b><br>
-                V = ...<br>
-                <b>Jawab :</b><br>
-                \(V = \frac{W}{Q} \)</p>
-            <p class="p" style="display: none;">\(\;\; = \frac{45}{15}\)<br>
-                    \(\;\; = 3\)</p>
-            <p class="j2" style="display: none"><b>Jawaban Benar</b><br>
-                Jadi, beda potensial rangkaian tersebut adalah 3 V</p>
+          <br>
+              <p>\(V = \frac{W}{Q} \)</p><br>
+            <p class="p2" style="display: none;">\(\;\; = \frac{45}{15}\)</p>
+            <div class="ja2" style="display: none">\(\;\;\; = 3\)<br><br>
+                <p class="j2">Jadi, beda potensial rangkaian tersebut adalah 3 V</p>
+            </div>
         
             <!--input-->
             <table class="table2">
               <tr>
-                  <td rowspan="2">V = </td>
-                  <td class="tablebot"><input type="text" id="2aa" size="2" placeholder="nilai W"></td>
+                  <td rowspan="2">&nbsp;V &nbsp;= </td>
+                  <td class="tablebot">&nbsp;<input type="text" id="2aa" size="2" placeholder="nilai W" onchange="cek2()"></td>
               </tr>
               <tr>
-                  <td><input type="text" id="2ab" size="2" placeholder="nilai Q"></td>
-              </tr>
-              <tr>
-                  <td rowspan="2">&nbsp;&nbsp;&nbsp;&nbsp;= </td>
-              </tr>
-              <tr>
-                  <td><input type="text" id="2ac" size="2" placeholder="Hasil"></td>
+                  <td>&nbsp;<input type="text" id="2ab" size="2" placeholder="nilai Q" onchange="cek2()"></td>
               </tr>
             </table>
-            <br>
-        <input class="cek2" type="submit" onclick="cek2()" value="Cek Jawaban">
+              <br>
+            <p class="jj2" style="display: none;">&nbsp;&nbsp;&nbsp;&nbsp;= <input type="text" id="2ac" size="2" placeholder="Hasil" onchange="cekk2()"></p>
+              
       </div>
     
     <div class="soal3">

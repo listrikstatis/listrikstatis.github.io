@@ -254,6 +254,13 @@ color: transparent;
   font-family: verdana,arial,helvetica;
 } 
 
+.none{
+  display: none;
+}
+.block{
+  display: block;
+}
+
 /*================================================================================================================*/
 .vid{
   width: 50%;
