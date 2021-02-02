@@ -398,7 +398,7 @@ dat.onreadystatechange = function () {
                 // console.log("jwb_user_urut :" + new_jwb_urut);
                 // simpan kedatabase----------
                 console.log(namanya.value);
-                console.log(sekolah);
+                console.log(sekolah.value);
                 console.log(kelasfix);
                 console.log(hasilakhir);
 
