@@ -39,7 +39,7 @@ p{
 .j1, .j2, .j3{
   border: 3px solid green;
   padding: 10px;
-  width: 37%; 
+  width: 40%; 
 }
 
 .m1, .m2, .m3{
@@ -86,7 +86,7 @@ b{
 
 .disable {
   cursor: not-allowed;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 h4 {
@@ -224,6 +224,7 @@ hr{
 
 input{
   line-height: 1.5em;
+  text-align: center;
 }
 
 :hover::-webkit-input-placeholder { /* Chrome/Opera/Safari */

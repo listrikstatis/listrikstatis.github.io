@@ -1,33 +1,34 @@
 //SOAL 1
 function cek(){
   
-  let a1= document.getElementById("1aa").value;
-  let b1= document.getElementById("1ab").value;
+  let v1= document.getElementById("v1").value;
+  let q1= document.getElementById("q1").value;
   
-  if (a1 == "9" && b1 == "30") {
+  if (v1 == "9" && q1 == "30") {
     document.getElementsByClassName('p1')[0].style.display='block';
-    document.getElementsByClassName('coba')[0].style.display='none';
-    document.getElementsByClassName('jj')[0].style.display='block';
-  } else if(a1=="9"){    
-    document.getElementById("1aa").style="border: 3px solid green";
-  } else if(b1=="30"){    
-    document.getElementById("1ab").style="border: 3px solid green";
+    document.getElementsByClassName('rumus')[0].style.display='none';
+    document.getElementsByClassName('nilai')[0].style.display='block';
+  } else if(v1=="9"){    
+    document.getElementById("v1").style="border: 3px solid green";
+  } else if(q1=="30"){    
+    document.getElementById("q1").style="border: 3px solid green";
   } else{    
-    document.getElementById("1aa").style="border: 3px solid red";
-    document.getElementById("1ab").style="border: 3px solid red";
+    document.getElementById("v1").style="border: 3px solid red";
+    document.getElementById("q1").style="border: 3px solid red";
   }
 
 }
 
 function cekk(){
-  let c1= document.getElementById("1ac").value;
+  let h1= document.getElementById("h1").value;
 
-  if(c1 == "270"){    
-    document.getElementById("1ac").style="border: 3px solid green";    
-    document.getElementsByClassName('jj')[0].style.display='none';
-    document.getElementsByClassName('ja1')[0].style.display='block';
+  if(h1 == "270"){    
+    document.getElementById("h1").style="border: 3px solid green";    
+    document.getElementsByClassName('nilai')[0].style.display='none';
+    document.getElementsByClassName('ja1')[0].style.display='block';    
+    document.getElementsByClassName('j1')[0].style.display='block';
   } else{    
-    document.getElementById("1ac").style="border: 3px solid red";
+    document.getElementById("h1").style="border: 3px solid red";
   }
 }
 
@@ -40,6 +41,7 @@ function cek2(){
   if (a2 == "45" && b2 == "15") {
     document.getElementsByClassName('p2')[0].style.display='block';
     document.getElementsByClassName('table2')[0].style.display='none';
+    document.getElementsByClassName('jjj')[0].style.display='none';
     document.getElementsByClassName('jj2')[0].style.display='block';
   } else if(a2=="45"){    
     document.getElementById("2aa").style="border: 3px solid green";
@@ -58,6 +60,7 @@ function cekk2(){
     document.getElementById("2ac").style="border: 3px solid green";    
     document.getElementsByClassName('jj2')[0].style.display='none';
     document.getElementsByClassName('ja2')[0].style.display='block';
+    document.getElementsByClassName('j2')[0].style.display='block';
   } else{    
     document.getElementById("2ac").style="border: 3px solid red";
   }

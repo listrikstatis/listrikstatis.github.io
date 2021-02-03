@@ -168,7 +168,7 @@ body{
 .page a.active {
   background-color: #334E5C;
   color: white;
-  border: 2px solid #334E5C;
+  border: 3px solid #334E5C;
 }
 .page a:hover:not(.active) {
   background-color: #2580a2;
