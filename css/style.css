@@ -72,9 +72,9 @@ body{
 }
 
 .konten1{
-  float: left;
   left: 13.5%;
   top: 8%;
+  position: static;
   background-color: white;
   width: 41.6%;
   height: 534px;
@@ -82,13 +82,13 @@ body{
   overflow: auto;
   border: 2px solid #7f8c8d;
   border-radius: 5px;
-  position: absolute;
 }
 
 .konten2{
-  float: left;
+  top: 7.5%;
+  position: absolute;
   left: 57.5%;
-  top: 8%;
+  float: right;
   background-color: white;
   width: 40%;
   height: 534px;
@@ -96,7 +96,6 @@ body{
   overflow: auto;
   border: 2px solid #7f8c8d;
   border-radius: 5px;
-  position: absolute;
 }
 
 .isi{
@@ -137,13 +136,12 @@ body{
 .center {
   position: sticky;
   top: 94%;
-  float: left;
   left: 42%;
   width: auto;
+  margin: 1px;
 }
 
 .centerr {
-  float: left;
   position: sticky;
   top: 94%;
   width: auto;

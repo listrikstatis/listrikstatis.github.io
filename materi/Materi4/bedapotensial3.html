@@ -86,7 +86,8 @@
 <hr>
 <h4><i class="fas fa-pen"></i>&nbsp;Soal</h4>
   <div class="garis"> 
-    <br><center>
+    <br>
+  <center>
     <button class="no1"><i class="fas fa-pen"></i>&nbsp;Soal 1</button>
     <button class="no2"><i class="fas fa-pen"></i>&nbsp;Soal 2</button>
     <button class="no3"><i class="fas fa-pen"></i>&nbsp;Soal 3</button>
@@ -165,38 +166,37 @@
               
       </div>
     
-    <!-- <div class="soal3"> -->
+    <div class="soal3">
        <hr>
         <p>3. &nbsp;Untuk memindahkan muatan sebesar 10 C dari A ke B diperlukan usaha sebesar 100 Joule hitunglah potensial A ke B tersebut?</p> 
-            <p><b>Diketahui :</b><br>
-              W = 100 J<br>
-              Q = 10 C<br>
-            <b>Ditanya : </b><br>
-                V = ...<br>
-                <b>Jawab :</b></p>
-              <p>\(V = \frac{W}{Q} \)</p>
-            <p class="j" style="display: none;">\(\;\; = \frac{100}{10}\)<br>
-                    \(\;\; = 10\)</p>
-            <p class="j3" style="display: none"><b>Jawaban Benar</b><br>
-                Jadi, beda potensial A ke B adalah 10 V</p>
+            <br>
+            <table>
+              <tr>
+                <td>\(V = \frac{W}{Q} \)</td>
+              </tr>
+            <tr class="p3" style="display: none;">
+              <td>\(\;\; = \frac{100}{10}\)</td>
+            </tr>
+            <tr class="ja3" style="display: none">
+              <td>\(\;\; = 10\)</td>
+            <tr>
+            </table>
+            <p class="j3" style="display: none;">Benar, beda potensial rangkaian tersebut adalah 10 V</p>
         
             <!--input-->
-            <table class="table1">
-              <tr>
-                  <td rowspan="2">V = </td>
+            <table>
+              <tr class="table1">
+                  <td rowspan="2">&nbsp;V &nbsp;= </td>
                   <td class="tablebot"><input type="text" id="3aa" size="2" placeholder="nilai W" onchange="cek3()"></td>
               </tr>
-              <tr>
+              <tr class="jjj3">
                   <td><input type="text" id="3ab" size="2" placeholder="nilai Q" onchange="cek3()"></td>
               </tr>
-              <tr>
-                  <td rowspan="2">&nbsp;&nbsp;&nbsp;&nbsp;= </td>
-              </tr>
-              <tr>
-                  <td><input type="text" id="3ac" size="2" placeholder="Hasil"></td>
+              <tr class="jj3" style="display: none;">
+                  <td>&nbsp;&nbsp;&nbsp; = <input type="text" id="3ac" size="2" placeholder="Hasil" onchange="cekk3()"></td>
               </tr>
             </table>
-    <!-- </div> -->
+    </div>
 
   </div><!--garis-->
 

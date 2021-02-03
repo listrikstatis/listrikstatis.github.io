@@ -68,39 +68,36 @@ function cekk2(){
 
 //SOAL 3
 function cek3(){
-  let a= document.getElementById("3aa").value;
-  let b= document.getElementById("3ab").value;
-  let c= document.getElementById("3ac").value;
   
-  if (a == "100" && b == "10" && c == "10") {
-    document.getElementsByClassName('cek3')[0].style.display='none';
-    document.getElementsByClassName('j')[0].style.display='block';
-    document.getElementsByClassName('j3')[0].style.display='block';
+  let a3= document.getElementById("3aa").value;
+  let b3= document.getElementById("3ab").value;
+  
+  if (a3 == "100" && b3 == "10") {
+    document.getElementsByClassName('p3')[0].style.display='block';
     document.getElementsByClassName('table1')[0].style.display='none';
-  } else {
-     document.getElementById("3aa").style="border: 3px solid red";
-     document.getElementById("3ab").style="border: 3px solid red";   
-     document.getElementById("3ac").style="border: 3px solid red";    
-  }
-
-  if (a == "100") {
+    document.getElementsByClassName('jjj3')[0].style.display='none';
+    document.getElementsByClassName('jj3')[0].style.display='block';
+  } else if(a3=="100"){    
     document.getElementById("3aa").style="border: 3px solid green";
-  } else {
-     document.getElementById("3aa").style="border: 3px solid red";
-  }
-
-  if (b == "10") {
+  } else if(b3=="10"){    
     document.getElementById("3ab").style="border: 3px solid green";
-  } else {
-     document.getElementById("3ab").style="border: 3px solid red";
+  } else{    
+    document.getElementById("3aa").style="border: 3px solid red";
+    document.getElementById("3ab").style="border: 3px solid red";
   }
+}
 
-  if (c == "10") {
-    document.getElementById("3ac").style="border: 3px solid green";
-  } else {
-     document.getElementById("3ac").style="border: 3px solid red";
+function cekk3(){
+  let c3= document.getElementById("3ac").value;
+
+  if(c3 == "10"){    
+    document.getElementById("3ac").style="border: 3px solid green";    
+    document.getElementsByClassName('jj3')[0].style.display='none';
+    document.getElementsByClassName('ja3')[0].style.display='block';
+    document.getElementsByClassName('j3')[0].style.display='block';
+  } else{    
+    document.getElementById("3ac").style="border: 3px solid red";
   }
-
 }
 
 //Input Soal 1
