@@ -99,6 +99,24 @@ h4 {
   font-size: 20px
 }
 
+.contohbtn {
+  display: inline-block;
+  color: white;
+  background-color: #46B29E;
+  font-family: sans-serif;
+  padding: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.contohbtn:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
 .no1, .no2, .no3 {
   display: inline-block;
   color: white;
@@ -107,7 +125,7 @@ h4 {
   font-family: sans-serif;
   padding: 10px;
   margin-right: 5px;
-  margin-top: -15px;
+  margin-top: -30px;
   cursor: pointer;
   border-radius: 5px;
   font-size: 18px;

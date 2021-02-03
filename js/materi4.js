@@ -1,3 +1,11 @@
+$(document).ready(function(){
+    $(".contohsoal").hide();
+          $(".contohbtn").click(function(){
+              $(".contohsoal").show(0);
+              $(".contohbtn").hide(0);
+          });          
+});
+
 //SOAL 1
 function cek(){
   

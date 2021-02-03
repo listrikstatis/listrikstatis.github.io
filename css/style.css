@@ -72,8 +72,6 @@ body{
 }
 
 .konten1{
-  left: 13.5%;
-  top: 8%;
   position: static;
   background-color: white;
   width: 41.6%;
@@ -85,7 +83,7 @@ body{
 }
 
 .konten2{
-  top: 8.1%;
+  top: 8%;
   position: absolute;
   left: 57.5%;
   float: right;
