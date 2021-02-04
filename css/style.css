@@ -133,7 +133,6 @@ body{
 /*Halaman*/
 .center {
   position: sticky;
-  top: 94%;
   left: 42%;
   width: auto;
   margin: 1px;
@@ -141,15 +140,14 @@ body{
 
 .centerr {
   position: sticky;
-  top: 94%;
   width: auto;
-  left: 45%;
   margin: 1px;
 }
 
 .page {
   display: inline-block;
   position: static;
+  margin-top: 2px;
 }
 .page a {
   color: white;

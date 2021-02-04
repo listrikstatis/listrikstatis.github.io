@@ -21,6 +21,9 @@ function benar(){
   document.getElementById('b1').style.display = 'block';
   document.getElementById('s1').style.display = 'none';  
   document.getElementById('nomor2').style.display = 'block';
+  document.getElementById('false').style.display = 'none';
+  document.getElementById('false1').style.display = 'none';
+  document.getElementById('false2').style.display = 'none';
 }
 
 function salah2(){
@@ -31,7 +34,10 @@ function salah2(){
 function benar2(){
   document.getElementById('b2').style.display = 'block';
   document.getElementById('s2').style.display = 'none';    
-  document.getElementById('nomor3').style.display = 'block';
+  document.getElementById('nomor3').style.display = 'block';  
+  document.getElementById('false3').style.display = 'none';
+  document.getElementById('false4').style.display = 'none';
+  document.getElementById('false5').style.display = 'none';
 }
 
 function salah3(){
@@ -41,7 +47,11 @@ function salah3(){
 
 function benar3(){
   document.getElementById('b3').style.display = 'block';
-  document.getElementById('s3').style.display = 'none';
+  document.getElementById('s3').style.display = 'none'; 
+  document.getElementById('false6').style.display = 'none';
+  document.getElementById('false7').style.display = 'none';
+  document.getElementById('false8').style.display = 'none';
+  document.getElementById('kesimpulan').style.display = 'block';
 }
 
 //Halaman 3

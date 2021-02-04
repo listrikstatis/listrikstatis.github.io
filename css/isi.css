@@ -9,18 +9,17 @@ p{
 .first p{
   font-size: 36px;
   text-align: center;
-  padding: 40% 0;
+  padding: 5% 0;
   font-weight: bold;
 }
 .first2 p{
   font-size: 36px;
   text-align: center;
-  padding: 40% 0;
+  padding: 5% 0;
   font-weight: bold;
 }
 .first, .first2{
   background-color: #46B29E;
-  height: 100%;
 }
 
 .contoh1, .contoh2, .contoh3{
@@ -297,6 +296,10 @@ color: transparent;
   margin-bottom: 2px;
 }
 
+.vidbenar {
+  width: 50%;
+}
+
 /*===========================================================================================================*/
 @media screen and (max-width:1000px) {
   .j1, .j2, .j3{
@@ -352,6 +355,10 @@ p{
 }
 
 .vidmat {
+  width: 100%;
+}
+
+.vidbenar{
   width: 100%;
 }
 
