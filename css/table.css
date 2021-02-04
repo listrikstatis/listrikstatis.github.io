@@ -2,10 +2,16 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     margin: 0 auto;
-    text-align: justify;
+    width: auto;
 }
 th, td {
     padding: 3px;
+}
+
+.quiz {
+    border: none;
+    margin: 0 auto;
+    width: auto;
 }
 
 .read{

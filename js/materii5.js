@@ -1,26 +1,29 @@
-$(document).ready(function(){
-  $(".o").hide();
-    $(".read").click(function(){
-      $(".read").hide(0);
-      $(".o").show(100);
-    });
-});
-
 //--------------------------------------
-function contoh(evt, _isi) {
-  var j, tabconten, tablink;
-  tabconten = document.getElementsByClassName("tabconten");
-  for (j = 0; j < tabconten.length; j++) {
-    tabconten[j].style.display = "none";
-  }
-  tablink = document.getElementsByClassName("tablink");
-  for (j = 0; j < tablink.length; j++) {
-    tablink[j].className = tablink[j].className.replace(" active", "");
-  }
-  document.getElementById(_isi).style.display = "block";
-  evt.currentTarget.className += " active";
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
 }
 
-document.getElementById("Open2").click();
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" activeuy", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " activeuy";
+}
 
 
