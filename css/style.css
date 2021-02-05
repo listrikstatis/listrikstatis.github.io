@@ -14,7 +14,7 @@ body{
   float: left;
   width: 100%;
   background-color: #46B29E;
-  padding: 5px;
+  padding: 8px;
   text-align: -webkit-center;
   position: absolute;
 }
@@ -23,7 +23,7 @@ body{
   width: 100%;
   background-color: #46B29E;
   text-align: -webkit-center;
-  padding: 5px;
+  padding: 7px;
   margin-left: 7%;
   position: static;
 }
@@ -47,9 +47,10 @@ body{
 }
 
 .headerimg2{
-  padding-top: 5px;
+  padding-top: 7px;
   width: 35%;
   text-align: -webkit-center;
+  margin-bottom: -6px;
 }
 
 .headerimg3{

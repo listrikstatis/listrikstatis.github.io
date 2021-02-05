@@ -108,16 +108,16 @@ h4 {
   cursor: pointer;
   border-radius: 5px;
   font-size: 16px;
+  font-weight: bold;
   width: 100%;
   margin-bottom: 1%;
 }
 
 .contohbtn:hover,
 .soalbtn:hover {
-  background-color: rgb(175, 173, 173);
+  background-color: #334E5C;
   cursor: pointer;
   font-weight: bold;
-  color: black;
 }
 
 .no1, .no2, .no3 {
@@ -169,6 +169,8 @@ hr{
 }
 .klik:hover{
   background-color: darkcyan;
+  color: white;
+  font-weight: bold;
 }
 
 .diket2, .dit2, .jwb2{
@@ -304,7 +306,7 @@ color: transparent;
   width: auto;
 }
 
-tr td{
+.tabelnya tr td{
   padding: 5px;
   border: 1px solid black;
 }
