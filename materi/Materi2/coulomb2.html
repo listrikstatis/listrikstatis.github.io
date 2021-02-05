@@ -9,6 +9,17 @@
     <link rel="stylesheet" href="../../fontawesome/css/all.css">
     <script src="../../js/jquery.js"></script>
     <script src="https://kit.fontawesome.com/317815b2fb.js" crossorigin="anonymous"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+    </script>
+    <script src="../../js/mathjax.js"></script>
 </head>
 <body>
 
@@ -75,6 +86,12 @@
 </div>
 
 <div class="isi"><!--ISI NYA-->
+<h4 class="tampil"><i class="far fa-check-square"></i>&nbsp; Tujuan</h4> 
+    <div class="dalam1">
+        <p>•&nbsp;&nbsp;Siswa dapat menghitung besar gaya coulomb dua muatan listrik.</p>
+    </div>
+
+    <hr>
 
 <h4><i class="fas fa-book-open"></i>&nbsp; Gaya Listrik</h4>
   <div class="garis"> 
@@ -89,10 +106,10 @@
 <h4><i class="fas fa-book-open"></i>&nbsp; Rumus Hukum Coulomb</h4>
   <div class="garis">
       <p>Secara matematis, rumusan besarnya gaya coulomb dapat dituliskan dalam persamaan sebagai berikut.</p>
-      <p class="pborder">\(F = k \large\frac{Q_1 . Q_2}{r^2}\)</p>
+      <p class="pborder">$$F = k \frac{Q_1 . Q_2}{r^2}$$</p>
       <p>Keterangan:<br>
             F&nbsp;&nbsp;&nbsp; = Gaya coulomb (Newton)<br>
-            k&nbsp;&nbsp;&nbsp; = konstanta = \(9 × 10^9\; Nm^2/C^2\)<br>
+            k&nbsp;&nbsp;&nbsp; = konstanta = $9 × 10^9\; Nm^2/C^2$<br>
             r&nbsp;&nbsp;&nbsp; = jarak antara dua muatan (meter)<br>
             Q<sub>1</sub>   = besar muatan listrik benda pertama (coulomb)<br>
             Q<sub>2</sub>   = besar muatan listrik benda kedua (coulomb)
@@ -120,6 +137,6 @@
 
 </body>
 
-<script src="../../js/mathjax.js"></script>
+
 <script src="../../js/konten.js"></script>
 </html>
