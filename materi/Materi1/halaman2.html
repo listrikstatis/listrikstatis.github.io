@@ -90,185 +90,187 @@
     <br>
     </div>
 
-    <h4><i class="fas fa-pen"></i>&nbsp; Pertanyaan</h4>
-      <div class="garis">
-            <div class="first2">
-                <p>Tonton video terlebih dahulu!</p>
+        <!-- Pertanyaan -->
+        <h4><i class="fas fa-pen"></i>&nbsp; Pertanyaan</h4>
+          <div class="garis">
+                <div class="first2">
+                    <p>Tonton video terlebih dahulu!</p>
+                </div>
+
+        <div class="kolom">
+            <p><b style="line-height: 1;">Jawablah pertanyaan di bawah ini setelah kalian menonton video di atas!</b></p>
+            <br>
+            <ol>
+              <li class="nomor">Dari hasil percobaan pada video di samping, Penggaris plastik yang telah digosok ke kain wol akan bermuatan ...</li>
+              <p class="rad" id="false"><input type="radio" name="pil" onchange="salah()"/>&nbsp;Positif</p>
+              <p class="rad"><input type="radio" name="pil" onchange="benar()"/>&nbsp;Negatif</p>
+              <p class="rad" id="false1"><input type="radio" name="pil" onchange="salah()"/>&nbsp;Netral</p>
+              <p class="rad" id="false2"><input type="radio" name="pil" onchange="salah()"/>&nbsp;Proton</p>
+
+                  <div class="s1" id="s1" style="display:none">Salah</div>
+                  <div class="b1" id="b1" style="display:none"><b>Benar</b><br>
+                        <p><b style="text-decoration: underline;">Pembahasan :</b><p> 
+                          <p>Penggaris yang telah digosokkan pada kain wol akan bermuatan negatif karena penggaris kelebihan elektron (elektron dari kain wol pindah ke penggaris).</p>
+                        <center><video class="vidbenar" controls autoplay loop><source src="../../video/no1.mp4" type="video/mp4"></video></center>
+                  </div>
+    <br>    
+            <div id="nomor2" style="display: none;">
+              <li class="nomor">Dari hasil percobaan pada video di samping, batang kaca yang telah digosok ke kain sutra akan bermuatan ...</li>
+              <p class="rad"><input type="radio" name="pil2" onchange="benar2()"/>&nbsp;Positif</p>
+              <p class="rad" id="false3"><input type="radio" name="pil2" id="false2" onchange="salah2()"/>&nbsp;Negatif</p>
+              <p class="rad" id="false4"><input type="radio" name="pil2" id="false2" onchange="salah2()"/>&nbsp;Netral</p>
+              <p class="rad" id="false5"><input type="radio" name="pil2" id="false2" onchange="salah2()"/>&nbsp;Proton</p>
+
+                  <div class="s2" id="s2" style="display:none">Salah</div>
+                  <div class="b2" id="b2" style="display:none"><b>Benar</b>
+                        <p><b style="text-decoration: underline;">Pembahasan :</b><br>
+                          Batang kaca yang digosokkan pada kain sutra akan bermuatan positif karena kaca kekurangan elektron (elektron dari kaca pindah ke kain sutra).</p>
+                        <center><video class="vidbenar" controls autoplay loop><source src="../../video/no2.mp4" type="video/mp4"></video></center>
+                  </div>
             </div>
+    <br>
+            <div id="nomor3" style="display: none;">
+              <li class="nomor">Berdasarkan dari hasil percobaan, saat penggaris plastik dengan batang kaca didekatkan akan saling ...</li>
+              <p class="rad" id="false6"><input type="radio" name="pil3" id="false2" onchange="salah3()"/>&nbsp;Mempertahankan posisi</p>
+              <p class="rad" id="false7"><input type="radio" name="pil3" id="false2" onchange="salah3()"/>&nbsp;Tolak-menolak</p>
+              <p class="rad"><input type="radio" name="pil3" onchange="benar3()"/>&nbsp;Tarik-menarik</p>
+              <p class="rad" id="false8"><input type="radio" name="pil3" id="false2" onchange="salah3()"/>&nbsp;Menolak dan menarik</p>
 
-    <div class="kolom">
-        <p><b style="line-height: 1;">Jawablah pertanyaan di bawah ini setelah kalian menonton video di atas!</b></p>
-        <br>
-        <ol>
-          <li class="nomor">Dari hasil percobaan pada video di samping, Penggaris plastik yang telah digosok ke kain wol akan bermuatan ...</li>
-          <p class="rad" id="false"><input type="radio" name="pil" onchange="salah()"/>&nbsp;Positif</p>
-          <p class="rad"><input type="radio" name="pil" onchange="benar()"/>&nbsp;Negatif</p>
-          <p class="rad" id="false1"><input type="radio" name="pil" onchange="salah()"/>&nbsp;Netral</p>
-          <p class="rad" id="false2"><input type="radio" name="pil" onchange="salah()"/>&nbsp;Proton</p>
+                  <div class="s3" id="s3" style="display:none">Salah</div>
+                  <div class="b3" id="b3" style="display:none"><b>Benar</b>
+                        <p><b style="text-decoration: underline;">Pembahasan :</b><br>
+                          Setiap benda yang bermuatan sama akan tolak-menolak, tetapi muatan yang berbeda akan saling tarik-menarik.</p>
+                  </div>
+              </ol>
 
-              <div class="s1" id="s1" style="display:none">Salah</div>
-              <div class="b1" id="b1" style="display:none"><b>Benar</b><br>
-                    <p><b style="text-decoration: underline;">Pembahasan :</b><p> 
-                      <p>Penggaris yang telah digosokkan pada kain wol akan bermuatan negatif karena penggaris kelebihan elektron (elektron dari kain wol pindah ke penggaris).</p>
-                    <center><video class="vidbenar" controls autoplay loop><source src="../../video/no1.mp4" type="video/mp4"></video></center>
-              </div>
-<br>    
-        <div id="nomor2" style="display: none;">
-          <li class="nomor">Dari hasil percobaan pada video di samping, batang kaca yang telah digosok ke kain sutra akan bermuatan ...</li>
-          <p class="rad"><input type="radio" name="pil2" onchange="benar2()"/>&nbsp;Positif</p>
-          <p class="rad" id="false3"><input type="radio" name="pil2" id="false2" onchange="salah2()"/>&nbsp;Negatif</p>
-          <p class="rad" id="false4"><input type="radio" name="pil2" id="false2" onchange="salah2()"/>&nbsp;Netral</p>
-          <p class="rad" id="false5"><input type="radio" name="pil2" id="false2" onchange="salah2()"/>&nbsp;Proton</p>
-
-              <div class="s2" id="s2" style="display:none">Salah</div>
-              <div class="b2" id="b2" style="display:none"><b>Benar</b>
-                    <p><b style="text-decoration: underline;">Pembahasan :</b><br>
-                      Batang kaca yang digosokkan pada kain sutra akan bermuatan positif karena kaca kekurangan elektron (elektron dari kaca pindah ke kain sutra).</p>
-                    <center><video class="vidbenar" controls autoplay loop><source src="../../video/no2.mp4" type="video/mp4"></video></center>
-              </div>
-        </div>
-<br>
-        <div id="nomor3" style="display: none;">
-          <li class="nomor">Berdasarkan dari hasil percobaan, saat penggaris plastik dengan batang kaca didekatkan akan saling ...</li>
-          <p class="rad" id="false6"><input type="radio" name="pil3" id="false2" onchange="salah3()"/>&nbsp;Mempertahankan posisi</p>
-          <p class="rad" id="false7"><input type="radio" name="pil3" id="false2" onchange="salah3()"/>&nbsp;Tolak-menolak</p>
-          <p class="rad"><input type="radio" name="pil3" onchange="benar3()"/>&nbsp;Tarik-menarik</p>
-          <p class="rad" id="false8"><input type="radio" name="pil3" id="false2" onchange="salah3()"/>&nbsp;Menolak dan menarik</p>
-
-              <div class="s3" id="s3" style="display:none">Salah</div>
-              <div class="b3" id="b3" style="display:none"><b>Benar</b>
-                    <p><b style="text-decoration: underline;">Pembahasan :</b><br>
-                      Setiap benda yang bermuatan sama akan tolak-menolak, tetapi muatan yang berbeda akan saling tarik-menarik.</p>
-              </div>
-          </ol>
-
-        </div>
-      </div>
-
-        <div id="kesimpulan" style="display: none;">
-        <hr>
-          <h4><i class="fas fa-book-open"></i>&nbsp; Muatan Pada Benda</h4>
-            <div class="garis">
-              <p class="bawah" style="text-indent: 45px;">Pada umumnya jumlah elektron dan proton pada atom sebuah benda adalah sama, sehingga atom-atom pada benda tidak bermuatan atau netral. Jika benda tersebut netral, maka benda tersebut dapat diubah menjadi bermuatan. Salah satu cara untuk mengubah benda menjadi bermuatan adalah menggosokkan benda. Jika dua benda saling digosokkan, maka elektron dari benda yang satu akan pindah ke benda yang lain, sehingga benda yang kehilangan elektron (kekurangan elektron) akan bermuatan positif dan benda yang menerima pindahan elektron (kelebihan elektron) akan bermuatan negatif. Seperti yang dicontohkan pada video diatas yaitu penggaris plastik yang digosokkan pada kain wol, serta batang kaca yang digosokkan pada kain sutra.</p>
             </div>
-        </div>
+          </div>
+
+          <!-- kesimpulan -->
+                <div id="kesimpulan" style="display: none;">
+                <hr>
+                  <h4><i class="fas fa-book-open"></i>&nbsp; Muatan Pada Benda</h4>
+                    <div class="garis">
+                      <p class="bawah" style="text-indent: 45px;">Pada umumnya jumlah elektron dan proton pada atom sebuah benda adalah sama, sehingga atom-atom pada benda tidak bermuatan atau netral. Jika benda tersebut netral, maka benda tersebut dapat diubah menjadi bermuatan. Salah satu cara untuk mengubah benda menjadi bermuatan adalah menggosokkan benda. Jika dua benda saling digosokkan, maka elektron dari benda yang satu akan pindah ke benda yang lain, sehingga benda yang kehilangan elektron (kekurangan elektron) akan bermuatan positif dan benda yang menerima pindahan elektron (kelebihan elektron) akan bermuatan negatif. Seperti yang dicontohkan pada video diatas yaitu penggaris plastik yang digosokkan pada kain wol, serta batang kaca yang digosokkan pada kain sutra.</p>
+                    </div>
+                </div>
 
   <div id="deret" style="display: none;">
     <hr>
       <table>
         <tr>
           <td style="width: 50%;border: none;">
-            <h4><i class="fas fa-book-open"></i>&nbsp; Deret Tribolistrik</h4>
-              <div class="gariskiri">
-                  <p style="text-indent: 45px;">Deret tribolistrik menunjukkan urutan deret benda yang akan bermuatan negatif bila digosok dengan sembarang benda di atasnya dan akan bermuatan positif bila digosok dengan benda di bawahnya. 
-                    Misalkan jika ebonit digosok dengan wol, maka ebonit akan bermuatan negatif. Berikut tabel deret tribolistrik.</p><br>
-                                                                                          <!-- dan wol akan bermuatan positif -->
-                  <center><i style="line-height: 2;">Tabel Deret Tribolistrik</i></center>
-                  <table class="tabelnya">
-                    <tr>
-                      <td style="background-color: #bdc3c7;font-weight: bold;">No</td>
-                      <td style="background-color: #bdc3c7;font-weight: bold;">Nama Benda</td>
-                      <td style="background-color:#bdc3c7;font-weight: bold;">No</td>
-                      <td style="background-color: #bdc3c7;font-weight: bold;">Nama Benda</td>
-                    </tr>
-                    <tr>
-                      <td>1</td>
-                      <td>Bulu kelinci</td>
-                      <td>8</td>
-                      <td>Kayu</td>
-                    </tr>
-                    <tr>
-                      <td>2</td>
-                      <td>Gelas (kaca)</td>
-                      <td>9</td>
-                      <td>Batu ambar</td>
-                    </tr>
-                    <tr>
-                      <td>3</td>
-                      <td>Mika (plastik)</td>
-                      <td>10</td>
-                      <td>Damar</td>
-                    </tr>
-                    <tr>
-                      <td>4</td>
-                      <td>Wol</td>
-                      <td>11</td>
-                      <td>Logam (Cu, Ni, Ag)</td>
-                    </tr>
-                    <tr>
-                      <td>5</td>
-                      <td>Bulu kucing</td>
-                      <td>12</td>
-                      <td>Belerang</td>
-                    </tr>
-                    <tr>
-                      <td>6</td>
-                      <td>Sutra</td>
-                      <td>13</td>
-                      <td>Logam (Pt, Au)</td>
-                    </tr>
-                    <tr>
-                      <td>7</td>
-                      <td>Kapas</td>
-                      <td>14</td>
-                      <td>Solenoid</td>
-                    </tr>
-                  </table>
-              </div>
+              <h4><i class="fas fa-book-open"></i>&nbsp; Deret Tribolistrik</h4>
+                <div class="gariskiri">
+                    <p style="text-indent: 45px;">Deret tribolistrik menunjukkan urutan deret benda yang akan bermuatan negatif bila digosok dengan sembarang benda di atasnya dan akan bermuatan positif bila digosok dengan benda di bawahnya. 
+                      Misalkan jika ebonit digosok dengan wol, maka ebonit akan bermuatan negatif. Berikut tabel deret tribolistrik.</p><br>
+                                                                                            <!-- dan wol akan bermuatan positif -->
+                    <center><i style="line-height: 2;">Tabel Deret Tribolistrik</i></center>
+                    <table class="tabelnya">
+                      <tr>
+                        <td style="background-color: #bdc3c7;font-weight: bold;">No</td>
+                        <td style="background-color: #bdc3c7;font-weight: bold;">Nama Benda</td>
+                        <td style="background-color:#bdc3c7;font-weight: bold;">No</td>
+                        <td style="background-color: #bdc3c7;font-weight: bold;">Nama Benda</td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>Bulu kelinci</td>
+                        <td>8</td>
+                        <td>Kayu</td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Gelas (kaca)</td>
+                        <td>9</td>
+                        <td>Batu ambar</td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>Mika (plastik)</td>
+                        <td>10</td>
+                        <td>Damar</td>
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                        <td>Wol</td>
+                        <td>11</td>
+                        <td>Logam (Cu, Ni, Ag)</td>
+                      </tr>
+                      <tr>
+                        <td>5</td>
+                        <td>Bulu kucing</td>
+                        <td>12</td>
+                        <td>Belerang</td>
+                      </tr>
+                      <tr>
+                        <td>6</td>
+                        <td>Sutra</td>
+                        <td>13</td>
+                        <td>Logam (Pt, Au)</td>
+                      </tr>
+                      <tr>
+                        <td>7</td>
+                        <td>Kapas</td>
+                        <td>14</td>
+                        <td>Solenoid</td>
+                      </tr>
+                    </table>
+                </div>
           </td>                           
         
           <td class="quizs">
-            <h4><i class="fas fa-pen"></i>&nbsp; Pertanyaan</h4>
-          <div class="gariskanan">
-            <p>
-              Jawablah pertanyaan dibawah berdasarkan tabel tribolistrik.
-            </p>
-          <br>
-            <table class="tabelnya">
-            <tr>
-              <td style="text-align: center;font-weight: bold;">Benda</td>
-              <td style="text-align: center;font-weight: bold;">Digosok dengan</td>
-              <td style="text-align: center;font-weight: bold;">Muatan listrik</td>
-            </tr>
-            <tr>
-              <td>Kain wol</td>
-              <td>Ebonit</td>
-              <td><input style="font-weight: bold;border-color: green" size="9" value="positif" disabled>
-              <img class="imgbenar" src="../../img/benar.png"/></td>
-            </tr>
-            <tr>
-              <td>Plastik</td>
-              <td>Kain wol</td>
-              <td><input style="text-align: center;"  type="text" id="no1" size="9" onchange="cekjwbn()" placeholder="....">
-              <img class="imgbenar" id="cek1"/></td>
-            </tr>
-            <tr>
-              <td>Gelas</td>
-              <td>Kain wol</td>
-              <td><input style="text-align: center;" type="text" id="no2" size="9" onchange="cekjwbn2()" placeholder="....">
-              <img class="imgbenar" id="cek2"/></td>
-            </tr>
-            <tr>
-              <td>Kaca</td>
-              <td>Kain sutra</td>
-              <td><input style="text-align: center;" type="text" id="no3" size="9" onchange="cekjwbn3()" placeholder="....">
-              <img class="imgbenar" id="cek3"/></td>
-            </tr>
-            <tr>
-              <td>Sisir</td>
-              <td>Rambut</td>
-              <td><input style="text-align: center;" type="text" id="no4" size="9" onchange="cekjwbn4()" placeholder="....">
-              <img class="imgbenar" id="cek4"/></td>
-            </tr>
-            <tr>
-              <td>Penggaris</td>
-              <td>Kapas</td>
-              <td><input style="text-align: center;" type="text" id="no5" size="9" onchange="cekjwbn5()" placeholder="....">
-              <img class="imgbenar" id="cek5"/></td>
-            </tr>
-          </table>
-            
-        </div>
+              <h4><i class="fas fa-pen"></i>&nbsp; Pertanyaan</h4>                  
+                  <div class="gariskanan">
+                    <p>
+                      Jawablah pertanyaan dibawah berdasarkan tabel tribolistrik.
+                    </p>
+                  <br>
+                    <table class="tabelnya">
+                    <tr>
+                      <td style="text-align: center;font-weight: bold;">Benda</td>
+                      <td style="text-align: center;font-weight: bold;">Digosok dengan</td>
+                      <td style="text-align: center;font-weight: bold;">Muatan listrik</td>
+                    </tr>
+                    <tr>
+                      <td>Kain wol</td>
+                      <td>Ebonit</td>
+                      <td><input style="font-weight: bold;border-color: green" size="9" value="positif" disabled>
+                      <img class="imgbenar" src="../../img/benar.png"/></td>
+                    </tr>
+                    <tr>
+                      <td>Plastik</td>
+                      <td>Kain wol</td>
+                      <td><input style="text-align: center;"  type="text" id="no1" size="9" onchange="cekjwbn()" placeholder="....">
+                      <img class="imgbenar" id="cek1"/></td>
+                    </tr>
+                    <tr>
+                      <td>Gelas</td>
+                      <td>Kain wol</td>
+                      <td><input style="text-align: center;" type="text" id="no2" size="9" onchange="cekjwbn2()" placeholder="....">
+                      <img class="imgbenar" id="cek2"/></td>
+                    </tr>
+                    <tr>
+                      <td>Kaca</td>
+                      <td>Kain sutra</td>
+                      <td><input style="text-align: center;" type="text" id="no3" size="9" onchange="cekjwbn3()" placeholder="....">
+                      <img class="imgbenar" id="cek3"/></td>
+                    </tr>
+                    <tr>
+                      <td>Sisir</td>
+                      <td>Rambut</td>
+                      <td><input style="text-align: center;" type="text" id="no4" size="9" onchange="cekjwbn4()" placeholder="....">
+                      <img class="imgbenar" id="cek4"/></td>
+                    </tr>
+                    <tr>
+                      <td>Penggaris</td>
+                      <td>Kapas</td>
+                      <td><input style="text-align: center;" type="text" id="no5" size="9" onchange="cekjwbn5()" placeholder="....">
+                      <img class="imgbenar" id="cek5"/></td>
+                    </tr>
+                  </table>
+                    
+                  </div>
           </td>
         </tr>
       </table>
