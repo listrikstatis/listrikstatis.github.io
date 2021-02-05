@@ -135,20 +135,14 @@ h4 {
   width: 20%;
 }
 
-.no1:hover{
+.no1:hover,
+.no2:hover,
+.no3:hover {
   background-color: gray;
   cursor: pointer;
+  font-weight: bold;
 }
 
-.no2:hover{
-  background-color: gray;
-  cursor: pointer;
-}
-
-.no3:hover{
-  background-color: gray;
-  cursor: pointer;
-}
 hr{
   height: 5px;
   background-color: #46B29E;
@@ -229,6 +223,21 @@ hr{
   margin-top: -10px;
 }
 
+.gariskanan {
+  padding: 15px;
+  border-radius: 0 50px 40px 50px;
+  border: 1px solid #46B29E;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+.gariskiri {
+  padding: 15px;
+  border-radius: 0 50px 40px 50px;
+  border: 1px solid #46B29E;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
 .a, .b{
   margin-bottom: 5px;
   font-size: 20px;
@@ -281,6 +290,23 @@ color: transparent;
 }
 .block{
   display: block;
+}
+
+.quizs{
+  width: 40%;
+  border: none;
+}
+
+.tabelnya {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: auto;
+}
+
+tr td{
+  padding: 5px;
+  border: 1px solid black;
 }
 
 /*================================================================================================================*/
