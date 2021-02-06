@@ -38,17 +38,17 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(".soal2").hide();
     $(".soal3").hide();
-          $(".no1").click(function(){
+          $(".nos1").click(function(){
                 $(".soal2").hide(0);
                 $(".soal3").hide(0);
                 $(".soal1").show(200);
           });
-          $(".no2").click(function(){
+          $(".nos2").click(function(){
                 $(".soal2").show(200);
                 $(".soal1").hide(0);
                 $(".soal3").hide(0);
           });
-          $(".no3").click(function(){
+          $(".nos3").click(function(){
                 $(".soal3").show(200);
                 $(".soal2").hide(0);
                 $(".soal1").hide(0);
@@ -134,12 +134,12 @@ $(document).ready(function(){
 let petunjuknya = document.querySelectorAll('.petunjuk');
 let isinya = document.querySelectorAll('.isinya');
 for (let i = 0; i < petunjuknya.length; i++) {
-    petunjuknya[i].addEventListener('click', function () {
-        if (isinya[i].className.indexOf('hilang') == -1) {
+      petunjuknya[i].addEventListener('click', function () {
+      if (isinya[i].className.indexOf('hilang') == -1) {
             isinya[i].className += ' hilang';
-        } else {
+      } else {
             isinya[i].className = isinya[i].className.replace('hilang', '');
-        }
-    })
+      }
+      })
 }
 

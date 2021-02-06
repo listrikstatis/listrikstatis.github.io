@@ -118,7 +118,7 @@ function cekk3(){
 }
 
 //Input Soal 1
-$('input[id="1aa"]').keyup(function(e)
+$('input[id="v1"]').keyup(function(e)
                                 {
   if (/^[a-zA-Z]+$/.test(this.value))
   {
@@ -126,7 +126,7 @@ $('input[id="1aa"]').keyup(function(e)
   }
 });
 
-$('input[id="1ab"]').keyup(function(e)
+$('input[id="q1"]').keyup(function(e)
                                 {
   if (/^[a-zA-Z]+$/.test(this.value))
   {
@@ -134,7 +134,7 @@ $('input[id="1ab"]').keyup(function(e)
   }
 });
 
-$('input[id="1ac"]').keyup(function(e)
+$('input[id="h1"]').keyup(function(e)
                                 {
   if (/^[a-zA-Z]+$/.test(this.value))
   {
