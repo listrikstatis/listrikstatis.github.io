@@ -23,27 +23,34 @@ body{
   width: 100%;
   background-color: #46B29E;
   text-align: -webkit-center;
-  padding: 7px;
   margin-left: 7%;
-  position: static;
+  position: inherit;
 }
 .headerimg{
   width: 22%;
   text-align: -webkit-center;
+  margin-top: 0.5%;
+}
+.headerimgmedan {
+  width: 22%;
+  text-align: -webkit-center;
+  margin-top: 0.7%;
 }
 .headerkuis{
   width: 30%;
   text-align: -webkit-center;
+  margin-top: 0.7%;
 }
 .headerkuis1 {
   width: 45%;
   text-align: -webkit-center;
+  margin-top: 0.7%;
 }
 
 .headerlat{
   width: 15%;
   text-align: -webkit-center;
-  padding-bottom: 10px;
+  margin-top: 0.5%;
 }
 
 .headerimg2{
@@ -70,9 +77,10 @@ body{
   padding: 10px;
   text-align: -webkit-center;
   padding-left: 15px;
+  margin-top: 5px;
 }
 
-.konten1{
+/* .konten1{
   position: static;
   background-color: white;
   width: 41.6%;
@@ -95,13 +103,13 @@ body{
   overflow: auto;
   border: 2px solid #7f8c8d;
   border-radius: 5px;
-}
+} */
 
 .isi{
   top: 8%;
   position: static;
   background-color: white;
-  height: 534px;
+  height: 540px;
   width: auto;
   padding: 15px;
   overflow: auto;
@@ -169,7 +177,7 @@ body{
   overflow:hidden;
   float: left;
   height: 680px;
-  margin-top: -36%;
+  margin-top: -35%;
   background: #334E5C;
 }
 .sub
@@ -288,7 +296,7 @@ body{
   position: static;
 }
 
-.headerimg{
+.headerimg, .headerimgmedan{
   width: 40%;
   text-align: -webkit-center;
 }
