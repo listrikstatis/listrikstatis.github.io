@@ -26,6 +26,7 @@ function salah2(){
 function benar2(){
   document.getElementById('b2').style.display = 'block';
   document.getElementById('s2').style.display = 'none';
+  document.getElementById('gaya').style.display = 'block';
 }
 
 //SOAL 1
