@@ -9,6 +9,17 @@
     <link rel="stylesheet" href="../../fontawesome/css/all.css">
     <script src="../../js/jquery.js"></script>
     <script src="https://kit.fontawesome.com/317815b2fb.js" crossorigin="anonymous"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+    </script>
+    <script src="../../js/mathjax.js"></script>
 </head>
 <body>
 
@@ -76,7 +87,7 @@
 
 <div class="isi"><!--ISI NYA-->
 <h4 class="tampil"><i class="far fa-hand-point-right"></i>&nbsp; Petunjuk</h4> 
-    <div class="dalam1">
+    <div class="petunjuk">
         <ol>
           <li class="nomor">Jawablah soal-soal berikut.</li>
           <li class="nomor">Isilah jawaban dari setiap soal pada kotak yang telah disediakan.</li>
@@ -93,11 +104,25 @@
       <div class="soal1">
        <hr>
         <p>1. &nbsp;Gaya coulomb yang dialami kedua muatan A dan B adalah sebesar \(3 \times 10^{-4}\) N. Jika besar muatan A dan B sebesar \(2 \times 10^{-6}\) C dan \(1,5 \times 10^{-6}\) C, berapakah besar kuat medan listrik yang dirasakan muatan A oleh muatan B?</p>
-          <br>
+          <p><b style="text-decoration: underline;">Jawab :</b></p>
             <p class="m1"><b>Jawaban Benar</b><br>
             Jadi, kuat medan listriknya adalah 150 N/C</p>
-        
-            <p class="ss1"><b>Jawab = </b><input type="text" class="md" id="m1a" size="3" placeholder="....."></p>
+            
+            <p>$E = \frac{F}{Q}$</p>
+            <table>
+              <tr>
+                <td rowspan="2">$E = $</td>
+                <td class="tablebot"><input type="text" class="md" size="1" placeholder="..."> $\times$
+                  <input type="text" class="md" size="1" placeholder="..."> <sup><input type="text" class="md" size="1" style="line-height: 1;" placeholder="..."></sup></td>
+              </tr>
+              <tr>
+                <td><input type="text" class="md" id="m1a" size="1" placeholder="....."> $\times$<input type="text" class="md" size="1" placeholder="..."> <sup><input type="text" class="md" size="1" style="line-height: 1;" placeholder="..."></sup></td>
+              </tr>
+              <tr>
+                <td>$\;\;\; = $</td>
+                <td><input type="text" class="md" id="m1a" size="3" placeholder="....."></td>
+              </tr>
+            </table>
             <br>
         <input class="cek" type="submit" onclick="cek()" value="Cek Jawaban">
         </div>
@@ -105,36 +130,49 @@
     <div class="soal2">
         <hr>
         <p>2. &nbsp;Gaya coulomb yang dialami muatan B adalah sebesar \(8 \times 10^{-4}\) N. Jika besar muatan B sebesar \(4 \times 10^{-6}\) C, berapakah besar medan listrik yang ditimbulkan?<p>
-          <br>
+          <p><b style="text-decoration: underline;">Jawab :</b></p>
           <p class="m2"><b>Jawaban Benar</b><br>
             Jadi, medan listrik muatan B adalah 200 N/C</p>
            
-        <p class="ss2"><b>Jawab = </b><input type="text" class="md" id="m2a" size="3" placeholder="....."></p>
-            <br>
+            <p>$E = \frac{F}{Q}$</p>
+              <table>
+                <tr>
+                  <td rowspan="2">$E = $</td>
+                  <td class="tablebot"><input type="text" class="md" size="1" placeholder="..."> $\times$
+                    <input type="text" class="md" size="1" placeholder="..."> <sup><input type="text" class="md" size="1" style="line-height: 1;" placeholder="..."></sup></td>
+                </tr>
+                <tr>
+                  <td><input type="text" class="md" id="m1a" size="1" placeholder="....."> $\times$<input type="text" class="md" size="1" placeholder="..."> <sup><input type="text" class="md" size="1" style="line-height: 1;" placeholder="..."></sup></td>
+                </tr>
+                <tr>
+                  <td>$\;\;\; = $</td>
+                  <td><input type="text" class="md" id="m1a" size="3" placeholder="....."></td>
+                </tr>
+              </table>
+              <br>
         <input class="cek2" type="submit" onclick="cek2()" value="Cek Jawaban">   
       </div>
     
     <div class="soal3">
        <hr>
         <p>3. &nbsp;Titik P berjarak 30 cm dari sebuah muatan Q yang muatannya 2,5 × 10<sup>-5</sup> C, hitunglah besar medan listrik di titik P?</p>
-        <br>
+        <p><b style="text-decoration: underline;">Jawab :</b></p>
         <p class="m3"><b>Jawaban Benar</b><br>
             Jadi, kuat medan listriknya adalah \(2,5 \times 10^6\; N/C\)</p>
 
-        <table class="ss3">
+            <p>$E = \large k \frac{Q}{r^2}$</p>
+            <table>
               <tr>
-                  <td rowspan="2"><b>Jawab = </b>
-                    <input type="text" class="md" id="m3a" size="1" placeholder=".....">&nbsp;\(\times\)
-                    <input type="text" class="md" id="m3b" size="2" placeholder=".....">
-                  </td>
-                  <td>
-                    <input type="text" class="md" id="m3c" size="4" placeholder="Pangkat">
-                  </td>
+                <td rowspan="2">$E = 9 \times 10^9$</td>
+                <td class="tablebot"><input type="text" class="md" size="1" placeholder="..."> $\times$
+                  <input type="text" class="md" size="1" placeholder="..."> <sup><input type="text" class="md" size="1" style="line-height: 1;" placeholder="..."></sup></td>
               </tr>
               <tr>
-                  <td><p><font style="color:white">hijau</font></p></td>
+                <td><input type="text" class="md" size="1" placeholder="..."> <sup><input type="text" class="md" size="1" style="line-height: 1;" placeholder="..."></sup></td>
               </tr>
             </table>
+                <p>$\;\; = $<input type="text" class="md" id="m1a" size="1" placeholder="....."> $\times$<input type="text" class="md" size="1" placeholder="..."> <sup><input type="text" class="md" size="1" style="line-height: 1;" placeholder="..."></sup></p>
+              
             <br>
         <input class="cek3" type="submit" onclick="cek3()" value="Cek Jawaban">
           <br>
@@ -160,8 +198,7 @@
 
 
 </body>
-
-<script src="../../js/mathjax.js"></script>
-<script src="../../js/konten.js"></script>
+<!-- 
+<script src="../../js/konten.js"></script> -->
 <script src="../../js/materi3.js"></script>
 </html>
