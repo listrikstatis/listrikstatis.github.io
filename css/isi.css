@@ -339,7 +339,7 @@ color: transparent;
 }
 .tabelrumus{
   border: 1px solid #46B29E;
-  border-right: none;
+  border-style: dashed;
 }
 
 .tabelnya {
