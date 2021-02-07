@@ -198,7 +198,7 @@ hr{
   cursor: pointer;
   border-radius: 5px;
   font-family: verdana, sans-serif, helvetica;  
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-style: outset;
 }
 .klik:hover{
   background-color: darkcyan;
