@@ -1,3 +1,19 @@
+$(document).ready(function(){
+    $(".contohsoal").hide();
+    $(".pertanyaan").hide();
+    $(".soalbtn").hide();
+          $(".contohbtn").click(function(){
+              $(".contohsoal").show(0);
+              $(".contohbtn").hide(0);              
+              $(".soalbtn").show(0);
+          });     
+          
+          $(".soalbtn").click(function(){
+              $(".pertanyaan").show(0);
+              $(".soalbtn").hide(0);
+          });
+});
+
 //SOAL 1
 function cek(){
   let me1= document.getElementById("me1").value;
@@ -9,7 +25,7 @@ function cek(){
   let me7= document.getElementById("me7").value;
 
   if (me1 == "3" && me2 == "10" && me3 == "-4" && me4 == "2" && me5 == "10" && me6 == "-6" && me7 == "150") {
-    document.getElementsByClassName('cek')[0].style.display='none';
+    // document.getElementsByClassName('cek')[0].style.display='none';
     document.getElementsByClassName('m1')[0].style.display='block';
   } else {
     document.getElementById("me1").style="border: 3px solid red"; 
@@ -19,6 +35,7 @@ function cek(){
     document.getElementById("me5").style="border: 3px solid red"; 
     document.getElementById("me6").style="border: 3px solid red"; 
     document.getElementById("me7").style="border: 3px solid red"; 
+    document.getElementsByClassName('m1')[0].style.display='none';
   }
   
   if (me1 == "3"){
@@ -75,8 +92,10 @@ function cek2(){
   let mn7= document.getElementById("mn7").value;
 
   if (mn1 == "8" && mn2 == "10" && mn3 == "-4" && mn4 == "4" && mn5 == "10" && mn6 == "-6" && mn7 == "200") {
-    document.getElementsByClassName('cek2')[0].style.display='none';
+    // document.getElementsByClassName('cek2')[0].style.display='none';
     document.getElementsByClassName('m2')[0].style.display='block';
+    // document.getElementsByClassName('input2')[0].style.display='none';
+    // document.getElementsByClassName('non2')[0].style.display='block';
   } else {
     document.getElementById("mn1").style="border: 3px solid red"; 
     document.getElementById("mn2").style="border: 3px solid red"; 
@@ -85,6 +104,7 @@ function cek2(){
     document.getElementById("mn5").style="border: 3px solid red"; 
     document.getElementById("mn6").style="border: 3px solid red"; 
     document.getElementById("mn7").style="border: 3px solid red"; 
+    document.getElementsByClassName('m2')[0].style.display='none';
   }
   
   if (mn1 == "8"){
@@ -141,8 +161,8 @@ function cek3(){
   let mi7= document.getElementById("mi7").value;
   let mi8= document.getElementById("mi8").value;
 
-  if (mi1 == "2.5" && mi2 == "10" && mi3 == "-5" && mi4 == "0,3" && mi5 == "2" && mi6 == "2,5" && mi7 == "10" && mi8 == "6") {
-    document.getElementsByClassName('cek3')[0].style.display='none';
+  if (mi1 == "2,5" || mi1 == "2.5" && mi2 == "10" && mi3 == "-5" && mi4 == "0,3" || mi4 == "0.3" && mi5 == "2" && mi6 == "2,5" || mi6 == "2.5" && mi7 == "10" && mi8 == "6") {
+    // document.getElementsByClassName('cek3')[0].style.display='none';
     document.getElementsByClassName('m3')[0].style.display='block';
   } else {
     document.getElementById("mi1").style="border: 3px solid red"; 
@@ -155,7 +175,7 @@ function cek3(){
     document.getElementById("mi8").style="border: 3px solid red";
   }
   
-  if (mi1 == "2,5"){
+  if (mi1 == "2,5" || mi1 == "2.5"){
     document.getElementById("mi1").style="border: 3px solid green";   
   } else{
     document.getElementById("mi1").style="border: 3px solid red";
@@ -173,7 +193,7 @@ function cek3(){
     document.getElementById("mi3").style="border: 3px solid red";
   }
   
-  if (mi4 == "0,3"){
+  if (mi4 == "0,3" || mi4 == "0.3"){
     document.getElementById("mi4").style="border: 3px solid green";   
   } else{
     document.getElementById("mi4").style="border: 3px solid red";
@@ -185,7 +205,7 @@ function cek3(){
     document.getElementById("mi5").style="border: 3px solid red";
   }
   
-  if (mi6 == "2,5"){
+  if (mi6 == "2,5" || mi6 == "2.5"){
     document.getElementById("mi6").style="border: 3px solid green";   
   } else{
     document.getElementById("mi6").style="border: 3px solid red";
@@ -207,8 +227,8 @@ function cek3(){
 //Input Soal 
 $('input[class="md"]').keyup(function(e)
                                 {
-  if (/^[a-zA-Z]+$/.test(this.value))
+  if (/^[a-zA-Z\s]+$/.test(this.value))
   {
-    this.value = this.value.replace(/^[a-zA-Z]+$/, '');
+    this.value = this.value.replace(/^[a-zA-Z\s]+$/, '');
   }
 });

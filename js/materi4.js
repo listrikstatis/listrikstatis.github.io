@@ -126,9 +126,9 @@ function cekk3(){
 //Input Soal 
 $('input[class="bp"]').keyup(function(e)
                                 {
-  if (/^[a-zA-Z]+$/.test(this.value))
+  if (/^[a-zA-Z\s]+$/.test(this.value))
   {
-    this.value = this.value.replace(/^[a-zA-Z]+$/, '');
+    this.value = this.value.replace(/^[a-zA-Z\s]+$/, '');
   }
 });
 
