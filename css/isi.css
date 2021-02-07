@@ -330,6 +330,17 @@ color: transparent;
   border: none;
   display: table-row;
 }
+.rumus {
+  border-right: 5px solid #46B29E;
+  display: block;
+}
+.rumus2 {
+  padding-left: 5px;
+}
+.tabelrumus{
+  border: 1px solid #46B29E;
+  border-right: none;
+}
 
 .tabelnya {
   border: 1px solid black;
@@ -421,6 +432,18 @@ p{
 .quizs {
   width: 100%;
   display: block;
+}
+
+.rumus {
+  border-right: none;
+  border-bottom: 5px solid #46B29E;
+  display: block;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.rumus2 {
+  padding-left: 0;
+  display: table-row;
 }
 
 .gariskanan {

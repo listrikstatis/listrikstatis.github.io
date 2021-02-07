@@ -86,6 +86,11 @@ function cekjwbd(){
 
 }
 
+$('.in').bind('keyup blur',function(){ 
+    var node = $(this);
+    node.val(node.val().replace(/[^a-zA-Z\s]/g,'') ); }
+);
+
 // var slideIndex = 1;
 // showSlides(slideIndex);
 

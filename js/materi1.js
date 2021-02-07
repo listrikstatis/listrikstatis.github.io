@@ -125,3 +125,8 @@ function cekjwbn5(){
     document.getElementById("no5").style="border: 2px solid red";
   }
 }
+
+$('.inputan').bind('keyup blur',function(){ 
+    var node = $(this);
+    node.val(node.val().replace(/[^a-zA-Z\s]/g,'') ); }
+);
