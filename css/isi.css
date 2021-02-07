@@ -330,13 +330,16 @@ color: transparent;
   border: none;
   display: table-row;
 }
+
 .rumus {
   border-right: 5px solid #46B29E;
   display: block;
 }
+
 .rumus2 {
   padding-left: 5px;
 }
+
 .tabelrumus{
   border: 1px solid #46B29E;
   border-style: dashed;

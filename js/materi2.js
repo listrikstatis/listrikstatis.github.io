@@ -171,3 +171,11 @@ $('input[id="c3c"]').keyup(function(e)
     this.value = this.value.replace(/^[a-zA-Z]+$/, '');
   }
 });
+
+$('input[class="hc"]').keyup(function(e)
+                                {
+  if (/^[a-zA-Z]+$/.test(this.value))
+  {
+    this.value = this.value.replace(/^[a-zA-Z]+$/, '');
+  }
+});

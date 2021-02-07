@@ -103,3 +103,11 @@ $('input[id="m3c"]').keyup(function(e)
     this.value = this.value.replace(/^[a-zA-Z]+$/, '');
   }
 });
+
+$('input[class="md"]').keyup(function(e)
+                                {
+  if (/^[a-zA-Z]+$/.test(this.value))
+  {
+    this.value = this.value.replace(/^[a-zA-Z]+$/, '');
+  }
+});

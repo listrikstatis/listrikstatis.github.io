@@ -123,7 +123,7 @@ function cekk3(){
   }
 }
 
-//Input Soal 1
+//Input Soal 
 $('input[class="bp"]').keyup(function(e)
                                 {
   if (/^[a-zA-Z]+$/.test(this.value))
