@@ -61,49 +61,7 @@ function cek3(){
 
 }
 
-//Input Soal 1
-$('input[id="m1a"]').keyup(function(e)
-                                {
-  if (/^[a-zA-Z]+$/.test(this.value))
-  {
-    this.value = this.value.replace(/^[a-zA-Z]+$/, '');
-  }
-});
-
-//Input Soal 2
-$('input[id="m2a"]').keyup(function(e)
-                                {
-  if (/^[a-zA-Z]+$/.test(this.value))
-  {
-    this.value = this.value.replace(/^[a-zA-Z]+$/, '');
-  }
-});
-
-//Input Soal 3
-$('input[id="m3a"]').keyup(function(e)
-                                {
-  if (/^[a-zA-Z]+$/.test(this.value))
-  {
-    this.value = this.value.replace(/^[a-zA-Z]+$/, '');
-  }
-});
-
-$('input[id="m3b"]').keyup(function(e)
-                                {
-  if (/^[a-zA-Z]+$/.test(this.value))
-  {
-    this.value = this.value.replace(/^[a-zA-Z]+$/, '');
-  }
-});
-
-$('input[id="m3c"]').keyup(function(e)
-                                {
-  if (/^[a-zA-Z]+$/.test(this.value))
-  {
-    this.value = this.value.replace(/^[a-zA-Z]+$/, '');
-  }
-});
-
+//Input Soal 
 $('input[class="md"]').keyup(function(e)
                                 {
   if (/^[a-zA-Z]+$/.test(this.value))

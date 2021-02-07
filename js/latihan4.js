@@ -242,19 +242,6 @@ dat.onreadystatechange = function () {
 
             // ---------------------------------
 
-            // let nav_selesai = document.createElement('div');
-            // nav_selesai.setAttribute('class', 'selesai');
-
-            // let new_p3 = document.createElement('p');
-            // let text_p3 = document.createTextNode('Selesai');
-
-            // new_p3.appendChild(text_p3);
-            // nav_selesai.appendChild(new_p3);
-            // inti_pertanyaan.appendChild(nav_selesai);
-            // bg_pertanyaan.appendChild(inti_pertanyaan);
-
-            // ---------------------------------
-
             let div_jawaban = document.createElement('div');
             div_jawaban.setAttribute('class', 'pertanyaannya hilang');
 
@@ -368,8 +355,8 @@ dat.onreadystatechange = function () {
                             if (pils_soal[j].attributes.name.nodeValue == 'radio' + i) {
                                 if (pils_soal[j].checked == true) {
                                     // cek jawaban dengan kunci
-                                    console.log(pils_soal[j].value);
-                                    console.log(jwbs[i]);
+                                    // console.log(pils_soal[j].value);
+                                    // console.log(jwbs[i]);
                                     pil_user.push(pils_soal[j].value);
                                     if (pils_soal[j].value == jwbs[i]) {
                                         hasilakhir = hasilakhir + 10;
@@ -397,10 +384,11 @@ dat.onreadystatechange = function () {
                 // console.log("jwb_user_urut_no :" + new_jwb_urut_no);
                 // console.log("jwb_user_urut :" + new_jwb_urut);
                 // simpan kedatabase----------
-                console.log(namanya.value);
-                console.log(sekolah.value);
-                console.log(kelasfix);
-                console.log(hasilakhir);
+
+                // console.log(namanya.value);
+                // console.log(sekolah.value);
+                // console.log(kelasfix);
+                // console.log(hasilakhir);
 
                 let harinya = hari();
                 

@@ -420,8 +420,8 @@ dat.onreadystatechange = function () {
                             if (pils_soal[j].attributes.name.nodeValue == 'radio' + i) {
                                 if (pils_soal[j].checked == true) {
                                     // cek jawaban dengan kunci
-                                    console.log(pils_soal[j].value);
-                                    console.log(jwbs[i]);
+                                    // console.log(pils_soal[j].value);
+                                    // console.log(jwbs[i]);
                                     pil_user.push(pils_soal[j].value);
                                     if (pils_soal[j].value == jwbs[i]) {
                                         hasilakhir = hasilakhir + 5;
@@ -449,10 +449,10 @@ dat.onreadystatechange = function () {
                 // console.log("jwb_user_urut_no :" + new_jwb_urut_no);
                 // console.log("jwb_user_urut :" + new_jwb_urut);
                 // simpan kedatabase----------
-                console.log(namanya.value);
-                console.log(sekolah.value);
-                console.log(kelasfix);
-                console.log(hasilakhir);
+                // console.log(namanya.value);
+                // console.log(sekolah.value);
+                // console.log(kelasfix);
+                // console.log(hasilakhir);
                 // let waktunya = waktu(); 
                 
                 

@@ -1,10 +1,10 @@
 [{
     "soal0": {
-        "soal": "Perhatikan gambar berikut! <br> <img src='../../img/potensialsoal1.png' style='width: 45%'><br> Berdasarkan gambar tersebut, pernyataan berikut yang benar adalah ….",
-        "a": "Muatan A memiliki potensial listrik yang lebih besar daripada muatan B",
-        "b": "Muatan A memiliki potensial listrik yang lebih kecil daripada muatan B",
-        "c": "Muatan A dan B memiliki potensial listrik yang sama",
-        "d": "Muatan A dan B tidak dapat dibandingkan besar potensial listriknya karena berbeda jenis muatan",
+        "soal": "Untuk memindahkan muatan sebesar 10 C dari P ke Q diperlukan usaha sebesar 500 Joule maka potensial P ke Q adalah ….",
+        "a": "50 V",
+        "b": "500 V",
+        "c": "5000 V",
+        "d": "0,5 V",
         "benar": "a"
     }
 },{
