@@ -114,7 +114,7 @@ function cek3(){
 }
 
 //Input soal 1
-$('input[id="c1a"]').keyup(function(e)
+$('input[class="colomb"]').keyup(function(e)
                                 {
   if (/^[a-zA-Z\s]+$/.test(this.value))
   {

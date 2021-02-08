@@ -9,20 +9,20 @@
     }
 },{
     "soal1": {
-        "soal":"Suatu atom disebut bermuatan positif karena atom tersebut ....",
-        "a": "kelebihan elektron",
-        "b": "kekurangan elektron",
-        "c": "kekurangan proton",
-        "d": "kelebihan neutron",
+        "soal": "Perhatikan lima buah benda bermuatan listrik berikut!<br><img class='gmb' src='../../img/eva2.png'><br>Benda $q_1$ dan $q_2$ bermuatan negatif sedangkan tiga benda lainnya belum diketahui muatannya. Ketika $q_1$ didekatkan $q_3$ terjadi tarik menarik, $q_5$ didekatkan $q_3$ tarik menarik, $q_2$ didekatkan $q_4$ tolak menolak. Kesimpulan muatan listrik $q_3$, $q_4$, $q_5$ adalah .... ",
+        "a": "positif, positif, positif",
+        "b": "positif, negatif, negatif",
+        "c": "negatif, negatif, negatif",
+        "d": "negatif, positif, negatif",
         "benar": "b"        
     }        
 },{
     "soal2": {
-        "soal": "Dua buah muatan akan tarik-menarik jika ....",
-        "a": "muatan kedua benda tidak sama",
-        "b": "muatan kedua benda sama",
-        "c": "kedua benda tidak bermuatan",
-        "d": "salah satu benda bermuatan",
+        "soal": "Perhatikan pernyataan berikut.<br>1) Menggosokkan penggaris plastik dengan kain wol<br>2) Menggosokkan kaca dengan kain sutra<br>3) Menggosokkan ebonit dengan kain wol<br>4) Menggosokkan kawat ke listrik<br>Pernyataan yang benar tentang cara memberi muatan listrik adalah ...",
+        "a": "1 dan 2",
+        "b": "1 dan 4",
+        "c": "2 dan 4",
+        "d": "3 dan 4",
         "benar": "a"
     }
 },{
