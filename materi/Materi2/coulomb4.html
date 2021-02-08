@@ -100,7 +100,8 @@
     <br><center>
     <button class="nos1"><i class="fas fa-pen"></i>&nbsp;Soal 1</button>
     <button class="nos2"><i class="fas fa-pen"></i>&nbsp;Soal 2</button>
-    <button class="nos3"><i class="fas fa-pen"></i>&nbsp;Soal 3</button></center>
+    <button class="nos3"><i class="fas fa-pen"></i>&nbsp;Soal 3</button>
+    </center>
       <div class="soal1">
        <hr>
         <p>1. &nbsp;Dua buah muatan masing-masing \(4 \times 10^{-6}\) C dan \(8 \times 10^{-6}\) C terpisah sejauh 60 cm. Tentukan besar gaya yang terjadi antara dua buah muatan tersebut?</p>
@@ -108,7 +109,7 @@
             <p class="co1"><b>Jawaban Benar</b><br>
             Jadi, besar gaya yang terjadi adalah 0,8 N</p>
         
-            <p class="cc1"><b>Jawab = </b><input type="text" id="c1a" size="2" placeholder="   ....."></p>
+            <p class="cc1"><b>Jawab = </b><input type="text" id="c1a" size="2" placeholder="....."></p>
             <br>
         <input class="cek" type="submit" onclick="cek()" value="Cek Jawaban">
         </div>
@@ -122,8 +123,8 @@
               <table class="cc2">
               <tr>
                   <td rowspan="2"><b>Jawab = </b>
-                    <input type="text" id="c1b" size="1" placeholder="  .....">&nbsp;\(\times\)
-                    <input type="text" id="c2b" size="2" placeholder="  .....">
+                    <input type="text" id="c1b" size="1" placeholder=".....">&nbsp;\(\times\)
+                    <input type="text" id="c2b" size="2" placeholder=".....">
                   </td>
                   <td>
                     <input type="text" id="c3b" size="4" placeholder="Pangkat">
@@ -138,30 +139,32 @@
       </div>
     
     <div class="soal3">
-       <hr>
-        <p>3. &nbsp;Dua buah benda bermuatan listrik masing-masing 10 C dan 20 C berada pada jarak 20 cm, berapa gaya tolak-menolak antara dua muatan tersebut?</p>
-          <p><b style="text-decoration: underline;">Jawab :</b></p>  
-        <p class="co3"><b>Jawaban Benar</b><br>
-            Jadi, gaya coulomb yang dialami kedua muatan adalah \(4,5 \times 10^{13} \) N</p>
+          <hr>
+            <p>3. &nbsp;Titik P berjarak 30 cm dari sebuah muatan Q yang muatannya 2,5 × 10<sup>-5</sup> C, hitunglah besar medan listrik di titik P?</p>
+            <p><b style="text-decoration: underline;">Jawab :</b></p>
 
-          <table class="cc3">
-              <tr>
-                  <td rowspan="2"><b>Jawab = </b>
-                    <input type="text" id="c1c" size="1" placeholder="  .....">&nbsp;\(\times\)
-                    <input type="text" id="c2c" size="2" placeholder="  .....">
-                  </td>
-                  <td>
-                    <input type="text" id="c3c" size="4" placeholder="Pangkat">
-                  </td>
-              </tr>
-              <tr>
-                  <td><p><font style="color:white">hijau</font></p></td>
-              </tr>
-            </table>
-            <br>
-        <input class="cek3" type="submit" onclick="cek3()" value="Cek Jawaban">
-  
-        </div>
+                <p>$E = \large k \frac{Q}{r^2}$</p>
+                <table>
+                  <tr>
+                    <td rowspan="2">$E = 9 \times 10^9$</td>
+                    <td class="tablebot"><input type="text" class="cb" size="1" id="cb31" placeholder="..." onkeyup="cek31()"> $\times$
+                      <input type="text" class="cb" size="1" id="cb32" placeholder="..." onkeyup="cek32()"> 
+                  </tr>
+                  <tr>
+                    <td style="text-indent: 15px;"><input type="text" class="cb" size="1" id="cb33" placeholder="..." onkeyup="cek33()"> 
+                    <sup><input type="text" class="cb" size="1" id="cb34" placeholder="..." style="width:20px;font-size:1em;height:15px" onkeyup="cek34()"></sup></td>
+                  </tr>
+                </table>
+                    <p>$\;\; = $<input type="text" class="cb" id="cb35" size="1" placeholder="....." onkeyup="cek35()"> $\times$
+                    <input type="text" class="cb" size="1" id="cb36" placeholder="..." onkeyup="cek36()"> 
+                    <sup><input type="text" class="cb" id="cb37" size="1" placeholder="..." style="width:20px;font-size:1em;height:15px" onkeyup="cek37()"></sup></p>
+    <br>        
+            
+            <input class="cek3" type="submit" onclick="cek3()" value="Cek Jawaban">
+            <p class="co3"><b>Jawaban Benar</b><br>
+                Jadi, besar gaya tolak menolak adalah \(4,5 \times 10^{13}\; N/C\)</p>
+            <p class="none3"><b style="color: red;">Jawaban salah </b></p>
+          </div>
 
   </div><!--garis-->
 
