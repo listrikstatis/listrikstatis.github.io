@@ -111,15 +111,18 @@
             <table>
               <tr>
                 <td rowspan="2">$E = $</td>
-                <td class="tablebot"><input type="text" class="md" size="1" id="me1" placeholder="..."> $\times$
-                  <input type="text" class="md" size="1" id="me2" placeholder="..."> <sup><input type="text" class="md" size="1" id="me3" placeholder="..." style="width:24px;font-size:1em;height:15px"></sup></td>
+                <td class="tablebot"><input type="text" class="md" size="1" id="me1" placeholder="..." onkeyup="cek11()"> $\times$
+                  <input type="text" class="md" size="1" id="me2" placeholder="..." onkeyup="cek12()"> 
+                  <sup><input type="text" class="md" size="1" id="me3" placeholder="..." style="width:24px;font-size:1em;height:15px" onkeyup="cek13()"></sup></td>
               </tr>
               <tr>
-                <td><input type="text" class="md" id="me4" size="1" placeholder="....."> $\times$<input type="text" class="md" size="1" id="me5" placeholder="..."> <sup><input type="text" class="md" size="1" id="me6" placeholder="..." style="width:24px;font-size:1em;height:15px"></sup></td>
+                <td><input type="text" class="md" id="me4" size="1" placeholder="....." onkeyup="cek14()"> $\times$
+                  <input type="text" class="md" size="1" id="me5" placeholder="..." onkeyup="cek15()"> 
+                  <sup><input type="text" class="md" size="1" id="me6" placeholder="..." style="width:24px;font-size:1em;height:15px" onkeyup="cek16()"></sup></td>
               </tr>
               <tr>
                 <td>$\;\;\; = $</td>
-                <td><input type="text" class="md" id="me7" size="3" placeholder="....."></td>
+                <td><input type="text" class="md" id="me7" size="3" placeholder="....." onkeyup="cek17()"></td>
               </tr>
             </table>
             <br>
@@ -127,6 +130,7 @@
           <input class="cek" type="submit" onclick="cek()" value="Cek Jawaban"><br>
             <p class="m1"><b>Jawaban Benar</b><br>
             Jadi, kuat medan listriknya adalah 150 N/C</p>
+            <p class="none"><b style="color: red;">Jawaban salah </b></p>
         </div>
 
     <div class="soal2">

@@ -215,36 +215,49 @@
     <hr>
     <h4><i class="fas fa-pen"></i>&nbsp;Soal</h4>
     <div class="garis"> 
+      <div class="petunjuk">
+          <p><u><b>Petunjuk : </b></u></p>
+            <ol>
+              <li class="nomor">Jawablah soal-soal berikut.</li>
+              <li class="nomor">Isilah jawaban dari setiap soal pada kotak yang telah disediakan.</li>
+              <li class="nomor">Jika jawaban benar maka kotak akan bewarna <font style="color:green;font-weight: bold">hijau</font>, jika jawaban salah maka kotak akan berwarna <font style="color:red;font-weight: bold">merah.</font></li>
+            </ol>
+        </div>
       <br><center>
       <button class="nos1"><i class="fas fa-pen"></i>&nbsp;Soal 1</button>
       <button class="nos2"><i class="fas fa-pen"></i>&nbsp;Soal 2</button>
-      <button class="nos3"><i class="fas fa-pen"></i>&nbsp;Soal 3</button></center>
+      <button class="nos3"><i class="fas fa-pen"></i>&nbsp;Soal 3</button>
+          </center>
           <div class="soal1">
           <hr>
             <p>1. &nbsp;Gaya coulomb yang dialami kedua muatan A dan B adalah sebesar \(3 \times 10^{-4}\) N. Jika besar muatan A dan B sebesar \(2 \times 10^{-6}\) C dan \(1,5 \times 10^{-6}\) C, berapakah besar kuat medan listrik yang dirasakan muatan A oleh muatan B?</p>
               <p><b style="text-decoration: underline;">Jawab :</b></p>       
                 
-                <p>$E = \frac{F}{Q}$</p>
+              <p>$E = \frac{F}{Q}$</p>
                 <table>
                   <tr>
                     <td rowspan="2">$E = $</td>
-                    <td class="tablebot"><input type="text" class="md" size="1" id="me1" placeholder="..."> $\times$
-                      <input type="text" class="md" size="1" id="me2" placeholder="..."> <sup><input type="text" class="md" size="1" id="me3" placeholder="..." style="width:24px;font-size:1em;height:15px"></sup></td>
+                    <td class="tablebot"><input type="text" class="md" size="1" id="me1" placeholder="..." onkeyup="cek11()"> $\times$
+                      <input type="text" class="md" size="1" id="me2" placeholder="..." onkeyup="cek12()"> 
+                      <sup><input type="text" class="md" size="1" id="me3" placeholder="..." style="width:24px;font-size:1em;height:15px" onkeyup="cek13()"></sup></td>
                   </tr>
                   <tr>
-                    <td><input type="text" class="md" id="me4" size="1" placeholder="....."> $\times$<input type="text" class="md" size="1" id="me5" placeholder="..."> <sup><input type="text" class="md" size="1" id="me6" placeholder="..." style="width:24px;font-size:1em;height:15px"></sup></td>
+                    <td><input type="text" class="md" id="me4" size="1" placeholder="....." onkeyup="cek14()"> $\times$
+                      <input type="text" class="md" size="1" id="me5" placeholder="..." onkeyup="cek15()"> 
+                      <sup><input type="text" class="md" size="1" id="me6" placeholder="..." style="width:24px;font-size:1em;height:15px" onkeyup="cek16()"></sup></td>
                   </tr>
                   <tr>
                     <td>$\;\;\; = $</td>
-                    <td><input type="text" class="md" id="me7" size="3" placeholder="....."></td>
+                    <td><input type="text" class="md" id="me7" size="3" placeholder="....." onkeyup="cek17()"></td>
                   </tr>
                 </table>
-                <br>
-                
-              <input class="cek" type="submit" onclick="cek()" value="Cek Jawaban"><br>
-                <p class="m1"><b>Jawaban Benar</b><br>
-                Jadi, kuat medan listriknya adalah 150 N/C</p>
-            </div>
+              <br>
+            
+            <input class="cek" type="submit" onclick="cek()" value="Cek Jawaban"><br>
+            <p class="m1"><b>Jawaban Benar</b><br>
+            Jadi, kuat medan listriknya adalah 150 N/C</p>
+            <p class="none"><b style="color: red;">Jawaban salah </b></p>
+          </div>
 
           <div class="soal2">
             <hr>
@@ -255,18 +268,18 @@
                   <table><!--class="input2"-->
                     <tr>
                       <td rowspan="2">$E = $</td>
-                      <td class="tablebot"><input type="text" class="md" size="1" id="mn1" placeholder="..." > $\times$
-                        <input type="text" class="md" size="1" id="mn2" placeholder="..."> 
-                        <sup><input type="text" class="md" size="1" id="mn3" placeholder="..." style="width:24px;font-size:1em;height:15px"></sup></td>
+                      <td class="tablebot"><input type="text" class="md" size="1" id="mn1" placeholder="..." onkeyup="cek21()"> $\times$
+                        <input type="text" class="md" size="1" id="mn2" placeholder="..." onkeyup="cek22()"> 
+                        <sup><input type="text" class="md" size="1" id="mn3" placeholder="..." style="width:24px;font-size:1em;height:15px" onkeyup="cek23()"></sup></td>
                     </tr>
                     <tr>
-                      <td><input type="text" class="md" size="1" id="mn4" placeholder="....."> $\times$
-                        <input type="text" class="md" size="1" id="mn5" placeholder="..."> 
-                        <sup><input type="text" class="md" size="1" id="mn6" placeholder="..." style="width:24px;font-size:1em;height:15px"></sup></td>
+                      <td><input type="text" class="md" size="1" id="mn4" placeholder="....." onkeyup="cek24()"> $\times$
+                        <input type="text" class="md" size="1" id="mn5" placeholder="..." onkeyup="cek25()"> 
+                        <sup><input type="text" class="md" size="1" id="mn6" placeholder="..." style="width:24px;font-size:1em;height:15px" onkeyup="cek26()"></sup></td>
                     </tr>
                     <tr>
                       <td>$\;\;\; = $</td>
-                      <td><input type="text" class="md" size="3" id="mn7" placeholder="....."></td>
+                      <td><input type="text" class="md" size="3" id="mn7" placeholder="....." onkeyup="cek27()"></td>
                     </tr>
                   </table>
                   <br>
@@ -275,6 +288,7 @@
                     <input class="cek2" type="submit" onclick="cek2()" value="Cek Jawaban"><br>  
                   <p class="m2"><b>Jawaban Benar</b><br>
                 Jadi, medan listrik muatan B adalah 200 N/C</p>
+            <p class="none2"><b style="color: red;">Jawaban salah </b></p>
             
           </div>
         
@@ -287,22 +301,24 @@
                 <table>
                   <tr>
                     <td rowspan="2">$E = 9 \times 10^9$</td>
-                    <td class="tablebot"><input type="text" class="md" size="1" id="mi1" placeholder="..."> $\times$
-                      <input type="text" class="md" size="1" id="mi2" placeholder="..."> 
-                      <sup><input type="text" class="md" size="1" id="mi3" placeholder="..." style="width:24px;font-size:1em;height:15px"></sup></td>
+                    <td class="tablebot"><input type="text" class="md" size="1" id="mi1" placeholder="..." onkeyup="cek31()"> $\times$
+                      <input type="text" class="md" size="1" id="mi2" placeholder="..." onkeyup="cek32()"> 
+                      <sup><input type="text" class="md" size="1" id="mi3" placeholder="..." style="width:24px;font-size:1em;height:15px" onkeyup="cek33()"></sup></td>
                   </tr>
                   <tr>
-                    <td><input type="text" class="md" size="1" id="mi4" placeholder="..."> 
-                    <sup><input type="text" class="md" size="1" id="mi5" placeholder="..." style="width:24px;font-size:1em;height:15px"></sup></td>
+                    <td style="text-indent: 35px;"><input type="text" class="md" size="1" id="mi4" placeholder="..." onkeyup="cek34()"> 
+                    <sup><input type="text" class="md" size="1" id="mi5" placeholder="..." style="width:24px;font-size:1em;height:15px" onkeyup="cek35()"></sup></td>
                   </tr>
                 </table>
-                    <p>$\;\; = $<input type="text" class="md" id="mi6" size="1" placeholder="....."> $\times$
-                    <input type="text" class="md" size="1" id="mi7" placeholder="..."> 
-                    <sup><input type="text" class="md" id="mi8" size="1" placeholder="..." style="width:24px;font-size:1em;height:15px"></sup></p>
+                    <p>$\;\; = $<input type="text" class="md" id="mi6" size="1" placeholder="....." onkeyup="cek36()"> $\times$
+                    <input type="text" class="md" size="1" id="mi7" placeholder="..." onkeyup="cek37()"> 
+                    <sup><input type="text" class="md" id="mi8" size="1" placeholder="..." style="width:24px;font-size:1em;height:15px" onkeyup="cek38()"></sup></p>
     <br>        
+            
+            <input class="cek3" type="submit" onclick="cek3()" value="Cek Jawaban">
             <p class="m3"><b>Jawaban Benar</b><br>
                 Jadi, kuat medan listriknya adalah \(2,5 \times 10^6\; N/C\)</p>
-            <input class="cek3" type="submit" onclick="cek3()" value="Cek Jawaban">
+            <p class="none3"><b style="color: red;">Jawaban salah </b></p>
           </div>
 
     </div><!--garissoal-->
