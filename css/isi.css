@@ -45,14 +45,14 @@ p{
 .m1, .m2, .m3{
   border: 3px solid green;
   padding: 10px;
-  width: 37%; 
+  width: 45%; 
   display: none;
 }
 
 .co1, .co2, .co3{
   border: 3px solid green;
   padding: 10px;
-  width: 37%; 
+  width: 45%; 
   display: none;
 } 
 
@@ -393,8 +393,16 @@ color: transparent;
 @media screen and (max-width:1000px) {
   .j1, .j2, .j3{
   border: 3px solid green;
-  padding: 10px;
   width: auto; 
+}
+.m1, .m2, .m3 {
+  border: 3px solid green;
+  width: auto;
+}
+
+.co1, .co2, .co3 {
+  border: 3px solid green;
+  width: auto;
 }
 
 .no1, .no2, .no3 {
