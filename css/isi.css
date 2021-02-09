@@ -296,7 +296,10 @@ input{
   width: 65%;
   text-align: center;
 }
-
+.cb{
+  border: none;
+  border-radius: 10px;
+}
 :hover::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: transparent;
 }

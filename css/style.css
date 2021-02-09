@@ -1,6 +1,7 @@
 body{
 	font-family:lato;
- 	overflow: hidden;
+ 	overflow-y: scroll;
+   overflow-x: hidden;
   background-color: #46B29E;
 }
 * {
