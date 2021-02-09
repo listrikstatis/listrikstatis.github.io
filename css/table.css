@@ -173,6 +173,12 @@ th, td {
         width: 80%;
     }
 
+    .sonext,
+    .soprev,
+    .dot {
+        font-size: 12px
+    }
+
     .prev,
     .next {
         top: 25%;
@@ -200,7 +206,7 @@ th, td {
 
     .prev,
     .next,
-    .text {
+    .text, .sonext, .soprev {
         font-size: 12px
     }
 }
