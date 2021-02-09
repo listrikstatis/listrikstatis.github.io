@@ -5,7 +5,8 @@
     <title>Beda Potensial</title>
     <link rel="shortcut icon" type="icon" href="../../img/ico.png">
     <link rel="stylesheet" type="text/css" href="../../css/style.css">
-    <link rel="stylesheet" type="text/css" href="../../css/isi.css">
+    <link rel="stylesheet" type="text/css" href="../../css/isi.css">    
+    <link rel="stylesheet" type="text/css" href="../../css/table.css">
     <link rel="stylesheet" href="../../fontawesome/css/all.css">
     <script src="../../js/jquery.js"></script>
     <script src="https://kit.fontawesome.com/317815b2fb.js" crossorigin="anonymous"></script>
@@ -198,115 +199,159 @@
             </ol>
         </div>
       <br>
-          <center>
-            <button class="nos1"><i class="fas fa-pen"></i>&nbsp;Soal 1</button>
-            <button class="nos2"><i class="fas fa-pen"></i>&nbsp;Soal 2</button>
-            <button class="nos3"><i class="fas fa-pen"></i>&nbsp;Soal 3</button>
-          </center>
-      <div class="soal1">
-      <hr>
-        <p>1. &nbsp;Beda potensial antara dua titik pada kawat penghantar sebesar 9 V. Berapakah energi listrik yang digunakan untuk memindahkan muatan sebesar 30 C di antara dua titik tersebut?</p>
-          <p><b style="text-decoration: underline;">Jawab :</b></p>
-            <table>
-              <tr>
-                <td>\(W = V \times Q\)</td>
-              </tr>
-              <tr class="p1" style="display: none;">
-                <td>\(\;\;\; = 9 \times 30\)</td>
-              </tr>
-              <tr class="ja1" style="display: none">
-                <td>\(\;\;\; = 270 \)</td>
-              </tr>
-            </table>
-            <p class="j1">Benar, besar energinya adalah 270 J</p>
 
-            <!--input-->
-            <table>
-              <tr class="rumuss">
-                <td>&nbsp;&nbsp;&nbsp;&nbsp; = 
-                </td>
-                <td>
-                  <input type="text" class="bp" id="v1" size="2" placeholder="..." onchange="cek()">
-                  \(\times\)
-                  <input type="text" class="bp" id="q1" size="2" placeholder="..." onchange="cek()">
-                </td>
-              </tr>
-              <tr class="nilai" style="display: none;">
-                <td>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
-                </td>
-                <td>
-                  <input type="text" class="bp" id="h1" size="2" placeholder="..." onchange="cekk()">
-                </td>
-              </tr>
-            </table>
+        <div class="slideshow">
+
+                <div class="mySlides fade">                
+                  <div class="notext">Soal 1</div>
+                  <hr>
+                    <p>1. &nbsp;Beda potensial antara dua titik pada kawat penghantar sebesar 9 V. Berapakah energi listrik yang digunakan untuk memindahkan muatan sebesar 30 C di antara dua titik tersebut?</p>
+                        <p><b style="text-decoration: underline;">Jawab :</b></p>
+                          <table>
+                            <tr>
+                              <td>\(W = V \times Q\)</td>
+                            </tr>
+                            <tr class="p1" style="display: none;">
+                              <td>\(\;\;\; = 9 \times 30\)</td>
+                            </tr>
+                            <tr class="ja1" style="display: none">
+                              <td>\(\;\;\; = 270 \)</td>
+                            </tr>
+                          </table>
+                          <p class="j1">Benar, besar energinya adalah 270 J</p>
+
+                          <!--input-->
+                          <table>
+                            <tr class="rumuss">
+                              <td>&nbsp;&nbsp;&nbsp;&nbsp; = 
+                              </td>
+                              <td>
+                                <input type="text" class="bp" id="v1" size="2" placeholder="..." onchange="cek()">
+                                \(\times\)
+                                <input type="text" class="bp" id="q1" size="2" placeholder="..." onchange="cek()">
+                              </td>
+                            </tr>
+                            <tr class="nilai" style="display: none;">
+                              <td>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+                              </td>
+                              <td>
+                                <input type="text" class="bp" id="h1" size="2" placeholder="..." onchange="cekk()">
+                              </td>
+                            </tr>
+                          </table>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="notext">Soal 2</div>
+                  <hr>
+                      <p>2. &nbsp;Jumlah muatan yang dipindahkan pada sebuah rangkaian listrik adalah 15 C. Jika energi yang dibutuhkan untuk memindahkan muatan tersebut dari ujung-ujung rangkaian listrik adalah 45 J, berapakah beda potensial antara ujung-ujung rangkaian tersebut?<p>
+                        <p><b style="text-decoration: underline;">Jawab :</b></p>
+                          <table>
+                            <tr>
+                              <td>\(V = \frac{W}{Q} \)</td>
+                            </tr>
+                          <tr class="p2" style="display: none;">
+                            <td>\(\;\; = \frac{45}{15}\)</td>
+                          </tr>
+                          <tr class="ja2" style="display: none">
+                            <td>\(\;\; = 3\)</td>
+                          <tr>
+                          </table>
+                          <p class="j2">Benar, beda potensial rangkaian tersebut adalah 3 V</p>
+                      
+                          <!--input-->
+                          <table>
+                            <tr class="table2">
+                                <td rowspan="2">&nbsp;&nbsp;&nbsp;&nbsp;= </td>
+                                <td class="tablebot"><input type="text" class="bp" id="2aa" size="2" placeholder="..." onchange="cek2()"></td>
+                            </tr>
+                            <tr class="jjj">
+                                <td><input type="text" class="bp" id="2ab" size="2" placeholder="..." onchange="cek2()"></td>
+                            </tr>
+                            <tr class="jj2" style="display: none;">
+                                <td>&nbsp;&nbsp;&nbsp; = <input type="text" class="bp" id="2ac" size="2" placeholder="..." onchange="cekk2()"></td>
+                            </tr>
+                          </table>
+                </div>
+
+                <div class="mySlides fade"> 
+                  <div class="notext">Soal 3</div>
+                  <hr>
+                    <p>3. &nbsp;Untuk memindahkan muatan sebesar 10 C dari A ke B diperlukan usaha sebesar 100 Joule hitunglah potensial A ke B tersebut?</p> 
+                      <p><b style="text-decoration: underline;">Jawab :</b></p>
+                      <table>
+                        <tr>
+                          <td>\(V = \frac{W}{Q} \)</td>
+                        </tr>
+                      <tr class="p3" style="display: none;">
+                        <td>\(\;\; = \frac{100}{10}\)</td>
+                      </tr>
+                      <tr class="ja3" style="display: none">
+                        <td>\(\;\; = 10\)</td>
+                      <tr>
+                      </table>
+                      <p class="j3">Benar, beda potensial rangkaian tersebut adalah 10 V</p>
+                  
+                      <!--input-->
+                      <table>
+                        <tr class="table1">
+                            <td rowspan="2">&nbsp;&nbsp;&nbsp;&nbsp;= </td>
+                            <td class="tablebot"><input type="text" class="bp" id="3aa" size="2" placeholder="..." onchange="cek3()"></td>
+                        </tr>
+                        <tr class="jjj3">
+                            <td><input type="text" class="bp" id="3ab" size="2" placeholder="..." onchange="cek3()"></td>
+                        </tr>
+                        <tr class="jj3" style="display: none;">
+                            <td>&nbsp;&nbsp;&nbsp; = <input type="text" class="bp" id="3ac" size="2" placeholder="...." onchange="cekk3()"></td>
+                        </tr>
+                      </table>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="notext">Soal 4</div>
+                  <hr>
+                    <p>4. &nbsp;Energi listrik yang diperlukan untuk memindahkan muatan 30 coulomb antara dua buah titik adalah 210 joule. Berapa beda potensial antara kedua titik itu?</p> 
+                      <p><b style="text-decoration: underline;">Jawab :</b></p>
+                      <table>
+                        <tr>
+                          <td>\(V = \frac{W}{Q} \)</td>
+                        </tr>
+                      <tr class="p4" style="display: none;">
+                        <td>\(\;\; = \frac{210}{30}\)</td>
+                      </tr>
+                      <tr class="ja4" style="display: none">
+                        <td>\(\;\; = 70\)</td>
+                      <tr>
+                      </table>
+                      <p class="j4">Benar, beda potensial antara kedua titik adalah 70 V</p>
+                  
+                      <!--input-->
+                      <table>
+                        <tr class="table4">
+                            <td rowspan="2">&nbsp;&nbsp;&nbsp;&nbsp;= </td>
+                            <td class="tablebot"><input type="text" class="bp" id="4aa" size="2" placeholder="..." onchange="cek4()"></td>
+                        </tr>
+                        <tr class="jjj4">
+                            <td><input type="text" class="bp" id="4ab" size="2" placeholder="..." onchange="cek4()"></td>
+                        </tr>
+                        <tr class="jj4" style="display: none;">
+                            <td>&nbsp;&nbsp;&nbsp; = <input type="text" class="bp" id="4ac" size="2" placeholder="...." onchange="cekk4()"></td>
+                        </tr>
+                      </table>
+                </div>
 
         </div>
 
-    <div class="soal2">
-        <hr>
-        <p>2. &nbsp;Jumlah muatan yang dipindahkan pada sebuah rangkaian listrik adalah 15 C. Jika energi yang dibutuhkan untuk memindahkan muatan tersebut dari ujung-ujung rangkaian listrik adalah 45 J, berapakah beda potensial antara ujung-ujung rangkaian tersebut?<p>
-          <p><b style="text-decoration: underline;">Jawab :</b></p>
-            <table>
-              <tr>
-                <td>\(V = \frac{W}{Q} \)</td>
-              </tr>
-            <tr class="p2" style="display: none;">
-              <td>\(\;\; = \frac{45}{15}\)</td>
-            </tr>
-            <tr class="ja2" style="display: none">
-              <td>\(\;\; = 3\)</td>
-            <tr>
-            </table>
-            <p class="j2">Benar, beda potensial rangkaian tersebut adalah 3 V</p>
-        
-            <!--input-->
-            <table>
-              <tr class="table2">
-                  <td rowspan="2">&nbsp;&nbsp;&nbsp;&nbsp;= </td>
-                  <td class="tablebot"><input type="text" class="bp" id="2aa" size="2" placeholder="..." onchange="cek2()"></td>
-              </tr>
-              <tr class="jjj">
-                  <td><input type="text" class="bp" id="2ab" size="2" placeholder="..." onchange="cek2()"></td>
-              </tr>
-              <tr class="jj2" style="display: none;">
-                  <td>&nbsp;&nbsp;&nbsp; = <input type="text" class="bp" id="2ac" size="2" placeholder="..." onchange="cekk2()"></td>
-              </tr>
-            </table>
-              
-      </div>
-    
-    <div class="soal3">
-      <hr>
-        <p>3. &nbsp;Untuk memindahkan muatan sebesar 10 C dari A ke B diperlukan usaha sebesar 100 Joule hitunglah potensial A ke B tersebut?</p> 
-            <p><b style="text-decoration: underline;">Jawab :</b></p>
-            <table>
-              <tr>
-                <td>\(V = \frac{W}{Q} \)</td>
-              </tr>
-            <tr class="p3" style="display: none;">
-              <td>\(\;\; = \frac{100}{10}\)</td>
-            </tr>
-            <tr class="ja3" style="display: none">
-              <td>\(\;\; = 10\)</td>
-            <tr>
-            </table>
-            <p class="j3">Benar, beda potensial rangkaian tersebut adalah 10 V</p>
-        
-            <!--input-->
-            <table>
-              <tr class="table1">
-                  <td rowspan="2">&nbsp;&nbsp;&nbsp;&nbsp;= </td>
-                  <td class="tablebot"><input type="text" class="bp" id="3aa" size="2" placeholder="..." onchange="cek3()"></td>
-              </tr>
-              <tr class="jjj3">
-                  <td><input type="text" class="bp" id="3ab" size="2" placeholder="..." onchange="cek3()"></td>
-              </tr>
-              <tr class="jj3" style="display: none;">
-                  <td>&nbsp;&nbsp;&nbsp; = <input type="text" class="bp" id="3ac" size="2" placeholder="...." onchange="cekk3()"></td>
-              </tr>
-            </table>
-    </div>
+              <div style="text-align:center">
+                <span class="soprev" onclick="plusSlides(-1)">Soal Sebelumnya</span>
+                <span class="dot" onclick="currentSlide(1)">1</span> 
+                <span class="dot" onclick="currentSlide(2)">2</span> 
+                <span class="dot" onclick="currentSlide(3)">3</span>
+                <span class="dot" onclick="currentSlide(4)">4</span>                 
+                <span class="sonext" onclick="plusSlides(1)">Soal Selanjutnya</span>
+              </div>
+
 
         </div>
 

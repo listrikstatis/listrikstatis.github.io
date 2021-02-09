@@ -14,6 +14,32 @@ $(document).ready(function(){
           });
 });
 
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" activeuy", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " activeuy";
+}
 
 //SOAL 1
 function cek(){
@@ -120,6 +146,42 @@ function cekk3(){
     document.getElementsByClassName('j3')[0].style.display='block';
   } else{    
     document.getElementById("3ac").style="border: 3px solid red";
+  }
+}
+
+//SOAL 4
+function cek4(){
+  
+  let a4= document.getElementById("4aa").value;
+  let b4= document.getElementById("4ab").value;
+  
+  if (a4 == "210" && b4 == "30") {
+    document.getElementsByClassName('p4')[0].style.display='block';
+    document.getElementsByClassName('table4')[0].style.display='none';
+    document.getElementsByClassName('jjj4')[0].style.display='none';
+    document.getElementsByClassName('jj4')[0].style.display='block';
+  } else if(a4=="210"){    
+    document.getElementById("4aa").style="border: 3px solid green";
+    document.getElementById("4ab").style="border: 3px solid red";
+  } else if(b4=="30"){    
+    document.getElementById("4ab").style="border: 3px solid green";
+    document.getElementById("4aa").style="border: 3px solid red";
+  } else{    
+    document.getElementById("4aa").style="border: 3px solid red";
+    document.getElementById("4ab").style="border: 3px solid red";
+  }
+}
+
+function cekk4(){
+  let c4= document.getElementById("4ac").value;
+
+  if(c4 == "70"){    
+    document.getElementById("4ac").style="border: 3px solid green";    
+    document.getElementsByClassName('jj4')[0].style.display='none';
+    document.getElementsByClassName('ja4')[0].style.display='block';
+    document.getElementsByClassName('j4')[0].style.display='block';
+  } else{    
+    document.getElementById("4ac").style="border: 3px solid red";
   }
 }
 

@@ -279,7 +279,7 @@ body{
   overflow: hidden;
   border-radius: 10px;
   border: 1px solid #46B29E;
-  border-style: dashed;
+  border-style: dotted;
   margin-bottom: 5px;
 }
 
