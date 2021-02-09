@@ -303,7 +303,14 @@ input{
   width: 18px;
   margin: -1px;
 }
+.md, .bp {
+  border-radius: 5px;
+  width: 36px;
+}
 
+::placeholder{
+  font-weight: bold;
+}
 :hover::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: transparent;
 }
