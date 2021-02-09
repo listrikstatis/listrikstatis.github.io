@@ -296,10 +296,14 @@ input{
   width: 65%;
   text-align: center;
 }
-.cb{
+
+.cb, .md, .bp{
   border: none;
   border-radius: 10px;
+  width: 18px;
+  margin: -1px;
 }
+
 :hover::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: transparent;
 }
@@ -476,6 +480,10 @@ p{
 .rumus2 {
   padding-left: 0;
   display: table-row;
+}
+
+.tablebot {
+  width: auto;
 }
 
 .gariskanan {
