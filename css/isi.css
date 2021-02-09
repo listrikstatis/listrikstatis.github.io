@@ -336,6 +336,9 @@ color: transparent;
   width: 60%;
   border: none;
 }
+.vid1, .vid2 {
+  width: 50%;
+}
 .quizs{
   width: 40%;
   border: none;
@@ -386,7 +389,7 @@ color: transparent;
 }
 
 .vidbenar {
-  width: 50%;
+  width: 90%;
 }
 
 /*===========================================================================================================*/
@@ -452,6 +455,10 @@ p{
 }
 
 .quizs {
+  width: 100%;
+  display: block;
+}
+.vid1, .vid2 {
   width: 100%;
   display: block;
 }

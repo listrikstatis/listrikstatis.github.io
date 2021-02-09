@@ -28,6 +28,7 @@ function cek(){
     // document.getElementsByClassName('cek')[0].style.display='none';
     document.getElementsByClassName('m1')[0].style.display='block';
   } else {
+    document.getElementsByClassName('none')[0].style.display='none'; 
     document.getElementById("me1").style="border: 3px solid red"; 
     document.getElementById("me2").style="border: 3px solid red"; 
     document.getElementById("me3").style="border: 3px solid red"; 
@@ -35,7 +36,6 @@ function cek(){
     document.getElementById("me5").style="border: 3px solid red"; 
     document.getElementById("me6").style="border: 3px solid red"; 
     document.getElementById("me7").style="border: 3px solid red"; 
-    document.getElementsByClassName('m1')[0].style.display='none';
   }
   
   if (me1 == "3"){
@@ -188,6 +188,7 @@ function cek2(){
     // document.getElementsByClassName('input2')[0].style.display='none';
     // document.getElementsByClassName('non2')[0].style.display='block';
   } else {
+    document.getElementsByClassName('none2')[0].style.display='none'; 
     document.getElementById("mn1").style="border: 3px solid red"; 
     document.getElementById("mn2").style="border: 3px solid red"; 
     document.getElementById("mn3").style="border: 3px solid red"; 
@@ -195,7 +196,7 @@ function cek2(){
     document.getElementById("mn5").style="border: 3px solid red"; 
     document.getElementById("mn6").style="border: 3px solid red"; 
     document.getElementById("mn7").style="border: 3px solid red"; 
-    document.getElementsByClassName('m2')[0].style.display='none';
+    // document.getElementsByClassName('m2')[0].style.display='none';
   }
   
   if (mn1 == "8"){
@@ -347,6 +348,7 @@ function cek3(){
     // document.getElementsByClassName('cek3')[0].style.display='none';
     document.getElementsByClassName('m3')[0].style.display='block';
   } else {
+    document.getElementsByClassName('none3')[0].style.display='none'; 
     document.getElementById("mi1").style="border: 3px solid red"; 
     document.getElementById("mi2").style="border: 3px solid red"; 
     document.getElementById("mi3").style="border: 3px solid red"; 
