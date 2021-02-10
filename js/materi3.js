@@ -14,6 +14,33 @@ $(document).ready(function(){
           });
 });
 
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("soalnya");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" activeuy", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " activeuy";
+}
+
 //SOAL 1
 function cek(){
   let me1= document.getElementById("me1").value;
@@ -520,3 +547,4 @@ $('input[class="md"]').keyup(function(e)
     this.value = this.value.replace(/^[a-zA-Z\s]+$/, '');
   }
 });
+

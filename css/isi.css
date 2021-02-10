@@ -297,15 +297,16 @@ input{
   text-align: center;
 }
 
-.cb, .md, .bp{
+.cb{
   border: none;
-  border-radius: 10px;
-  width: 18px;
+  border-radius: 5px;
+  width: 30px;
   margin: -1px;
 }
 .md, .bp {
   border-radius: 5px;
-  width: 36px;
+  width: 34px;
+  border: none;
 }
 
 ::placeholder{
@@ -514,6 +515,10 @@ p{
 
 .vidbenar{
   width: 100%;
+}
+
+.math{
+  font-size: 18.5px;
 }
 
 }

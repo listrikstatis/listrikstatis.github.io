@@ -1,3 +1,4 @@
+// Video
 $(document).ready(function(){
       $('.kolom').hide();
       
@@ -9,7 +10,35 @@ $(document).ready(function(){
     }    
   });
 
+// slide
+var slideIndex = 1;
+showSlides(slideIndex);
 
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("soalnya");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" activeuy", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " activeuy";
+}
+
+// halaman 1
 function salah(){
   document.getElementById('b1').style.display = 'none';
   document.getElementById('s1').style.display = 'block';
@@ -29,242 +58,47 @@ function benar2(){
   document.getElementById('gaya').style.display = 'block';
 }
 
-//SOAL 1
-function cek(){
-  let c11= document.getElementById("c11").value;
-  let c12= document.getElementById("c12").value;
-  let c13= document.getElementById("c13").value;
-  let c14= document.getElementById("c14").value;
-  let c15= document.getElementById("c15").value;
-  let c16= document.getElementById("c16").value;
-  let c17= document.getElementById("c17").value;
-  let c18= document.getElementById("c18").value;
-  let c19= document.getElementById("c19").value;
+// halaman 2-------------------------------------------------------------------------------------------------------------
+$(document).ready(function(){
+    $(".contohsoal").hide();
+    $(".pertanyaan").hide();
+    $(".soalbtn").hide();
+          $(".contohbtn").click(function(){
+              $(".contohsoal").show(0);
+              $(".contohbtn").hide(0);              
+              $(".soalbtn").show(0);
+          });     
+          
+          $(".soalbtn").click(function(){
+              $(".pertanyaan").show(0);
+              $(".soalbtn").hide(0);
+          });
+});
 
-  if (c11 == "4" && c12 == "10" && c13 == "-6" && c14 == "8" && c15 == "10" && c16 == "-6" && c17 == "0,6" && c18 == "2" && c19 == "0,8") {
-    // document.getElementsByClassName('cek3')[0].style.display='none';
-    document.getElementsByClassName('co1')[0].style.display='block';
-  } else {          
-    document.getElementsByClassName('non1')[0].style.display='none'; 
-    document.getElementById("c11").style="border: 3px solid red"; 
-    document.getElementById("c12").style="border: 3px solid red"; 
-    document.getElementById("c13").style="border: 3px solid red"; 
-    document.getElementById("c14").style="border: 3px solid red"; 
-    document.getElementById("c15").style="border: 3px solid red"; 
-    document.getElementById("c16").style="border: 3px solid red"; 
-    document.getElementById("c17").style="border: 3px solid red";  
-    document.getElementById("c18").style="border: 3px solid red"; 
-    document.getElementById("c19").style="border: 3px solid red"; 
-  }
-  if (c11 == "4"){
-    document.getElementById("c11").style="border: 3px solid green";   
-  } else {
-    document.getElementById("c11").style="border: 3px solid red"; 
-  }
-  
-  if(c12 == "10"){
-    document.getElementById("c12").style="border: 3px solid green";
-  } else {
-    document.getElementById("c12").style="border: 3px solid red"; 
-  }
-  
-  if(c13 == "-6"){
-    document.getElementById("c13").style="border: 3px solid green";
-  } else {
-    document.getElementById("c13").style="border: 3px solid red"; 
-  }
-  
-  if(c14 == "8"){
-    document.getElementById("c14").style="border: 3px solid green";
-  } else {
-    document.getElementById("c14").style="border: 3px solid red"; 
-  }
-  
-  if(c15 == "10"){
-    document.getElementById("c15").style="border: 3px solid green";
-  } else {
-    document.getElementById("c15").style="border: 3px solid red"; 
-  }
-  
-  if(c16 == "-6"){
-    document.getElementById("c16").style="border: 3px solid green";
-  } else {
-    document.getElementById("c16").style="border: 3px solid red"; 
-  }
-  
-  if(c17 == "0,6"){
-    document.getElementById("c17").style="border: 3px solid green";
-  } else {
-    document.getElementById("c17").style="border: 3px solid red"; 
-  }
-
-  if(c18 == "2"){
-    document.getElementById("c18").style="border: 3px solid green";
-  } else {
-    document.getElementById("c18").style="border: 3px solid red"; 
-  }
-
-  if(c19 == "0,8"){
-    document.getElementById("c19").style="border: 3px solid green";
-  } else {
-    document.getElementById("c19").style="border: 3px solid red"; 
-  }
+function salahh(){
+  document.getElementById('b1').style.display = 'none';
+  document.getElementById('s1').style.display = 'block';
 }
-
-function cek11(){
-  let c11= document.getElementById("c11").value;
-  
-  if (c11 == "4"){
-    document.getElementById("c11").style="border: 3px solid green";     
-    document.getElementsByClassName('non1')[0].style.display='none';    
-  } else{
-    document.getElementById("c11").style="border: 3px solid red";    
-    document.getElementsByClassName('co1')[0].style.display='none';  
-    document.getElementsByClassName('non1')[0].style.display='block';
-  }
-}
-
-function cek12(){
-  let c12= document.getElementById("c12").value;
-  
-  if (c12 == "10"){
-    document.getElementById("c12").style="border: 3px solid green";        
-    document.getElementsByClassName('non1')[0].style.display='none'; 
-  } else{
-    document.getElementById("c12").style="border: 3px solid red";    
-    document.getElementsByClassName('co3')[0].style.display='none';  
-    document.getElementsByClassName('non1')[0].style.display='block';
-  }
-}
-
-function cek13(){
-  let c13= document.getElementById("c13").value;
-  
-  if (c13 == "-6"){
-    document.getElementById("c13").style="border: 3px solid green";      
-    document.getElementsByClassName('non1')[0].style.display='none';   
-  } else{
-    document.getElementById("c13").style="border: 3px solid red";    
-    document.getElementsByClassName('co1')[0].style.display='none';  
-    document.getElementsByClassName('non1')[0].style.display='block';
-  }
-}
-
-function cek14(){
-  let c14= document.getElementById("c14").value;
-  
-  if (c14 == "8"){
-    document.getElementById("c14").style="border: 3px solid green";      
-    document.getElementsByClassName('non1')[0].style.display='none';   
-  } else{
-    document.getElementById("c14").style="border: 3px solid red";    
-    document.getElementsByClassName('co1')[0].style.display='none';  
-    document.getElementsByClassName('non1')[0].style.display='block';
-  }
-}
-
-function cek15(){
-  let c15= document.getElementById("c15").value;
-  
-  if (c15 == "10"){
-    document.getElementById("c15").style="border: 3px solid green";      
-    document.getElementsByClassName('non1')[0].style.display='none';   
-  } else{
-    document.getElementById("c15").style="border: 3px solid red";    
-    document.getElementsByClassName('co1')[0].style.display='none';  
-    document.getElementsByClassName('non1')[0].style.display='block';
-  }
-}
-
-function cek16(){
-  let c16= document.getElementById("c16").value;
-  
-  if (c16 == "-6"){
-    document.getElementById("c16").style="border: 3px solid green";      
-    document.getElementsByClassName('non1')[0].style.display='none';   
-  } else{
-    document.getElementById("c16").style="border: 3px solid red";    
-    document.getElementsByClassName('co1')[0].style.display='none';  
-    document.getElementsByClassName('non1')[0].style.display='block';
-  }
-}
-
-function cek17(){
-  let c17= document.getElementById("c17").value;
-  
-  if (c17 == "0,6"){
-    document.getElementById("c17").style="border: 3px solid green";      
-    document.getElementsByClassName('non1')[0].style.display='none'; 
-  } else{
-    document.getElementById("c17").style="border: 3px solid red";    
-    document.getElementsByClassName('co3')[0].style.display='none';    
-    document.getElementsByClassName('non1')[0].style.display='block';
-  }
-}
-
-function cek18(){
-  let c18= document.getElementById("c18").value;
-  
-  if (c18 == "2"){
-    document.getElementById("c18").style="border: 3px solid green";      
-    document.getElementsByClassName('non1')[0].style.display='none'; 
-  } else{
-    document.getElementById("c18").style="border: 3px solid red";    
-    document.getElementsByClassName('co1')[0].style.display='none';    
-    document.getElementsByClassName('non1')[0].style.display='block';
-  }
-}
-
-function cek19(){
-  let c19= document.getElementById("c19").value;
-  
-  if (c19 == "0,8"){
-    document.getElementById("c19").style="border: 3px solid green";      
-    document.getElementsByClassName('non1')[0].style.display='none'; 
-  } else{
-    document.getElementById("c19").style="border: 3px solid red";    
-    document.getElementsByClassName('co1')[0].style.display='none';    
-    document.getElementsByClassName('non1')[0].style.display='block';
-  }
-}
-
-  
-
-//SOAL 2
-function cek2(){
-  let c2= document.getElementById("c1b").value;
-  let c3= document.getElementById("c2b").value;
-  let c4= document.getElementById("c3b").value;
-
-  if (c2 == "3" && c3 == "10" && c4 == "3") {
-    document.getElementsByClassName('cek2')[0].style.display='none';
-    document.getElementsByClassName('co2')[0].style.display='block';
-    document.getElementsByClassName('cc2')[0].style.display='none';
-  } else {
-     document.getElementById("c1b").style="border: 3px solid red";
-     document.getElementById("c2b").style="border: 3px solid red";
-     document.getElementById("c3b").style="border: 3px solid red";   
-  }
-   if (c2 == "3") {
-    document.getElementById("c1b").style="border: 3px solid green";
-  } else {
-     document.getElementById("c1b").style="border: 3px solid red";
-  }
-
-  if (c3 == "10") {
-    document.getElementById("c2b").style="border: 3px solid green";
-  } else {
-     document.getElementById("c2b").style="border: 3px solid red";
-  }
-
-  if (c4 == "3") {
-    document.getElementById("c3b").style="border: 3px solid green";
-  } else {
-     document.getElementById("c3b").style="border: 3px solid red";
-  }
+function benarr(){
+  document.getElementById('b1').style.display = 'block';
+  document.getElementById('s1').style.display = 'none';
 }
 
 //SOAL 3
+function cek(){
+  let cb3= document.getElementById("cb3").value;
+
+  if (cb3 == "0,8" || cb3 =="0.8") {
+    // document.getElementsByClassName('cek3')[0].style.display='none';
+    document.getElementsByClassName('co1')[0].style.display='block';    
+    document.getElementById("cb3").style="border: 3px solid green"; 
+  } else {          
+    document.getElementsByClassName('co1')[0].style.display='none'; 
+    document.getElementById("cb3").style="border: 3px solid red"; 
+}
+}
+
+//SOAL 2
 function cek3(){
   let cb31= document.getElementById("cb31").value;
   let cb32= document.getElementById("cb32").value;
