@@ -85,11 +85,12 @@ ul li .besarrr {
 @media (min-width : 992px) {
     .konten {
         float: left;
-        left: 13.5%;
+        left: 13.6%;
         top: 8%;
         display: table;
+        position: absolute;
         background-color: white;
-        height: 589px;
+        height: 590px;
         width: 84%;
         padding: 15px;
         overflow: hidden;
