@@ -184,9 +184,9 @@
       </div><!--garis-->
     </div>
 
-    <center><button class="soalbtn">Soal Latihan</button></center>
+    <!-- <center><button class="soalbtn">Soal Latihan</button></center>
 
-    <div class="pertanyaan">
+    <div class="pertanyaan"> -->
       <hr>
     <h4><i class="fas fa-pen"></i>&nbsp;Soal</h4>
     <div class="garis">
@@ -210,15 +210,8 @@
                           <table>
                             <tr>
                               <td>\(W = V \times Q\)</td>
-                            </tr>
-                            <tr class="p1" style="display: none;">
-                              <td>\(\;\;\; = 9 \times 30\)</td>
-                            </tr>
-                            <tr class="ja1" style="display: none">
-                              <td>\(\;\;\; = 270 \)</td>
-                            </tr>
+                            </tr>                            
                           </table>
-                          <p class="j1">Benar, besar energinya adalah 270 J</p>
 
                           <!--input-->
                           <table>
@@ -226,20 +219,24 @@
                               <td>&nbsp;&nbsp;&nbsp;&nbsp; = 
                               </td>
                               <td>
-                                <input type="text" class="bp" id="v1" size="2" placeholder="..." onchange="cek()">
+                                <input type="text" class="bp" id="v1" size="2" placeholder="..." onchange="cek11()">
                                 \(\times\)
-                                <input type="text" class="bp" id="q1" size="2" placeholder="..." onchange="cek()">
+                                <input type="text" class="bp" id="q1" size="2" placeholder="..." onchange="cek12()">
                               </td>
                             </tr>
-                            <tr class="nilai" style="display: none;">
+                            <tr>
                               <td>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
                               </td>
                               <td>
-                                <input type="text" class="bp" id="h1" size="2" placeholder="..." onchange="cekk()">
+                                <input type="text" class="bp" id="h1" size="2" placeholder="..." onchange="cek13()">
                               </td>
                             </tr>
                           </table>
+                          <br>
+                          <input class="cek" type="submit" onclick="cek()" value="Cek Jawaban"><br>
+                          <p class="j1">Benar, besar energinya adalah 270 J</p>
+                          <p class="none"><b style="color: red;">Jawaban salah </b></p>
                 </div>
 
                 <div class="mySlides fade">

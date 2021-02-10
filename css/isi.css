@@ -324,14 +324,7 @@ color: transparent;
   color: transparent;
 }
 
-.cek{
-  border: 1px solid #46B29E;
-  padding: 5px;
-  cursor: pointer;
-  border-radius: 5px;
-  font-family: verdana,arial,helvetica;
-}
-.cek2, .cek3, .cek4{
+.cek, .cek2, .cek3, .cek4{
   border: 1px solid #46B29E;
   padding: 5px;
   cursor: pointer;
