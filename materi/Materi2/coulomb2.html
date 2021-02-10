@@ -210,10 +210,40 @@
         <div class="slideshow">
 
                 <!-- soal 1 -->
-                <div class="soalnya fade">
+                <div class="soalnya fade"> 
                   <div class="notext">Soal 1</div>
                   <hr>
-                      <p>1. &nbsp;Dua muatan sejenis besarnya \(2 \times 10^{-6}\) C dan \(6 \times 10^{-4}\) C. Jika jarak kedua muatan 6 cm, berapakah gaya coulomb yang dialami kedua muatan?<p>
+                    <p>1. &nbsp;Dua buah benda bermuatan listrik masing-masing 10 C dan 20 C berada pada jarak 20 cm, berapa gaya tolak-menolak antara dua muatan tersebut?</p>
+                      <p><b style="text-decoration: underline;">Jawab :</b></p>
+
+                          <p>$F = \large k \frac{Q_1 \times Q_2}{r^2}$</p>
+                          <table>
+                            <tr>
+                              <td rowspan="2">$F = 9 \times 10^9$</td>
+                              <td class="tablebot">(<input type="text" class="cb" size="1" id="cb31" placeholder="..." onchange="cek11()">$\times$
+                                <input type="text" class="cb" size="1" id="cb32" placeholder="..." onchange="cek12()">) 
+                            </tr>
+                            <tr>
+                              <td style="text-indent: 15px;">(<input type="text" class="cb" size="1" id="cb33" placeholder="..." onchange="cek13()">) 
+                              <sup><input type="text" class="cb" size="1" id="cb34" placeholder="..." style="width:20px;font-size:1em;height:15px" onchange="cek14()"></sup></td>
+                            </tr>
+                          </table>
+                              <p>$\;\; = $<input type="text" class="cb" id="cb35" size="1" placeholder="..." onchange="cek15()"> $\times$
+                              <input type="text" class="cb" size="1" id="cb36" placeholder="..." onchange="cek16()"> 
+                              <sup><input type="text" class="cb" id="cb37" size="1" placeholder="..." style="width:20px;font-size:1em;height:15px" onchange="cek17()"></sup></p>
+              <br>        
+                      
+                      <input class="cek3" type="submit" onclick="cek()" value="Cek Jawaban">
+                      <p class="co3"><b>Jawaban Benar</b><br>
+                          Jadi, besar gaya tolak menolak adalah \(4,5 \times 10^{13}\; N\)</p>
+                      <p class="non3"><b style="color: red;">Jawaban salah </b></p>
+                </div>                 
+
+                <!-- soal 2 -->
+                <div class="soalnya fade">
+                  <div class="notext">Soal 2</div>
+                  <hr>
+                      <p>2. &nbsp;Dua muatan sejenis besarnya \(2 \times 10^{-6}\) C dan \(6 \times 10^{-4}\) C. Jika jarak kedua muatan 6 cm, berapakah gaya coulomb yang dialami kedua muatan?<p>
                             <p class="rad"><input type="radio" name="coba" onchange="salahh()"/>&nbsp;$3 \times 10^2$ N</p>
                             <p class="rad"><input type="radio" name="coba" onchange="benarr()"/>&nbsp;$3 \times 10^3$ N</p>
                             <p class="rad"><input type="radio" name="coba" onchange="salahh()"/>&nbsp;$3 \times 10^4$ N</p>
@@ -227,36 +257,6 @@
                             <p>$\;\;\; = 3 \times 10^3$</p>
                           </div>
                 </div>
-
-                <!-- soal 2 -->
-                <div class="soalnya fade"> 
-                  <div class="notext">Soal 2</div>
-                  <hr>
-                    <p>2. &nbsp;Dua buah benda bermuatan listrik masing-masing 10 C dan 20 C berada pada jarak 20 cm, berapa gaya tolak-menolak antara dua muatan tersebut?</p>
-                      <p><b style="text-decoration: underline;">Jawab :</b></p>
-
-                          <p>$F = \large k \frac{Q_1 \times Q_2}{r^2}$</p>
-                          <table>
-                            <tr>
-                              <td rowspan="2">$F = 9 \times 10^9$</td>
-                              <td class="tablebot">(<input type="text" class="cb" size="1" id="cb31" placeholder="..." onchange="cek31()">$\times$
-                                <input type="text" class="cb" size="1" id="cb32" placeholder="..." onchange="cek32()">) 
-                            </tr>
-                            <tr>
-                              <td style="text-indent: 15px;">(<input type="text" class="cb" size="1" id="cb33" placeholder="..." onchange="cek33()">) 
-                              <sup><input type="text" class="cb" size="1" id="cb34" placeholder="..." style="width:20px;font-size:1em;height:15px" onchange="cek34()"></sup></td>
-                            </tr>
-                          </table>
-                              <p>$\;\; = $<input type="text" class="cb" id="cb35" size="1" placeholder="..." onchange="cek35()"> $\times$
-                              <input type="text" class="cb" size="1" id="cb36" placeholder="..." onchange="cek36()"> 
-                              <sup><input type="text" class="cb" id="cb37" size="1" placeholder="..." style="width:20px;font-size:1em;height:15px" onchange="cek37()"></sup></p>
-              <br>        
-                      
-                      <input class="cek3" type="submit" onclick="cek3()" value="Cek Jawaban">
-                      <p class="co3"><b>Jawaban Benar</b><br>
-                          Jadi, besar gaya tolak menolak adalah \(4,5 \times 10^{13}\; N\)</p>
-                      <p class="non3"><b style="color: red;">Jawaban salah </b></p>
-                </div> 
                 
                 <!-- soal 3 -->
                 <div class="soalnya fade">                
@@ -265,10 +265,10 @@
                     <p>3. &nbsp;Dua buah muatan masing-masing \(4 \times 10^{-6}\) C dan \(8 \times 10^{-6}\) C terpisah sejauh 60 cm. Tentukan besar gaya yang terjadi antara dua buah muatan tersebut?</p>
                       <p><b style="text-decoration: underline;">Jawab :</b></p>
                           
-                      <p>$\;\; = $<input type="text" class="cb" id="cb3" size="3" placeholder="...">
+                      <p>$F\;\; = $<input type="text" class="cb" id="cb3" size="3" placeholder="...">
                     <br>        
                     
-                    <input class="cek" type="submit" onclick="cek()" value="Cek Jawaban">
+                    <input class="cek" type="submit" onclick="cek3()" value="Cek Jawaban">
                     <p class="co1"><b>Jawaban Benar</b><br>
                         Jadi, besar gaya antara 2 muatan adalah \(0,8 \; N\)</p>
                     <p class="non1"><b style="color: red;">Jawaban salah</b></p>

@@ -1,10 +1,10 @@
 [{
     "soal0": {
-        "soal": "Sebuah atom dikatakan netral jika ....",
-        "a": "jumlah inti sama dengan jumlah elektron",
-        "b": "jumlah proton sama dengan jumlah neutron",
-        "c": "jumlah elektron sama dengan jumlah proton",
-        "d": "jumlah neutron sama dengan jumlah elektron",
+        "soal": "Dua benda bermuatan 200 C dan 80 C berjarak 10 m. Maka besarnya medan listrik terhadap muatan 80 C adalah ... ",
+        "a": "40k N/C",
+        "b": "25k N/C",
+        "c": "2k N/C",
+        "d": "0,8k N/C",
         "benar": "c"
     }
 },{

@@ -275,12 +275,13 @@ body{
   margin-top: -10px;
 }
 .petunjuk {
-  padding: 15px;
+  padding: 20px;
+  padding-top: 0;
   overflow: hidden;
   border-radius: 10px;
   border: 1px solid #46B29E;
   border-style: dotted;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
 }
 
 .img {

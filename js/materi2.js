@@ -75,6 +75,7 @@ $(document).ready(function(){
           });
 });
 
+// soal 2
 function salahh(){
   document.getElementById('b1').style.display = 'none';
   document.getElementById('s1').style.display = 'block';
@@ -85,7 +86,7 @@ function benarr(){
 }
 
 //SOAL 3
-function cek(){
+function cek3(){
   let cb3= document.getElementById("cb3").value;
 
   if (cb3 == "0,8" || cb3 =="0.8") {
@@ -98,8 +99,8 @@ function cek(){
 }
 }
 
-//SOAL 2
-function cek3(){
+//SOAL 1
+function cek(){
   let cb31= document.getElementById("cb31").value;
   let cb32= document.getElementById("cb32").value;
   let cb33= document.getElementById("cb33").value;
@@ -164,7 +165,7 @@ function cek3(){
   }
 }
 
-function cek31(){
+function cek11(){
   let cb31= document.getElementById("cb31").value;
   
   if (cb31 == "10"){
@@ -177,7 +178,7 @@ function cek31(){
   }
 }
 
-function cek32(){
+function cek12(){
   let cb32= document.getElementById("cb32").value;
   
   if (cb32 == "20"){
@@ -190,7 +191,7 @@ function cek32(){
   }
 }
 
-function cek33(){
+function cek13(){
   let cb33= document.getElementById("cb33").value;
   
   if (cb33 == "0,2"){
@@ -203,7 +204,7 @@ function cek33(){
   }
 }
 
-function cek34(){
+function cek14(){
   let cb34= document.getElementById("cb34").value;
   
   if (cb34 == "2"){
@@ -216,7 +217,7 @@ function cek34(){
   }
 }
 
-function cek35(){
+function cek15(){
   let cb35= document.getElementById("cb35").value;
   
   if (cb35 == "4,5"){
@@ -229,7 +230,7 @@ function cek35(){
   }
 }
 
-function cek36(){
+function cek16(){
   let cb36= document.getElementById("cb36").value;
   
   if (cb36 == "10"){
@@ -242,7 +243,7 @@ function cek36(){
   }
 }
 
-function cek37(){
+function cek17(){
   let cb37= document.getElementById("cb37").value;
   
   if (cb37 == "13"){
