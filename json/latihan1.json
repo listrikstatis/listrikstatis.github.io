@@ -27,21 +27,21 @@
     }
 },{
     "soal3": {
-        "soal": "Plastik yang digosokkan pada kain wol akan bermuatan negatif karena ...",
-        "a": "Elektron pindah dari plastik ke kain wol",
-        "b": "Proton pindah dari plastik ke kain wol",
-        "c": "Elektron pindah dari kain wol ke plastik",
-        "d": "Proton pindah dari kain wol ke plastik",
+        "soal": "Bola A menarik bola B, bola B menolak bola C, sedangkan bola C menarik bola D. apabila diketahui bola A bermuatan positif maka ...",
+        "a": "Bola B negatif, bola C positif, bola D negatif",
+        "b": "Bola B negatif, bola C negatif, bola D negatif",
+        "c": "Bola B negatif, bola C negatif, bola D positif",
+        "d": "Bola B negatif, bola C positif, bola D negatif",
         "benar": "c"
     }
 },{
     "soal4": {
-        "soal": "Jika kaca digosok dengan kain sutra, maka ....",
-        "a": "Kain sutra bermuatan listrik negatif",
-        "b": "Kaca bermuatan listrik negatif",
-        "c": "Proton pindah dari kaca ke kain sutra",
-        "d": "Elektron pindah dari kaca ke kain sutra",
-        "benar": "a"
+        "soal": "Bila benda O menarik benda P, Benda P menarik benda Q, jika benda Q bermuatan negatif maka ....",
+        "a": "O dan P bermuatan negatif",
+        "b": "O dan P bermuatan positif",
+        "c": "O bermuatan negatif dan P bermuatan positif",
+        "d": "O bermuatan positif dan P bermuatan negatif",
+        "benar": "c"
     }
 },{    
     "soal5": {
@@ -54,12 +54,12 @@
     }
 },{ 
     "soal6": {
-        "soal": "Dua buah benda yang berlawanan muatan akan ...",
-        "a": "Tolak menolak",
-        "b": "Tetap mempertahankan posisinya",
-        "c": "Tarik menarik",
-        "d": "Tidak berubah",
-        "benar": "c"
+        "soal": "Benda X bermuatan positif dan benda Y bermuatan negatif. Jika kedua benda saling berdekatan , maka ...",
+        "a": "Benda X dan Y tarik menarik",
+        "b": "Benda X menolak benda Y",
+        "c": "Benda X dan Y akan tolak menolak",
+        "d": "Benda X dan Y tidak terjadi interaksi",
+        "benar": "a"
     }
 },{ 
     "soal7": {

@@ -12,7 +12,7 @@ $(document).ready(function(){
     
   });
 
-//Halaman 2
+//Halaman 1
 function salah(){
   document.getElementById('b1').style.display = 'none';
   document.getElementById('s1').style.display = 'block';
@@ -55,7 +55,7 @@ function benar3(){
   document.getElementById('deret').style.display = 'block';
 }
 
-//Halaman 3
+//Halaman 2
 function cekjwbn(){
   document.getElementById("no1").value = document.getElementById("no1").value.toLowerCase();
   var aaa= document.getElementById("no1").value;
