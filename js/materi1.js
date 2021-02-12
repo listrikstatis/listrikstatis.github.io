@@ -1,18 +1,63 @@
 $(document).ready(function(){
       $('.kolom').hide();
-      $('.bawah').hide();
+      // $('.bawah').hide();
 
     document.getElementById('videoo').addEventListener('ended',myHandler,false);
 
     function myHandler(e) {
       $('.kolom').show(100);
-      $('.bawah').show(1000);
+      // $('.bawah').show(1000);
       $('.first2').hide(100);
     }
     
   });
 
-//Halaman 1
+$(document).ready(function(){      
+      $('.kolom1').hide();
+
+    document.getElementById('videoo1').addEventListener('ended',myHandler,false);
+
+    function myHandler(e) {
+      $('.kolom1').show();
+      $('.end').hide(100);
+    }
+    
+});
+
+//halaman 1
+function sal(){  
+  var cek1 = document.getElementById("ceksal1");
+  
+    cek1.src = "../../img/salah.png";
+    document.getElementById("ceksal2").style.display = 'none';
+}
+function sal2(){  
+  var cek2 = document.getElementById("ceksal2");
+    cek2.src = "../../img/salah.png";
+}
+function sal3(){   
+  var cek3 = document.getElementById("ceksal3");
+    cek3.src = "../../img/salah.png";
+}
+function ben(){  
+  var cek1 = document.getElementById("cekbenar");
+  document.getElementById('nomor2').style.display = 'block';
+  
+    cek1.src = "../../img/benar.png";
+}
+
+function salahh(){
+  document.getElementById('b2').style.display = 'none';
+  document.getElementById('s2').style.display = 'block';
+}
+
+function benarr(){
+  document.getElementById('b2').style.display = 'block';
+  document.getElementById('s2').style.display = 'none';    
+  document.getElementsByClassName('none')[0].style.display = 'block';
+}
+
+//Halaman 2 atas
 function salah(){
   document.getElementById('b1').style.display = 'none';
   document.getElementById('s1').style.display = 'block';
@@ -55,7 +100,7 @@ function benar3(){
   document.getElementById('deret').style.display = 'block';
 }
 
-//Halaman 2
+//Halaman 2 bawah
 function cekjwbn(){
   document.getElementById("no1").value = document.getElementById("no1").value.toLowerCase();
   var aaa= document.getElementById("no1").value;
