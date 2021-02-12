@@ -9,12 +9,12 @@
     }
 },{
     "soal1": {
-        "soal":"Perhatikan gambar.<br><img src='../../img/neutron.png'><br>Partikel neutron di tunjukan oleh nomor ....",
-        "a": "1",
-        "b": "2",
-        "c": "3",
-        "d": "4",
-        "benar": "a"        
+        "soal":"Terdapat empat buah benda, benda 1 menarik benda 2, benda 2 menarik benda 3. Apabila diketahui benda 3 bermuatan positif maka ....",
+        "a": "Benda 1 dan 2 bermuatan negatif",
+        "b": "Benda 1 dan 2 bermuatan positif",
+        "c": "Benda 1 bermuatan negatif dan 2 bermuatan positif",
+        "d": "Benda 1 bermuatan positif dan 2 bermuatan negatif",
+        "benar": "d"        
     }        
 },{
     "soal2": {
