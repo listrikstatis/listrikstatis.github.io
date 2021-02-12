@@ -86,9 +86,10 @@ function sal6(){
 }
 function ben2(){  
   var cekbenar2 = document.getElementById("cekbenar2");
-  document.getElementById('none').style.display = 'block';
   
     cekbenar2.src = "../../img/benar.png";
+
+  document.getElementsByClassName('none')[0].style.display = 'block';
   
     document.getElementById("fal2").style.display = 'none';    
     document.getElementById("fal3").style.display = 'none';    
