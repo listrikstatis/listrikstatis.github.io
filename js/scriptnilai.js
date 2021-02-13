@@ -1,16 +1,14 @@
 // menguhubungkan ke firebase
 var firebaseConfig = {
-    apiKey: "AIzaSyCc61elh5Kv4-jT4ZobroX1CxshSqDKpdw",
-    authDomain: "datalistrikstatis.firebaseapp.com",
-    databaseURL: "https://datalistrikstatis-default-rtdb.firebaseio.com",
-    projectId: "datalistrikstatis",
-    storageBucket: "datalistrikstatis.appspot.com",
-    messagingSenderId: "420431191221",
-    appId: "1:420431191221:web:ba694a5470a68e38c2b2fc",
-    measurementId: "G-VQBLQ2BD4K"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
+    apiKey: "AIzaSyAZDp9rrxItslIYMXyU2_7Y-eCr1sM63Qo",
+    authDomain: "listrikstatis-b91fe.firebaseapp.com",
+    projectId: "listrikstatis-b91fe",
+    storageBucket: "listrikstatis-b91fe.appspot.com",
+    messagingSenderId: "261164154927",
+    appId: "1:261164154927:web:a273f977e8f6ef428246da"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
 
 window.load = function () {
 
