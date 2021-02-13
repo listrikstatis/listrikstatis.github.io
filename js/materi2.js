@@ -92,10 +92,12 @@ function cek3(){
   if (cb3 == "0,8" || cb3 =="0.8") {
     // document.getElementsByClassName('cek3')[0].style.display='none';
     document.getElementsByClassName('co1')[0].style.display='block';    
-    document.getElementById("cb3").style="border: 3px solid green"; 
+    document.getElementById("cb3").style="border: 3px solid green";    
+    document.getElementsByClassName('non1')[0].style.display='none'; 
   } else {          
     document.getElementsByClassName('co1')[0].style.display='none'; 
     document.getElementById("cb3").style="border: 3px solid red"; 
+    document.getElementsByClassName('non1')[0].style.display='block'; 
 }
 }
 

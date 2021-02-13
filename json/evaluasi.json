@@ -1,10 +1,10 @@
 [{
     "soal0": {
-        "soal": "Dua benda bermuatan 200 C dan 80 C berjarak 10 m. Maka besarnya medan listrik terhadap muatan 80 C adalah ... ",
-        "a": "40k N/C",
-        "b": "25k N/C",
-        "c": "2k N/C",
-        "d": "0,8k N/C",
+        "soal": "Sebuah muatan Q yang muatannya \\(7 \\times 10^9\\) C pada jarak 7 cm. Maka kuat medan listrik muatan tersebut adalah ... ",
+        "a": "\\(1,30 \\times 10^4\\) N/C",
+        "b": "\\(1,29 \\times 10^5\\) N/C",
+        "c": "\\(1,29 \\times 10^4\\) N/C",
+        "d": "\\(12,9 \\times 10^5\\) N/C",
         "benar": "c"
     }
 },{
