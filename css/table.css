@@ -130,6 +130,10 @@ th, td {
     animation-duration: 1.5s;
 }
 
+.haltengah{
+    text-align: center;
+}
+
 @-webkit-keyframes fade {
     from {
         opacity: .4
@@ -178,8 +182,6 @@ th, td {
     .soprev,
     .dot {
         font-size: 12px;
-        float: none;
-        text-align: left;
     }
 
     .prev,
@@ -203,6 +205,10 @@ th, td {
         color: #46B29E;
     }
 
+    .haltengah {
+        text-align: left;
+    }
+
 }
 
 @media only screen and (max-width: 300px) {
@@ -211,7 +217,9 @@ th, td {
     .next,
     .text, .sonext, .soprev {
         font-size: 12px;
-        float: none;
+    }
+
+    .haltengah {
         text-align: left;
     }
 }

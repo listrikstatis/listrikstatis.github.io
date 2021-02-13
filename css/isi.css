@@ -67,6 +67,7 @@ b{
 
 .rad{
   margin-left: 15px;
+  line-height: 2.3;
 }
 
 .table, .table1, .table2, .table3{
@@ -443,7 +444,7 @@ color: transparent;
 
 p{
   text-align: justify;
-  font-size: small;
+  font-size: medium;
 }
 .first2 p, .first p, .end p {
   font-size: 24px;
@@ -511,6 +512,11 @@ p{
 
 .math{
   font-size: 18.5px;
+}
+
+.nomor {
+  font-size: 16px;
+  text-align: left;
 }
 
 }

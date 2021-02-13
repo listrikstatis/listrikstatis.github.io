@@ -295,7 +295,6 @@ body{
   border-radius: 10px;
   border: 1px solid #46B29E;
   border-style: dotted;
-  text-align: left;
   /* margin-bottom: 5px; */
 }
 
@@ -416,6 +415,10 @@ body{
   margin: 0 0.5px;
 }
 
+.petunjuk {
+  float: none;
+  margin-bottom: 5px;
+}
 /*______________________________________________________________________________________________*/
 /*menu samping*/
 .sidebar
