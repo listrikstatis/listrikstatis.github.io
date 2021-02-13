@@ -485,7 +485,7 @@ td {
 }
 
 .ket_hasil {
-    width: 118px;
+    width: auto;
     font-size: 15px;
     padding: 5px !important;
 }
@@ -510,9 +510,15 @@ a {
         padding: 10px 0px;
     }
 
+    .ket_hasilnya{
+        padding-left: 5%;
+        float: left;
+    }
+
     .ket_hasil {
-        width: 150px;
+        width: auto;
         font-size: 1.4vw !important;
+        float: left;
     }
 
     .skornya {

@@ -1,3 +1,15 @@
+var firebaseConfig = {
+    apiKey: "AIzaSyAZDp9rrxItslIYMXyU2_7Y-eCr1sM63Qo",
+    authDomain: "listrikstatis-b91fe.firebaseapp.com",
+    projectId: "listrikstatis-b91fe",
+    storageBucket: "listrikstatis-b91fe.appspot.com",
+    messagingSenderId: "261164154927",
+    appId: "1:261164154927:web:a273f977e8f6ef428246da"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+
+
 let selanjutnya = document.querySelector('.lanjut');
 let datadiri = document.querySelector('.data_diri');
 namanya = document.getElementById('nama');
@@ -391,6 +403,9 @@ dat.onreadystatechange = function () {
                 // console.log(hasilakhir);
 
                 let harinya = hari();
+                let waktunya = waktu();
+
+                createTask(sekolah.value.toUpperCase(), namanya.value.toUpperCase(), kelasfix, hasilakhir, waktunya, harinya);
                 
                 let namainput = document.querySelector('.nama');
                 namainput.innerText = namanya.value.toUpperCase();
@@ -403,6 +418,9 @@ dat.onreadystatechange = function () {
 
                 let hariinput = document.querySelector('.hari');
                 hariinput.innerText = harinya;
+                
+                let waktuinput = document.querySelector('.waktu');
+                waktuinput.innerText = waktunya;
 
                 let hasillinput = document.querySelector('.hasill');
                 hasillinput.innerText = hasilakhir;
@@ -460,7 +478,22 @@ dat.open('GET', '../../json/latihan4.json', true);
 dat.send();
 
 
-// hari
+// menyimpan ke dalam databasenya
+
+var d = new Date();
+var t = d.getTime();
+var counter = t;
+
+// ambil jamnya
+window.setTimeout("waktu()", 1000);
+
+function waktu() {
+    var tanggal = new Date();
+    setTimeout("waktu()", 1000);
+    return (tanggal.getHours() + ":" + tanggal.getMinutes() + ":" + tanggal.getSeconds());
+}
+
+// harinya
 function hari() {
     tanggallengkap = new String();
     namahari = ("Minggu Senin Selasa Rabu Kamis Jumat Sabtu");
@@ -475,3 +508,22 @@ function hari() {
     tanggallengkap = namahari[hari] + ", " + tanggal + " " + namabulan[bulan] + " " + tahun;
     return (tanggallengkap);
 }
+
+
+function createTask(sekolah, nama, kelas, nilai, waktunya, hari) {
+    counter += 1;
+    var task = {
+        id: counter,
+        sekolah: sekolah,
+        nama: nama,
+        kelas: kelas,
+        nilai: nilai,        
+        waktu: waktunya,
+        hari: hari
+    }
+
+    let database = firebase.database().ref("kuis4/" + counter);
+    database.set(task);
+
+}
+

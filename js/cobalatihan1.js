@@ -1,15 +1,14 @@
-var firebaseConfig = {
+ var firebaseConfig = {
     apiKey: "AIzaSyAZDp9rrxItslIYMXyU2_7Y-eCr1sM63Qo",
     authDomain: "listrikstatis-b91fe.firebaseapp.com",
     projectId: "listrikstatis-b91fe",
     storageBucket: "listrikstatis-b91fe.appspot.com",
     messagingSenderId: "261164154927",
     appId: "1:261164154927:web:a273f977e8f6ef428246da"
-};
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-
-
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+    
 
 let selanjutnya = document.querySelector('.lanjut');
 let datadiri = document.querySelector('.data_diri');
@@ -48,7 +47,6 @@ selanjutnya.addEventListener('click', function () {
         } 
         cek += 1;
     }
-        
 
     if (sekolah.value == "") {
         if (sekolah.className.indexOf('tt_salah') == -1) {
@@ -68,6 +66,7 @@ selanjutnya.addEventListener('click', function () {
         document.getElementById('data').className += ' hilang';
         document.getElementById('kiri').className = document.getElementById('kiri').className.replace('hilang', '');
         document.getElementById('kanan').className = document.getElementById('kanan').className.replace('hilang', '');
+        // document.getElementById('up').className = document.getElementById('up').className.replace('hilang', '');
 
     }
 
@@ -75,43 +74,6 @@ selanjutnya.addEventListener('click', function () {
     MathJax.typeset();
 
 });
-
-// function readlah() {
-//     var task = firebase.database().ref("kontrolkuis/");
-//     let tmp = document.querySelector('body');
-
-//     task.on("child_added", function (data) {
-//         var taskvalue = data.val();
-
-//         if ((taskvalue.id == "420431191221") && (taskvalue.nilai == 0)) {
-//             tmp.innerHTML += '<div class = "full" > <p>HALAMAN TIDAK DAPAT DIAKSES</p> </div>'
-//             // console.log('0');
-//         } else {
-//             // console.log('1');
-//         }
-
-
-
-//     });
-
-//     MathJax.typeset();
-// }
-
-
-
-// window.onload = function () {
-//     namanya.value = "";
-//     kelasnya.value = value = "0";
-//     sekolah.value = "";
-
-
-//     document.getElementById('kiri').className += ' hilang';
-//     document.getElementById('kanan').className += ' hilang';
-
-//     readlah();
-
-//     MathJax.typeset();
-// }
 
 // -----------------------------------------------------------------------------------------
 // mengambil data dan menampilkanya
@@ -203,7 +165,7 @@ dat.onreadystatechange = function () {
             setTimeout(function(){ 
                 let a = document.querySelector('.coba'+i);
                 a.innerHTML =  soaldata;
-             }, 3000);
+            }, 3000);
             //console.log(document.querySelectorAll('.coba1'))
 
             // ---------------------------------
@@ -418,11 +380,11 @@ dat.onreadystatechange = function () {
                             if (pils_soal[j].attributes.name.nodeValue == 'radio' + i) {
                                 if (pils_soal[j].checked == true) {
                                     // cek jawaban dengan kunci
-                                    // console.log(pils_soal[j].value);
-                                    // console.log(jwbs[i]);
+                                    console.log(pils_soal[j].value);
+                                    console.log(jwbs[i]);
                                     pil_user.push(pils_soal[j].value);
                                     if (pils_soal[j].value == jwbs[i]) {
-                                        hasilakhir = hasilakhir + 5;
+                                        hasilakhir = hasilakhir + 10;
                                         benarr = benarr + 1;
                                     } else {
                                         hasilakhir = hasilakhir;
@@ -430,12 +392,8 @@ dat.onreadystatechange = function () {
                                 }
                             }
                         }
-
-
                     }
-
                 }
-
                 // for (let i = 0; i < cek.length; i++) {
                 //     for (let j = 0; j < cek.length; j++) {
                 //         if (i == cek[j]) {
@@ -447,18 +405,16 @@ dat.onreadystatechange = function () {
                 // console.log("jwb_user_urut_no :" + new_jwb_urut_no);
                 // console.log("jwb_user_urut :" + new_jwb_urut);
                 // simpan kedatabase----------
-                // console.log(namanya.value);
-                // console.log(sekolah.value);
-                // console.log(kelasfix);
-                // console.log(hasilakhir);
-                // let waktunya = waktu(); 
-                
+                console.log(namanya.value);
+                console.log(sekolah.value);
+                console.log(kelasfix);
+                console.log(hasilakhir);
                 
                 let harinya = hari();
-                let waktunya = waktu();
+                // let waktunya = waktu();
 
-                createTask(sekolah.value.toUpperCase(), namanya.value.toUpperCase(), kelasfix, hasilakhir, waktunya, harinya);
-                
+                createTask(sekolah.value.toUpperCase(), namanya.value.toUpperCase(), kelasfix, hasilakhir, harinya);
+
                 let namainput = document.querySelector('.nama');
                 namainput.innerText = namanya.value.toUpperCase();
 
@@ -466,13 +422,14 @@ dat.onreadystatechange = function () {
                 sekolahinput.innerText = sekolah.value.toUpperCase();
 
                 let kelasinput = document.querySelector('.kelas');
-                kelasinput.innerText = kelasfix;  
+                kelasinput.innerText = kelasfix;
+                // kelasinput.innerText = kelasnya.value.toUpperCase(); 
                 
                 let hariinput = document.querySelector('.hari');
                 hariinput.innerText = harinya;
-                
-                let waktuinput = document.querySelector('.waktu');
-                waktuinput.innerText = waktunya;
+
+                // let waktuinput = document.querySelector('.waktu');
+                // waktuinput.innerText = waktunya;
 
                 let hasillinput = document.querySelector('.hasill');
                 hasillinput.innerText = hasilakhir;
@@ -498,6 +455,7 @@ dat.onreadystatechange = function () {
                 alert('Masih Ada Soal Yang Belum Dijawab, Periksa Kembali . . . !');
             }
 
+
         });
 
         // ---------------------------------
@@ -517,14 +475,12 @@ dat.onreadystatechange = function () {
                     }
                 }
             });
-        }                                   
-
+        }
     }
 
 }
-dat.open('GET', '../../json/evaluasi.json', true);
+dat.open('GET', '../../json/latihan1.json', true);
 dat.send();
-
 
 
 // menyimpan ke dalam databasenya
@@ -533,14 +489,14 @@ var d = new Date();
 var t = d.getTime();
 var counter = t;
 
-// ambil jamnya
-window.setTimeout("waktu()", 1000);
+// // ambil jamnya
+// window.setTimeout("waktu()", 1000);
 
-function waktu() {
-    var tanggal = new Date();
-    setTimeout("waktu()", 1000);
-    return (tanggal.getHours() + ":" + tanggal.getMinutes() + ":" + tanggal.getSeconds());
-}
+// function waktu() {
+//     var tanggal = new Date();
+//     setTimeout("waktu()", 1000);
+//     return (tanggal.getHours() + ":" + tanggal.getMinutes() + ":" + tanggal.getSeconds());
+// }
 
 // harinya
 function hari() {
@@ -559,19 +515,18 @@ function hari() {
 }
 
 
-function createTask(sekolah, nama, kelas, nilai, waktunya, hari) {
+function createTask(sekolah, nama, kelas, nilai, hari) {
     counter += 1;
     var task = {
         id: counter,
         sekolah: sekolah,
         nama: nama,
         kelas: kelas,
-        nilai: nilai,        
-        waktu: waktunya,
+        nilai: nilai,  
         hari: hari
     }
 
-    let database = firebase.database().ref("evaluasi/" + counter);
+    let database = firebase.database().ref("kuis1/" + counter);
     database.set(task);
 
 }
