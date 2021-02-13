@@ -443,10 +443,10 @@ color: transparent;
 
 p{
   text-align: justify;
-  line-height: 1;
+  font-size: small;
 }
 .first2 p, .first p, .end p {
-  font-size: 26px;
+  font-size: 24px;
 }
 
 .quizt {
