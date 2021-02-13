@@ -182,6 +182,7 @@ th, td {
     .soprev,
     .dot {
         font-size: 12px;
+        padding: 4px;
     }
 
     .prev,
@@ -217,6 +218,7 @@ th, td {
     .next,
     .text, .sonext, .soprev {
         font-size: 12px;
+        padding: 4px;
     }
 
     .haltengah {
