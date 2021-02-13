@@ -179,6 +179,7 @@ th, td {
     .dot {
         font-size: 12px;
         float: none;
+        text-align: left;
     }
 
     .prev,
@@ -211,5 +212,6 @@ th, td {
     .text, .sonext, .soprev {
         font-size: 12px;
         float: none;
+        text-align: left;
     }
 }
