@@ -13,7 +13,7 @@ window.load = function () {
 
 }
 
-let kmplanId = [];
+let idnya = [];
 
 
 let kuisnya = document.getElementById('kuis');
@@ -27,13 +27,13 @@ let kelasfix = '';
 let sekolahfix = '';
 
 let cek11 = 0;
-// kuisfix = kuisnya.value;
+// datahasil = kuisnya.value;
 
 
-function readlah() {
-    kuisfix = kuisnya.value;
-    // console.log(kuisfix);
-    var task = firebase.database().ref(kuisfix);
+function mencari() {
+    datahasil = kuisnya.value;
+    // console.log(datahasil);
+    var task = firebase.database().ref(datahasil);
 
     tmp.innerHTML = "";
     if (kelasnya.value == "1") {
@@ -67,7 +67,7 @@ function readlah() {
                             <td class="ukr2">${taskvalue.waktu}</td>
                             <td class = "hps" onclick ="hapus(${taskvalue.id})"> Hapus </td>
                         </tr>`;
-                kmplanId.push(taskvalue.id);
+                idnya.push(taskvalue.id);
             }
 
             if (cek11 == 0) {
@@ -78,7 +78,7 @@ function readlah() {
 
                 let klikkkk = document.querySelector('.cah_semua');
                 klikkkk.addEventListener('click', function () {
-                    hapussemua(kmplanId);
+                    hapussemua(idnya);
                 })
             }
 
@@ -109,7 +109,7 @@ function hapus(id) {
 }
 
 function deletetask(id) {
-    var task = firebase.database().ref(kuisfix + id);
+    var task = firebase.database().ref(datahasil + id);
     task.remove();
     tmp.innerHTML = "";
     readlah();
@@ -127,11 +127,11 @@ function hapussemua(id) {
 
 function deletesemua(id) {
     for (let i = 0; i < id.length; i++) {
-        var task = firebase.database().ref(kuisfix + id);
+        var task = firebase.database().ref(datahasil + id);
         task.remove();
     }
     tmp.innerHTML = "";
-    readlah();
+    mencari();
 }
 
 
