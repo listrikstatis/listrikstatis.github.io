@@ -14,13 +14,13 @@ function data(){
     function(AllRecord){
         AllRecord.forEach(
             function(CurrentRecord){
-                var nama = CurrentRecord.val().nama;
+                var namaa = CurrentRecord.val().nama;
                 var kelas = CurrentRecord.val().kelas;
-                var sekolah = CurrentRecord.val().sekolah;
+                var sekolahh = CurrentRecord.val().sekolah;
                 var nilai = CurrentRecord.val().nilai;                
                 var waktu = CurrentRecord.val().waktu;
                 var hari = CurrentRecord.val().hari;
-                AddItemToTable(nama,kelas,sekolah,nilai,waktu,hari);
+                AddItemToTable(namaa,kelas,sekolahh,nilai,waktu,hari);
 
             }
         );
@@ -29,7 +29,7 @@ function data(){
 
 window.onload = data;
 
-function AddItemToTable(){
+function AddItemToTable(namaa,kelas,sekolahh,nilai,waktu,hari){
     var tbody = document.getElementById('tbody1');
     var trow = document.createElement('tr');
     var td1 = document.createElement('td');
@@ -38,9 +38,9 @@ function AddItemToTable(){
     var td4 = document.createElement('td');
     var td5 = document.createElement('td');
     var td6 = document.createElement('td');
-    td1.innerHTML += nama;
+    td1.innerHTML += namaa;
     td2.innerHTML += kelas;
-    td3.innerHTML += sekolah;
+    td3.innerHTML += sekolahh;
     td4.innerHTML += nilai;
     td5.innerHTML += waktu;
     td6.innerHTML += hari;
