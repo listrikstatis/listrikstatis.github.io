@@ -71,12 +71,12 @@ function mencari() {
             }
 
             if (cek11 == 0) {
-                let ssps = document.querySelector('.ha');
+                let ssps = document.querySelector('.center');
                 ssps.innerHTML += '';
-                ssps.innerHTML += `<div class="cah_semua">Hapus Data</div>`;
+                ssps.innerHTML += `<div class="del_semua">Hapus Data</div>`;
                 cek11 += 1;
 
-                let klikkkk = document.querySelector('.cah_semua');
+                let klikkkk = document.querySelector('.del_semua');
                 klikkkk.addEventListener('click', function () {
                     hapussemua(idnya);
                 })

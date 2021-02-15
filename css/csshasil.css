@@ -33,8 +33,9 @@ body{
     cursor: pointer;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
-    background-color: #46B29E;
+    background-color: black;
     border-radius: 5px;
+    width: 10%;
 }
 
 .isihasil select {
@@ -54,7 +55,7 @@ table {
 th {
     border: 2px solid black;
     border-collapse: collapse;
-    background-color: #46B29E;
+    background-color: #334E5C;
     color: white;
 }
 
@@ -79,13 +80,19 @@ td {
 
 .isihasil div {
     margin-top: 20px;
-    background-color: #006A4E;
+    background-color: #46B29E;
     cursor: pointer;
     width: 15%;
     margin-top: 20px;
     font-size: 23px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.center{
+    margin-top: 5%;
 }
 
 .benar {
