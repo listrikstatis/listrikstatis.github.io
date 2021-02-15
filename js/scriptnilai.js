@@ -42,8 +42,8 @@ function AddItemToTable(namaa,kelas,sekolahh,nilai,waktu,hari){
     td2.innerHTML += kelas;
     td3.innerHTML += sekolahh;
     td4.innerHTML += nilai;
-    td5.innerHTML += waktu;
-    td6.innerHTML += hari;
+    td5.innerHTML += hari;
+    td6.innerHTML += waktu;
 
     trow.appendChild(td1);
     trow.appendChild(td2);
