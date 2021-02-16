@@ -4,6 +4,10 @@
   margin: 0;
   font-family: sans-serif;
 }
+html,
+  body {
+    height: 100%;
+  }
 
 body{
   overflow: hidden;
@@ -310,5 +314,32 @@ body{
 }
 li{
   line-height: 1.5;
+}
+
+}
+
+/* ==================================================================================================================== */
+@media screen and (min-width:2560px) {
+  /* html,
+  body {
+    height: 100%;
+  }
+   */
+div.halaman {
+  float: left;
+  width: auto;
+  height: inherit;
+  background: white;
+  border: 1px solid #7f8c8d;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  overflow: auto;
+}
+.menu {
+  height: inherit;
+}
+.isi {
+  padding: 150px 70px;
 }
 }

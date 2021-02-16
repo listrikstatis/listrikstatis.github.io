@@ -476,3 +476,26 @@ img{
 
 
 }
+
+
+/* ==================================================================================================================== */
+@media screen and (min-width:2560px) {
+  .sidebar {
+    width: 12%;
+
+  }
+
+  .menu {
+    width: fit-content;
+    font-size: x-large;
+  }
+
+  .pilih a{
+    font-size: large;
+  }
+
+  html,
+  body {
+    height: 100%;
+  }
+}

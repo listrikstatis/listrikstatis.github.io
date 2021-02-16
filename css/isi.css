@@ -6,6 +6,12 @@ p{
   text-align: justify;
 }
 
+html,
+body {
+  height: 100%;
+}
+
+
 .first p, .end p, .first2 p {
   font-size: 36px;
   text-align: center;
@@ -243,7 +249,7 @@ hr{
   border: none;
   text-align: left;
   outline: none;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 
 .garis {
@@ -401,7 +407,13 @@ color: transparent;
 }
 
 /*===========================================================================================================*/
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1024px) {
+  html,
+  body {
+    height: auto;
+    margin: 1px;
+  }
+
   .j1, .j2, .j3, .j4{
   border: 3px solid green;
   width: auto; 
@@ -523,4 +535,21 @@ p{
   text-align: left;
 }
 
+}
+
+/*=======================================================================================================================// */
+@media screen and (min-width:2560px) {
+  .isi{
+    height: auto;
+    width: fit-content;
+  }
+
+  p, h4{
+    font-size: xx-large;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
 }
