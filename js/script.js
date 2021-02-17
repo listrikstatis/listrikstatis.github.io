@@ -65,7 +65,7 @@ function mencari() {
                             <td class="ukr3">${taskvalue.nilai}</td>
                             <td class="ukr2">${taskvalue.hari}</td>
                             <td class="ukr2">${taskvalue.waktu}</td>
-                            <td class = "hps" onclick ="hapus(${taskvalue.id})"> Hapus </td>
+                            <td class="hps" onclick ="hapus(${taskvalue.id})"><button type="button" class="btn btn-outline-danger">Hapus</button></td>
                         </tr>`;
                 idnya.push(taskvalue.id);
             }
