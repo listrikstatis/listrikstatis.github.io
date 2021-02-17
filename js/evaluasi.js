@@ -76,43 +76,6 @@ selanjutnya.addEventListener('click', function () {
 
 });
 
-// function readlah() {
-//     var task = firebase.database().ref("kontrolkuis/");
-//     let tmp = document.querySelector('body');
-
-//     task.on("child_added", function (data) {
-//         var taskvalue = data.val();
-
-//         if ((taskvalue.id == "420431191221") && (taskvalue.nilai == 0)) {
-//             tmp.innerHTML += '<div class = "full" > <p>HALAMAN TIDAK DAPAT DIAKSES</p> </div>'
-//             // console.log('0');
-//         } else {
-//             // console.log('1');
-//         }
-
-
-
-//     });
-
-//     MathJax.typeset();
-// }
-
-
-
-// window.onload = function () {
-//     namanya.value = "";
-//     kelasnya.value = value = "0";
-//     sekolah.value = "";
-
-
-//     document.getElementById('kiri').className += ' hilang';
-//     document.getElementById('kanan').className += ' hilang';
-
-//     readlah();
-
-//     MathJax.typeset();
-// }
-
 // -----------------------------------------------------------------------------------------
 // mengambil data dan menampilkanya
 
