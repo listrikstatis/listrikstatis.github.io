@@ -488,10 +488,15 @@ img{
   .menu {
     width: fit-content;
     font-size: x-large;
+    margin-top: -25%;
   }
 
   .pilih a{
     font-size: large;
+  }
+
+  .isimat {
+    height: 100%;
   }
 
   html,

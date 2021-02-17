@@ -206,11 +206,16 @@ li {
 /*---------------------------------------------------------------------------------------------------------*/
 
 @media screen and (max-width:1000px){
-#header{
+.header{
   float: none;
   position: static;
+  width: fit-content;
+  margin: auto;
 }
-
+html,
+body {
+  height: 100%;
+}
 .top-kiri {
   width: auto;
   float: none;
@@ -320,20 +325,17 @@ li{
 
 /* ==================================================================================================================== */
 @media screen and (min-width:2560px) {
-  /* html,
+  html,
   body {
     height: 100%;
   }
-   */
+  .awal{
+    font-size: x-large;
+  }
 div.halaman {
   float: left;
   width: auto;
   height: inherit;
-  background: white;
-  border: 1px solid #7f8c8d;
-  position: absolute;
-  left: 100px;
-  top: 100px;
   overflow: auto;
 }
 .menu {
