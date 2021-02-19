@@ -1,9 +1,11 @@
 $(document).ready(function(){
 			$('.kolom').hide();
+      $('.selsaraf').hide();
 			
 	$('.klik').click(function(){
       $('.kolom').show(500);
       $('.first').hide();
+      $('.selsaraf').show();
 		});	
   });
   
