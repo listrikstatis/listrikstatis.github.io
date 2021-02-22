@@ -56,6 +56,7 @@ th, td {
     border-style: dashed;
     padding: 10px;
     margin-top: 1%;
+    border-radius: 5px;
 }
 
 .prev,
@@ -72,6 +73,7 @@ th, td {
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
+    margin-left: -10px;
 }
 
 .next {
@@ -172,12 +174,20 @@ th, td {
     width: 50%;
 }
 
+.imgpp {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 15px;
+    width: 30%;
+}
+
 @media screen and (max-width:1000px) {
     .img {
         width: 100%;
     }
 
-    .imgs{
+    .imgs, .imgpp{
         width: 80%;
     }
 
