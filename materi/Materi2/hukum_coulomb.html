@@ -92,6 +92,11 @@
     <p style="text-indent: 45px;">Ilmuan prancis, Charles Augustin de Coulomb menyelidiki hubungan gaya tolak-menolak atau gaya tarik-menarik dua benda bermuatan listrik terhadap besar muatan listrik dan jaraknya menggunakan alat neraca puntir. Pada materi ini kamu tidak perlu melakukan penyelidikan tersebut dengan menggunakan neraca puntir, cukup perhatikan video berikut.</p>
     <br>
     <video class="vidmat" id="videooo" controls><source src="../../video/percobaanke2.mp4" type="video/mp4"></video>
+      <center>
+        <button class="btnvid" onclick="alat2()" type="button">Alat dan bahan</button>
+        <button class="btnvid" onclick="langkah2()" type="button">Langkah kerja</button>
+        <!-- <button class="btnvid" onclick="hasil()" type="button">Hasil percobaan</button> -->
+      </center>
     <br>
 
     <h4><i class="fas fa-pen"></i>&nbsp; Pertanyaan</h4>
@@ -164,4 +169,22 @@
 
 <script src="../../js/konten.js"></script>
 <script src="../../js/materi2.js"></script>
+<script>
+  var vid2 = document.getElementById("videooo");
+
+function alat2() { 
+  vid2.currentTime=7;
+  vid2.play();
+} 
+
+function langkah2() { 
+  vid2.currentTime=21;
+  vid2.play();
+}
+
+function hasil() { 
+  vid2.currentTime=94.5;
+  vid2.play();
+}
+</script>
 </html>
