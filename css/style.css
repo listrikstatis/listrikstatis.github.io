@@ -1,9 +1,10 @@
 body{
 	font-family:lato;
- 	overflow-y: scroll;
-   overflow-x: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
   background-color: #46B29E;
 }
+
 * {
   margin: 0; 
   padding: 0;

@@ -97,6 +97,18 @@ function ben2(){
 }
 
 //Halaman 2 atas
+var vid = document.getElementById("videoo");
+
+function alat() { 
+  vid.currentTime=6.5;
+  vid.play();
+} 
+
+function langkah() { 
+  vid.currentTime=18;
+  vid.play();
+}
+
 function salah(){
   document.getElementById('b1').style.display = 'none';
   document.getElementById('s1').style.display = 'block';
