@@ -189,6 +189,7 @@ li {
 .lis{
   text-align: justify;
   padding-left: 13px;
+  margin-left: 10px;
 }
 
 .pet{
@@ -202,6 +203,11 @@ li {
 }
 .head{
   width: 50%;
+}
+
+.kd {
+  line-height: 1.5;
+  padding-left: 13px;
 }
 /*---------------------------------------------------------------------------------------------------------*/
 
