@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muatan Listrik</title>
+    <link rel="shortcut icon" type="icon" href="../../img/ico.png">
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../css/isi.css">
+    <link rel="stylesheet" href="../../fontawesome/css/all.css">
+    <script src="../../js/jquery.js"></script>
+    <script src="https://kit.fontawesome.com/317815b2fb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="headermenu">
+        <img class="headerimg" src="../../img/muatan.png">
+</div>
+
+<div class="sidebar">
+ <div class="menu">
+
+  <li class="sub">
+    <span class="tulis">Listrik Statis</span>
+  </li> 
+
+  <li class="sub" id="home">
+    <a href="../../index.html" class="btn"><i class="fa fa-home"></i>Home</a>
+  </li> 
+   
+  <li class="sub" id="muatanlistrik">
+    <a href="#muatanlistrik" class="btn"><i class="fas fa-list-alt"></i>Muatan Listrik</a>
+    <div class="pilih">
+     <a href="muatan_listrik.html#muatanlistrik" class="active">Materi</a>
+     <a href="latihan1.html#muatanlistrik">Kuis</a>
+    </div>
+  </li>
+    
+  <li class="sub" id="hukumcoulomb">
+    <a href="#hukumcoulomb" class="btn"><i class="fas fa-list-alt"></i>Hukum Coulomb</a>
+    <div class="pilih">
+     <a href="#muatanlistrik" class="disable">Materi</a>
+     <a href="#muatanlistrik" class="disable">Kuis</a>
+    </div>
+  </li>
+    
+  <li class="sub" id="medanlistrik">
+    <a href="#medanlistrik" class="btn"><i class="fas fa-list-alt"></i>Medan Listrik</a>
+    <div class="pilih">
+     <a href="#muatanlistrik" class="disable">Materi</a>
+     <a href="#muatanlistrik" class="disable">Kuis</a>
+    </div>
+  </li>
+
+  <li class="sub" id="bedapotensial">
+    <a href="#bedapotensial" class="btn"><i class="fas fa-list-alt"></i>Beda Potensial</a>
+    <div class="pilih">
+     <a href="#muatanlistrik" class="disable">Materi</a>
+     <a href="#muatanlistrik" class="disable">Kuis</a>
+    </div>
+  </li>
+
+  <li class="sub" id="penerapan">
+    <a href="#penerapan" class="btn"><i class="fas fa-list-alt"></i>Penerapan Listrik Statis</a>
+    <div class="pilih">
+     <a href="#muatanlistrik" class="disable">Materi</a>
+     <a href="#muatanlistrik" class="disable">Kuis</a>
+    </div>
+  </li>
+
+  <li class="sub" id="evaluasi">
+    <a href="#muatanlistrik" class="btn"><i class="fas fa-file-signature"></i>Evaluasi</a>
+  </li>
+          
+ </div>
+</div>
+
+<div class="isi">
+<h4><i class="fas fa-book-open"></i>&nbsp; Pertanyaan</h4> 
+    <div class="garis">
+      <p>
+        Jawablah pertanyaan dibawah berdasarkan tabel tribolistrik.
+      </p>
+                        <br>
+                          <table class="tabelnya">
+                          <tr>
+                            <td style="text-align: center;font-weight: bold;">Benda</td>
+                            <td style="text-align: center;font-weight: bold;">Digosok dengan</td>
+                            <td style="text-align: center;font-weight: bold;">Muatan listrik</td>
+                          </tr>
+                          <tr>
+                            <td>Kain wol</td>
+                            <td>Ebonit</td>
+                            <td><input class="inputan" style="font-weight: bold;border-color: green" value="positif" disabled>
+                            <img class="imgbenar" src="../../img/benar.png"/></td>
+                          </tr>
+                          <tr>
+                            <td>Plastik</td>
+                            <td>Kain wol</td>
+                            <td><input class="inputan" type="text" id="no1" onchange="cekjwbn()" placeholder="....">
+                            <img class="imgbenar" id="cek1"/></td>
+                          </tr>
+                          <tr>
+                            <td>Gelas</td>
+                            <td>Kain wol</td>
+                            <td><input class="inputan" type="text" id="no2" onchange="cekjwbn2()" placeholder="....">
+                            <img class="imgbenar" id="cek2"/></td>
+                          </tr>
+                          <tr>
+                            <td>Kaca</td>
+                            <td>Kain sutra</td>
+                            <td><input class="inputan" type="text" id="no3" onchange="cekjwbn3()" placeholder="....">
+                            <img class="imgbenar" id="cek3"/></td>
+                          </tr>
+                          <tr>
+                            <td>Sisir</td>
+                            <td>Rambut</td>
+                            <td><input class="inputan" type="text" id="no4" onchange="cekjwbn4()" placeholder="....">
+                            <img class="imgbenar" id="cek4"/></td>
+                          </tr>
+                          <tr>
+                            <td>Penggaris</td>
+                            <td>Kapas</td>
+                            <td><input class="inputan" type="text" id="no5" onchange="cekjwbn5()" placeholder="....">
+                            <img class="imgbenar" id="cek5"/></td>
+                          </tr>
+                        </table>
+                          
+                        </div>                    
+                </td>
+              </tr>
+            </table>
+</div>
+
+
+<!--tombol halaman-->
+<center>
+<div class="center">
+  <div class="page">
+  <a href="halaman2.html#muatanlistrik">Sebelumnya</a>
+  <a href="muatan_listrik.html#muatanlistrik">1</a>
+  <a href="halaman2.html#muatanlistrik" >2</a>
+  <a href="#muatanlistrik" class="active">3</a>
+  <a href="latihan1.html#muatanlistrik">Selanjutnya</a>
+  </div>
+</div>
+</center>
+
+
+</body>
+
+<script src="../../js/mathjax.js"></script>
+<script src="../../js/konten.js"></script>
+<script src="../../js/materi1.js"></script>
+</html>
