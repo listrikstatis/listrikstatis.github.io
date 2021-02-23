@@ -267,26 +267,14 @@ body{
 .dalam {
   padding-top: -5px;
   padding: 15px;
-  display: none;
   overflow: hidden;
   border-radius: 10px;
-  width: 55%;
+  width: max-content;
   border:1px solid #46B29E;
   margin-bottom: 10px;
   margin-top: -10px;
 }
 
-.dalam1 {
-  padding-top: -5px;
-  padding: 15px;
-  display: none;
-  overflow: hidden;
-  border-radius: 10px;
-  width: auto;
-  border:1px solid #46B29E;
-  margin-bottom: 10px;
-  margin-top: -10px;
-}
 .petunjuk {
   padding: 20px;
   padding-top: 0;

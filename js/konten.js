@@ -1,16 +1,10 @@
-var coll = document.getElementsByClassName("tampil");
-var j;
-
-for (j = 0; j < coll.length; j++) {
-  coll[j].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var dalam = this.nextElementSibling;
-    if (dalam.style.display == "block") {
-      dalam.style.display = "none";
-    } else {
-      dalam.style.display = "block";
-    }
-  });
+function petunjukk() {
+  var x = document.getElementsByClassName("dalam");
+  if (x[0].style.display === "none") {
+    x[0].style.display = "block";
+  } else {
+    x[0].style.display = "none";
+  }
 }
 
 //CONTOH SOAL 
