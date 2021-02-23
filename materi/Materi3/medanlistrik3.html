@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medan Listrik</title>
+    <link rel="shortcut icon" type="icon" href="../../img/ico.png">
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../css/isi.css">
+    <link rel="stylesheet" type="text/css" href="../../css/table.css">
+    <link rel="stylesheet" href="../../fontawesome/css/all.css">
+    <script src="../../js/jquery.js"></script>
+    <script src="https://kit.fontawesome.com/317815b2fb.js" crossorigin="anonymous"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+    </script>
+    <script src="../../js/mathjax.js"></script>
+</head>
+<body>
+
+<div class="headermenu">
+        <img class="headerimg" src="../../img/medan.png">
+</div>
+
+<div class="sidebar">
+  <div class="menu">
+
+  <li class="sub">
+    <span class="tulis">Listrik Statis</span>
+  </li> 
+
+  <li class="sub" id="home">
+    <a href="../../index.html" class="btn"><i class="fa fa-home"></i>Home</a>
+  </li> 
+
+  <li class="sub" id="muatanlistrik">
+    <a href="#muatanlistrik" class="btn"><i class="fas fa-list-alt"></i>Muatan Listrik</a>
+    <div class="pilih">
+      <a href="../Materi1/muatan_listrik.html#muatanlistrik#muatanlistrik">Materi</a>
+      <a href="#medanlistrik" class="disable">Kuis</a>
+    </div>
+  </li>
+    
+  <li class="sub" id="hukumcoulomb">
+    <a href="#hukumcoulomb" class="btn"><i class="fas fa-list-alt"></i>Hukum Coulomb</a>
+    <div class="pilih">
+      <a href="../Materi2/hukum_coulomb.html#hukumcoulomb">Materi</a>
+      <a href="#medanlistrik" class="disable">Kuis</a>
+    </div>
+  </li>
+    
+  <li class="sub" id="medanlistrik">
+    <a href="#medanlistrik" class="btn"><i class="fas fa-list-alt"></i>Medan Listrik</a>
+    <div class="pilih">
+      <a href="medanlistrik.html#medanlistrik" class="active">Materi</a>
+      <a href="latihan3.html#medanlistrik">Kuis</a>
+    </div>
+  </li>
+
+  <li class="sub" id="bedapotensial">
+    <a href="#bedapotensial" class="btn"><i class="fas fa-list-alt"></i>Beda Potensial</a>
+    <div class="pilih">
+      <a href="#medanlistrik" class="disable">Materi</a>
+      <a href="#medanlistrik" class="disable">Kuis</a>
+    </div>
+  </li>
+
+  <li class="sub" id="penerapan">
+    <a href="#penerapan" class="btn"><i class="fas fa-list-alt"></i>Penerapan Listrik Statis</a>
+    <div class="pilih">
+      <a href="#medanlistrik" class="disable">Materi</a>
+      <a href="#medanlistrik" class="disable">Kuis</a>
+    </div>
+  </li>
+
+  <li class="sub" id="evaluasi">
+    <a href="#medanlistrik" class="btn"><i class="fas fa-file-signature"></i>Evaluasi</a>
+  </li>
+          
+  </div>
+</div>
+
+<div class="isi"><!--ISI NYA-->
+<h4><i class="fas fa-pen"></i>&nbsp;Soal latihan</h4>
+    <div class="garis"> 
+      <div class="petunjuk">
+          <p><u><b>Petunjuk : </b></u></p>
+            <ol>
+              <li class="nomor">Jawablah soal-soal berikut.</li>
+              <li class="nomor">Isilah jawaban dari setiap soal pada kotak yang telah disediakan.</li>
+              <li class="nomor">Setelah menjawab soal, tekan tombol "Cek Jawaban".</li>
+              <li class="nomor">Jika jawaban benar maka kotak akan bewarna <font style="color:green;font-weight: bold">hijau</font>, jika jawaban salah maka kotak akan berwarna <font style="color:red;font-weight: bold">merah.</font></li>
+            </ol>
+        </div>
+
+          <div class="slideshow">
+
+                  <!-- soal 1 -->
+                  <div class="soalnya fade"> 
+                    <div class="notext">Soal 1</div>
+                    <hr>
+                      <p>1. &nbsp;Titik P berjarak 30 cm dari sebuah muatan Q yang muatannya 2,5 × 10<sup>-5</sup> C, hitunglah besar medan listrik di titik P?</p>
+                        <p><b style="text-decoration: underline;">Jawab :</b></p>
+
+                            <p>$E = \large k \frac{Q}{r^2}$</p>
+                            <table>
+                              <tr>
+                                <td rowspan="2">$E = 9 \times 10^9$</td>
+                                <td class="tablebot">(<input type="text" class="md" size="1" id="mi1" placeholder="..." onchange="cek31()"> $\times$
+                                  <input type="text" class="md" size="1" id="mi2" placeholder="..." onchange="cek32()"> 
+                                  <sup><input type="text" class="md" size="1" id="mi3" placeholder="..." style="width:24px;font-size:1em;height:15px" onchange="cek33()"></sup>)</td>
+                              </tr>
+                              <tr>
+                                <td style="text-indent: 35px;">(<input type="text" class="md" size="1" id="mi4" placeholder="..." onchange="cek34()">)
+                                <sup><input type="text" class="md" size="1" id="mi5" placeholder="..." style="width:24px;font-size:1em;height:15px" onchange="cek35()"></sup></td>
+                              </tr>
+                            </table>
+                              <br>
+                                <p>$\;\; = $<input type="text" class="md" id="mi6" size="1" placeholder="..." onchange="cek36()"> $\times$
+                                <input type="text" class="md" size="1" id="mi7" placeholder="..." onchange="cek37()"> 
+                                <sup><input type="text" class="md" id="mi8" size="1" placeholder="..." style="width:24px;font-size:1em;height:15px" onchange="cek38()"></sup></p>
+                <br>        
+                        
+                        <input class="cek3" type="submit" onclick="cek3()" value="Cek Jawaban">
+                        <p class="m3"><b>Jawaban Benar</b><br>
+                            Jadi, kuat medan listriknya adalah \(2,5 \times 10^6\; N/C\)</p>
+                        <p class="none3"><b style="color: red;">Jawaban salah </b></p>
+                  </div>
+                  
+                  <!-- soal 2 -->
+                  <div class="soalnya fade">                
+                    <div class="notext">Soal 2</div>
+                    <hr>
+                      <p>2. &nbsp;Gaya coulomb yang dialami kedua muatan A dan B adalah sebesar \(3 \times 10^{-4}\) N. Jika besar muatan A dan B sebesar \(2 \times 10^{-6}\) C dan \(1,5 \times 10^{-6}\) C, berapakah besar kuat medan listrik yang dirasakan muatan A oleh muatan B?</p>
+                        <p class="rad"><input type="radio" name="coba" onchange="salahh()"/>&nbsp;$15 $ N/C</p>
+                            <p class="rad"><input type="radio" name="coba" onchange="benarr()"/>&nbsp;$150 $ N/C</p>
+                            <p class="rad"><input type="radio" name="coba" onchange="salahh()"/>&nbsp;$1,5$ N/C</p>
+                            <p class="rad"><input type="radio" name="coba" onchange="salahh()"/>&nbsp;$1500$ N/C</p>
+
+                          <br>
+                          <div class="b1" id="b1" style="display:none">Benar, kuat medan listriknya adalah 150 N/C</div>
+                          <div class="s1" id="s1" style="display:none"><b style="color: red;">Salah</b><br>
+                            <b style="text-decoration: underline;">Pembahasan :</b></br>
+                            <p class="math">
+                            $E = \frac{F}{Q}$<br>
+                            $E = \frac{3 \;\times 10^{-4}}{2 \;\times 10^{-6}}$<br>
+                            $E = 150$</p>
+                          </div>
+                          
+                  </div>
+                  
+                  <!-- soal 3 -->
+                  <div class="soalnya fade">
+                    <div class="notext">Soal 3</div>
+                    <hr>
+                        <p>3. &nbsp;Gaya coulomb yang dialami muatan B adalah sebesar \(8 \times 10^{-4}\) N. Jika besar muatan B sebesar \(4 \times 10^{-6}\) C, berapakah besar medan listrik yang ditimbulkan?<p>
+                          <p><b style="text-decoration: underline;">Jawab :</b></p>
+                          
+                            <p>$E\;\; = $<input type="text" class="md" size="3" id="mn3" placeholder="....."></p>
+                                
+                              <br>
+                                <input class="cek2" type="submit" onclick="cekno3()" value="Cek Jawaban"><br>  
+                                <p class="m2"><b>Jawaban Benar</b><br>
+                            Jadi, medan listrik muatan B adalah 200 N/C</p>
+                              <p class="none2 math"><b style="color: red;">Jawaban salah</b>
+                              <br><b style="text-decoration: underline;">Pembahasan :</b></br>
+                                $E = \frac{F}{Q}$<br>
+                                $E = \frac{8 \;\times 10^{-4}}{4 \;\times 10^{-6}}$<br>
+                                $E = 200$
+                        </p>
+                  </div>
+                  
+
+          </div>
+
+              <div class="haltengah">
+                <span class="soprev" onclick="plusSlides(-1)">Soal Sebelumnya</span>
+                <span class="dot" onclick="currentSlide(1)">1</span> 
+                <span class="dot" onclick="currentSlide(2)">2</span> 
+                <span class="dot" onclick="currentSlide(3)">3</span>               
+                <span class="sonext" onclick="plusSlides(1)">Soal Selanjutnya</span>
+              </div>
+
+
+    </div><!--garissoal-->
+
+</div>
+
+
+<!--tombol page-->
+<center>
+<div class="center">
+  <div class="page">
+  <a href="medanlistrik2.html#medanlistrik">Sebelumnya</a>
+  <a href="medanlistrik.html#medanlistrik">1</a>
+  <a href="medanlistrik2.html#medanlistrik">2</a>
+  <a href="medanlistrik3.html#medanlistrik" class="active">3</a>
+  <a href="latihan3.html#medanlistrik">Selanjutnya</a>
+  </div>
+</div>
+</center>
+
+
+</body>
+
+<script src="../../js/konten.js"></script>
+<script src="../../js/materi3.js"></script>
+</html>
