@@ -59,21 +59,21 @@ function benar2(){
 }
 
 // halaman 2-------------------------------------------------------------------------------------------------------------
-$(document).ready(function(){
-    $(".contohsoal").hide();
-    $(".pertanyaan").hide();
-    $(".soalbtn").hide();
-          $(".contohbtn").click(function(){
-              $(".contohsoal").show(0);
-              $(".contohbtn").hide(0);              
-              $(".soalbtn").show(0);
-          });     
+// $(document).ready(function(){
+//     $(".contohsoal").hide();
+//     $(".pertanyaan").hide();
+//     $(".soalbtn").hide();
+//           $(".contohbtn").click(function(){
+//               $(".contohsoal").show(0);
+//               $(".contohbtn").hide(0);              
+//               $(".soalbtn").show(0);
+//           });     
           
-          $(".soalbtn").click(function(){
-              $(".pertanyaan").show(0);
-              $(".soalbtn").hide(0);
-          });
-});
+//           $(".soalbtn").click(function(){
+//               $(".pertanyaan").show(0);
+//               $(".soalbtn").hide(0);
+//           });
+// });
 
 // soal 2
 function salahh(){

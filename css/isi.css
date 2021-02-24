@@ -358,7 +358,7 @@ color: transparent;
 }
 
 .rumus {
-  border-right: 5px solid #46B29E;
+  border-bottom: 5px solid #46B29E;
   display: block;
 }
 
@@ -369,6 +369,7 @@ color: transparent;
 .tabelrumus{
   border: 1px solid #46B29E;
   border-style: dashed;
+  width: -webkit-fill-available;
 }
 
 .tabelnya {
