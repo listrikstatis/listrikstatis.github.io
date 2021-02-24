@@ -28,7 +28,7 @@ body {
 
 .top-kiri {
   padding-left: 10px;
-  padding-top: 20px;
+  padding-bottom: 20px;
   /* font-size: 40px; */
   cursor: pointer;
   font-weight: bolder;
@@ -236,7 +236,7 @@ p{
     flex-direction: column;
     text-align: center;
     padding-left: 26px;
-    width: 148.5%;
+    /* width: 148.5%; */
   }
 
   .menu .icon .label {
