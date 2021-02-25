@@ -104,8 +104,18 @@ function alat() {
   vid.play();
 } 
 
-function langkah() { 
+function coba1() { 
   vid.currentTime=18;
+  vid.play();
+}
+
+function coba2() { 
+  vid.currentTime=51.2;
+  vid.play();
+}
+
+function coba3() { 
+  vid.currentTime=80.7;
   vid.play();
 }
 
