@@ -225,7 +225,7 @@ p{
   .menu {
     float: none;
     padding-top: 20px;
-    /* height: auto; */
+    height: auto;
     border: none;
     display: flex;
     flex-direction: column;
@@ -247,8 +247,13 @@ p{
   }
 
   .menu .icon div.fa {
-    font-size: 40px;
+    /* font-size: 40px; */
+    margin: 1%;
     transition: all 100ms ease;
+  }
+
+  .menu .icon {
+    margin: 8%;
   }
 
   .labell {
