@@ -107,10 +107,6 @@ a {
   height: 420px;
 }
 
-.isi {
-  padding: 70px 70px;
-}
-
 .over {
   overflow: auto;
 }
@@ -213,7 +209,7 @@ p{
 }
 /*---------------------------------------------------------------------------------------------------------*/
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1000px) {
   .header {
     float: none;
     position: static;
@@ -223,13 +219,12 @@ p{
   html,
   body {
     height: 100%;
-    width: fit-content;
+    width: max-content;
   }
 
   .menu {
     float: none;
     padding-top: 20px;
-    position: absolute;
     /* height: auto; */
     border: none;
     display: flex;
@@ -321,18 +316,8 @@ p{
     font-size: x-large;
   }
 
-  .halaman {
-    float: left;
-    width: auto;
-    height: inherit;
-    overflow: auto;
-  }
-
   .menu {
     height: inherit;
   }
 
-  .isi {
-    padding: 150px 70px;
-  }
 }
