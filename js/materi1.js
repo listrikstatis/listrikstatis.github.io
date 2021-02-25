@@ -98,6 +98,7 @@ function ben2(){
 
 //Halaman 2 atas
 var vid = document.getElementById("videoo");
+var val = document.getElementById('speed');
 
 function alat() { 
   vid.currentTime=6.5;
@@ -118,6 +119,28 @@ function coba3() {
   vid.currentTime=80.7;
   vid.play();
 }
+
+function videonya(){
+if (val.value == "1") {
+  vid.playbackRate = 1;
+} else if (val.value == "2") {
+  vid.playbackRate = 0.5;
+} else if (val.value == "3") {
+  vid.playbackRate = 2.5;
+}
+}
+
+// function slow() { 
+//     vid.playbackRate = 0.5; 
+// } 
+
+// function normal() { 
+//     vid.playbackRate = 1; 
+// } 
+
+// function fast() { 
+//     vid.playbackRate = 2; 
+// }
 
 function salah(){
   document.getElementById('b1').style.display = 'none';
