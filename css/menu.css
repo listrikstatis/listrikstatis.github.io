@@ -102,7 +102,7 @@ a {
 .borderawal {
   border: 2px dashed #46B29E;
   margin: 10px;
-  padding: 5px 30px;
+  padding: 5px 15px;
   overflow: auto;
   height: 420px;
 }
@@ -111,14 +111,12 @@ a {
   overflow: auto;
 }
 
-table,
-tr,
-td {
+table {
   padding: 8px;
   padding-left: 2px;
   margin-top: 0;
   text-align: justify;
-  line-height: 1;
+  line-height: 2;
 }
 
 h1 {
@@ -128,6 +126,7 @@ h1 {
   padding-top: 0px;
   text-align: center;
   font-size: 32px;
+  margin-top: -1%
 }
 
 hr{
@@ -177,6 +176,7 @@ ol{
   font-size: 18px;
   line-height: 1.5;
   overflow: auto;
+  padding-left: 1%;
 }
 
 .no1,
@@ -219,7 +219,15 @@ p{
   html,
   body {
     height: 100%;
-    width: max-content;
+  }
+
+  table {
+    text-align: left;
+  }
+
+  .img {
+    width: 100%;
+    height: auto;
   }
 
   .menu {
