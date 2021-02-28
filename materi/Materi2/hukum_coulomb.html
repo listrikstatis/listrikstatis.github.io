@@ -94,17 +94,35 @@
     <video class="vidmat" id="videooo" controls><source src="../../video/percobaanke2.mp4" type="video/mp4"></video>
       <center>
         <button class="btnvid" onclick="alat2()" type="button">Alat dan bahan</button>
-        <button class="btnvid" onclick="langkah2()" type="button">Langkah kerja</button>
-        <!-- <button class="btnvid" onclick="hasil()" type="button">Hasil percobaan</button> -->
+        <button class="btnvid" onclick="coba1()" type="button">Percobaan 1</button>
+        <button class="btnvid" onclick="coba2()" type="button">Percobaan 2</button>
+        <button class="btnvid" onclick="coba3()" type="button">Percobaan 3</button>
+        <button class="btnvid" onclick="coba4()" type="button">Percobaan 4</button>
       </center>
-    <br>
 
-    <h4><i class="fas fa-question-circle"></i>&nbsp; Pertanyaan</h4>
+  </div>
+
+      <h4><i class="fas fa-chalkboard"></i>&nbsp; Kesimpulan</h4>              
+        <div class="garis"> 
+            <div class="first">
+              <p>Tonton video terlebih dahulu!</p>
+            </div>  
+          <div class="kolom">
+              <p>Setelah menyaksikan percobaan di atas dapat disimpulkan bahwa:</p>
+                <ol>
+                  <li class="nomor">Semakin besar jarak dua benda yang bermuatan, gaya tolak menolak atau gaya tarik menariknya semakin kecil. 
+                  Sebaliknya, semakin kecil jarak dua benda yang bermuatan, gaya tolak menolak atau gaya tarik menariknya semakin besar.</li>
+                  <li class="nomor">Semakin besar muatan yang dimiliki suatu benda, gaya tolak-menolak atau gaya tarik menariknya semakin besar. 
+                  Sebaliknya, semakin kecil muatan yang dimiliki suatu benda, gaya tolak menolak atau gaya tarik menariknya juga semakin kecil.</li>
+                </ol>
+              <p style="text-indent: 45px;">Sejenis seperti hasil percobaan di atas. Berdasarkan percobaan dengan menggunakan neraca puntir, Coulomb menyimpulkan bahwa “<i>besarnya gaya tarik-menarik atau tolak-menolak antara dua benda bermuatan listrik berbanding lurus dengan besar kedua muatan benda dan berbanding terbalik dengan kuadrat jarak antara kedua muatan benda</i>”. Itulah yang dinamakan Hukum Coulomb.</p>
+          </div>
+      </div>
+      
+<!-- pertanyaan -->
+<div class="tanya">
+  <h4><i class="fas fa-question-circle"></i>&nbsp; Pertanyaan</h4>
       <div class="garis">
-        <div class="first">
-          <p>Tonton video terlebih dahulu!</p>
-        </div>
-                <div class="kolom">
                   <ol>
                     <li class="nomor">Dua balon yang telah digosok pada wol semakin besar jarak kedua balon gaya tolaknya ...</li>
                         <p class="rad"><input type="radio" name="coba" onchange="benar()"/>&nbsp;Semakin kecil</p>
@@ -129,23 +147,9 @@
                               <p><b style="text-decoration: underline;">Pembahasan :</b></p>
                               <p>karena semakin lama waktu yang digunakan untuk menggosok balon, maka akan memengaruhi besarnya gaya tolak kedua balon yang ditunjukkan dengan besarnya simpangan kedua balon saat didekatkan.</p>
                         </div>
-                    </ol>
-                </div>
+                  </ol>
       </div>
-
-
-  </div>
-
-      <div id="gaya" style="display: none;">
-        <hr><br>
-        <div class="garis"> 
-            <p style="text-indent: 45px;">Ketika dua muatan sejenis didekatkan satu sama lain, maka terdapat sebuah gaya tolak menolak yang mencegah kedua muatan tersebut bersatu. Sebaliknya, jika dua buah muatan tidak sejenis didekatkan, maka akan timbul gaya saling menarik. Gaya tolak-menolak dan gaya tarik-menarik ini disebut gaya elektrostatik (gaya listrik).</p><br>
-            <img src="../../img/gaya.png" class="imglek">
-            <center><b><i><font style="color: gray;font-size: 14px">Gambar Gaya Coulomb pada Muatan Listrik</font></i></b></center>
-            <br>
-            <p style="text-indent: 45px;">Sejenis seperti hasil percobaan di atas. Berdasarkan percobaan dengan menggunakan neraca puntir, Coulomb menyimpulkan bahwa “<i>besarnya gaya tarik-menarik atau tolak-menolak antara dua benda bermuatan listrik berbanding lurus dengan besar kedua muatan benda dan berbanding terbalik dengan kuadrat jarak antara kedua muatan benda</i>”. Itulah yang dinamakan Hukum Coulomb.</p>
-        </div>
-      </div>
+</div>
 
 </div>
 
@@ -177,12 +181,22 @@ function alat2() {
   vid2.play();
 } 
 
-function langkah2() { 
+function coba1() { 
   vid2.currentTime=21;
   vid2.play();
 }
 
-function hasil() { 
+function coba2() { 
+  vid2.currentTime=94.5;
+  vid2.play();
+}
+
+function coba3() { 
+  vid2.currentTime=94.5;
+  vid2.play();
+}
+
+function coba4() { 
   vid2.currentTime=94.5;
   vid2.play();
 }
