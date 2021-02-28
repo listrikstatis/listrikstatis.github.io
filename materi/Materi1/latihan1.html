@@ -12,6 +12,17 @@
     <link rel="stylesheet" href="../../fontawesome/css/all.css">
     <script src="../../js/jquery.js"></script>
     <script src="https://kit.fontawesome.com/317815b2fb.js" crossorigin="anonymous"></script>
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            },
+            svg: {
+                fontCache: 'global'
+            }
+        };
+    </script>
+    <script src="../../js/mathjax.js"></script>
 </head>
 
 <body>
@@ -266,12 +277,12 @@
 
                         <br>
                         <div id="ulang" class="ket_ulang hilang">
-                            Nilai kamu kurang dari 70 belum memenuhi untuk dapat lanjut ke materi selanjutnya<br>
+                            <p class="pad">Nilai kamu kurang dari 70 belum memenuhi untuk dapat lanjut ke materi selanjutnya</p>
                             <button class="tmbl" button onclick="location.href='latihan1.html'">Ulang Latihan</a></button>
                             <button class="tmbl" button onclick="location.href='muatan_listrik.html#muatanlistrik'">Pelajari Ulang Materi</a></button>
                         </div>
                         <br>
-                        <button id="next" class="tmbl hilang1" button onclick="location.href='../Materi2/hukum_coulomb.html#hukumcoulomb'">Materi Selanjutnya</button><br>
+                        <button id="next" class="tmbl hilang" button onclick="location.href='../Materi2/hukum_coulomb.html#hukumcoulomb'">Materi Selanjutnya</button><br>
 
                         </div>
                     </center>
@@ -282,7 +293,6 @@
     <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-database.js"></script>
 
     <script src="../../js/latihan1.js"></script>
-    <script src="../../js/mathjax.js"></script>
     <script src="../../js/konten.js"></script>
 </body>
 

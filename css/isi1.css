@@ -369,7 +369,7 @@ span {
 }
 
 .tmbl:hover{
-    background-color: #80b7ff;
+    background-color: #0d7260;
 }
 
 ol {
@@ -389,7 +389,7 @@ ol {
 }
 
 .data_diri {
-    margin-top: 10px;
+    /* margin-top: 10px; */
     margin-left: 0px;
     font-size: 23px;
     box-sizing: border-box;
@@ -441,11 +441,9 @@ label {
     padding: 5px 5px;
     background-color: #46B29E;
     border: 2px solid rgb(9, 64, 82);
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 5%;
     font-weight: bold;
     text-align: center;
-    font-size: 19px;
     cursor: pointer;
     border-radius: 5px;
     padding: 10px 15px;
@@ -496,9 +494,39 @@ a {
     color: black;
 }
 
+.pad{
+    padding: 0 10px;
+}
+
+h3{
+    line-height: 2.5;
+}
+
 /* ---------------------------------------------------------------------------------- */
 
 @media (min-width : 992px) {
+    .tmbl {
+        display: inline-block;
+        width: auto;
+        font-family: Georgia,
+            'Times New Roman',
+            Times,
+            serif;
+        color: white;
+        padding: 5px 5px;
+        background-color: #46B29E;
+        border: 2px solid rgb(9, 64, 82);
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        text-align: center;
+        font-size: 19px;
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 10px 15px;
+        text-decoration: none;
+    }
+
     .t_hasil {        
         border: 5px solid #46B29E;
         border-radius: 5px;
@@ -523,14 +551,13 @@ a {
     }
 
     .skornya {
-        margin-top: 10px;
+        /* margin-top: 10px; */
         margin-left: 0px;
         font-size: 1.6vw;
         box-sizing: border-box;
         border: 2px solid rgb(9, 64, 82);
-        padding-top: 10px 0px;
         min-height: auto;
-        padding-bottom: 30px;
+        /* padding-bottom: 30px; */
     }
 
     ol {
