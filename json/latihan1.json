@@ -1,11 +1,11 @@
 [{
     "soal0": {
-        "soal": "Neutron adalah penyusun inti atom yang bermuatan ....",
-        "a": "Positif",
-        "b": "Negatif",
-        "c": "Positif atau negatif",
-        "d": "Netral",
-        "benar": "d"
+        "soal": "Terdapat lima buah benda, diketahui benda Q bermuatan positif, benda P ditolak oleh benda Q, benda Q ditarik oleh benda R, benda R ditolak oleh benda S dan benda S ditarik oleh benda T. Pernyataan muatan listrik yang benar adalah ....",
+        "a": "P dan R negatif",
+        "b": "P dan R positif",
+        "c": "R dan S negatif",
+        "d": "S dan T positif",
+        "benar": "c"
     }
 },{
     "soal1": {

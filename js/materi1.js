@@ -179,8 +179,7 @@ function benar3(){
   document.getElementById('s3').style.display = 'none'; 
   document.getElementById('false6').style.display = 'none';
   document.getElementById('false7').style.display = 'none';
-  document.getElementById('false8').style.display = 'none';
-  document.getElementById('kesimpulan').style.display = 'block';  
+  document.getElementById('false8').style.display = 'none'; 
   document.getElementById('deret').style.display = 'block';
 }
 
