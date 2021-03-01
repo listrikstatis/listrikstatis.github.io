@@ -290,6 +290,7 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
+
 .imgbenar{
   height: 30px;
 }
@@ -335,6 +336,10 @@ body{
 .headerkuis1 {
   width: 85%;
   text-align: -webkit-center;
+}
+
+.imgbenar {
+  height: 20px;
 }
 
 .isi{
