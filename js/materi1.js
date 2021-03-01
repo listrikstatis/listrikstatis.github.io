@@ -14,12 +14,14 @@ $(document).ready(function(){
 
 $(document).ready(function(){      
       $('.kolom1').hide();
+      $('.kolom2').hide();
 
     document.getElementById('videoo1').addEventListener('ended',myHandler,false);
 
     function myHandler(e) {
       $('.kolom1').show();
-      $('.end').hide(100);
+      $('.end').hide(100);      
+      $('.kolom2').show(1000);
     }
     
 });
