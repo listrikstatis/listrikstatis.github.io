@@ -53,7 +53,7 @@ function sal3(){
 }
 function ben(){  
   var cek1 = document.getElementById("cekbenar");
-  // document.getElementById('nomor2').style.display = 'block';
+  document.getElementById('nomor2').style.display = 'block';
   
     cek1.src = "../../img/benar.png";
   
