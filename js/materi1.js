@@ -60,6 +60,9 @@ function ben(){
     document.getElementById("ceksal2").style.display = 'none';    
     document.getElementById("ceksal3").style.display = 'none';    
     document.getElementById("ceksal1").style.display = 'none';
+    document.getElementById('sal1').style.display = 'none';
+    document.getElementById('sal2').style.display = 'none';
+    document.getElementById('sal3').style.display = 'none';
 }
 
 function sal4(){  
@@ -96,6 +99,9 @@ function ben2(){
     document.getElementById("fal2").style.display = 'none';    
     document.getElementById("fal3").style.display = 'none';    
     document.getElementById("fal1").style.display = 'none';
+    document.getElementById('sal4').style.display = 'none';
+    document.getElementById('sal5').style.display = 'none';
+    document.getElementById('sal6').style.display = 'none';
 }
 
 //Halaman 2 atas
