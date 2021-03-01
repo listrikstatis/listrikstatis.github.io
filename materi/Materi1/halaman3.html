@@ -79,9 +79,20 @@
 <!-- Pertanyaan -->
         <h4><i class="fas fa-question-circle"></i>&nbsp; Pertanyaan</h4>
           <div class="garis">              
-            
+            <div class="petunjuk">
+              <p><u><b>Petunjuk : </b></u></p>
+                <ol>
+                  <li class="nomor">Pertanyaan di bawah ini terdiri dari 4 soal.</li>
+                  <li class="nomor">Soal nomor 1-3 berupa pilihan ganda. 
+                    Jika pilihan kamu benar, maka akan muncul tulisan "<font style="color: green;font-weight: bold;">Jawaban benar</font>"
+                    dan jika pilihan kamu salah, maka akan muncul tulisan "<font style="color: red;font-weight: bold;">Jawaban salah</font>".</li>
+                  <li class="nomor">Soal nomor 4 berupa isian. 
+                    Jika jawaban kamu benar, maka akan muncul icon <img class="imgpetunjuk" src="../../img/benar.png"/>
+                  dan jika jawaban kamu salah, maka akan muncul icon <img class="imgpetunjuk" src="../../img/salah.png"/></li>  
+                </ol>
+            </div>
+    <br>
             <div class="slideshow">
-              <ol>
                 <!-- soal 1 -->
                 <div class="soalnya fade"> 
                   <div class="notext">Soal 1</div>
@@ -92,11 +103,11 @@
                     <p class="rad" id="false1"><input type="radio" name="pil" onchange="salah()"/>&nbsp;Bermuatan Netral</p>
                     <p class="rad" id="false2"><input type="radio" name="pil" onchange="salah()"/>&nbsp;Tidak dapat ditentukan muatannya</p>
 
-                  <div class="s1" id="s1" style="display:none"><b>Salah</b>
+                  <div class="s1" id="s1" style="display:none"><b>Jawaban salah</b>
                     <p><b style="text-decoration: underline;">Pembahasan :</b><p> 
                         <p>Penggaris yang telah digosokkan pada kain wol akan bermuatan negatif karena penggaris kelebihan elektron (elektron dari kain wol pindah ke penggaris).</p>
                   </div>
-                  <div class="b1" id="b1" style="display:none"><b>Benar</b></div>
+                  <div class="b1" id="b1" style="display:none"><b>Jawaban benar</b></div>
                 </div>                 
 
                 <!-- soal 2 -->
@@ -109,11 +120,11 @@
                         <p class="rad" id="false4"><input type="radio" name="pil2" onchange="salah2()"/>&nbsp;Bermuatan Netral</p>
                         <p class="rad" id="false5"><input type="radio" name="pil2" onchange="salah2()"/>&nbsp;Tidak dapat ditentukan muatannya</p>
 
-                        <div class="s2" id="s2" style="display:none"><b>Salah</b>
+                        <div class="s2" id="s2" style="display:none"><b>Jawaban salah</b>
                           <p><b style="text-decoration: underline;">Pembahasan :</b><br>
                                 Batang kaca yang digosokkan pada kain sutra akan bermuatan positif karena kaca kekurangan elektron (elektron dari kaca pindah ke kain sutra).</p>                       
                         </div>
-                        <div class="b2" id="b2" style="display:none"><b>Benar</b></div>
+                        <div class="b2" id="b2" style="display:none"><b>Jawaban benar</b></div>
                 </div>
                 
                 <!-- soal 3 -->
@@ -126,16 +137,18 @@
                       <p class="rad"><input type="radio" name="pil3" onchange="benar3()"/>&nbsp;Tarik-menarik</p>
                       <p class="rad" id="false8"><input type="radio" name="pil3" onchange="salah3()"/>&nbsp;Menolak dan menarik</p>
 
-                          <div class="s3" id="s3" style="display:none"><b>Salah</b>
+                          <div class="s3" id="s3" style="display:none"><b>Jawaban salah</b>
                             <p><b style="text-decoration: underline;">Pembahasan :</b><br>
                                 Setiap benda yang bermuatan sama akan tolak-menolak, tetapi muatan yang berbeda akan saling tarik-menarik.</p>
                           </div>
-                          <div class="b3" id="b3" style="display:none"><b>Benar</b></div>
+                          <div class="b3" id="b3" style="display:none"><b>Jawaban benar</b></div>
                 </div>
                 
+                <!-- soal 4 -->
                 <div class="soalnya fade">
-                  <div class="notext">Soal 4</div>
-                    <p>4.&nbsp;Jawablah pertanyaan dibawah berdasarkan tabel tribolistrik.</p>
+                  <div class="notext">Soal 4</div>                  
+                  <hr>
+                    <p>4.&nbsp;Jawablah pertanyaan ini berdasarkan tabel tribolistrik.</p>
             <br>
                   <table class="tabelnya" style="margin-left: 2%;">
                           <tr>
@@ -144,20 +157,20 @@
                             <td style="text-align: center;font-weight: bold;">Muatan listrik</td>
                           </tr>
                           <tr>
-                            <td>wol</td>
+                            <td>Wol</td>
                             <td>Ebonit</td>
                             <td><input class="inputan" style="font-weight: bold;border-color: green" value="positif" disabled>
                             <img class="imgbenar" src="../../img/benar.png"/></td>
                           </tr>
                           <tr>
                             <td>Plastik</td>
-                            <td>wol</td>
+                            <td>Wol</td>
                             <td><input class="inputan" type="text" id="no1" onchange="cekjwbn()" placeholder="....">
                             <img class="imgbenar" id="cek1"/></td>
                           </tr>
                           <tr>
                             <td>Logam (Ag)</td>
-                            <td>wol</td>
+                            <td>Wol</td>
                             <td><input class="inputan" type="text" id="no2" onchange="cekjwbn2()" placeholder="....">
                             <img class="imgbenar" id="cek2"/></td>
                           </tr>
@@ -181,16 +194,15 @@
                           </tr>
                   </table>
                 </div>
-                </ol>
             </div>
 
               <div class="haltengah">
-                <span class="soprev" onclick="plusSlides(-1)">Soal Sebelumnya</span>
+                <span class="soprev" onclick="plusSlides(-1)">Soal sebelumnya</span>
                 <span class="dot" onclick="currentSlide(1)">1</span> 
                 <span class="dot" onclick="currentSlide(2)">2</span> 
                 <span class="dot" onclick="currentSlide(3)">3</span>  
                 <span class="dot" onclick="currentSlide(4)">4</span>               
-                <span class="sonext" onclick="plusSlides(1)">Soal Selanjutnya</span>
+                <span class="sonext" onclick="plusSlides(1)">Soal selanjutnya</span>
               </div>
 
           </div>
