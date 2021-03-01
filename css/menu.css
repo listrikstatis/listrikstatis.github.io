@@ -2,7 +2,7 @@
   padding: 0;
   box-sizing: border-box;
   margin: 0;
-  font-family: sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 html,
@@ -28,7 +28,7 @@ body {
 
 .top-kiri {
   padding-left: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 8px;
   /* font-size: 40px; */
   cursor: pointer;
   font-weight: bolder;
@@ -100,23 +100,36 @@ a {
 
 /*konten*/
 .borderawal {
-  border: 2px dashed #46B29E;
+  border: 2px solid #46B29E;
   margin: 0 10px;
   padding: 5px 15px 15px 15px;
   overflow: auto;
-  /* height: 420px; */
+  height: 400px;
+}
+.borderkd {
+  border: 2px solid #46B29E;
+  margin: 0 10px;
+  padding: 15px 15px 15px 15px;
+  overflow: auto;
+  /* height: 400px; */
 }
 
 .over {
   overflow: auto;
 }
 
-table {
+table{
   padding: 8px;
   padding-left: 2px;
   margin-top: 0;
   text-align: justify;
   line-height: 2;
+}
+td{
+  padding-right: 5px;
+}
+tr {
+  line-height: 1.8;
 }
 
 h1 {
@@ -126,12 +139,13 @@ h1 {
   padding-top: 0px;
   text-align: center;
   font-size: 32px;
-  margin-top: -1%
+  margin-top: -1%;
+  margin-bottom: 10px;
 }
 
 hr{
-  margin: 2%;
-  border: 2px dashed #46B29E;
+  margin: 1%;
+  border: 1px dashed #46B29E;
 }
 
 p {
@@ -223,6 +237,7 @@ p{
 
   table {
     text-align: left;
+    padding: 2px;
   }
 
   .img {
