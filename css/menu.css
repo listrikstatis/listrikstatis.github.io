@@ -30,7 +30,7 @@ body {
   text-align: center !important;
 }
 .img {
-  width: 65%;
+  width: 50%;
 }
 .top-kiri {
   padding-left: 10px;
@@ -247,7 +247,7 @@ p{
   }
 
   .img {
-    width: 100%;
+    width: 90%;
     height: auto;
   }
 
@@ -368,6 +368,23 @@ p{
 
   .menu .icon {
     margin-top: -8%;
+  }
+
+  h1{
+    margin-top: 0;
+    font-size: xxx-large;
+  }
+
+  .pet, .hal, .bs{
+    width: auto;
+  }
+
+  table, .lis, .top-kiri, .no1, .no2, .no3, p, ol {
+    font-size: xx-large;
+  }
+
+  .borderawal{
+    height: auto;
   }
 
 }
