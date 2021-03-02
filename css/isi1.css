@@ -451,7 +451,6 @@ label {
 }
 
 .lanjut {
-    display: inline-block;
     width: 150px;
     padding: 5px 5px;
     background-color: #46B29E;
@@ -586,7 +585,7 @@ h3{
 
     label {
         width: 500px;
-        display: inline-block;
+        display: list-item;
         margin-left: 26%;
         font-size: 1.6vw;
         margin-top: 10px;

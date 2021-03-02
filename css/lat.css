@@ -84,20 +84,19 @@ ul li .besarrr {
 /* -----------------------------------------------------------------------------------------------------*/
 /* Desktop version  */
 @media (min-width : 992px) {
+    body{
+        width: 100%;
+    }
     .konten {
-        float: left;
-        left: 13.6%;
         top: 8%;
-        display: table;
-        position: absolute;
+        position: static;
         background-color: white;
-        height: 584px;
-        width: 84%;
-        padding: 20px 15px 5px 15px;
-        overflow: hidden;
+        height: 588px;
+        width: auto;
+        padding: 15px;
+        overflow: auto;
         border: 2px solid #7f8c8d;
         border-radius: 5px;
-        /* overflow: auto; */
     }
 
     .inti-konten {

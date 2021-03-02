@@ -1,6 +1,6 @@
 body{
 	font-family:lato;
-  overflow-y: scroll;
+  overflow-y: hidden;
   overflow-x: hidden;
   background-color: #46B29E;
 }
@@ -31,7 +31,7 @@ body{
 .headerimg{
   width: 22%;
   text-align: -webkit-center;
-  margin-top: 0.5%;
+  /* margin-top: 0.5%; */
 }
 .headerimgmedan {
   width: 22%;
@@ -497,5 +497,6 @@ img{
   html,
   body {
     height: 100%;
+    overflow: scroll;
   }
 }
