@@ -5,6 +5,10 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.log{
+  font-family: 'Averia Serif Libre',cursive;
+}
+
 html,
 body {
   height: 100%;
