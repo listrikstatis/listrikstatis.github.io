@@ -6,6 +6,7 @@
     <link rel="shortcut icon" type="icon" href="../../img/ico.png">
     <link rel="stylesheet" type="text/css" href="../../css/style.css">
     <link rel="stylesheet" type="text/css" href="../../css/isi.css">
+    <link rel="stylesheet" type="text/css" href="../../css/table.css">
     <link rel="stylesheet" href="../../fontawesome/css/all.css">
     <script src="../../js/jquery.js"></script>
     <script src="https://kit.fontawesome.com/317815b2fb.js" crossorigin="anonymous"></script>
@@ -120,11 +121,14 @@
       </div>
       
 <!-- pertanyaan -->
-<div class="tanya">
-  <h4><i class="fas fa-question-circle"></i>&nbsp; Pertanyaan</h4>
-      <div class="garis">
-                  <ol>
-                    <li class="nomor">Dua balon yang telah digosok pada wol semakin besar jarak kedua balon maka gaya tolaknya akan ...</li>
+  <div class="tanya">
+    <h4><i class="fas fa-question-circle"></i>&nbsp; Pertanyaan</h4>
+        <div class="garis">
+          <div class="slideshow">
+
+                  <!-- soal 1 -->
+                  <div class="soalnya fade"> 
+                      <p>1.&nbsp;Dua balon yang telah digosok pada wol semakin besar jarak kedua balon maka gaya tolaknya akan ...</p>
                         <p class="rad"><input type="radio" name="coba" onchange="benar()"/>&nbsp;Semakin kecil</p>
                         <p class="rad"><input type="radio" name="coba" onchange="salah()"/>&nbsp;Semakin besar</p>
                         <p class="rad"><input type="radio" name="coba" onchange="salah()"/>&nbsp;Tidak ada</p>
@@ -135,20 +139,42 @@
                               <p><b style="text-decoration: underline;">Pembahasan :</b><p> 
                                 <p>karena hal ini dibuktikan dengan simpangan kedua balon kecil. Sebaliknya, semakin kecil jarak kedua balon, maka gaya tolaknya semakin besar, hal ini dibuktikan dengan simpangan kedua balon besar.</p>
                         </div>
-              <br>
-                    <li class="nomor">Apakah waktu yang digunakan untuk menggosok balon akan mempengaruhi besarnya muatan listrik ...</li>
-                        <p class="rad"><input type="radio" name="coba2" onchange="salah2()"/>&nbsp;Tidak pasti</p>
-                        <p class="rad"><input type="radio" name="coba2" onchange="salah2()"/>&nbsp;Tidak</p>
-                        <p class="rad"><input type="radio" name="coba2" onchange="benar2()"/>&nbsp;Ya</p>
-                        <p class="rad"><input type="radio" name="coba2" onchange="salah2()"/>&nbsp;Mungkin</p>
+                  </div>                 
 
-                        <div class="s2" id="s2" style="display:none">Salah</div>
-                        <div class="b2" id="b2" style="display:none"><b>Benar</b>
-                              <p><b style="text-decoration: underline;">Pembahasan :</b></p>
-                              <p>karena semakin lama waktu yang digunakan untuk menggosok balon, maka akan memengaruhi besarnya gaya tolak kedua balon yang ditunjukkan dengan besarnya simpangan kedua balon saat didekatkan.</p>
-                        </div>
-                  </ol>
-      </div>
+                  <!-- soal 2 -->
+                  <div class="soalnya fade">
+                        <p>2.&nbsp;Apakah waktu yang digunakan untuk menggosok balon akan mempengaruhi besarnya muatan listrik ...</p>
+                          <p class="rad"><input type="radio" name="coba2" onchange="salah2()"/>&nbsp;Tidak pasti</p>
+                          <p class="rad"><input type="radio" name="coba2" onchange="salah2()"/>&nbsp;Tidak</p>
+                          <p class="rad"><input type="radio" name="coba2" onchange="benar2()"/>&nbsp;Ya</p>
+                          <p class="rad"><input type="radio" name="coba2" onchange="salah2()"/>&nbsp;Mungkin</p>
+
+                          <div class="s2" id="s2" style="display:none">Salah</div>
+                          <div class="b2" id="b2" style="display:none"><b>Benar</b>
+                                <p><b style="text-decoration: underline;">Pembahasan :</b></p>
+                                <p>karena semakin lama waktu yang digunakan untuk menggosok balon, maka akan memengaruhi besarnya gaya tolak kedua balon yang ditunjukkan dengan besarnya simpangan kedua balon saat didekatkan.</p>
+                          
+                  </div>
+                  
+                  <!-- soal 3 -->
+                  <!-- <div class="soalnya fade">                
+                    <div class="notext">Soal 3</div>
+                  </div> -->
+                  
+
+          </div>
+
+                <div class="haltengah">
+                  <span class="soprev" onclick="plusSlides(-1)">Soal Sebelumnya</span>
+                  <span class="dot" onclick="currentSlide(1)">1</span> 
+                  <span class="dot" onclick="currentSlide(2)">2</span> 
+                  <!-- <span class="dot" onclick="currentSlide(3)">3</span>                 -->
+                  <span class="sonext" onclick="plusSlides(1)">Soal Selanjutnya</span>
+                </div>
+                    
+        </div>
+  </div>
+
 </div>
 
 </div>
