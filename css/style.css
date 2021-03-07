@@ -12,6 +12,10 @@ body{
   text-decoration:none;
 }
 
+a{
+  cursor: pointer;
+}
+
 .headerawal{
   float: left;
   width: 100%;
@@ -291,6 +295,7 @@ body{
   margin-right: auto;
   width: 70%;
 }
+
 
 .imgbenar{
   height: 30px;
