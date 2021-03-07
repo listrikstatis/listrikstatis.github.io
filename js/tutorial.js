@@ -31,7 +31,7 @@ function materi2(){
     if (skor>=70){
       window.location.href='../Materi2/hukum_coulomb.html#hukumcoulomb';
     } else{
-      alert('Maaf, Anda belum bisa membuka materi ini!');
+      alert('Maaf, Kamu belum bisa membuka materi ini!');
     }
 }
 function kuis2(){
@@ -40,7 +40,7 @@ function kuis2(){
     if (skor>=70){
       window.location.href='../Materi2/latihan2.html#hukumcoulomb';
     } else{
-      alert('Maaf, Anda belum bisa membuka kuis ini!');
+      alert('Maaf, Kamu belum bisa membuka kuis ini!');
     }
 }
 
@@ -51,7 +51,7 @@ function materi3(){
   if (skor>=70){
     window.location.href='../Materi3/medanlistrik.html#medanlistrik';
   } else{
-    alert('Maaf, Anda belum bisa membuka materi ini!');
+    alert('Maaf, Kamu belum bisa membuka materi ini!');
   }
 }
 
@@ -61,7 +61,7 @@ function kuis3(){
   if (skor>=70){
     window.location.href='../Materi3/latihan3.html#medanlistrik';
   } else{
-    alert('Maaf, Anda belum bisa membuka kuis ini!');
+    alert('Maaf, Kamu belum bisa membuka kuis ini!');
   }
 }
 
@@ -72,7 +72,7 @@ function materi4(){
   if (skor>=70){
     window.location.href='../Materi4/bedapotensial.html#bedapotensial';
   } else{
-    alert('Maaf, Anda belum bisa membuka materi ini!');
+    alert('Maaf, Kamu belum bisa membuka materi ini!');
   }
 }
 function kuis4(){
@@ -81,7 +81,7 @@ function kuis4(){
   if (skor>=70){
     window.location.href='../Materi4/latihan4.html#bedapotensial';
   } else{
-    alert('Maaf, Anda belum bisa membuka kuis ini!');
+    alert('Maaf, Kamu belum bisa membuka kuis ini!');
   }
 }
 
@@ -92,7 +92,7 @@ function materi5(){
   if (skor>=70){
     window.location.href='../Materi5/penerapan.html#penerapan';
   } else{
-    alert('Maaf, Anda belum bisa membuka materi ini!');
+    alert('Maaf, Kamu belum bisa membuka materi ini!');
   }
 }
 function kuis5(){
@@ -101,7 +101,7 @@ function kuis5(){
   if (skor>=70){
     window.location.href='../Materi5/latihan5.html#penerapan';
   } else{
-    alert('Maaf, Anda belum bisa membuka kuis ini!');
+    alert('Maaf, Kamu belum bisa membuka kuis ini!');
   }
 }
 
@@ -112,6 +112,6 @@ function evaluasi(){
   if (skor>=70){
     window.location.href='../evaluasi/evaluasi.html';
   } else{
-    alert('Maaf, Anda belum bisa membuka Evaluasi ini!');
+    alert('Maaf, Kamu belum bisa membuka Evaluasi ini!');
   }
 }
