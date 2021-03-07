@@ -446,6 +446,9 @@ dat.onreadystatechange = function () {
                 alert('Masih Ada Soal Yang Belum Dijawab, Periksa Kembali . . . !');
             }
 
+            //nilai disimpan ke local storage
+            localStorage.setItem("nkuis4",hasilakhir);
+            console.log(localStorage);
 
         });
 

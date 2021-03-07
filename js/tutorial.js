@@ -36,7 +36,7 @@ function materi2(){
 }
 function kuis2(){
     var skor = localStorage.getItem("nkuis1");
-    // var skor = 75;
+    // var skor = 70;
     if (skor>=70){
       window.location.href='../Materi2/latihan2.html#hukumcoulomb';
     } else{
@@ -47,8 +47,8 @@ function kuis2(){
 /*subbab 3*/
 function materi3(){
   var skor = localStorage.getItem("nkuis2");
-  // var skor = 75;
-  if (skor>=75){
+  // var skor = 70;
+  if (skor>=70){
     window.location.href='../Materi3/medanlistrik.html#medanlistrik';
   } else{
     alert('Maaf, Anda belum bisa membuka materi ini!');
@@ -57,8 +57,8 @@ function materi3(){
 
 function kuis3(){
   var skor = localStorage.getItem("nkuis2");
-  // var skor = 75;
-  if (skor>=75){
+  // var skor = 70;
+  if (skor>=70){
     window.location.href='../Materi3/latihan3.html#medanlistrik';
   } else{
     alert('Maaf, Anda belum bisa membuka kuis ini!');
@@ -68,8 +68,8 @@ function kuis3(){
 /*subbab 4*/
 function materi4(){
   var skor = localStorage.getItem("nkuis3");
-  // var skor = 75;
-  if (skor>=75){
+  // var skor = 70;
+  if (skor>=70){
     window.location.href='../Materi4/bedapotensial.html#bedapotensial';
   } else{
     alert('Maaf, Anda belum bisa membuka materi ini!');
@@ -77,8 +77,8 @@ function materi4(){
 }
 function kuis4(){
   var skor = localStorage.getItem("nkuis3");
-  // var skor = 75;
-  if (skor>=75){
+  // var skor = 70;
+  if (skor>=70){
     window.location.href='../Materi4/latihan4.html#bedapotensial';
   } else{
     alert('Maaf, Anda belum bisa membuka kuis ini!');
@@ -88,8 +88,8 @@ function kuis4(){
 /*subbab 5*/
 function materi5(){
   var skor = localStorage.getItem("nkuis4");
-  // var skor = 75;
-  if (skor>=75){
+  // var skor = 70;
+  if (skor>=70){
     window.location.href='../Materi5/penerapan.html#penerapan';
   } else{
     alert('Maaf, Anda belum bisa membuka materi ini!');
@@ -97,8 +97,8 @@ function materi5(){
 }
 function kuis5(){
   var skor = localStorage.getItem("nkuis4");
-  // var skor = 75;
-  if (skor>=75){
+  // var skor = 70;
+  if (skor>=70){
     window.location.href='../Materi5/latihan5.html#penerapan';
   } else{
     alert('Maaf, Anda belum bisa membuka kuis ini!');
@@ -108,8 +108,8 @@ function kuis5(){
 /*evaluasi*/
 function evaluasi(){
   var skor = localStorage.getItem("nkuis5");
-  // var skor = 75;
-  if (skor>=75){
+  // var skor = 70;
+  if (skor>=70){
     window.location.href='../evaluasi/evaluasi.html';
   } else{
     alert('Maaf, Anda belum bisa membuka Evaluasi ini!');
