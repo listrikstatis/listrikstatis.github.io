@@ -1,25 +1,25 @@
-//untuk memasukkan nilai ke variabel localstorage
+//input nilai ke variabel localstorage
 // localStorage.setItem("nkuis1",70);
 // localStorage.setItem("nkuis2",70);
 // localStorage.setItem("nkuis3",70);
 // localStorage.setItem("nkuis4",70);
 // localStorage.setItem("nkuis5",70);
 
-//untuk memasukkan nilai ke variabel localstorage
+//input nilai ke variabel localstorage
 // localStorage.setItem("nkuis1",0);
 // localStorage.setItem("nkuis2",0);
 // localStorage.setItem("nkuis3",0);
 // localStorage.setItem("nkuis4",0);
 // localStorage.setItem("nkuis5",0);
 
-//untuk menghapus variabel dari localstorage
+//hapus variabel dari localstorage
 // localStorage.removeItem("nkuis1");
 // localStorage.removeItem("nkuis2");
 // localStorage.removeItem("nkuis3");
 // localStorage.removeItem("nkuis4");
 // localStorage.removeItem("nkuis5");
 
-//untuk menghapus semua variabel dari localstorage
+//hapus semua variabel dari localstorage
 // localStorage.clear();
 
 console.log(localStorage);
