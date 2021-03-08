@@ -21,7 +21,8 @@ $(document).ready(function(){
     function myHandler(e) {
       $('.kolom1').show();
       $('.end').hide(100);      
-      $('.kolom2').show(1000);
+      $('.kolom2').show(1000);  
+      $('.none').show(2000);
     }
     
 });
