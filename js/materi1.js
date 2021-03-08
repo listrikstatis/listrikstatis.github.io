@@ -145,82 +145,69 @@ function benar3(){
 }
 
 //Halaman 2 bawah
-function cekjwbn(){
-  document.getElementById("no1").value = document.getElementById("no1").value.toLowerCase();
-  var aaa= document.getElementById("no1").value;
-  var cek1 = document.getElementById("cek1");
-
-  if (aaa == "negatif") {
+function negatif(){
     cek1.src = "../../img/benar.png";
-    document.getElementById("no1").style="border: 2px solid green";
-  } else {
-    cek1.src = "../../img/salah.png";
-    document.getElementById("no1").style="border: 2px solid red";
-  }
+  document.getElementById('aa1').style.display = 'none';
 }
 
-function cekjwbn2(){
-  document.getElementById("no2").value = document.getElementById("no2").value.toLowerCase();
-  var aaa= document.getElementById("no2").value;
-  var cek2 = document.getElementById("cek2");
+function positif(){
+    cek1.src = "../../img/salah.png";    
+  // document.getElementById('aa2').style.display = 'none';
+  // document.getElementById('aa3').style.display = 'inline-block';
+}
 
-  if (aaa == "negatif") {    
+function negatif2(){
     cek2.src = "../../img/benar.png";
-    document.getElementById("no2").style="border: 2px solid green";
-  } else {
-    cek2.src = "../../img/salah.png";
-    document.getElementById("no2").style="border: 2px solid red";
-  }
+  document.getElementById('ab1').style.display = 'none';
 }
 
-function cekjwbn3(){
-  document.getElementById("no3").value = document.getElementById("no3").value.toLowerCase();
-  var aaa= document.getElementById("no3").value;
-  var cek3 = document.getElementById("cek3");
+function positif2(){
+    cek2.src = "../../img/salah.png";    
+}
 
-  if (aaa == "positif") {
-    cek3.src = "../../img/benar.png";
-    document.getElementById("no3").style="border: 2px solid green";
-  } else {
+function negatif3(){
     cek3.src = "../../img/salah.png";
-    document.getElementById("no3").style="border: 2px solid red";
-  }
 }
 
-function cekjwbn4(){
-  document.getElementById("no4").value = document.getElementById("no4").value.toLowerCase();
-  var aaa= document.getElementById("no4").value;
-  var cek4 = document.getElementById("cek4");
+function positif3(){
+    cek3.src = "../../img/benar.png";        
+  document.getElementById('ac2').style.display = 'none';
+}
 
-  if (aaa == "negatif") {    
+function negatif4(){
     cek4.src = "../../img/benar.png";
-    document.getElementById("no4").style="border: 2px solid green";
-  } else {
-    cek4.src = "../../img/salah.png";
-    document.getElementById("no4").style="border: 2px solid red";
-  }
+  document.getElementById('ad1').style.display = 'none';
 }
 
-function cekjwbn5(){
-  document.getElementById("no5").value = document.getElementById("no5").value.toLowerCase();
-  var aaa= document.getElementById("no5").value;
-  var cek5 = document.getElementById("cek5");
+function positif4(){
+    cek4.src = "../../img/salah.png";    
+}
 
-  if (aaa == "positif") {
-    cek5.src = "../../img/benar.png";
-    document.getElementById("no5").style="border: 2px solid green";
-  } else {
+function negatif5(){
     cek5.src = "../../img/salah.png";
-    document.getElementById("no5").style="border: 2px solid red";
-  }
 }
 
-$('.inputan').bind('keyup blur',function(){ 
-    var node = $(this);
-    node.val(node.val().replace(/[^a-zA-Z\s]/g,'') ); }
-);
+function positif5(){
+    cek5.src = "../../img/benar.png";        
+  document.getElementById('ae2').style.display = 'none';
+}
+
+function negatif0(){
+    cekk.src = "../../img/salah.png";
+}
+
+function positif0(){
+    cekk.src = "../../img/benar.png";        
+  document.getElementById('aa0').style.display = 'none';
+}
+
+// $('.inputan').bind('keyup blur',function(){ 
+//     var node = $(this);
+//     node.val(node.val().replace(/[^a-zA-Z\s]/g,'') ); }
+// );
 
 // slide
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -236,10 +223,10 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("soalnya");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
+  if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
+      slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" activeuy", "");

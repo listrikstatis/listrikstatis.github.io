@@ -11,6 +11,11 @@
     <script src="../../js/jquery.js"></script>
     <script src="https://kit.fontawesome.com/317815b2fb.js" crossorigin="anonymous"></script>
     <script src="../../js/tutorial.js"></script>
+    <style>
+      button{
+        padding: 3%;
+      }
+    </style>
 </head>
 <body>
 
@@ -80,11 +85,11 @@
 <!-- Pertanyaan -->
         <h4><i class="fas fa-question-circle"></i>&nbsp; Pertanyaan</h4>
           <div class="garis">              
-            <div class="petunjuk">
+            <!-- <div class="petunjuk">
               <p><u><b>Petunjuk : </b></u></p>
                 <ol>
-                  <li class="nomor">Pertanyaan di bawah ini terdiri dari 4 soal.</li>
-                  <li class="nomor">Soal nomor 1 sampai 3 berupa pilihan ganda. 
+                  <li class="nomor">Pertanyaan terdiri dari 4 soal pilihan.</li>
+                  <li class="nomor">Soal nomor 1 sampai 3 berupa pilihan. 
                     Jika pilihan kamu benar, maka akan muncul tulisan "<font style="color: green;font-weight: bold;">Jawaban benar</font>"
                     dan jika pilihan kamu salah, maka akan muncul tulisan "<font style="color: red;font-weight: bold;">Jawaban salah</font>".</li>
                   <li class="nomor">Soal nomor 4 berupa isian. 
@@ -92,11 +97,18 @@
                   dan jika jawaban kamu salah, maka akan muncul icon <img class="imgpetunjuk" src="../../img/salah.png"/></li>  
                 </ol>
             </div>
-    <br>
+    <br> -->
             <div class="slideshow">
                 <!-- soal 1 -->
                 <div class="soalnya fade"> 
-                  <div class="notext">Soal 1</div>
+                  <!-- <div class="notext">Soal 1</div> -->
+                  <div class="petunjuk">
+                  <p><u><b>Petunjuk : </b></u></p>
+                    <ol>
+                      <li class="nomor">Jika pilihan kamu benar, maka akan muncul tulisan <font style="color: green;font-weight: bold;">Jawaban benar</font></li>
+                      <li class="nomor">Jika pilihan kamu salah, maka akan muncul tulisan <font style="color: red;font-weight: bold;">Jawaban salah</font></li>  
+                    </ol>
+                  </div>
                   <hr>
                     <p>1.&nbsp;Penggaris plastik yang telah digosok pada wol maka akan ...</p>
                     <p class="rad" id="false"><input type="radio" name="pil" onchange="salah()"/>&nbsp;Bermuatan positif</p>
@@ -114,7 +126,14 @@
 
                 <!-- soal 2 -->
                 <div class="soalnya fade">
-                  <div class="notext">Soal 2</div>
+                  <!-- <div class="notext">Soal 2</div> -->
+                  <div class="petunjuk">
+                  <p><u><b>Petunjuk : </b></u></p>
+                    <ol>
+                      <li class="nomor">Jika pilihan kamu benar, maka akan muncul tulisan <font style="color: green;font-weight: bold;">Jawaban benar</font></li>
+                      <li class="nomor">Jika pilihan kamu salah, maka akan muncul tulisan <font style="color: red;font-weight: bold;">Jawaban salah</font></li>  
+                    </ol>
+                  </div>
                   <hr>
                       <p>2.&nbsp;Batang kaca yang telah digosok pada sutra maka akan ...</p>
                         <p class="rad"><input type="radio" name="pil2" onchange="benar2()"/>&nbsp;Bermuatan positif</p>
@@ -132,7 +151,15 @@
                 
                 <!-- soal 3 -->
                 <div class="soalnya fade">                
-                  <div class="notext">Soal 3</div>
+                  <!-- <div class="notext">Soal 3</div> -->
+                  <div class="petunjuk">
+                  <p><u><b>Petunjuk : </b></u></p>
+                    <ol>
+                      <li class="nomor">Jika pilihan kamu benar, maka akan muncul tulisan <font style="color: green;font-weight: bold;">Jawaban benar</font></li>
+                      <li class="nomor">Jika pilihan kamu salah, maka akan muncul tulisan <font style="color: red;font-weight: bold;">Jawaban salah</font></li>  
+                    </ol>
+                  </div>
+                  <hr>
                   <hr>
                     <p>3.&nbsp;Penggaris plastik yang telah digosok pada wol didekatkan dengan batang kaca yang telah digosok pada kain sutra maka akan...</p>
                       <p class="rad" id="false6"><input type="radio" name="pil3" onchange="salah3()"/>&nbsp;Mempertahankan posisi</p>
@@ -150,7 +177,15 @@
                 
                 <!-- soal 4 -->
                 <div class="soalnya fade">
-                  <div class="notext">Soal 4</div>                  
+                  <div class="petunjuk">
+                  <p><u><b>Petunjuk : </b></u></p>
+                    <ol>
+                      <li class="nomor">Pilihlah salah satu alternatif jawaban antara <b>Positif</b> atau <b>Negatif</b></li>
+                      <li class="nomor">Jika jawaban kamu benar, akan muncul icon <img class="imgpetunjuk" src="../../img/benar.png"/></li>
+                      <li class="nomor">Jika jawaban kamu salah, maka akan muncul icon <img class="imgpetunjuk" src="../../img/salah.png"/></li>  
+                    </ol>
+                  </div>
+                <!-- <div class="notext">Soal 4</div>           -->
                   <hr>
                     <p>4.&nbsp;Jawablah pertanyaan ini berdasarkan tabel tribolistrik.</p>
             <br>
@@ -163,40 +198,67 @@
                           <tr>
                             <td>Wol</td>
                             <td>Ebonit</td>
-                            <td><input class="inputan" style="font-weight: bold;border-color: green" value="positif" disabled>
-                            <img class="imgbenar" src="../../img/benar.png"/></td>
+                            <td class="tdnya">
+                              <center>
+                              <button onclick="positif0()" id="aa0">Positif</button>
+                              <button onclick="negatif0()" id="ab0">Negatif</button>
+                              <!-- <button id="aa3" style="display: none;" disabled>Negatif</button> -->
+                            <img class="imgbenar" id="cekk"/></td>
+                              </center>
                           </tr>
                           <tr>
                             <td>Plastik</td>
                             <td>Wol</td>
-                            <td><input class="inputan" type="text" id="no1" onchange="cekjwbn()" placeholder="....">
+                            <td>
+                              <center>
+                              <button onclick="positif()" id="aa1">Positif</button>
+                              <button onclick="negatif()" id="aa2">Negatif</button>
+                              <!-- <button id="aa3" style="display: none;" disabled>Negatif</button> -->
                             <img class="imgbenar" id="cek1"/></td>
+                              </center>
                           </tr>
                           <tr>
                             <td>Logam (Ag)</td>
                             <td>Wol</td>
-                            <td><input class="inputan" type="text" id="no2" onchange="cekjwbn2()" placeholder="....">
+                            <td>
+                              <center>
+                              <button onclick="positif2()" id="ab1">Positif</button>
+                              <button onclick="negatif2()" id="ab2">Negatif</button>
                             <img class="imgbenar" id="cek2"/></td>
+                              </center>
                           </tr>
                           <tr>
                             <td>Kaca</td>
                             <td>Kain sutra</td>
-                            <td><input class="inputan" type="text" id="no3" onchange="cekjwbn3()" placeholder="....">
+                            <td>
+                              <center>                                                            
+                              <button onclick="positif3()" id="ac1">Positif</button>
+                              <button onclick="negatif3()" id="ac2">Negatif</button>
                             <img class="imgbenar" id="cek3"/></td>
+                              </center>
                           </tr>
                           <tr>
                             <td>Batu ambar</td>
                             <td>Bulu kelinci</td>
-                            <td><input class="inputan" type="text" id="no4" onchange="cekjwbn4()" placeholder="....">
+                            <td>
+                              <center>                                                            
+                              <button onclick="positif4()" id="ad1">Positif</button>
+                              <button onclick="negatif4()" id="ad2">Negatif</button>
                             <img class="imgbenar" id="cek4"/></td>
+                              </center>
                           </tr>
                           <tr>
                             <td>Penggaris</td>
                             <td>Kapas</td>
-                            <td><input class="inputan" type="text" id="no5" onchange="cekjwbn5()" placeholder="....">
+                            <td>
+                              <center>                                                           
+                              <button onclick="positif5()" id="ae1">Positif</button>
+                              <button onclick="negatif5()" id="ae2">Negatif</button>
                             <img class="imgbenar" id="cek5"/></td>
+                            </center>
                           </tr>
                   </table>
+                  
                 </div>
             </div>
 

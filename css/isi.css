@@ -379,6 +379,10 @@ color: transparent;
   width: auto;
 }
 
+.tdnya{
+  width: 50%;
+}
+
 .tabelnya tr td{
   padding: 5px;
   border: 1px solid #dfe0e1;
