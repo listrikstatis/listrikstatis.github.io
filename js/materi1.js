@@ -27,81 +27,33 @@ $(document).ready(function(){
 });
 
 //halaman 1
-function sal(){  
-  var cek1 = document.getElementById("ceksal1");
-  
-    cek1.src = "../../img/salah.png";
-    document.getElementById("ceksal2").style.display = 'none';    
-    document.getElementById("ceksal3").style.display = 'none';        
-    document.getElementById("ceksal1").style.display = 'unset'; 
+function sal(){
+  document.getElementById('b1').style.display = 'none';
+  document.getElementById('s1').style.display = 'block';
 }
-function sal2(){  
-  var cek2 = document.getElementById("ceksal2");
-    cek2.src = "../../img/salah.png";
-
-    document.getElementById("ceksal1").style.display = 'none';    
-    document.getElementById("ceksal3").style.display = 'none';    
-    document.getElementById("ceksal2").style.display = 'unset';
-}
-function sal3(){   
-  var cek3 = document.getElementById("ceksal3");
-    cek3.src = "../../img/salah.png";
-    
-    document.getElementById("ceksal2").style.display = 'none';    
-    document.getElementById("ceksal1").style.display = 'none';    
-    document.getElementById("ceksal3").style.display = 'unset';
-}
-function ben(){  
-  var cek1 = document.getElementById("cekbenar");
-  document.getElementById('nomor2').style.display = 'block';
-  
-    cek1.src = "../../img/benar.png";
-  
-    document.getElementById("ceksal2").style.display = 'none';    
-    document.getElementById("ceksal3").style.display = 'none';    
-    document.getElementById("ceksal1").style.display = 'none';
-    document.getElementById('sal1').style.display = 'none';
-    document.getElementById('sal2').style.display = 'none';
-    document.getElementById('sal3').style.display = 'none';
+function ben(){
+  document.getElementById('b1').style.display = 'block';
+  document.getElementById('s1').style.display = 'none';  
 }
 
-function sal4(){  
-  var cek6 = document.getElementById("fal1");
-  
-    cek6.src = "../../img/salah.png";
-    document.getElementById("fal2").style.display = 'none';    
-    document.getElementById("fal3").style.display = 'none';        
-    document.getElementById("fal1").style.display = 'unset'; 
+function sal2(){
+  document.getElementById('b2').style.display = 'none';
+  document.getElementById('s2').style.display = 'block';
 }
-function sal5(){  
-  var cek5 = document.getElementById("fal2");
-    cek5.src = "../../img/salah.png";
 
-    document.getElementById("fal1").style.display = 'none';    
-    document.getElementById("fal3").style.display = 'none';    
-    document.getElementById("fal2").style.display = 'unset';
+function ben2(){
+  document.getElementById('b2').style.display = 'block';
+  document.getElementById('s2').style.display = 'none';    
 }
-function sal6(){   
-  var cek6 = document.getElementById("fal3");
-    cek6.src = "../../img/salah.png";
-    
-    document.getElementById("fal2").style.display = 'none';    
-    document.getElementById("fal1").style.display = 'none';    
-    document.getElementById("fal3").style.display = 'unset';
-}
-function ben2(){  
-  var cekbenar2 = document.getElementById("cekbenar2");
-  
-    cekbenar2.src = "../../img/benar.png";
 
-  document.getElementsByClassName('none')[0].style.display = 'block';
-  
-    document.getElementById("fal2").style.display = 'none';    
-    document.getElementById("fal3").style.display = 'none';    
-    document.getElementById("fal1").style.display = 'none';
-    document.getElementById('sal4').style.display = 'none';
-    document.getElementById('sal5').style.display = 'none';
-    document.getElementById('sal6').style.display = 'none';
+function sal3(){
+  document.getElementById('b3').style.display = 'none';
+  document.getElementById('s3').style.display = 'block';
+}
+
+function ben3(){
+  document.getElementById('b3').style.display = 'block';
+  document.getElementById('s3').style.display = 'none';   
 }
 
 //Halaman 2 atas
