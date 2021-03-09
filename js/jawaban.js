@@ -59,7 +59,7 @@ function readlah() {
     let jwbfixx = [];
 
     let jwb1 = ["c", "c", "b", "b", "d", "b", "d", "c", "b", "d"];
-    if (kuisfix == "hasil/") {
+    if (kuisfix == "kuis1/") {
         let hhh = `<tr><td class="nah" colspan="2">Kunci Jawaban </td>`;
         for (let i = 0; i < jwb1.length; i++) {
             hhh += `<td class = "nah"> ${jwb1[i]}</td>`;
@@ -70,7 +70,7 @@ function readlah() {
     }
 
     let jwb2 = ["b", "a", "d", "b", "c", "a", "d", "b", "a", "b"];
-    if (kuisfix == "hasil2/") {
+    if (kuisfix == "kuis2/") {
         let hhh = `<tr><td class="nah" colspan="2">Kunci Jawaban </td>`;
         for (let i = 0; i < jwb2.length; i++) {
             hhh += `<td class = "nah"> ${jwb2[i]}</td>`;
@@ -81,7 +81,7 @@ function readlah() {
     }
 
     let jwb3 = ["a", "b", "a", "d", "b", "a", "d", "c", "b", "a"];
-    if (kuisfix == "hasil3/") {
+    if (kuisfix == "kuis3/") {
         let hhh = `<tr><td class="nah" colspan="2">Kunci Jawaban </td>`;
         for (let i = 0; i < jwb3.length; i++) {
             hhh += `<td class = "nah"> ${jwb3[i]}</td>`;

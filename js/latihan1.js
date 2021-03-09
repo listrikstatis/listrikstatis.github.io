@@ -528,7 +528,7 @@ function createTask(sekolah, nama, kelas, nilai, waktunya, hari, jawab) {
         nilai: nilai,        
         waktu: waktunya,
         hari: hari,
-        jawabannya: jawab
+        jawabsiswa: jawab
     }
 
     let database = firebase.database().ref("kuis1/" + counter);
