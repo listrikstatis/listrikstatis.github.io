@@ -198,7 +198,7 @@ function negatif0(){
 
 function positif0(){
     cekk.src = "../../img/benar.png";        
-  document.getElementById('aa0').style.display = 'none';
+  document.getElementById('ab0').style.display = 'none';
 }
 
 // $('.inputan').bind('keyup blur',function(){ 
