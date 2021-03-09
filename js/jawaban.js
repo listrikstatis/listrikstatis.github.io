@@ -58,7 +58,7 @@ function readlah() {
 
     let jwbfixx = [];
 
-    let jwb1 = ["c", "c", "b", "b", "d", "b", "d", "c", "b", "d"];
+    let jwb1 = ["c", "d", "b", "c", "c", "c", "a", "a", "b", "d"];
     if (kuisfix == "kuis1/") {
         let hhh = `<tr><td class="nah" colspan="2">Kunci Jawaban </td>`;
         for (let i = 0; i < jwb1.length; i++) {
@@ -69,7 +69,7 @@ function readlah() {
         jwbfixx = jwb1;
     }
 
-    let jwb2 = ["b", "a", "d", "b", "c", "a", "d", "b", "a", "b"];
+    let jwb2 = ["b", "c", "d", "c", "d", "d", "b", "d", "b", "a"];
     if (kuisfix == "kuis2/") {
         let hhh = `<tr><td class="nah" colspan="2">Kunci Jawaban </td>`;
         for (let i = 0; i < jwb2.length; i++) {
@@ -80,7 +80,7 @@ function readlah() {
         jwbfixx = jwb2;
     }
 
-    let jwb3 = ["a", "b", "a", "d", "b", "a", "d", "c", "b", "a"];
+    let jwb3 = ["a", "b", "b", "d", "a", "d", "a", "d", "a", "b"];
     if (kuisfix == "kuis3/") {
         let hhh = `<tr><td class="nah" colspan="2">Kunci Jawaban </td>`;
         for (let i = 0; i < jwb3.length; i++) {
@@ -91,18 +91,7 @@ function readlah() {
         jwbfixx = jwb3;
     }
 
-    let evaluasi = ["b", "c", "c", "d", "b", "b", "d", "d", "a", "d", "c", "b", "b", "a", "b", "c", "d", "a", "c", "a"];
-    if (kuisfix == "evaluasi/") {
-        let hhh = `<tr><td class="nah" colspan="2">Kunci Jawaban </td>`;
-        for (let i = 0; i < evaluasi.length; i++) {
-            hhh += `<td class = "nah"> ${evaluasi[i]}</td>`;
-        }
-        hhh += `</tr>`;
-        tmp.innerHTML += hhh;
-        jwbfixx = evaluasi;
-    }
-
-    let jwb4 = ["a", "c", "b", "a", "a", "d", "c", "b", "a", "a"];
+    let jwb4 = ["a", "b", "d", "d", "a", "b", "a", "c", "c", "b"];
     if (kuisfix == "kuis4/") {
         let hhh = `<tr><td class="nah" colspan="2">Kunci Jawaban </td>`;
         for (let i = 0; i < jwb4.length; i++) {
@@ -113,7 +102,7 @@ function readlah() {
         jwbfixx = jwb4;
     }
 
-    let jwb5 = ["c", "d", "a", "b", "a", "a", "a", "b", "b", "d"];
+    let jwb5 = ["b", "d", "a", "c", "d", "c", "c", "b", "a", "c"];
     if (kuisfix == "kuis5/") {
         let hhh = `<tr><td class="nah" colspan="2">Kunci Jawaban </td>`;
         for (let i = 0; i < jwb5.length; i++) {
@@ -124,16 +113,16 @@ function readlah() {
         jwbfixx = jwb5;
     }
 
-    // let jwb6 = ["a", "c", "a", "b", "b", "a", "b", "a", "b", "d"];
-    // if (kuisfix == "kuis6/") {
-    //     let hhh = `<tr><td class="nah" colspan="2">Kunci Jawaban </td>`;
-    //     for (let i = 0; i < jwb6.length; i++) {
-    //         hhh += `<td class = "nah"> ${jwb6[i]}</td>`;
-    //     }
-    //     hhh += `</tr>`;
-    //     tmp.innerHTML += hhh;
-    //     jwbfixx = jwb6;
-    // }
+    let evaluasi = ["c", "b", "a", "b", "b", "a", "d", "b", "a", "c", "d", "c", "a", "b", "a", "b", "c", "c", "d", "d"];
+    if (kuisfix == "evaluasi/") {
+        let hhh = `<tr><td class="nah" colspan="2">Kunci Jawaban </td>`;
+        for (let i = 0; i < evaluasi.length; i++) {
+            hhh += `<td class = "nah"> ${evaluasi[i]}</td>`;
+        }
+        hhh += `</tr>`;
+        tmp.innerHTML += hhh;
+        jwbfixx = evaluasi;
+    }
 
     if (kelasfix != '') {
         task.orderByChild("nama").on("child_added", function (data) {

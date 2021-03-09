@@ -73,10 +73,10 @@ function mencari() {
             if (cek11 == 0) {
                 let ssps = document.querySelector('.center');
                 ssps.innerHTML += '';
-                ssps.innerHTML += `<button type="button" class="btn btn-danger"><i class="fas fa-user-minus"></i>&nbsp;&nbsp;Hapus Semua Data</button>`;
+                ssps.innerHTML += `<button type="button" class="btn btn-danger deleted"><i class="fas fa-user-minus"></i>&nbsp;&nbsp;Hapus Semua Data</button>`;
                 cek11 += 1;
 
-                let klikkkk = document.querySelector('.del_semua');
+                let klikkkk = document.querySelector('.deleted');
                 klikkkk.addEventListener('click', function () {
                     hapussemua(idnya);
                 })
@@ -112,7 +112,7 @@ function deletetask(id) {
     var task = firebase.database().ref(datahasil + id);
     task.remove();
     tmp.innerHTML = "";
-    readlah();
+    mencari();
 }
 
 
@@ -136,9 +136,9 @@ function deletesemua(id) {
 
 
 // download data
-
-let download = document.querySelector('.download');
-download.addEventListener('click', function () {
+function downloadfile(){
+document.querySelector('.download');
+// download.addEventListener('click', function () {
     var data_type = 'data:application/vnd.ms-excel';
     var table_div = document.getElementById('table_wrapper');
     var table_html = table_div.outerHTML.replace(/ /g, '%20');
@@ -147,4 +147,4 @@ download.addEventListener('click', function () {
     a.href = data_type + ', ' + table_html;
     a.download = 'exported_table_' + Math.floor((Math.random() * 9999999) + 1000000) + '.xls';
     a.click();
-})
+}
