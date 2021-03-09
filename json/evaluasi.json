@@ -99,11 +99,11 @@
     }
 },{
     "soal11": {
-        "soal": "Bagian utama penangkal petir dibuat dari batang logam berujung runcing. Hal ini dibuat dengan maksud agar ....",
-        "a": "mudah dialiri listrik",
-        "b": "mudah melepas elektron",
-        "c": "mudah menangkap elektron",
-        "d": "mudah terinduksi",
+        "soal": "Hewan yang memiliki kemampuan menghasilkan muatan listrik umumnya memiliki sistem khusus pada tubuhnya yang disebut sebagai ...",
+        "a": "Elektrisitas",
+        "b": "Elektroplaks",
+        "c": "Elektroreseptor",
+        "d": "Neurotransmitter",
         "benar": "c"
     }
 },{
@@ -144,12 +144,12 @@
     }
 },{
     "soal16": {
-        "soal": "Elektroskop berfungsi untuk ....",
-        "a": "mengetahui ada tidaknya muatan pada sebuah benda",
-        "b": "mengukur besar muatan pada sebuah benda",
-        "c": "menghasilkan muatan dalam jumlah yang besar",
-        "d": "mengetahui besar gaya coulomb dua benda bermuatan",
-        "benar": "a"
+        "soal": "Akson atau neurit berfungsi untuk ...",
+        "a": "Mempercepat jalannya impuls saraf",
+        "b": "Meneruskan impuls dari dendrit ke akson",
+        "c": "Meneruskan impuls dari badan sel saraf ke sel saraf lain",
+        "d": "Menerima impuls dari sel lain dan meneruskannya ke badan sel",
+        "benar": "C"
     }
 },{
     "soal17": {
