@@ -60,9 +60,9 @@ function readlah() {
 
     let jwb1 = ["c", "d", "b", "c", "c", "c", "a", "a", "b", "d"];
     if (kuisfix == "kuis1/") {
-        let hhh = `<tr><td class="nah" colspan="2">Kunci Jawaban </td>`;
+        let hhh = `<tr><td class="table-info  tulis" colspan="2">Kunci Jawaban </td>`;
         for (let i = 0; i < jwb1.length; i++) {
-            hhh += `<td class = "nah"> ${jwb1[i]}</td>`;
+            hhh += `<td class="table-info"> ${jwb1[i]}</td>`;
         }
         hhh += `</tr>`;
         tmp.innerHTML += hhh;
@@ -71,9 +71,9 @@ function readlah() {
 
     let jwb2 = ["b", "c", "d", "c", "d", "d", "b", "d", "b", "a"];
     if (kuisfix == "kuis2/") {
-        let hhh = `<tr><td class="nah" colspan="2">Kunci Jawaban </td>`;
+        let hhh = `<tr><td class="table-info  tulis" colspan="2">Kunci Jawaban </td>`;
         for (let i = 0; i < jwb2.length; i++) {
-            hhh += `<td class = "nah"> ${jwb2[i]}</td>`;
+            hhh += `<td class="table-info"> ${jwb2[i]}</td>`;
         }
         hhh += `</tr>`;
         tmp.innerHTML += hhh;
@@ -82,9 +82,9 @@ function readlah() {
 
     let jwb3 = ["a", "b", "b", "d", "a", "d", "a", "d", "a", "b"];
     if (kuisfix == "kuis3/") {
-        let hhh = `<tr><td class="nah" colspan="2">Kunci Jawaban </td>`;
+        let hhh = `<tr><td class="table-info  tulis" colspan="2">Kunci Jawaban </td>`;
         for (let i = 0; i < jwb3.length; i++) {
-            hhh += `<td class = "nah"> ${jwb3[i]}</td>`;
+            hhh += `<td class="table-info"> ${jwb3[i]}</td>`;
         }
         hhh += `</tr>`;
         tmp.innerHTML += hhh;
@@ -93,9 +93,9 @@ function readlah() {
 
     let jwb4 = ["a", "b", "d", "d", "a", "b", "a", "c", "c", "b"];
     if (kuisfix == "kuis4/") {
-        let hhh = `<tr><td class="nah" colspan="2">Kunci Jawaban </td>`;
+        let hhh = `<tr><td class="table-info  tulis" colspan="2">Kunci Jawaban </td>`;
         for (let i = 0; i < jwb4.length; i++) {
-            hhh += `<td class = "nah"> ${jwb4[i]}</td>`;
+            hhh += `<td class="table-info"> ${jwb4[i]}</td>`;
         }
         hhh += `</tr>`;
         tmp.innerHTML += hhh;
@@ -104,9 +104,9 @@ function readlah() {
 
     let jwb5 = ["b", "d", "a", "c", "d", "c", "c", "b", "a", "c"];
     if (kuisfix == "kuis5/") {
-        let hhh = `<tr><td class="nah" colspan="2">Kunci Jawaban </td>`;
+        let hhh = `<tr><td class="table-info  tulis" colspan="2">Kunci Jawaban </td>`;
         for (let i = 0; i < jwb5.length; i++) {
-            hhh += `<td class = "nah"> ${jwb5[i]}</td>`;
+            hhh += `<td class="table-info"> ${jwb5[i]}</td>`;
         }
         hhh += `</tr>`;
         tmp.innerHTML += hhh;
@@ -115,9 +115,9 @@ function readlah() {
 
     let evaluasi = ["c", "b", "a", "b", "b", "a", "d", "b", "a", "c", "d", "c", "a", "b", "a", "b", "c", "c", "d", "d"];
     if (kuisfix == "evaluasi/") {
-        let hhh = `<tr><td class="nah" colspan="2">Kunci Jawaban </td>`;
+        let hhh = `<tr><td class="table-info  tulis" colspan="2">Kunci Jawaban </td>`;
         for (let i = 0; i < evaluasi.length; i++) {
-            hhh += `<td class = "nah"> ${evaluasi[i]}</td>`;
+            hhh += `<td class="table-info"> ${evaluasi[i]}</td>`;
         }
         hhh += `</tr>`;
         tmp.innerHTML += hhh;
@@ -129,20 +129,17 @@ function readlah() {
             // task.on("child_added", function (data) {
             var taskvalue = data.val();
 
-
-
-
             if (kelasfix == taskvalue.kelas) {
                 let mm = '';
                 mm = `<tr><td >${taskvalue.nama}</td><td >${taskvalue.nilai}</td>`;
-                // console.log(taskvalue.jawabannya[0]);
+                // console.log(taskvalue.jawabsiswa[0]);
 
 
                 for (let i = 0; i < jwbfixx.length; i++) {
-                    if (taskvalue.jawabannya[i] == jwbfixx[i]) {
-                        mm += `<td class="benar">${taskvalue.jawabannya[i]}</td>`;
+                    if (taskvalue.jawabsiswa[i] == jwbfixx[i]) {
+                        mm += `<td class="benar">${taskvalue.jawabsiswa[i]}</td>`;
                     } else {
-                        mm += `<td class="salah">${taskvalue.jawabannya[i]}</td>`;
+                        mm += `<td class="salah">${taskvalue.jawabsiswa[i]}</td>`;
                     }
                 }
                 mm += `</tr>`;
@@ -151,15 +148,9 @@ function readlah() {
 
         });
 
-
-
-
-
     } else {
         alert('Tentukan filter pencarian');
     }
-
-
 
 }
 
@@ -171,9 +162,6 @@ window.onload = function () {
     // sekolah.value = value = "0";
     // kuis.value = value = "kuis1/";
 }
-
-
-
 
 // download data
 
