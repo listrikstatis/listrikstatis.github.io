@@ -7,13 +7,13 @@ $(document).ready(function(){
 		});	
   });
   
-  $(document).ready(function(){
-  $(".o").hide();
-    $(".read").click(function(){
-      $(".read").hide(0);
-      $(".o").show(100);
-    });
-});
+//   $(document).ready(function(){
+//   $(".o").hide();
+//     $(".read").click(function(){
+//       $(".read").hide(0);
+//       $(".o").show(100);
+//     });
+// });
 
 //pertanyaan bagian sel saraf 
 function cekjwb(){
