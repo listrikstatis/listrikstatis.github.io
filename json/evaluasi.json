@@ -90,11 +90,11 @@
     }
 },{
     "soal10": {
-        "soal": "Untuk memindahkan 24 coulomb muatan listrik diperlukan energi 120 joule. Berapakah beda potensial sumber tegangan itu ....",
+        "soal": "Beda potensial antara titik A ke titik B sebesar 20 V, besar energi yang diperlukan untuk memindahkan muatan 4 C antara dua titik tersebut adalah ...",
         "a": "0,2 V",
-        "b": "0,5 V",
-        "c": "2 V",
-        "d": "5 V",
+        "b": "5 V",
+        "c": "40 V",
+        "d": "80 J",
         "benar": "d"
     }
 },{
@@ -108,7 +108,7 @@
     }
 },{
     "soal12": {
-        "soal": "Untuk memindahkan muatan listrik sebesar 5 C, dari titik A ke titik B diperlukan usaha sebesar 25 J. Beda potensial antara titik A dan titik B adalah....",
+        "soal": "Untuk memindahkan muatan listrik sebesar 5 C, dari titik A ke titik B diperlukan usaha sebesar 25 J, beda potensial antara titik A dan titik B adalah....",
         "a": "5 V",
         "b": "20 V",
         "c": "10 V",
@@ -117,11 +117,11 @@
     }
 },{
     "soal13": {
-        "soal": "Untuk memindahkan 10 coulomb muatan listrik dari A ke B diperlukan energi 50 joule. Beda potensial antara A dan B adalah ....",
+        "soal": "Untuk memindahkan 24 coulomb muatan listrik dari A ke B diperlukan energi 120 joule, maka beda potensial antara A dan B adalah ....",
         "a": "2 V",
         "b": "5 V",
-        "c": "50 V",
-        "d": "500 V",
+        "c": "0,2 V",
+        "d": "0,5 V",
         "benar": "b"
     }
 },{
@@ -135,11 +135,11 @@
     }
 },{
     "soal15": {
-        "soal": "Dua buah benda bermuatan yang berjarak 80 cm saling tolak-menolak dengan gaya F. Jika kedua benda tersebut digerakkan saling mendekat masing-masing 20 cm, maka gaya tolak-menolak antara kedua benda tersebut menjadi ....",
-        "a": "2 F",
-        "b": "4 F",
-        "c": "6 F",
-        "d": "8 F",
+        "soal": "Diketahui besar muatan q adalah \\(4 \\times 10^{–9}\\) mempunyai gaya coulomb 400 N, maka kuat medan listrik muatan tersebut adalah ...",
+        "a": "\\(0,1 \\times 10^{10}\\) N/C",
+        "b": "\\(1 \\times 10^{-11}\\) N/C",
+        "c": "\\(1 \\times 10^{10}\\) N/C",
+        "d": "\\(0,1 \\times 10^{-11}\\) N/C",
         "benar": "b"
     }
 },{
@@ -153,7 +153,7 @@
     }
 },{
     "soal17": {
-        "soal": "Sebuah muatan 200 coulomb berada pada jarak 10 m terhadap 20 coulomb muatan yang lain. Berapa medan listrik pada muatan 200 coulomb tersebut ...",
+        "soal": "Sebuah muatan 200 coulomb berada pada jarak 10 m terhadap 20 coulomb muatan yang lain, besar medan listrik pada muatan 200 coulomb tersebut adalah ...",
         "a": "\\(1,8 \\times 10^8\\) N/C",
         "b": "\\(1,8 \\times 10^{-8}\\) N/C",
         "c": "\\(1,8 \\times 10^9\\) N/C",
