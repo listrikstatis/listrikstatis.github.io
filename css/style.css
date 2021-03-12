@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
 body{
 	font-family:lato;
   overflow-y: hidden;
@@ -76,11 +78,13 @@ a{
   background-color: #19222a;
   width: 100%;
   box-shadow: 1px 1px 3px 3px #19222a;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 30px;
+  font-family: 'DM Serif Display',
+  serif;
+  font-size: xx-large;
+  font-weight: bold;
   padding: 10px;
   text-align: -webkit-center;
-  padding-left: 15px;
+  padding-left: 2px;
   margin-top: 5px;
 }
 
