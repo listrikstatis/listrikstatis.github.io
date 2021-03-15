@@ -12,6 +12,7 @@ th, td {
     border: none;
     margin: 0 auto;
     width: auto;
+    margin-top: 20px;
 }
 
 .read{
@@ -189,6 +190,12 @@ th, td {
 
     .imgs, .imgpp{
         width: 80%;
+    }
+
+    .quiz{
+        width: max-content;
+        display: inline-grid;
+        margin-top: 0;
     }
 
     .sonext,
