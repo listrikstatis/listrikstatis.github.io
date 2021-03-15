@@ -9,6 +9,18 @@ var firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
     
+// var firebaseConfig = {
+//     apiKey: "AIzaSyAhKXoyKcsbwP2vXcyDEmLvCIJ9I_6YIns",
+//     authDomain: "listrik-da7f7.firebaseapp.com",
+//     databaseURL: "https://listrik-da7f7-default-rtdb.firebaseio.com",
+//     projectId: "listrik-da7f7",
+//     storageBucket: "listrik-da7f7.appspot.com",
+//     messagingSenderId: "569158504829",
+//     appId: "1:569158504829:web:75d834f0bf739b7fb63c14"
+//   };
+//   // Initialize Firebase
+//   firebase.initializeApp(firebaseConfig);
+
 
 let selanjutnya = document.querySelector('.lanjut');
 let datadiri = document.querySelector('.data_diri');
