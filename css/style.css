@@ -93,6 +93,7 @@ a{
   position: static;
   background-color: white;
   height: 540px;
+  /* height: auto; */
   width: auto;
   padding: 15px;
   overflow: auto;
