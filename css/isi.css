@@ -12,6 +12,14 @@ body {
   width: 100%;
 }
 
+ol{
+  font-size: 20px;
+}
+
+.pil3{
+  width: 20%;
+  cursor: pointer;
+}
 
 .first p, .end p, .first2 p {
   font-size: 36px;

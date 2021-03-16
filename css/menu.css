@@ -134,7 +134,7 @@ table{
   line-height: 2;
 }
 td{
-  padding-right: 5px;
+  padding-right: 3px;
 }
 tr {
   line-height: 1.8;
@@ -276,6 +276,10 @@ p{
     padding: 2px;
   }
 
+  td {
+    padding-right: 5px;
+  }
+
   .img {
     width: 90%;
     height: auto;
@@ -369,6 +373,10 @@ p{
   }
   .click-zoom img {
     width: 75%;
+  }
+
+  .pp{
+    width: 35%;
   }
 
 }
