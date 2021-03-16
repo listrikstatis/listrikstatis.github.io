@@ -66,6 +66,10 @@ ul li .besarrr {
     cursor: default !important;
 }
 
+ol.pil{
+    list-style-type: lower-alpha;
+}
+
 .hilang {
     display: none;
 }
