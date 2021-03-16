@@ -21,6 +21,14 @@ ol{
   cursor: pointer;
 }
 
+.caption{
+  color: #777;
+  font-style: italic;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
 .first p, .end p, .first2 p {
   font-size: 36px;
   text-align: center;
