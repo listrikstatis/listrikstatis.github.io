@@ -16,6 +16,10 @@ ol{
   font-size: 20px;
 }
 
+ol.s{
+  padding-left: 6px;
+}
+
 label{
   font-size: 20px;
   cursor: pointer;
@@ -92,7 +96,7 @@ b{
 
 .rad{
   margin-left: 15px;
-  line-height: 2.3;
+  line-height: 2;
 }
 
 .table, .table1, .table2, .table3{
@@ -248,14 +252,14 @@ hr{
   font-family: sans-serif;
   padding: 10px;
   border-radius: 5px;
-  font-size: 18px
+  font-size: 20px;
 }
 .s1, .s2, .s3{
   border: 2px solid red;
   font-family: sans-serif;
   padding: 10px;
   border-radius: 5px;
-  font-size: 18px
+  font-size: 20px;
 }
 
 /*___________________________________________________________________________*/
@@ -274,24 +278,13 @@ hr{
 .garis {
   padding: 15px;
   border-radius: 10px;
-  border:1px solid #46B29E;
+  border: 1px solid #46B29E;
   margin-bottom: 10px;
   margin-top: -10px;
 }
 
-.gariskanan {
-  padding: 15px;
-  border-radius: 0 40px 20px 20px;
-  border: 1px solid #46B29E;
-  margin-bottom: 10px;
-  margin-top: -10px;
-}
-.gariskiri {
-  padding: 15px;
-  border-radius: 0 40px 30px 30px;
-  border: 1px solid #46B29E;
-  margin-bottom: 10px;
-  margin-top: -10px;
+.geser{
+  padding-left: 20px;
 }
 
 .a, .b{
@@ -311,6 +304,10 @@ hr{
 input{
   line-height: 1.5em;
   text-align: center;
+}
+
+input[type="radio"]{
+  cursor: pointer;
 }
 
 .inputan{
@@ -369,12 +366,6 @@ color: transparent;
 
 .vid1, .vid2 {
   width: 50%;
-}
-
-.quizs{
-  width: 40%;
-  border: none;
-  display: table-row;
 }
 
 .rumus {
