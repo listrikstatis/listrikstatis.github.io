@@ -95,7 +95,8 @@ ol.pil{
         top: 8%;
         position: static;
         background-color: white;
-        height: 588px;
+        /* height: 588px; */
+        height: 593px;
         width: auto;
         padding: 15px;
         overflow: auto;

@@ -48,6 +48,7 @@ a{
 .headerkuis{
   width: 30%;
   text-align: -webkit-center;
+  margin-top: 0.5%;
 }
 .headerkuis1 {
   width: 45%;
@@ -203,6 +204,7 @@ a{
   height: 683px;
   margin-top: -35%;
   background: #334E5C;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .sub
 {
@@ -212,7 +214,7 @@ a{
 .btn
 {
   display:block;
-  padding:10px 15px;
+  padding:10px 6px 10px 15px;
   background: #334E5C;
   color:white;
   position:relative;
@@ -263,6 +265,7 @@ a{
 
 .pilih a.active{
   color: white;
+  font-weight: bold;
 }
 
 .pilih a:hover:before
