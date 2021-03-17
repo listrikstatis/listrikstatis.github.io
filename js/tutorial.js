@@ -95,6 +95,24 @@ function materi5(){
     alert('Maaf, Kamu belum bisa membuka materi ini!');
   }
 }
+function materi52(){
+  var skor = localStorage.getItem("nkuis4");
+  // var skor = 70;
+  if (skor>=70){
+    window.location.href='../Materi5/hewan.html#penerapan';
+  } else{
+    alert('Maaf, Kamu belum bisa membuka materi ini!');
+  }
+}
+function materi53(){
+  var skor = localStorage.getItem("nkuis4");
+  // var skor = 70;
+  if (skor>=70){
+    window.location.href='../Materi5/contohlistrik.html#penerapan';
+  } else{
+    alert('Maaf, Kamu belum bisa membuka materi ini!');
+  }
+}
 function kuis5(){
   var skor = localStorage.getItem("nkuis4");
   // var skor = 70;
