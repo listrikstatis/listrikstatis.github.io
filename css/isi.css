@@ -512,6 +512,7 @@ p{
   text-align: justify;
   font-size: medium;
 }
+
 .first2 p, .first p, .end p {
   font-size: 24px;
 }
@@ -521,10 +522,11 @@ p{
   display: block;
 }
 
-.quizs {
-  width: 100%;
-  display: block;
+label {
+  font-size: unset;
+  padding-left: 0;
 }
+
 .vid1, .vid2 {
   width: 100%;
   display: block;
@@ -546,14 +548,8 @@ p{
   width: auto;
 }
 
-.gariskanan {
-  padding: 15px;
-  border-radius: 0 15px 0 0;
-}
-
-.gariskiri {
-  padding: 15px;
-  border-radius: 0 15px 0 0;
+.rad {
+  margin-left: 0;
 }
 
 .vid {
