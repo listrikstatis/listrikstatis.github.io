@@ -5,8 +5,7 @@ body{
 	font-family:lato;
   overflow-y: hidden;
   overflow-x: hidden;
-  /* background-color: #46B29E; */
-  width: 100%;
+  background-color: #46B29E;
 }
 
 * {
@@ -39,7 +38,7 @@ a{
 .headerimg{
   width: 22%;
   text-align: -webkit-center;
-  margin-top: 0.8%;
+  margin-top: 0.4%;
 }
 .headerimgmedan {
   width: 22%;
@@ -154,18 +153,16 @@ a{
 /*-----------------------------------------------------------------------*/
 /*Halaman*/
 .center {
-  /* position: sticky; */
+  position: sticky;
   left: 42%;
   width: auto;
   margin: 0;
-  background-color: #46B29E;
 }
 
 .centerr {
-  /* position: sticky; */
+  position: sticky;
   width: auto;
   margin: 0;
-  background-color: #46B29E;
 }
 
 .page {
