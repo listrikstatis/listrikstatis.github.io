@@ -85,9 +85,10 @@ a{
   serif;
   font-size: xx-large;
   font-weight: bold;
-  padding-top: 15px;
+  padding: 10px;
+  padding-bottom: 5px !important;
   text-align: -webkit-center;
-  padding-left: 2px;
+  padding-left: 2px !important;
   /* margin-top: 5px; */
 }
 
