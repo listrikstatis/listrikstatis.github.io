@@ -5,7 +5,7 @@ body{
 	font-family:lato;
   overflow-y: hidden;
   overflow-x: hidden;
-  background-color: #46B29E;
+  /* background-color: #46B29E; */
   width: 100%;
 }
 
@@ -97,12 +97,12 @@ a{
   position: relative;
   background-color: white;
   /* height: 540px; */
-  height: 81%;
+  height: 82%;
   width: auto;
   padding: 15px;
   overflow: auto;
-  border: 2px solid #7f8c8d;
-  border-radius: 5px;
+  border: 1px solid #7f8c8d;
+  /* border-radius: 5px; */
 }
 
 .isimat {
@@ -154,16 +154,18 @@ a{
 /*-----------------------------------------------------------------------*/
 /*Halaman*/
 .center {
-  position: sticky;
+  /* position: sticky; */
   left: 42%;
   width: auto;
-  margin: 1px;
+  margin: 0;
+  background-color: #46B29E;
 }
 
 .centerr {
-  position: sticky;
+  /* position: sticky; */
   width: auto;
-  margin: 1px;
+  margin: 0;
+  background-color: #46B29E;
 }
 
 .page {
