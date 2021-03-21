@@ -33,6 +33,7 @@ a{
   background-color: #46B29E;
   text-align: -webkit-center;
   margin-left: 7%;
+  padding-top: 5px;
   /* position: inherit; */
 }
 .headerimg{
@@ -203,7 +204,7 @@ a{
   border-radius:1px;
   overflow:hidden;
   float: left;
-  height: 682px;
+  height: 680px;
   margin-top: -35%;
   background: #334E5C;
   /* font-family: 'Source Sans Pro', sans-serif;
