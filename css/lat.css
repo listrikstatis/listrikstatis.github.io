@@ -93,11 +93,12 @@ ol.pil{
     }
     .konten {
         top: 8%;
-        position: static;
+        position: absolute;
         background-color: white;
         /* height: 588px; */
         height: 593px;
-        width: auto;
+        left: 13.55%;
+        width: 84.5%;
         padding: 15px;
         overflow: auto;
         border: 1px solid #7f8c8d;
