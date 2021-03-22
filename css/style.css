@@ -40,7 +40,7 @@ a{
   color: #fff;
   font-size: 25px;
   text-align: center;
-  margin-left: 7%;
+  /* margin-left: 7%; */
   /* position: absolute; */
   padding-top: 5px;
 }
@@ -212,7 +212,7 @@ a{
   border-radius:1px;
   overflow:hidden;
   float: left;
-  height: 680px;
+  height: 618px;
   /* margin-top: -33%; */
   background: #334E5C;
   /* font-family: 'Source Sans Pro', sans-serif;
