@@ -212,7 +212,7 @@ a{
   border-radius:1px;
   overflow:hidden;
   float: left;
-  height: 618px;
+  height: 617px;
   /* margin-top: -33%; */
   background: #334E5C;
   /* font-family: 'Source Sans Pro', sans-serif;
@@ -329,7 +329,7 @@ a{
 }
 /*______*******************************************************************************************************___*/
 /*______*******************************************************************************************************___*/
-@media screen and (max-width:1024px){
+@media screen and (max-width:1000px){
   body{
     overflow: auto;
   }
