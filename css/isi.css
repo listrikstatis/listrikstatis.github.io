@@ -6,6 +6,11 @@ p{
   text-align: justify;
 }
 
+p.prgraf{
+  text-indent: 45px;
+  line-height: 1.6;
+}
+
 html,
 body {
   height: 100%;
