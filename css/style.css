@@ -41,8 +41,8 @@ a{
   font-size: 25px;
   text-align: center;
   margin-left: 7%;
-  position: inherit;
-  /* padding-top: 5px; */
+  /* position: inherit; */
+  padding-top: 5px;
 }
 .headerimg{
   width: 22%;
@@ -94,7 +94,7 @@ a{
   serif;
   font-size: xx-large;
   font-weight: bold;
-  padding-top: 5% !important;
+  /* padding-top: 5% !important; */
   text-align: -webkit-center;
   padding-left: 2px !important;
   /* margin-top: 5px; */
@@ -212,7 +212,7 @@ a{
   overflow:hidden;
   float: left;
   height: 680px;
-  margin-top: -33%;
+  margin-top: -27.8%;
   background: #334E5C;
   /* font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400; */
