@@ -40,9 +40,9 @@ a{
   color: #fff;
   font-size: 25px;
   text-align: center;
-  /* margin-left: 7%; */
-  /* position: absolute; */
-  padding-top: 5px;
+  margin-left: 7%;
+  position: inherit;
+  /* padding-top: 5px; */
 }
 .headerimg{
   width: 22%;
@@ -94,18 +94,18 @@ a{
   serif;
   font-size: xx-large;
   font-weight: bold;
-  /* padding-top: 8% !important; */
+  padding-top: 8% !important;
   text-align: -webkit-center;
   padding-left: 2px !important;
   /* margin-top: 5px; */
 }
 
 .isi{
-  top: 8%;
+  /* top: 8%; */
   position: relative;
   background-color: white;
-  height: 540px;
-  /* height: 82%; */
+  /* height: 540px; */
+  height: 82%;
   width: auto;
   padding: 15px;
   overflow: auto;
@@ -159,14 +159,13 @@ a{
   text-align: -webkit-center;
   font-size: 24px;
 }
-
-/* .main{
-  top: 8%;
-} */
 /*-----------------------------------------------------------------------*/
 /*Halaman*/
 .center {
-  text-align: center;
+  position: static;
+  left: 42%;
+  width: auto;
+  margin: 0;
 }
 
 .centerr {
@@ -212,8 +211,8 @@ a{
   border-radius:1px;
   overflow:hidden;
   float: left;
-  height: 617px;
-  /* margin-top: -33%; */
+  height: 680px;
+  margin-top: -33%;
   background: #334E5C;
   /* font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400; */
