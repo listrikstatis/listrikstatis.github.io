@@ -27,7 +27,6 @@ console.log(localStorage);
 /*subbab 2*/
 function materi2(){
     var skor = localStorage.getItem("nkuis1");
-    // var skor = 75;
     if (skor>=70){
       window.location.href='../Materi2/hukum_coulomb.html#hukumcoulomb';
     } else{
@@ -47,7 +46,6 @@ function kuis2(){
 /*subbab 3*/
 function materi3(){
   var skor = localStorage.getItem("nkuis2");
-  // var skor = 70;
   if (skor>=70){
     window.location.href='../Materi3/medanlistrik.html#medanlistrik';
   } else{
@@ -57,7 +55,6 @@ function materi3(){
 
 function kuis3(){
   var skor = localStorage.getItem("nkuis2");
-  // var skor = 70;
   if (skor>=70){
     window.location.href='../Materi3/latihan3.html#medanlistrik';
   } else{
@@ -68,7 +65,6 @@ function kuis3(){
 /*subbab 4*/
 function materi4(){
   var skor = localStorage.getItem("nkuis3");
-  // var skor = 70;
   if (skor>=70){
     window.location.href='../Materi4/bedapotensial.html#bedapotensial';
   } else{
@@ -77,7 +73,6 @@ function materi4(){
 }
 function kuis4(){
   var skor = localStorage.getItem("nkuis3");
-  // var skor = 70;
   if (skor>=70){
     window.location.href='../Materi4/latihan4.html#bedapotensial';
   } else{
@@ -88,7 +83,6 @@ function kuis4(){
 /*subbab 5*/
 function materi5(){
   var skor = localStorage.getItem("nkuis4");
-  // var skor = 70;
   if (skor>=70){
     window.location.href='../Materi5/penerapan.html#penerapan';
   } else{
@@ -97,7 +91,6 @@ function materi5(){
 }
 function materi52(){
   var skor = localStorage.getItem("nkuis4");
-  // var skor = 70;
   if (skor>=70){
     window.location.href='../Materi5/hewan.html#penerapan';
   } else{
@@ -106,7 +99,6 @@ function materi52(){
 }
 function materi53(){
   var skor = localStorage.getItem("nkuis4");
-  // var skor = 70;
   if (skor>=70){
     window.location.href='../Materi5/contohlistrik.html#penerapan';
   } else{
@@ -115,7 +107,6 @@ function materi53(){
 }
 function kuis5(){
   var skor = localStorage.getItem("nkuis4");
-  // var skor = 70;
   if (skor>=70){
     window.location.href='../Materi5/latihan5.html#penerapan';
   } else{
@@ -126,7 +117,6 @@ function kuis5(){
 /*evaluasi*/
 function evaluasi(){
   var skor = localStorage.getItem("nkuis5");
-  // var skor = 70;
   if (skor>=70){
     window.location.href='../evaluasi/evaluasi.html';
   } else{
