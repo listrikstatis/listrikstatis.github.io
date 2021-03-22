@@ -20,6 +20,14 @@ ol.s{
   padding-left: 6px;
 }
 
+ol.cs{
+  padding-left: 15px;
+}
+li.cs{
+  list-style-type: decimal;
+  text-align: justify;
+}
+
 label{
   font-size: 20px;
   cursor: pointer;
@@ -209,12 +217,17 @@ hr{
   margin-top: 10px;
 }
 
+.i{
+  padding-left: 15px;
+}
+
 /*hide show*/
 .diket, .dit, .jwb, .klik{
   border: 1px solid #46B29E;
   padding: 5px;
   cursor: pointer;
   border-radius: 5px;
+  margin-left: 15px;
   font-family: verdana,sans-serif,helvetica;
 }
 .klik {
@@ -236,6 +249,7 @@ hr{
   padding: 5px;
   cursor: pointer;
   border-radius: 5px;
+  margin-left: 15px;
   font-family: verdana,arial,helvetica;
 }
 
@@ -244,6 +258,7 @@ hr{
   padding: 5px;
   cursor: pointer;
   border-radius: 5px;
+  margin-left: 15px;
   font-family: verdana,arial,helvetica;
 }
 
@@ -287,18 +302,16 @@ hr{
   padding-left: 20px;
 }
 
-.a, .b{
+.a, .b, .a3, .ba3, .aa, .bb{
   margin-bottom: 5px;
   font-size: 20px;
+  padding-left: 20px;
 }
 
-.aa, .bb{
-  margin-bottom: 5px;
-  font-size: 20px;
-}
 .c, .cc, .c3 {
   font-size: 20px;
   line-height: 2.5;
+  padding-left: 20px;
 }
 
 input{
