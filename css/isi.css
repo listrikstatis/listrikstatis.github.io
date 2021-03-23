@@ -221,6 +221,9 @@ hr{
   margin-bottom: 10px;
   margin-top: 10px;
 }
+hr.grs{
+  height: 1px;
+}
 
 .i{
   padding-left: 15px;
