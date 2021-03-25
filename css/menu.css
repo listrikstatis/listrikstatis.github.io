@@ -20,10 +20,15 @@ body {
   background-color: white;
 }
 
-.bg{
+/* .bg{
   background: url("../img/bg.gif");
-  /* opacity: 0.5; */
   width: 100%;
+  background-position: center;
+  background-size: 60%;
+} */
+
+img.bg{
+  width: 50%;
 }
 
 /*CSS header*/
@@ -63,7 +68,7 @@ a{
   height: 580px;
   background: #334E5C;
   /* background-color: #ffffff; */
-  opacity: 0.9;
+  /* opacity: 0.9; */
   display: flex;
   flex-direction: row;
 }
