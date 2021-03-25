@@ -252,6 +252,11 @@ ol{
   font-weight: bold;
 }
 
+.active{
+  /* background-color: #334E5C; */
+  background-color: #0694de;
+}
+
 p{
   line-height: 1.5;
   text-align: justify;
