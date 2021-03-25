@@ -43,6 +43,10 @@ img.bg{
 .img {
   width: 50%;
 }
+
+.img2 {
+  width: 30%;
+}
 .top-kiri {
   padding-left: 10px;
   padding-bottom: 8px;
@@ -173,6 +177,15 @@ p {
   line-height: 1;
 }
 
+p.judul{
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
 li {
   line-height: 1.7;
   text-align: left;
@@ -293,9 +306,14 @@ p{
     padding-right: 5px;
   }
 
-  .img {
+  .img, .img2 {
     width: 90%;
     height: auto;
+  }
+
+  p.judul {
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .menu {
