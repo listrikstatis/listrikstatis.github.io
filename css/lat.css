@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 hr {
@@ -92,11 +93,10 @@ ol.pil{
         width: 100%;
     }
     .konten {
-        top: 8%;
-        position: static;
+        position: relative;
         background-color: white;
-        /* height: 588px; */
-        height: 593px;
+        height: 95vh;
+        /* height: 87.5%; */
         width: auto;
         padding: 15px;
         overflow: auto;
