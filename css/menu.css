@@ -191,6 +191,10 @@ li {
   text-align: left;
 }
 
+li.botom{
+  margin-bottom: 8px;
+}
+
 .lis {
   text-align: justify;
   padding-left: 13px;
