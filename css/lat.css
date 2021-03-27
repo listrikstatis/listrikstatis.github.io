@@ -98,7 +98,8 @@ ol.pil{
             /* top: 8%; */
             position: static;
             background-color: white;
-            height: 622px;
+            /* height: 622px; */
+            height: 94vh;
             width: auto;
             padding: 15px;
             overflow: auto;
@@ -148,7 +149,7 @@ ol.pil{
 
 @media screen and (min-width:2560px) {
     .konten{
-        height: unset;
+        height: 94vh;
     }
 
     #nama, #sekolah, #kelas{
