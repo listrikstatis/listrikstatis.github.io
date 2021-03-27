@@ -86,16 +86,13 @@ ol.pil{
     width: 100%;
 }
 
-body{
-    overflow: unset;
-}
 
 /* -----------------------------------------------------------------------------------------------------*/
 /* Desktop version  */
 @media (min-width : 992px) {
     body{
         width: 100%;
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .konten {
             /* top: 8%; */
