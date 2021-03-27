@@ -93,15 +93,15 @@ ol.pil{
         width: 100%;
     }
     .konten {
-        position: relative;
-        background-color: white;
-        height: 95vh;
-        /* height: 87.5%; */
-        width: auto;
-        padding: 15px;
-        overflow: auto;
-        border: 1px solid #7f8c8d;
-        /* border-radius: 5px; */
+            top: 8%;
+            position: static;
+            background-color: white;
+            height: 622px;
+            width: auto;
+            padding: 15px;
+            overflow: auto;
+            /* border: 1px solid #7f8c8d; */
+            /* border-radius: 5px; */
     }
 
     .inti-konten {
