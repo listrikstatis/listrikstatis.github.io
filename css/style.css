@@ -98,11 +98,12 @@ a {
   width: 100%;
   box-shadow: 1px 1px 3px 3px #19222a;
   font-family: 'DM Serif Display', sans-serif;
-  font-size: xx-large;
+  /* font-size: xx-large; */
+  font-size: 1.7em;
   font-weight: bold;
   padding-top: 6% !important;
   text-align: -webkit-center;
-  padding-left: 2px !important;
+  /* padding-left: 2px !important; */
   margin-top: 5px;
 }
 
