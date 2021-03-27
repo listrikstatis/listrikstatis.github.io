@@ -91,6 +91,7 @@ ol.pil{
 @media (min-width : 992px) {
     body{
         width: 100%;
+        overflow: hidden;
     }
     .konten {
             top: 8%;
