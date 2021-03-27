@@ -1,7 +1,7 @@
 p{
   padding-left: 5px;
   padding-right: 5px;
-  font-size: 20px;
+  font-size: 1.2em;
   line-height: 1.5;
   text-align: justify;
 }
@@ -531,7 +531,7 @@ color: transparent;
 
 p{
   text-align: justify;
-  font-size: medium;
+  font-size: unset;
 }
 
 .first2 p, .first p, .end p {
@@ -616,7 +616,12 @@ label {
   }
 
   p, h4{
-    font-size: xx-large;
+    /* font-size: xx-large; */
+    font-size: 2em;
+  }
+
+  label, b{
+    font-size: unset;
   }
 
   .nomor{
@@ -626,5 +631,13 @@ label {
   html,
   body {
     height: 100%;
+  }
+
+  .garis{
+    padding-left: 20px;
+  }
+
+  ol{
+    padding-left: 10px;
   }
 }
