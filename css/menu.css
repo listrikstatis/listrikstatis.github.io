@@ -423,6 +423,7 @@ p{
   .hal0{
     width: min-content !important;
     padding-left: 0 !important;
+    padding-right: 10px;
   }
 
 }
