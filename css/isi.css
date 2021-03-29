@@ -95,7 +95,7 @@ label{
 
 b{
   line-height: 2;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .nomor{
@@ -604,6 +604,10 @@ label {
 
 .imglek {
   width: 100%;
+}
+
+.caption{
+  font-size: 14px;
 }
 
 }
