@@ -3,7 +3,7 @@
 
 body {
   font-family: lato;
-  /* overflow-y: hidden; */
+  overflow-y: hidden;
   overflow-x: hidden;
   background-color: #46B29E;
   height: 100%;
@@ -43,8 +43,8 @@ a {
   color: #fff;
   /* font-size: 25px; */
   text-align: center;
-  margin-left: 7%;
-  position: relative;
+  /* margin-left: 7%; */
+  position: static;
   /* padding-top: 5px !important; */
 }
 
@@ -103,7 +103,7 @@ a {
   /* font-size: xx-large; */
   font-size: 1.7em;
   font-weight: bold;
-  padding-top: 6% !important;
+  /* padding-top: 6% !important; */
   text-align: -webkit-center;
   /* padding-left: 2px !important; */
   margin-top: 5px;
@@ -227,8 +227,8 @@ a {
   overflow: hidden;
   float: left;
   /* height: 682px; */
-  height: 102.8vh;
-  margin-top: -35%;
+  height: 100vh;
+  /* margin-top: -35%; */
   background: #334E5C;
   /* font-family: "Poppins", sans-serif; */
   font-weight: 500;
