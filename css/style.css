@@ -63,7 +63,7 @@ a {
 .headerkuis {
   width: 30%;
   text-align: -webkit-center;
-  margin-top: 0.5%;
+  /* margin-top: 0.5%; */
   margin-bottom: -0.3%;
 }
 
@@ -227,7 +227,7 @@ a {
   overflow: hidden;
   float: left;
   /* height: 682px; */
-  height: 100vh;
+  height: 101vh;
   /* margin-top: -35%; */
   background: #334E5C;
   /* font-family: "Poppins", sans-serif; */
