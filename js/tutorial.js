@@ -118,7 +118,7 @@ function kuis5(){
 function evaluasi(){
   var skor = localStorage.getItem("nkuis5");
   if (skor>=70){
-    window.location.href='../evaluasi/evaluasi.html';
+    window.location.href='../evaluasi/evaluasi.html#evaluasi';
   } else{
     alert('Maaf, Kamu belum bisa membuka Evaluasi ini!');
   }
