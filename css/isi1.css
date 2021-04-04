@@ -97,7 +97,7 @@ mjx-container {
     cursor: pointer;
     height: 30px;
     border-radius: 10px;
-    line-height: 30px;
+    /* line-height: 20px; */
     margin-left: 10%;
     border: 2px solid black;
     color: white;
