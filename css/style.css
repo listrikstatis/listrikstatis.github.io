@@ -586,7 +586,12 @@ a {
 
 }
 
-
+@media screen and (min-width:1600px) {
+  .headermenu {
+    padding-top: 0px !important;
+    height: auto;
+  }
+}
 /* ==================================================================================================================== */
 @media screen and (min-width:2560px) {
   .btn {
@@ -650,6 +655,7 @@ a {
 
   .headermenu {
     padding-top: 0px !important;
+    height: auto;
   }
 
   /* .center, .centerr{
