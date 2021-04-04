@@ -21,8 +21,11 @@ a {
   cursor: pointer;
 }
 
+.top-kiri a{
+  color: white !important;
+}
 .top-kiri {
-  padding: 10px;
+  /* padding: 10px; */
   font-size: 2em;
   /* padding-top: 2%; */
   cursor: pointer;
@@ -528,7 +531,7 @@ a {
     float: none;
     top: 10%;
     height: 50%;
-    /* display: none; */
+    display: none;
   }
 
   .menu {

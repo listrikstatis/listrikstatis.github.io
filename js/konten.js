@@ -1,9 +1,9 @@
 function openn() {
   var p = document.getElementsByClassName("sidebar");
-  if (p[0].style.display === "none") {
-    p[0].style.display = "block";
-  } else {
+  if (p[0].style.display === "block") {
     p[0].style.display = "none";
+  } else {
+    p[0].style.display = "block";
   }
 }
 
