@@ -1,3 +1,12 @@
+function openn() {
+  var p = document.getElementsByClassName("sidebar");
+  if (p[0].style.display === "block") {
+    p[0].style.display = "none";
+  } else {
+    p[0].style.display = "block";
+  }
+}
+
 function petunjukk() {
   var x = document.getElementsByClassName("dalam");
   if (x[0].style.display === "none") {

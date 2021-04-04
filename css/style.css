@@ -21,6 +21,16 @@ a {
   cursor: pointer;
 }
 
+.top-kiri {
+  padding: 10px;
+  font-size: 2em;
+  /* padding-top: 2%; */
+  cursor: pointer;
+  font-weight: bolder;
+  text-align: left;
+  /* background: black; */
+  position: absolute;
+}
 .headerawal {
   float: left;
   width: 100%;
@@ -44,7 +54,7 @@ a {
   /* font-size: 25px; */
   text-align: center;
   margin-left: 7%;
-  position: absolute;
+  /* position: absolute; */
   padding-top: 5px !important;
 }
 
@@ -134,7 +144,7 @@ a {
 }
 
 .isi {
-  top: 50px;
+  /* top: 8%; */
   position: relative;
   background-color: white;
   /* height: 580px; */
@@ -144,6 +154,7 @@ a {
   overflow: auto;
   /* border: 1px solid #7f8c8d;
   border-radius: 5px; */
+  margin-top: 0.5%;
 }
 
 .isimat {
@@ -203,14 +214,14 @@ a {
   /* left: 42%; */
   width: auto;
   margin: 1px;
-  margin-top: 3.8%;
+  /* margin-top: 3.9%; */
 }
 
 .centerr {
   position: sticky;
   width: auto;
   margin: 1px;
-  margin-top: 3.8%;
+  /* margin-top: 3.9%; */
 }
 
 .page {
@@ -517,6 +528,7 @@ a {
     float: none;
     top: 10%;
     height: 50%;
+    display: none;
   }
 
   .menu {
@@ -527,7 +539,7 @@ a {
     height: auto;
     background: #334E5C;
     margin-top: -5px;
-    text-align: -webkit-center;
+    text-align: left;
   }
 
   /*_______________________________________________________________________________*/
@@ -637,7 +649,7 @@ a {
     padding-top: 0px !important;
   }
 
-  .center{
-    margin-top: 10px;
-  }
+  /* .center, .centerr{
+    margin-top: 2%;
+  } */
 }
