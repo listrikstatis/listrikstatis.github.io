@@ -303,5 +303,15 @@
     <script src="../../js/latihan1.js"></script>
     <script src="../../js/konten.js"></script>
 </body>
+<script>
+    function disableF5(e) { if ((e.which || e.keyCode) == 116 || (e.which || e.keyCode) == 82) e.preventDefault(); };
 
+$(document).ready(function(){
+     $(document).on("keydown", disableF5);
+});
+
+window.onbeforeunload = function() {
+        return "Dude, are you sure you want to leave? Think of the kittens!";
+    }
+</script>
 </html>
