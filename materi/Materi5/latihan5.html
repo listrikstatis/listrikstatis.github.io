@@ -309,5 +309,15 @@
     <script src="../../js/latihan5.js"></script>
     <script src="../../js/konten.js"></script>
 </body>
+<script>
+    function disableF5(e) { if ((e.which || e.keyCode) == 116 || (e.which || e.keyCode) == 82) e.preventDefault(); };
 
+$(document).ready(function(){
+     $(document).on("keydown", disableF5);
+});
+
+window.onbeforeunload = function() {
+        return "Changes you made may not be saved.";
+    }
+</script>
 </html>
