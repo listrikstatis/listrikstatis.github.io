@@ -95,7 +95,7 @@ ol.pil{
         overflow-x: hidden;
     }
     .konten {
-            top: 50px;
+            /* top: 50px; */
             position: relative;
             background-color: white;
             /* height: 622px; */
@@ -103,6 +103,7 @@ ol.pil{
             width: auto;
             padding: 15px;
             overflow: auto;
+            margin-top: 0.4%;
             /* border: 1px solid #7f8c8d; */
             /* border-radius: 5px; */
     }
