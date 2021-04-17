@@ -1,9 +1,9 @@
 //input nilai ke variabel localstorage
-localStorage.setItem("nkuis1",70);
-localStorage.setItem("nkuis2",70);
-localStorage.setItem("nkuis3",70);
-localStorage.setItem("nkuis4",70);
-localStorage.setItem("nkuis5",70);
+localStorage.setItem("nkuis1",80);
+localStorage.setItem("nkuis2",80);
+localStorage.setItem("nkuis3",80);
+localStorage.setItem("nkuis4",80);
+localStorage.setItem("nkuis5",80);
 
 //input nilai ke variabel localstorage
 // localStorage.setItem("nkuis1",0);
@@ -27,7 +27,7 @@ console.log(localStorage);
 /*subbab 2*/
 function materi2(){
     var skor = localStorage.getItem("nkuis1");
-    if (skor>=70){
+    if (skor>=75){
       window.location.href='../Materi2/hukum_coulomb.html#hukumcoulomb';
     } else{
       alert('Maaf, Kamu belum bisa membuka materi ini!');
@@ -35,8 +35,8 @@ function materi2(){
 }
 function kuis2(){
     var skor = localStorage.getItem("nkuis1");
-    // var skor = 70;
-    if (skor>=70){
+    // var skor = 75;
+    if (skor>=75){
       window.location.href='../Materi2/latihan2.html#hukumcoulomb';
     } else{
       alert('Maaf, Kamu belum bisa membuka kuis ini!');
@@ -46,7 +46,7 @@ function kuis2(){
 /*subbab 3*/
 function materi3(){
   var skor = localStorage.getItem("nkuis2");
-  if (skor>=70){
+  if (skor>=75){
     window.location.href='../Materi3/medanlistrik.html#medanlistrik';
   } else{
     alert('Maaf, Kamu belum bisa membuka materi ini!');
@@ -55,7 +55,7 @@ function materi3(){
 
 function kuis3(){
   var skor = localStorage.getItem("nkuis2");
-  if (skor>=70){
+  if (skor>=75){
     window.location.href='../Materi3/latihan3.html#medanlistrik';
   } else{
     alert('Maaf, Kamu belum bisa membuka kuis ini!');
@@ -65,7 +65,7 @@ function kuis3(){
 /*subbab 4*/
 function materi4(){
   var skor = localStorage.getItem("nkuis3");
-  if (skor>=70){
+  if (skor>=75){
     window.location.href='../Materi4/bedapotensial.html#bedapotensial';
   } else{
     alert('Maaf, Kamu belum bisa membuka materi ini!');
@@ -73,7 +73,7 @@ function materi4(){
 }
 function kuis4(){
   var skor = localStorage.getItem("nkuis3");
-  if (skor>=70){
+  if (skor>=75){
     window.location.href='../Materi4/latihan4.html#bedapotensial';
   } else{
     alert('Maaf, Kamu belum bisa membuka kuis ini!');
@@ -83,7 +83,7 @@ function kuis4(){
 /*subbab 5*/
 function materi5(){
   var skor = localStorage.getItem("nkuis4");
-  if (skor>=70){
+  if (skor>=75){
     window.location.href='../Materi5/penerapan.html#penerapan';
   } else{
     alert('Maaf, Kamu belum bisa membuka materi ini!');
@@ -91,7 +91,7 @@ function materi5(){
 }
 function materi52(){
   var skor = localStorage.getItem("nkuis4");
-  if (skor>=70){
+  if (skor>=75){
     window.location.href='../Materi5/hewan.html#penerapan';
   } else{
     alert('Maaf, Kamu belum bisa membuka materi ini!');
@@ -99,7 +99,7 @@ function materi52(){
 }
 function materi53(){
   var skor = localStorage.getItem("nkuis4");
-  if (skor>=70){
+  if (skor>=75){
     window.location.href='../Materi5/contohlistrik.html#penerapan';
   } else{
     alert('Maaf, Kamu belum bisa membuka materi ini!');
@@ -107,7 +107,7 @@ function materi53(){
 }
 function kuis5(){
   var skor = localStorage.getItem("nkuis4");
-  if (skor>=70){
+  if (skor>=75){
     window.location.href='../Materi5/latihan5.html#penerapan';
   } else{
     alert('Maaf, Kamu belum bisa membuka kuis ini!');
@@ -117,7 +117,7 @@ function kuis5(){
 /*evaluasi*/
 function evaluasi(){
   var skor = localStorage.getItem("nkuis5");
-  if (skor>=70){
+  if (skor>=75){
     window.location.href='../evaluasi/evaluasi.html#evaluasi';
   } else{
     alert('Maaf, Kamu belum bisa membuka Evaluasi ini!');
