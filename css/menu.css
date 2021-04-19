@@ -40,12 +40,26 @@ img.bg{
   vertical-align: middle;
   text-align: center !important;
 }
+
+.header2 {
+  float: left;
+  width: 100%;
+  background-color: #46B29E !important;
+  padding: .5rem 1rem;
+  vertical-align: middle;
+  text-align: center !important;
+  margin-bottom: 20px;
+  display: flex;
+}
+
 .img {
   width: 50%;
 }
 
 .img2 {
   width: 30%;
+  margin: 0 auto;
+  margin-left: 13.5% !important;
 }
 .top-kiri {
   padding-left: 10px;
@@ -53,6 +67,15 @@ img.bg{
   /* font-size: 40px; */
   cursor: pointer;
   font-weight: bolder;
+  float: inherit;
+}
+.top-kiri2 {
+  padding-left: 10px;
+  padding-bottom: 8px;
+  /* font-size: 40px; */
+  cursor: pointer;
+  font-weight: bolder;
+  display: none;
 }
 
 a{
@@ -128,6 +151,14 @@ a {
   padding: 5px 15px 15px 15px;
   overflow: auto;
   height: 445px;
+}
+.borderawal2 {
+  border: 2px solid #46B29E;
+  /* margin: 0 10px; */
+  padding: 5px 15px 15px 15px;
+  overflow: auto;
+  /* height: 445px; */
+  margin-right: 10px;
 }
 .borderkd {
   border: 2px solid #46B29E;
@@ -298,6 +329,14 @@ p{
     margin: auto;
   }
 
+  .top-kiri {
+    display: none;
+  }
+
+  .top-kiri2{
+    display: block;
+  }
+
   html,
   body {
     height: 100%;
@@ -315,6 +354,7 @@ p{
   .img, .img2 {
     width: 90%;
     height: auto;
+    margin-left: auto !important;
   }
 
   p.judul {
