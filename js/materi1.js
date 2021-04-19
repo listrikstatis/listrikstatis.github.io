@@ -148,57 +148,69 @@ function benar3(){
 function negatif(){
     cek1.src = "../../img/benar.png";
   document.getElementById('aa1').style.display = 'none';
+  document.getElementById('aa3').style.display = 'none';
 }
 
 function positif(){
     cek1.src = "../../img/salah.png";    
   // document.getElementById('aa2').style.display = 'none';
   // document.getElementById('aa3').style.display = 'inline-block';
+  document.getElementById('aa3').style.display = 'block';
 }
 
 function negatif2(){
     cek2.src = "../../img/benar.png";
   document.getElementById('ab1').style.display = 'none';
+  document.getElementById('ab3').style.display = 'none';
 }
 
 function positif2(){
     cek2.src = "../../img/salah.png";    
+  document.getElementById('ab3').style.display = 'block';
 }
 
 function negatif3(){
     cek3.src = "../../img/salah.png";
+  document.getElementById('ac3').style.display = 'block';
 }
 
 function positif3(){
     cek3.src = "../../img/benar.png";        
   document.getElementById('ac2').style.display = 'none';
+  document.getElementById('ac3').style.display = 'none';
 }
 
 function negatif4(){
     cek4.src = "../../img/benar.png";
   document.getElementById('ad1').style.display = 'none';
+  document.getElementById('ad3').style.display = 'none';
 }
 
 function positif4(){
     cek4.src = "../../img/salah.png";    
+  document.getElementById('ad3').style.display = 'block';
 }
 
 function negatif5(){
     cek5.src = "../../img/salah.png";
+  document.getElementById('ae3').style.display = 'block';
 }
 
 function positif5(){
     cek5.src = "../../img/benar.png";        
   document.getElementById('ae2').style.display = 'none';
+  document.getElementById('ae3').style.display = 'none';
 }
 
 function negatif0(){
     cekk.src = "../../img/salah.png";
+  document.getElementById('ac0').style.display = 'block';
 }
 
 function positif0(){
     cekk.src = "../../img/benar.png";        
-  document.getElementById('ab0').style.display = 'none';
+  document.getElementById('ab0').style.display = 'none';  
+  document.getElementById('ac0').style.display = 'none';
 }
 
 // $('.inputan').bind('keyup blur',function(){ 
