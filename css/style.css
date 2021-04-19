@@ -320,7 +320,8 @@ a {
 .pilih a.active {
   color: white;
   font-weight: bold;
-  background-color: #3c403f;
+  /* background-color: #3c403f; */
+  background-color: #0f795f;
 }
 
 .pilih a:hover:before {
