@@ -34,6 +34,9 @@ let kelasfix = '';
 selanjutnya.addEventListener('click', function () {
 
     let cek = 0;
+    let cek1 = 0;
+    let cek2 = 0;
+    let cek3 = 0;
     if (namanya.value == "") {
         if (namanya.className.indexOf('tt_salah') == -1) {
             namanya.className += ' tt_salah';
@@ -41,7 +44,7 @@ selanjutnya.addEventListener('click', function () {
     } else {
         namanya.className = namanya.className.replace('tt_salah', '');
         cek += 1;
-
+        cek1 = 1;
     }
 
     if (kelasnya.value == "0") {
@@ -64,6 +67,7 @@ selanjutnya.addEventListener('click', function () {
             kelasfix = "IX F";
         } 
         cek += 1;
+        cek2 = 2;
     }
 
     if (sekolah.value == "") {
@@ -73,19 +77,25 @@ selanjutnya.addEventListener('click', function () {
     } else {
         sekolah.className = sekolah.className.replace('tt_salah', '');        
         cek += 1;
+        cek3 = 3;
     }
 
     // console.log(sekolahfix);
 
-    if (cek != 3) {
-        alert("Masih ada data yang kosong, lengkapi dulu data anda !");
+    if (cek1 == 0) {
+        alert("Masih ada data yang kosong, Isi terlebih dahulu nama!");
+    } else if (cek2 == 0) {
+        alert("Masih ada data yang kosong, Isi terlebih dahulu kelas!");
+    } else if (cek3 == 0) {
+        alert("Masih ada data yang kosong, Isi terlebih dahulu sekolah!");
     } else if (cek == 3) {
         datadiri.className += ' hilang';
         document.getElementById('data').className += ' hilang';
         document.getElementById('kiri').className = document.getElementById('kiri').className.replace('hilang', '');
         document.getElementById('kanan').className = document.getElementById('kanan').className.replace('hilang', '');
         // document.getElementById('up').className = document.getElementById('up').className.replace('hilang', '');
-
+    } else if (cek1 == 0 && cek2 == 0 && cek3 == 0){
+        alert("Data masih kosong, Lengkapi dulu data anda")
     }
 
 
