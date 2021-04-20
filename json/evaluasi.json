@@ -99,11 +99,11 @@
     }
 },{
     "soal11": {
-        "soal": "Hewan yang memiliki kemampuan menghasilkan muatan listrik umumnya memiliki sistem khusus pada tubuhnya yang disebut sebagai ...",
-        "a": "a. Elektrisitas",
-        "b": "b. Elektroplaks",
-        "c": "c. Elektroreseptor",
-        "d": "d. Neurotransmitter",
+        "soal": "Elektroreseptor adalah sistem khusus pada tubuh hewan yang memiliki kemampuan untuk ...",
+        "a": "a. Menghasilkan muatan positif",
+        "b": "b. Menetralkan muatan listrik",
+        "c": "c. Menghasilkan muatan listrik",
+        "d": "d. Menghasilkan muatan negatif",
         "benar": "c"
     }
 },{
@@ -171,7 +171,7 @@
     }
 },{
     "soal19": {
-        "soal": "Pada cuaca buruk supaya tidak kena sambaran petir, sebaiknya ....",
+        "soal": "Pada pagi hari ada dua orang yang sedang berolahraga di taman namun tiba-tiba turun hujan deras disertai petir, agar tidak kena sambaran petir maka yang harus dilakukan kedua orang tersebut adalah ...",
         "a": "a. Berteduh di bawah pohon besar",
         "b": "b. Berlari ke lapangan yang luas",
         "c": "c. Memakai topi dari baja",
