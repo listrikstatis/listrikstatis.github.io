@@ -82,6 +82,7 @@ selanjutnya.addEventListener('click', function () {
         document.getElementById('kiri').className = document.getElementById('kiri').className.replace('hilang', '');
         document.getElementById('kanan').className = document.getElementById('kanan').className.replace('hilang', '');
         // document.getElementById('up').className = document.getElementById('up').className.replace('hilang', '');
+        countDown();
     } else if (cek1 == 0 && cek2 == 0 && cek3 == 0){
         alert("Data masih kosong, Lengkapi dulu data anda")
     }
@@ -508,6 +509,41 @@ dat.onreadystatechange = function () {
 dat.open('GET', '../../json/latihan5.json', true);
 dat.send();
 
+
+function countDown() {
+    var sec = 1800;
+    var element = document.getElementById('timer');
+    
+    setInterval(function(){
+      var min     = Math.floor(sec / 60),
+        remSec  = sec % 60;
+    
+    if (remSec < 10) {
+        
+        remSec = '0' + remSec;
+    
+    }
+    if (min < 10) {
+        
+        min = '0' + min;
+    
+    }
+      element.innerHTML = min + ":" + remSec;
+
+      if (sec > 0) {
+        
+        sec = sec - 1;
+        
+    } else {
+        
+        clearInterval(countDown);
+        
+        element.innerHTML = 'countdown done';
+        
+    }
+    }, 1000)  
+
+}
 
 // menyimpan ke dalam databasenya
 
