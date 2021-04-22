@@ -371,7 +371,7 @@ dat.onreadystatechange = function () {
         }
 
         selanjutnya.addEventListener('click', function () {
-            var sec = 10;
+            var sec = 1800;
             var element = document.getElementById('timer');
             
             setInterval(function(){
