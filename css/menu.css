@@ -144,7 +144,7 @@ a{
 .menu:hover .icon .label {
   left: 0px;
   cursor: pointer;
-  transform: scale(1.1);
+  transform: scale(1.1) !important;
 }
 
 .menu:hover .icon1 div.fa {
