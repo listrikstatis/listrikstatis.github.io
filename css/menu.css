@@ -146,20 +146,20 @@ a{
 .menu:hover .icon .label {
   left: 0px;
   cursor: pointer;
-  transform: scale(1.1) !important;
+  /* transform: scale(1.1) !important; */
 }
 
-.menu:hover .icon1 div.fa {
+.icon1:hover div.fa {
   /* color: #FCBB6D; */
   cursor: pointer;
   transform: scale(1.1);
 }
-.menu:hover .icon2 div.fa {
+.icon2:hover div.fa {
   /* color: #2e9c88; */
   cursor: pointer;
   transform: scale(1.1);
 }
-.menu:hover .icon3 div.fa {
+.icon3:hover div.fa {
   cursor: pointer;
   transform: scale(1.1);
 }
