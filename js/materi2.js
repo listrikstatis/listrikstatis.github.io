@@ -104,6 +104,13 @@ function cek3(){
 
 //SOAL 1
 function cek(){
+  // document.getElementById("cb31").value = document.getElementById("cb31").value.bold();
+  // document.getElementById("cb32").value = document.getElementById("cb32").value.bold();
+  // document.getElementById("cb33").value = document.getElementById("cb33").value.bold();
+  // document.getElementById("cb34").value = document.getElementById("cb34").value.bold();
+  // document.getElementById("cb35").value = document.getElementById("cb35").value.bold();
+  // document.getElementById("cb36").value = document.getElementById("cb36").value.bold();
+  // document.getElementById("cb37").value = document.getElementById("cb37").value.bold();
   let cb31= document.getElementById("cb31").value;
   let cb32= document.getElementById("cb32").value;
   let cb33= document.getElementById("cb33").value;

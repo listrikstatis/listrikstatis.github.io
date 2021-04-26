@@ -337,15 +337,19 @@ input[type="radio"]{
 }
 
 .cb{
-  border: none;
+  /* border: none; */
+  border: 1px solid black;
   border-radius: 5px;
   width: 30px;
   margin: -1px;
+  font-weight: bold;
 }
 .md, .bp {
   border-radius: 5px;
   width: 34px;
-  border: none;
+  /* border: none; */
+  border: 1px solid black;
+  font-weight: bold;
 }
 
 ::placeholder{
