@@ -131,14 +131,16 @@ a{
   font-weight: 900;
 }
 
-.icon1:hover {
-  color: #0694de !important;
-}
-.icon2:hover {
-  color: #F7DB4F !important;
-}
-.icon3:hover {
+.icon1 {
+  /* color: #0694de !important; */
   color: #FCBB6D !important;
+}
+.icon2 {
+  color: #2e9c88 !important;
+}
+.icon3 {
+  /* color: #FCBB6D !important; */
+  color: #25ec78 !important;
 }
 
 .menu:hover .icon .label {
@@ -148,17 +150,16 @@ a{
 }
 
 .menu:hover .icon1 div.fa {
-  color: #FCBB6D;
+  /* color: #FCBB6D; */
   cursor: pointer;
   transform: scale(1.1);
 }
 .menu:hover .icon2 div.fa {
-  color: #2e9c88;
+  /* color: #2e9c88; */
   cursor: pointer;
   transform: scale(1.1);
 }
 .menu:hover .icon3 div.fa {
-  color: #25ec78;
   cursor: pointer;
   transform: scale(1.1);
 }
