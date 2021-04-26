@@ -34,7 +34,7 @@ th, td {
 }
 
 .in{
-    height: 20px;
+    height: 25px !important;
 }
 
 .pas{
