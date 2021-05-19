@@ -587,7 +587,7 @@ dat.onreadystatechange = function () {
                 let datanya = document.querySelector('.dataaa');
                 datanya.className = datanya.className.replace('hilang', '');
 
-                if(hasilakhir>=75){
+                if(hasilakhir>=72){
                     let next = document.getElementById("next");
                     next.className = next.className.replace("hilang","");
                 } else {
