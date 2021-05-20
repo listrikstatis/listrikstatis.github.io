@@ -1,11 +1,11 @@
 [{
     "soal0": {
-        "soal": "Sebuah muatan Q yang muatannya \\(7 \\times 10^9\\) C pada jarak 7 cm. Maka kuat medan listrik muatan tersebut adalah ... ",
-        "a": "a. \\(1,30 \\times 10^4\\) N/C",
-        "b": "b. \\(1,29 \\times 10^5\\) N/C",
-        "c": "c. \\(1,29 \\times 10^4\\) N/C",
-        "d": "d. \\(12,9 \\times 10^5\\) N/C",
-        "benar": "c"
+        "soal": "Benda pada gambar berikut ini bermuatan ...<br><img src='../../img/eva3.png'>",
+        "a": "a. Negatif",
+        "b": "b. Positif",
+        "c": "c. Netral",
+        "d": "d. Proton",
+        "benar": "a"        
     }
 },{
     "soal1": {
@@ -45,6 +45,15 @@
     }
 },{    
     "soal5": {
+        "soal": "Benda A menarik benda B, benda B menolak benda C, dan benda C menarik benda D. Jika A bermuatan listrik negatif, muatan benda D adalah ....",
+        "a": "a. negatif",
+        "b": "b. positif",
+        "c": "c. netral",
+        "d": "d. bisa positif atau negatif",
+        "benar": "a"
+    }
+},{ 
+    "soal6": {
         "soal": "Dua keping logam bermuatan yang terpisah sejauh 50 cm saling tarik-menarik dengan gaya 12 Newton.  Jika jarak kedua muatan diperbesar menjadi dua kali semula, gaya tarik-menarik antar logam tersebut adalah  ....",
         "a": "a. 3 N",
         "b": "b. 6 N",
@@ -53,7 +62,7 @@
         "benar": "a"
     }
 },{ 
-    "soal6": {
+    "soal7": {
         "soal": "Dua buah benda masing-masing bermuatan listrik sebesar \\(–4 \\times 10^{–10}\\) C dan \\(6 \\times 10^{–6}\\) C terpisah sejauh 2 cm. Apabila k = \\(9 \\times 10^9\\; Nm^2/C^2\\), besarnya gaya tarik-menarik kedua benda adalah ....",
         "a": "a. \\(5,4 \\times 10^{–5}\\) N",
         "b": "b. \\(5,4 \\times 10^{–4}\\) N",
@@ -62,22 +71,13 @@
         "benar": "d"
     }
 },{ 
-    "soal7": {
+    "soal8": {        
         "soal": "Dua benda P dan Q masing-masing bermuatan \\(6 \\times 10^{-7}\\) C dan \\(-4 \\times 10^{-8}\\) C, dipisahkan pada jarak 0,02 m. Jika k = \\(9 \\times 10^9\\; Nm^2/C^2\\) gaya tarik-menarik antara kedua benda itu adalah ....",
         "a": "a. 0,054 N",
         "b": "b. 0,54 N ",
         "c": "c. 5,4 N",
         "d": "d. 54 N",
         "benar": "b"
-    }
-},{ 
-    "soal8": {
-        "soal": "Benda A menarik benda B, benda B menolak benda C, dan benda C menarik benda D. Jika A bermuatan listrik negatif, muatan benda D adalah ....",
-        "a": "a. negatif",
-        "b": "b. positif",
-        "c": "c. netral",
-        "d": "d. bisa positif atau negatif",
-        "benar": "a"
     }
 },{
     "soal9": {
@@ -90,6 +90,33 @@
     }
 },{
     "soal10": {
+        "soal": "Diketahui besar muatan q = \\(4 \\times 10^{–9}\\) C mempunyai gaya coulomb 400 N, maka kuat medan listrik muatan tersebut adalah ...",
+        "a": "a. \\(0,1 \\times 10^{10}\\) N/C",
+        "b": "b. \\(1 \\times 10^{-11}\\) N/C",
+        "c": "c. \\(1 \\times 10^{10}\\) N/C",
+        "d": "d. \\(0,1 \\times 10^{-11}\\) N/C",
+        "benar": "b"
+    }
+},{
+    "soal11": {        
+        "soal": "Sebuah muatan 200 coulomb berada pada jarak 10 m terhadap 20 coulomb muatan yang lain, besar medan listrik pada muatan 200 coulomb tersebut adalah ...",
+        "a": "a. \\(1,8 \\times 10^8\\) N/C",
+        "b": "b. \\(1,8 \\times 10^{-8}\\) N/C",
+        "c": "c. \\(1,8 \\times 10^9\\) N/C",
+        "d": "d. \\(1,8 \\times 10^{-9}\\) N/C",
+        "benar": "c"
+    }
+},{
+    "soal12": {
+        "soal": "Sebuah muatan Q yang muatannya \\(7 \\times 10^9\\) C pada jarak 7 cm. Maka kuat medan listrik muatan tersebut adalah ... ",
+        "a": "a. \\(1,30 \\times 10^4\\) N/C",
+        "b": "b. \\(1,29 \\times 10^5\\) N/C",
+        "c": "c. \\(1,29 \\times 10^4\\) N/C",
+        "d": "d. \\(12,9 \\times 10^5\\) N/C",
+        "benar": "c"
+    }
+},{
+    "soal13": {        
         "soal": "Beda potensial antara titik A ke titik B sebesar 20 V, besar energi yang diperlukan untuk memindahkan muatan 4 C antara dua titik tersebut adalah ...",
         "a": "a. 0,2 V",
         "b": "b. 5 V",
@@ -98,48 +125,21 @@
         "benar": "d"
     }
 },{
-    "soal11": {
-        "soal": "Elektroreseptor adalah sistem khusus pada tubuh hewan yang memiliki kemampuan untuk ...",
-        "a": "a. Menghasilkan muatan positif",
-        "b": "b. Menetralkan muatan listrik",
-        "c": "c. Menghasilkan muatan listrik",
-        "d": "d. Menghasilkan muatan negatif",
-        "benar": "c"
-    }
-},{
-    "soal12": {
+    "soal14": {
         "soal": "Untuk memindahkan muatan listrik sebesar 5 C, dari titik A ke titik B diperlukan usaha sebesar 25 J, beda potensial antara titik A dan titik B adalah....",
         "a": "a. 5 V",
         "b": "b. 20 V",
         "c": "c. 10 V",
         "d": "d. 30 V",
-        "benar": "a"
+        "benar": "a"        
     }
 },{
-    "soal13": {
+    "soal15": {
         "soal": "Untuk memindahkan 24 coulomb muatan listrik dari A ke B diperlukan energi 120 joule, maka beda potensial antara A dan B adalah ....",
         "a": "a. 2 V",
         "b": "b. 5 V",
         "c": "c. 0,2 V",
         "d": "d. 0,5 V",
-        "benar": "b"
-    }
-},{
-    "soal14": {
-        "soal": "Benda pada gambar berikut ini bermuatan ...<br><img src='../../img/eva3.png'>",
-        "a": "a. Negatif",
-        "b": "b. Positif",
-        "c": "c. Netral",
-        "d": "d. Proton",
-        "benar": "a"
-    }
-},{
-    "soal15": {
-        "soal": "Diketahui besar muatan q = \\(4 \\times 10^{–9}\\) C mempunyai gaya coulomb 400 N, maka kuat medan listrik muatan tersebut adalah ...",
-        "a": "a. \\(0,1 \\times 10^{10}\\) N/C",
-        "b": "b. \\(1 \\times 10^{-11}\\) N/C",
-        "c": "c. \\(1 \\times 10^{10}\\) N/C",
-        "d": "d. \\(0,1 \\times 10^{-11}\\) N/C",
         "benar": "b"
     }
 },{
@@ -153,29 +153,29 @@
     }
 },{
     "soal17": {
-        "soal": "Sebuah muatan 200 coulomb berada pada jarak 10 m terhadap 20 coulomb muatan yang lain, besar medan listrik pada muatan 200 coulomb tersebut adalah ...",
-        "a": "a. \\(1,8 \\times 10^8\\) N/C",
-        "b": "b. \\(1,8 \\times 10^{-8}\\) N/C",
-        "c": "c. \\(1,8 \\times 10^9\\) N/C",
-        "d": "d. \\(1,8 \\times 10^{-9}\\) N/C",
+        "soal": "Elektroreseptor adalah sistem khusus pada tubuh hewan yang memiliki kemampuan untuk ...",
+        "a": "a. Menghasilkan muatan positif",
+        "b": "b. Menetralkan muatan listrik",
+        "c": "c. Menghasilkan muatan listrik",
+        "d": "d. Menghasilkan muatan negatif",
         "benar": "c"
     }
 },{
-    "soal18": {
-        "soal": "Prinsip kerja penangkal petir adalah ...",
-        "a": "a. mencegah arus listrik dari awan",
-        "b": "b. menetralkan muatan listrik pada awan",
-        "c": "c. mengalihkan aliran arus listrik dari awan ke tempat lain",
-        "d": "d. menyalurkan arus listrik dari awan ke bumi",
-        "benar": "d"
-    }
-},{
-    "soal19": {
+    "soal18": {        
         "soal": "Pada pagi hari ada dua orang yang sedang berolahraga di taman namun tiba-tiba turun hujan deras disertai petir, agar tidak kena sambaran petir maka yang harus dilakukan kedua orang tersebut adalah ...",
         "a": "a. Berteduh di bawah pohon besar",
         "b": "b. Berlari ke lapangan yang luas",
         "c": "c. Memakai topi dari baja",
         "d": "d. Berteduh ke rumah yang ada penangkal petirnya",
+        "benar": "d"
+    }
+},{
+    "soal19": {
+        "soal": "Prinsip kerja penangkal petir adalah ...",
+        "a": "a. mencegah arus listrik dari awan",
+        "b": "b. menetralkan muatan listrik pada awan",
+        "c": "c. mengalihkan aliran arus listrik dari awan ke tempat lain",
+        "d": "d. menyalurkan arus listrik dari awan ke bumi",
         "benar": "d"
     }
 }]
