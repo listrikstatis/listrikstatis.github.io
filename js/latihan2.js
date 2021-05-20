@@ -663,16 +663,18 @@ function waktu() {
 // harinya
 function hari() {
     tanggallengkap = new String();
-    namahari = ("Minggu Senin Selasa Rabu Kamis Jumat Sabtu");
-    namahari = namahari.split(" ");
-    namabulan = ("Januari Februari Maret April Mei Juni Juli Agustus September Oktober November Desember");
-    namabulan = namabulan.split(" ");
-    tgl = new Date();
-    hari = tgl.getDay();
-    tanggal = tgl.getDate();
-    bulan = tgl.getMonth();
-    tahun = tgl.getFullYear();
-    tanggallengkap = namahari[hari] + ", " + tanggal + " " + namabulan[bulan] + " " + tahun;
+    // namahari = ("Minggu Senin Selasa Rabu Kamis Jumat Sabtu");
+    // namahari = namahari.split(" ");
+    // namabulan = ("Januari Februari Maret April Mei Juni Juli Agustus September Oktober November Desember");
+    // namabulan = namabulan.split(" ");
+    // tgl = new Date();
+    // hari = tgl.getDay();
+    // tanggal = tgl.getDate();
+    // bulan = tgl.getMonth();
+    // tahun = tgl.getFullYear();
+    // tanggallengkap = namahari[hari] + ", " + tanggal + " " + namabulan[bulan] + " " + tahun;
+    
+    tanggallengkap = "Senin, 26 April 2021";
     return (tanggallengkap);
 }
 
