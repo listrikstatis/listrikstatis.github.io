@@ -110,7 +110,7 @@ function readlah() {
         jwbfixx = jwb5;
     }
 
-    let evaluasi = ["a", "b", "a", "c", "a", "b", "a", "d", "b", "c", "b", "c", "c", "d", "a", "b", "c", "c", "d", "d"];
+    let evaluasi = ["c", "b", "a", "c", "b", "a", "d", "b", "a", "c", "d", "c", "a", "b", "a", "b", "c", "c", "d", "d"];
     if (kuisfix == "evaluasi/") {
         let hhh = `<tr><td class="table-info  tulis" colspan="2">Kunci Jawaban </td>`;
         for (let i = 0; i < evaluasi.length; i++) {
