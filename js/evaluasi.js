@@ -89,7 +89,8 @@ selanjutnya.addEventListener('click', function () {
         // waktu
             countDownDate = new Date().getTime();
             // countDownDate += 1800000;            
-            countDownDate += 2700000;
+            // countDownDate += 2700000;
+            countDownDate += 3000000;
             // countDownDate += 12000;
             var x = setInterval(function() {
             var now = new Date().getTime();
