@@ -1,4 +1,4 @@
-//input nilai KKM ke variabel localstorage
+//input nilai > KKM ke variabel localstorage
 // localStorage.setItem("nkuis1",80);
 // localStorage.setItem("nkuis2",80);
 // localStorage.setItem("nkuis3",80);
