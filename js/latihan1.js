@@ -93,9 +93,8 @@ selanjutnya.addEventListener('click', function () {
             //waktu 45 menit
             // countDownDate += 2700000;
             // countDownDate += 12000;
+            //15 detik
             countDownDate += 17000
-            //30 detik
-            // countDownDate += 20000;
             var x = setInterval(function() {
             var now = new Date().getTime();
             var distance = countDownDate - now;
