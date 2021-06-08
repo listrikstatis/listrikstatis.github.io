@@ -88,14 +88,16 @@ selanjutnya.addEventListener('click', function () {
         wktu.classList.toggle('hilang');
         // waktu
             countDownDate = new Date().getTime();
+            //waktu 30 menit
             // countDownDate += 1800000;            
             // countDownDate += 2700000;
+            //waktu 50 menit
             countDownDate += 3000000;
             // countDownDate += 12000;
             var x = setInterval(function() {
             var now = new Date().getTime();
             var distance = countDownDate - now;
-                
+            
             // Perhitungan waktu untuk menit dan detik
             var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
