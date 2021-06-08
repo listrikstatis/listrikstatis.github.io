@@ -89,7 +89,7 @@ selanjutnya.addEventListener('click', function () {
         // waktu
             countDownDate = new Date().getTime();
             //waktu 30 menit
-            countDownDate += 1800000;
+            countDownDate += 1801000;
             //waktu 45 menit
             // countDownDate += 2700000;
             // countDownDate += 12000;

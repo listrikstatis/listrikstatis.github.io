@@ -89,7 +89,8 @@ selanjutnya.addEventListener('click', function () {
         wktu.classList.toggle('hilang');
         // waktu
             countDownDate = new Date().getTime();
-            countDownDate += 1800000;            
+            //waktu 30 menit
+            countDownDate += 1801000;
             // countDownDate += 2700000;
             // countDownDate += 12000;
             var x = setInterval(function() {
