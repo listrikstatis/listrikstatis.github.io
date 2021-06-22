@@ -46,17 +46,7 @@ function cek(){
   let v1= document.getElementById("v1").value;
   let q1= document.getElementById("q1").value;
   let h1= document.getElementById("h1").value;
-
-  if (v1 == "9" && q1 == "30" && h1 == "270") {
-    // document.getElementsByClassName('cek')[0].style.display='none';
-    document.getElementsByClassName('j1')[0].style.display='block';
-  } else {
-    document.getElementsByClassName('none')[0].style.display='none'; 
-    document.getElementById("v1").style="border: 3px solid red"; 
-    document.getElementById("q1").style="border: 3px solid red"; 
-    document.getElementById("h1").style="border: 3px solid red";
-  }
-  
+   
   if (v1 == "9"){
     document.getElementById("v1").style="border: 3px solid green";   
   } else{
@@ -72,6 +62,15 @@ function cek(){
   if (h1 == "270"){
     document.getElementById("h1").style="border: 3px solid green";   
   } else{
+    document.getElementById("h1").style="border: 3px solid red";
+  }
+
+  if (v1 == "9" && q1 == "30" && h1 == "270") {
+    document.getElementsByClassName('j1')[0].style.display='block';
+  } else {
+    document.getElementsByClassName('none')[0].style.display='none'; 
+    document.getElementById("v1").style="border: 3px solid red"; 
+    document.getElementById("q1").style="border: 3px solid red"; 
     document.getElementById("h1").style="border: 3px solid red";
   }
 

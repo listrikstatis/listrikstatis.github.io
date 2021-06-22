@@ -117,7 +117,7 @@ selanjutnya.addEventListener('click', function () {
     }
 
 
-    MathJax.typeset();
+    // MathJax.typeset();
 
 });
 
@@ -154,7 +154,7 @@ dat.onreadystatechange = function () {
         // ---------------------------------
         // ambil data tertentu
 
-        for (let i = 0; i < cek.length; i++) {
+        for (let i = 0; i < 20; i++) {
             let nilai = cek[i];
 
             let soaldata = data[nilai]["soal" + nilai]["soal"];
@@ -286,7 +286,7 @@ dat.onreadystatechange = function () {
 
             let nav_selanjut = document.createElement('div');
             nav_selanjut.setAttribute('class', 'nav_selanjut');
-            if (i == (cek.length - 1)) {
+            if (i == (20 - 1)) {
                 nav_selanjut.className += " disablee";
             }
 
@@ -537,6 +537,9 @@ dat.onreadystatechange = function () {
                                         hasilakhir = hasilakhir;
                                     }
                                 }
+                                else{
+                                    pil_user.push(pils_soal[j].value);
+                                }
                             }
                         }
 
@@ -631,8 +634,9 @@ dat.onreadystatechange = function () {
     }
 
 }
-dat.open('GET', '../../json/evaluasi.json', true);
+dat.open('GET', '../../json/evaluasicopy.json', true);
 dat.send();
+
 
 // menyimpan ke dalam databasenya
 
@@ -683,3 +687,4 @@ function createTask(sekolah, nama, kelas, nilai, waktunya, hari, jawab) {
     database.set(task);
 
 }
+
