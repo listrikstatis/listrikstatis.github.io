@@ -1,16 +1,16 @@
-$(document).ready(function(){
-      $('.kolom').hide();
-      $('.deret').hide();
+// $(document).ready(function(){
+//       $('.kolom').hide();
+//       $('.deret').hide();
 
-    document.getElementById('videoo').addEventListener('ended',myHandler,false);
+//     document.getElementById('videoo').addEventListener('ended',myHandler,false);
 
-    function myHandler(e) {
-      $('.kolom').show(100);
-      $('.deret').show(1000);
-      $('.first2').hide(100);
-    }
+//     function myHandler(e) {
+//       $('.kolom').show(100);
+//       $('.deret').show(1000);
+//       $('.first2').hide(100);
+//     }
     
-  });
+//   });
 
 $(document).ready(function(){      
       $('.kolom1').hide();
@@ -29,7 +29,7 @@ $(document).ready(function(){
 
 //halaman 1
 function sal(){
-  document.getElementById('b1').style.display = 'none';
+  document.getElementById('b1').style.display = 'none'; 
   document.getElementById('s1').style.display = 'block';
 }
 function ben(){
@@ -56,6 +56,27 @@ function ben3(){
   document.getElementById('b3').style.display = 'block';
   document.getElementById('s3').style.display = 'none';   
 }
+
+
+// document.getElementById('submit').onclick = function() {
+//   var radio = document.querySelector('input[type=radio][name=pil3]:checked');
+//   radio.checked = false;
+  
+//   document.getElementById('b1').style.display = 'none';
+//   document.getElementById('s1').style.display = 'none';
+//   document.getElementById('b2').style.display = 'none';
+//   document.getElementById('s2').style.display = 'none';
+//   document.getElementById('b3').style.display = 'none';
+//   document.getElementById('s3').style.display = 'none';
+// }
+
+// $(document).ready(function () {
+//   $('input[type="radio"][name=pil][name=pil2][name=pil3]').click(function () {
+//       if ($(this).attr("value") == "A" && "B" && "C") {
+//           $(".kolom1").show();
+//       }
+//   });
+// });
 
 //Halaman 2 atas
 var vid = document.getElementById("videoo");
@@ -213,10 +234,10 @@ function positif0(){
   document.getElementById('ac0').style.display = 'none';
 }
 
-// $('.inputan').bind('keyup blur',function(){ 
-//     var node = $(this);
-//     node.val(node.val().replace(/[^a-zA-Z\s]/g,'') ); }
-// );
+$('.inputan').bind('keyup blur',function(){ 
+    var node = $(this);
+    node.val(node.val().replace(/[^a-zA-Z\s]/g,'') ); }
+);
 
 // slide
 

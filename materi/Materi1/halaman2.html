@@ -114,13 +114,32 @@
           <p class="caption"">Video 2 Percobaan membuat benda bermuatan</p>
     </div>
 
+    <!-- pertanyaan -->
+    <h4><i class="fas fa-chalkboard"></i>&nbsp; Kesimpulan</h4> 
+      <div class="garis">
+        <div class="petunjuk">
+          <p><u><b>Petunjuk : </b></u></p>
+            <ol>
+              <li class="nomor">Setelah mengamati video 2, jawablah</li>
+              <li class="nomor">Jika jawaban kamu benar, maka kotak akan bewarna "<font style="color: green;font-weight: bold;">Hijau</font>".</li>
+              <li class="nomor">Jika jawaban kamu salah, maka kotak akan bewarna "<font style="color: red;font-weight: bold;">Merah</font>".</li>  
+            </ol>
+      </div>
+          <p class="prgraf">Setelah menyaksikan video di atas dapat disimpulkan bahwa batang kaca yang digosokkan pada kain sutra akan bermuatan <input class="ini" type="text" id="aa" size="5" placeholder="....."> dan penggaris plastik yang digosokkan pada kain wol akan bermuatan <input class="ini" type="text" id="ab" size="5" placeholder=".....">. Dengan demikian ada dua jenis muatan yaitu muatan positif dan negatif, setiap muatan yang <input class="ini" type="text" id="ac" size="5" placeholder="....."> akan tolak menolak sedangkan muatan yang <input class="ini" type="text" id="ad" size="5" placeholder="....."> akan tarik menarik.</p>
+
+          <button onclick="cekjwb()">Cek Jawaban</button>
+          <button onclick="reset()">Reset</button>
+      </div>
+    
+
       <!-- kesimpulan -->
+    <div id="ringkas" style="display: none;">
       <h4><i class="fas fa-chalkboard"></i>&nbsp; Kesimpulan</h4> 
       <div class="garis">
-        <div class="first2">
+        <!-- <div class="first2">
             <p>Tonton video terlebih dahulu!</p>
         </div>
-        <div class="kolom">
+        <div class="kolom"> -->
           <p class="bawah prgraf">Setelah menyaksikan video di atas dapat disimpulkan bahwa batang kaca yang digosokkan pada kain sutra akan 
                         bermuatan positif dan penggaris plastik yang digosokkan pada kain wol akan bermuatan negatif. Dengan demikian ada dua jenis muatan yaitu muatan positif dan negatif, 
                         setiap muatan yang sama akan tolak menolak sedangkan muatan yang berbeda akan tarik menarik.</p>
@@ -137,11 +156,12 @@
                         </table>
                         </center>
                         <p class="caption">Gambar 2 Penggaris Plastik dengan Wol dan Batang Kaca dengan Kain Sutra</p>
-        </div>
+        <!-- </div> -->
       </div>
+    </div>
       
 <!-- materi deret -->
-        <!-- <div class="deret"> -->
+        <div class="deret">
           <hr>
                     <h4><i class="fas fa-book-open"></i>&nbsp; Deret Tribolistrik</h4>
                       <div class="garis">
@@ -213,7 +233,7 @@ pada elektroskop.</p><br>
               <center><b><i><font style="color: gray;font-size: 14px">Gambar 3 Ilustrasi Elektroskop</font></i></b></center>
             </div>
             
-        <!-- </div> -->
+        </div>
 
 </div>
 
@@ -235,6 +255,7 @@ pada elektroskop.</p><br>
 </body>
 
 
+<script src="../../js/materii1.js"></script>
 <script src="../../js/materi1.js"></script>
 <script src="../../js/konten.js"></script>
 </html>
