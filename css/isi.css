@@ -272,14 +272,14 @@ hr.grs{
 
 .b1, .b2, .b3{
   border: 2px solid green;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   padding: 10px;
   border-radius: 5px;
-  /* font-size: 20px; */
+  font-size: 20px;
 }
 .s1, .s2, .s3{
   border: 2px solid red;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   padding: 10px;
   border-radius: 5px;
   font-size: 20px;
