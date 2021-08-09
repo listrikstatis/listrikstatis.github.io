@@ -30,7 +30,7 @@ function cekjwb(){
         document.getElementById("ac").style="border: 2px solid red";
       }
 
-      if (aad == "berbeda" || "beda") {
+      if (aad == "berbeda" || aad == "beda") {
         document.getElementById("ad").style="border: 2px solid green";
         cekk += 1;
       } else {
@@ -38,13 +38,18 @@ function cekjwb(){
       }
 
     if (cekk == 4) {        
-        document.getElementById('ringkas').style.display = 'block';
+        document.getElementById('ringkas').style.display = 'block';   
+        document.getElementsByClassName('deret')[0].style.display='block';         
     } else{        
         document.getElementById('ringkas').style.display = 'none';
+        document.getElementsByClassName('deret')[0].style.display='none';        
     }
 
   }
   
+  function reset(){
+    document.getElementsByClassName('ini')[0].value = "";
+  }
   
   $('.ini').bind('keyup blur',function(){ 
       var node = $(this);

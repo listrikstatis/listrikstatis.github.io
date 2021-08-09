@@ -1,16 +1,16 @@
-// $(document).ready(function(){
-//       $('.kolom').hide();
-//       $('.deret').hide();
+$(document).ready(function(){
+      $('.kolom').hide();
+      $('.deret').hide();
 
-//     document.getElementById('videoo').addEventListener('ended',myHandler,false);
+    // document.getElementById('videoo').addEventListener('ended',myHandler,false);
 
-//     function myHandler(e) {
-//       $('.kolom').show(100);
-//       $('.deret').show(1000);
-//       $('.first2').hide(100);
-//     }
+    // function myHandler(e) {
+    //   $('.kolom').show(100);
+    //   $('.deret').show(1000);
+    //   $('.first2').hide(100);
+    // }
     
-//   });
+  });
 
 $(document).ready(function(){      
       $('.kolom1').hide();
