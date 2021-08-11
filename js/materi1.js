@@ -34,7 +34,8 @@ function sal(){
 }
 function ben(){
   document.getElementById('b1').style.display = 'block';
-  document.getElementById('s1').style.display = 'none';  
+  document.getElementById('s1').style.display = 'none';
+  document.getElementsByClassName('kes1')[0].style.display='block';       
 }
 
 function sal2(){
@@ -44,7 +45,8 @@ function sal2(){
 
 function ben2(){
   document.getElementById('b2').style.display = 'block';
-  document.getElementById('s2').style.display = 'none';    
+  document.getElementById('s2').style.display = 'none';
+  document.getElementsByClassName('hil2')[0].style.display='block';    
 }
 
 function sal3(){
@@ -54,7 +56,8 @@ function sal3(){
 
 function ben3(){
   document.getElementById('b3').style.display = 'block';
-  document.getElementById('s3').style.display = 'none';   
+  document.getElementById('s3').style.display = 'none';
+  document.getElementsByClassName('hil')[0].style.display='block';   
 }
 
 

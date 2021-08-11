@@ -1,13 +1,13 @@
 // Video
 $(document).ready(function(){
-      $('.kolom').hide();
-      $('.tanya').hide();
+      // $('.kolom').hide();
+      // $('.tanya').hide();
       
     document.getElementById('videooo').addEventListener('ended',myHandler,false);
 
     function myHandler(e) {
       $('.kolom').show(600);
-      $('.tanya').show(1000);
+      // $('.tanya').show(1000);
       $('.first').hide(100);
     }    
   });
@@ -48,6 +48,7 @@ function salah(){
 function benar(){
   document.getElementById('b1').style.display = 'block';
   document.getElementById('s1').style.display = 'none';
+  document.getElementsByClassName('hil')[0].style.display='block';
 }
 
 function salah2(){
@@ -57,6 +58,7 @@ function salah2(){
 function benar2(){
   document.getElementById('b2').style.display = 'block';
   document.getElementById('s2').style.display = 'none';
+  document.getElementsByClassName('kes1')[0].style.display='block';
 }
 
 // halaman 2-------------------------------------------------------------------------------------------------------------
