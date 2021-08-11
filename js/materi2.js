@@ -1,6 +1,6 @@
 // Video
 $(document).ready(function(){
-      // $('.kolom').hide();
+      $('.kolom').hide();
       // $('.tanya').hide();
       
     document.getElementById('videooo').addEventListener('ended',myHandler,false);
