@@ -48,7 +48,15 @@ function cekjwb(){
   }
   
   function reset(){
-    document.getElementsByClassName('ini')[0].value = "";
+    // document.getElementsByClassName('ini')[0].value = "";
+    document.getElementById("aa").value = "";
+    document.getElementById("ab").value = "";
+    document.getElementById("ac").value = "";
+    document.getElementById("ad").value = "";
+    document.getElementById("aa").style="border: 0,5 solid";
+    document.getElementById("ab").style="border: 0,5 solid";
+    document.getElementById("ac").style="border: 0,5 solid";
+    document.getElementById("ad").style="border: 0,5 solid";
   }
   
   $('.ini').bind('keyup blur',function(){ 
