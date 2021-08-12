@@ -117,7 +117,7 @@ selanjutnya.addEventListener('click', function () {
     }
 
 
-    // MathJax.typeset();
+    MathJax.typeset();
 
 });
 
@@ -154,7 +154,7 @@ dat.onreadystatechange = function () {
         // ---------------------------------
         // ambil data tertentu
 
-        for (let i = 0; i < 20; i++) {
+        for (let i = 0; i < cek.length; i++) {
             let nilai = cek[i];
 
             let soaldata = data[nilai]["soal" + nilai]["soal"];
