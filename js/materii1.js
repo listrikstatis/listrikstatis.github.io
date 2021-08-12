@@ -23,7 +23,7 @@ function cekjwb(){
         document.getElementById("ab").style="border: 2px solid red";
       }
     
-      if (aac == "sama") {
+      if (aac == "sama" || aac == "sejenis") {
         document.getElementById("ac").style="border: 2px solid green";
         cekk += 1;
       } else {
