@@ -153,8 +153,9 @@ dat.onreadystatechange = function () {
         console.log(cek);
         // ---------------------------------
         // ambil data tertentu
-
-        for (let i = 0; i < cek.length; i++) {
+        
+//cek.length
+        for (let i = 0; i < 20; i++) {
             let nilai = cek[i];
 
             let soaldata = data[nilai]["soal" + nilai]["soal"];
